@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Me — CEO Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Source+Sans+3:wght@300;400;500;600&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --display: 'Instrument Serif', Georgia, serif;
+  --body: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --mono: 'IBM Plex Mono', 'Menlo', monospace;
+  --bg: #0E0C0A;
+  --text-primary: #F0E8DC;
+  --text-body: #B0A498;
+  --text-secondary: #807468;
+  --text-dim: #504840;
+  --warm: #E0A860;
+  --green: #5EAA6E;
+  --status-running: #7EC47E;
+  --status-stopped: #CC9955;
+  --status-planned: #666058;
+  --border: rgba(255,255,255,0.05);
+  --card-bg: rgba(255,255,255,0.02);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text-primary); font-family: var(--body); }
+button { font-family: var(--mono); cursor: pointer; outline: none; }
+
+@keyframes nodeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(2.2); opacity: 0; }
+}
+
+.dashboard { max-width: 1100px; margin: 0 auto; padding: 48px 36px 80px; }
+
+/* Header */
+.header h1 {
+  font-family: var(--display); font-size: 44px; font-weight: 400;
+  color: var(--text-primary); letter-spacing: 0.005em; line-height: 1.1; margin-bottom: 8px;
+}
+.header-meta {
+  font-family: var(--mono); font-size: 14px; color: #6A6258;
+  display: flex; gap: 12px; align-items: center;
+}
+.header-meta .sep { color: #3A3228; }
+
+/* Section headers */
+.section-header {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+}
+.section-label {
+  font-family: var(--mono); font-size: 13px; font-weight: 500;
+  color: #A09888; text-transform: uppercase; letter-spacing: 0.12em;
+}
+.section-line { flex: 1; height: 1px; background: rgba(255,255,255,0.035); }
+
+/* Topology */
+.topology-canvas {
+  position: relative;
+  min-height: 500px;
+  min-width: 1100px;
+  background: rgba(255,255,255,0.008);
+  border: 1px solid rgba(255,255,255,0.04);
+  border-radius: 16px;
+}
+.topology-scroll {
+  overflow: auto;
+  border-radius: 16px;
+  margin-bottom: 4px;
+  max-height: 80vh;
+}
+.topology-canvas svg.connections {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  pointer-events: none; z-index: 1;
+}
+.col-label {
+  position: absolute; top: 10px; z-index: 3;
+  font-family: var(--mono); font-size: 12px; color: #807468;
+  text-transform: uppercase; letter-spacing: 0.12em;
+}
+
+/* Agent cards */
+.agent-card {
+  position: absolute; width: 244px; z-index: 2; cursor: pointer;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.agent-card-inner {
+  background: rgba(24,21,18,0.94);
+  border: 1.5px solid rgba(212,165,116,0.18);
+  border-radius: 12px; padding: 14px 16px;
+  position: relative; overflow: hidden;
+  backdrop-filter: blur(8px);
+  transition: all 0.35s ease;
+}
+.agent-card.running .agent-card-inner {
+  border-color: rgba(212,165,116,0.22);
+}
+.agent-card.dimmed .agent-card-inner {
+  background: rgba(18,16,14,0.92);
+  border-color: rgba(255,255,255,0.04);
+}
+.agent-card.highlight .agent-card-inner {
+  border-color: rgba(224,180,110,0.45);
+  box-shadow: 0 0 24px rgba(224,180,110,0.08);
+}
+.agent-card.faded { opacity: 0.25; }
+.agent-card.highlight { transform: scale(1.02); }
+.agent-glow {
+  position: absolute; top: 0; left: 6%; right: 6%; height: 1px;
+  background: linear-gradient(90deg, transparent, #C49A6C40, transparent);
+}
+.agent-name {
+  font-family: var(--display); font-size: 20px; font-weight: 400;
+  color: var(--text-primary); line-height: 1.2; letter-spacing: 0.005em;
+}
+.agent-meta {
+  font-family: var(--mono); font-size: 13px; color: #8A8078; margin-top: 3px;
+}
+.agent-desc {
+  font-family: var(--body); font-size: 14px; color: #9A9088;
+  line-height: 1.45; margin: 8px 0;
+}
+.agent-status {
+  display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--mono); font-size: 12px;
+}
+.status-dot {
+  position: relative; display: inline-flex; width: 9px; height: 9px;
+}
+.status-dot-inner {
+  width: 7px; height: 7px; border-radius: 50%; margin: auto;
+}
+.status-dot-pulse {
+  position: absolute; inset: 0; border-radius: 50%;
+  background-color: var(--status-running); opacity: 0.3;
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+/* File nodes */
+.file-node {
+  position: absolute; z-index: 2; cursor: pointer;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.file-node.faded { opacity: 0.2; }
+.file-node.highlight { transform: scale(1.04); }
+.file-node-inner {
+  background: rgba(24,21,18,0.88);
+  border: 1.5px solid rgba(255,255,255,0.06);
+  border-radius: 8px; padding: 8px 14px;
+  backdrop-filter: blur(6px); white-space: nowrap;
+  transition: all 0.35s ease;
+}
+.file-node.highlight .file-node-inner {
+  border-color: rgba(224,180,110,0.4);
+  box-shadow: 0 0 16px rgba(224,180,110,0.06);
+}
+.file-node.stale .file-node-inner {
+  background: rgba(196,154,108,0.05);
+  border-color: rgba(196,154,108,0.16);
+}
+.file-name {
+  font-family: var(--mono); font-size: 14px; color: #B8ACA0;
+  display: flex; align-items: center; gap: 7px;
+}
+.file-kind { font-size: 12px; color: #5A5248; }
+.file-date { font-family: var(--mono); font-size: 12px; color: #5A5248; margin-top: 4px; padding-left: 19px; }
+
+/* Layer toggles */
+.layer-toggles { display: flex; gap: 8px; align-items: center; }
+.layer-toggle {
+  font-size: 13px; letter-spacing: 0.03em;
+  background: transparent; border: 1px solid #2A2520;
+  border-radius: 20px; padding: 5px 14px;
+  color: #4A4238; display: flex; align-items: center; gap: 6px;
+  transition: all 0.25s ease;
+}
+.layer-toggle.active { background: rgba(255,255,255,0.03); }
+.layer-toggle .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: #2A2520; transition: background 0.25s ease;
+}
+
+/* Cards grid */
+.metrics-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; margin-bottom: 44px; }
+.card {
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: 12px; padding: 22px 26px;
+}
+.card-label {
+  font-family: var(--mono); font-size: 12px; font-weight: 500;
+  color: var(--text-secondary); text-transform: uppercase;
+  letter-spacing: 0.1em; margin-bottom: 14px;
+}
+.card-big { font-family: var(--display); font-size: 48px; color: var(--text-primary); line-height: 1; }
+.card-unit { font-family: var(--body); font-size: 16px; color: var(--text-secondary); margin-left: 8px; }
+
+/* Aspect bars */
+.aspect-row { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.aspect-name {
+  width: 95px; font-family: var(--mono); font-size: 14px;
+  color: #A09888; text-align: right; flex-shrink: 0;
+}
+.aspect-bar-bg {
+  flex: 1; max-width: 140px; height: 8px;
+  background: rgba(255,255,255,0.04); border-radius: 4px; overflow: hidden;
+}
+.aspect-bar-fill {
+  height: 100%; background: linear-gradient(90deg, #A08050, var(--warm));
+  border-radius: 4px;
+}
+.aspect-val {
+  font-family: var(--mono); font-size: 14px; color: #807468; width: 34px;
+}
+
+/* Direction items */
+.direction-item {
+  font-family: var(--display); font-size: 19px; font-style: italic;
+  color: #D0C4B4; padding: 10px 0; line-height: 1.4;
+  border-top: 1px solid rgba(255,255,255,0.03);
+}
+.direction-item:first-child { border-top: none; }
+
+/* Improvements */
+.improvement-item {
+  font-family: var(--body); font-size: 15px; color: var(--text-body);
+  padding: 10px 0; line-height: 1.5;
+  border-top: 1px solid rgba(255,255,255,0.025);
+  display: flex; align-items: flex-start; gap: 10px;
+}
+.improvement-marker { color: var(--warm); flex-shrink: 0; margin-top: 3px; font-size: 13px; }
+
+/* Sparkline */
+.sparkline { display: block; }
+
+/* Footer */
+.footer {
+  text-align: center; font-family: var(--mono); font-size: 12px;
+  color: #3A3228; letter-spacing: 0.05em; margin-top: 48px;
+}
+
+/* Warning emphasis */
+.warning { color: var(--warm); }
+</style>
+</head>
+<body>
+
+<div class="dashboard" id="app"></div>
+
+<script>
+// ─── Inject data ───
+const STATE = {"generated_at": "2026-03-10T00:21:08.448505Z", "commit_sha": "fce0297d298d80599504874a868227c29731a190", "memory": {"total_count": 48, "latest_capture": "2026-03-08T18:58:27", "capture_frequency": [{"week": "Jan 27", "count": 0}, {"week": "Feb 03", "count": 10}, {"week": "Feb 10", "count": 16}, {"week": "Feb 17", "count": 3}, {"week": "Feb 24", "count": 3}, {"week": "Mar 03", "count": 16}]}, "scoring": {"last_run": "2026-03-08", "unscored_count": 0, "surprise_count": 2, "aspects": []}, "improvements": {"open": ["Summarize and organize past memories into new structured files in real-time", "Set up desktop shortcuts for faster audio recording initiation", "Create interactive digital archive with AI-powered automatic organization and curation", "Implement bilingual note-taking that retains original language with translation", "Three-layer agent system with memory, learning, and social agents plus personalized model training approach", "Develop multiple agent types: news agent, brainstorm agent, planning agent, decision agent, social agent", "Four-step implementation using Claude Projects, Subagents, and Swarm Mode for multi-agent coordination", "Summarize and organize past memories into structured files in real-time", "Set up desktop shortcuts for easier audio recording initiation", "Create interactive digital archive with AI-powered automatic organization", "Implement bilingual note-taking that preserves original language with English translation", "Build three-layer agent system with memory, learning, and social agents using permanent storage and human-guided associations", "Build news agent, brainstorm agent, planning agent, decision agent, and social agent beyond memory agent", "Use Claude's Projects and Subagents features to create multi-agent system with swarm mode coordination", "Create AI agent or skill to automatically prioritize daily work tasks", "Create AI-powered platform for automatic memory organization and curation", "Establish theoretical framework for memory restructuring and recomposition", "Implement bilingual note-taking preserving original Chinese with English translation", "Develop contextually relevant voice recording tool that integrates previous conversations", "Build three-layer agent system with cognitive meta-model and adaptive calibration", "Build multiple specialized agents beyond memory agent (news, brainstorm, planning, decision, social)", "Use Claude's Projects and Subagents features to build multi-agent system with Swarm Mode"], "addressed": 0, "deferred": 0}, "direction": {"growing_toward": ["Thinking deeper before building \u2014 going from interesting idea to clear enough understanding that I know what to build and why", "Making things that other people actually use, not just prototypes that prove a concept to myself", "Exploring design, aesthetics, and creativity \u2014 learning to think in ways that aren't purely engineering-driven"], "growing_away_from": ["Generating many ideas but staying shallow on all of them \u2014 I want fewer ideas taken further", "Jumping to implementation before I've really understood the problem at the level that matters"], "blind_spot_watch": ["Am I going deep on one idea this week, or scattering again?", "Have I spent time on something non-technical recently?", "Am I building for myself or for someone who'd actually use this?", "What would a designer think about what I'm making?"], "last_reviewed": "2026-03-02T13:47:38Z"}, "agents": [{"id": "memory-agent", "name": "Memory Agent", "version": "v2.1", "description": "The first deployed agent. Receives raw thoughts via Telegram\n(text or voice), processes them through Claude into structured\nmarkdown with YAML frontmatter, and commits to the shared memory bus.", "avatar": "elephant", "platform": "railway", "status": "running", "reads": ["system-config", "scoring-infrastructure"], "writes": ["*.md", "connections/scores-*.json"], "metadata_only": [], "data_flow": {"reads_from_bus": ["rubric.yaml", "direction.yaml"], "writes_to_bus": ["*.md"], "external_inputs": ["Telegram messages (text and voice)"], "external_outputs": ["Telegram confirmation messages"]}}, {"id": "connection-mapper", "name": "Connection Mapper", "version": "v2.1", "description": "The analytical engine. Reads all memory files and scores each one\nagainst the rubric's 6 aspects (Projects, Principles, Ideas,\nRelationships, Learning, Growth). Detects surprise patterns,\nemerging aspects, and generates connection maps between related\nmemories. The rubric.yaml is the core intellectual property\nthis agent operationalizes.", "avatar": "spider", "platform": "local", "status": "stopped", "reads": ["scoring-infrastructure", "raw-data"], "writes": ["connections/change-report-*.md", "connections/connection-map-*.md"], "metadata_only": ["*.md"], "data_flow": {"reads_from_bus": ["rubric.yaml", "*.md", "connections/scores-*.json"], "writes_to_bus": ["connections/scores-*.json", "connections/scored-index-*.md", "connections/connection-map-*.md", "connections/change-report-*.md", "rubric_history/rubric-*.yaml"], "external_inputs": [], "external_outputs": []}}, {"id": "news-agent", "name": "News Agent", "version": "v1.0", "description": "Scans 90+ items from 13 English and Chinese RSS feeds daily,\nscores them through a two-tier LLM pipeline, and delivers a\ntop-10 briefing. Uses growth directions from direction.yaml\nto prevent filter bubbles \u2014 scores against both current interests\nAND where Sean is heading.", "avatar": "owl", "platform": "railway", "status": "not_deployed", "reads": ["system-config", "scoring-infrastructure"], "writes": [], "metadata_only": [], "data_flow": {"reads_from_bus": ["direction.yaml", "rubric.yaml", "connections/scores-*.json"], "writes_to_bus": [], "external_inputs": ["RSS feeds (13 English and Chinese sources)"], "external_outputs": ["Telegram push notification", "Web UI report (Vercel)"]}}, {"id": "interface-agent", "name": "Interface Agent", "version": "v0.1", "description": "The frontend layer of Digital Me. Owns all user-facing interfaces.\nReads structured data from the shared bus and other agents' outputs,\nreasons about presentation using an LLM, and generates static\ninterfaces deployed to Vercel. Each interface is a \"view\" \u2014 the\ndashboard, the news report, and any future UI share the same\ndesign system and rendering infrastructure.", "avatar": "chameleon", "platform": "railway", "status": "not_deployed", "reads": ["agent-permissions.yaml", "system-config", "scoring-infrastructure", "analysis-outputs", "raw-data"], "writes": ["agents/interface-agent/output/*"], "metadata_only": ["*.md"], "data_flow": {"reads_from_bus": ["agent-permissions.yaml", "direction.yaml", "attention-budget.yaml", "rubric.yaml", "connections/scores-*.json", "connections/change-report-*.md", "*.md"], "writes_to_bus": ["agents/interface-agent/output/*"], "external_inputs": [], "external_outputs": ["CEO Dashboard (Vercel)", "News Report (Vercel, planned)"]}}], "shared_files": [{"id": "direction", "name": "direction.yaml", "kind": "config", "last_updated": "2026-03-02T13:47:38Z"}, {"id": "rubric", "name": "rubric.yaml", "kind": "config", "last_updated": "2026-03-02T13:47:38Z"}, {"id": "agent-permissions", "name": "agent-permissions.yaml", "kind": "config", "last_updated": "2026-03-09T23:29:25Z"}, {"id": "scores", "name": "scores-*.json", "kind": "data", "last_updated": "2026-03-08T00:00:00Z"}, {"id": "memories", "name": "*.md memories", "kind": "data", "last_updated": "2026-03-08T18:58:27"}, {"id": "change-report", "name": "connections/change-report-*.md", "kind": "output", "last_updated": "2026-02-25T23:25:05Z"}, {"id": "connection-map", "name": "connections/connection-map-*.md", "kind": "output", "last_updated": "2026-02-25T23:25:05Z"}], "tiers": {"system-config": {"files": ["direction.yaml", "attention-budget.yaml"], "sensitivity": "low"}, "scoring-infrastructure": {"files": ["rubric.yaml", "connections/scores-*.json"], "sensitivity": "high"}, "raw-data": {"files": ["*.md"], "sensitivity": "high"}, "analysis-outputs": {"files": ["connections/change-report-*.md", "connections/connection-map-*.md"], "sensitivity": "medium"}, "rubric-history": {"files": ["rubric_history/rubric-*.yaml"], "sensitivity": "high"}}};
+const LAYOUT = {"narrative": "System is healthy with 48 memories captured and all scoring current, but memory capture shows volatility (spike to 16 this week after 3-week lull), and the roadmap remains heavily aspirational with 22 open improvements and no addressed items\u2014focus is needed on depth over breadth.", "emphasis": {"memory-pulse": "normal", "scoring": "normal", "direction": "warning", "improvements": "warning"}, "topology": {"agents": [{"id": "memory-agent", "x": 4, "y": 20}, {"id": "connection-mapper", "x": 4, "y": 45}, {"id": "news-agent", "x": 4, "y": 65}, {"id": "interface-agent", "x": 4, "y": 85}], "files": [{"id": "direction", "x": 48, "y": 15}, {"id": "rubric", "x": 48, "y": 30}, {"id": "agent-permissions", "x": 48, "y": 45}, {"id": "memories", "x": 80, "y": 25}, {"id": "scores", "x": 80, "y": 40}, {"id": "connection-map", "x": 80, "y": 60}, {"id": "change-report", "x": 80, "y": 75}]}, "sections_order": ["topology", "direction", "improvements", "memory-pulse", "scoring", "agents"], "omit_sections": []};
+
+// ─── Avatars (SVG strings) ───
+const AVATARS = {
+  'elephant': `<svg width="40" height="40" viewBox="0 0 48 48" fill="none">
+    <circle cx="24" cy="24" r="22" fill="#CLASS_FILL#" stroke="#CLASS_STROKE#" stroke-width="1.5"/>
+    <ellipse cx="24" cy="22" rx="10" ry="11" fill="#CLASS_BODY#"/>
+    <ellipse cx="13" cy="19" rx="5" ry="7" fill="#CLASS_BODY2#"/>
+    <ellipse cx="35" cy="19" rx="5" ry="7" fill="#CLASS_BODY2#"/>
+    <ellipse cx="13" cy="19" rx="3" ry="4.5" fill="#CLASS_BODY#"/>
+    <ellipse cx="35" cy="19" rx="3" ry="4.5" fill="#CLASS_BODY#"/>
+    <circle cx="20" cy="20" r="2" fill="#1C1916"/><circle cx="28" cy="20" r="2" fill="#1C1916"/>
+    <circle cx="20.6" cy="19.4" r="0.7" fill="#FFF"/><circle cx="28.6" cy="19.4" r="0.7" fill="#FFF"/>
+    <path d="M24,27 Q24,32 22,36 Q21,38 23,38 Q25,38 25,36 Q27,32 24,27Z" fill="#CLASS_BODY2#"/>
+    <path d="M20,26 Q18,30 19,32" stroke="#E8DDD0" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M28,26 Q30,30 29,32" stroke="#E8DDD0" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  </svg>`,
+  'spider': `<svg width="40" height="40" viewBox="0 0 48 48" fill="none">
+    <circle cx="24" cy="24" r="22" fill="#CLASS_FILL#" stroke="#CLASS_STROKE#" stroke-width="1.5"/>
+    <line x1="24" y1="6" x2="24" y2="42" stroke="#CLASS_WEB#" stroke-width="0.7"/>
+    <line x1="6" y1="24" x2="42" y2="24" stroke="#CLASS_WEB#" stroke-width="0.7"/>
+    <line x1="10" y1="10" x2="38" y2="38" stroke="#CLASS_WEB#" stroke-width="0.7"/>
+    <line x1="38" y1="10" x2="10" y2="38" stroke="#CLASS_WEB#" stroke-width="0.7"/>
+    <circle cx="24" cy="24" r="8" stroke="#CLASS_WEB#" stroke-width="0.7" fill="none"/>
+    <circle cx="24" cy="24" r="15" stroke="#CLASS_WEB#" stroke-width="0.5" fill="none"/>
+    <ellipse cx="24" cy="23" rx="4" ry="5" fill="#CLASS_BODY#"/>
+    <circle cx="24" cy="19" r="3.5" fill="#CLASS_BODY#"/>
+    <line x1="21" y1="23" x2="16" y2="17" stroke="#CLASS_BODY#" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="21" y1="23" x2="15" y2="23" stroke="#CLASS_BODY#" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="21" y1="23" x2="16" y2="29" stroke="#CLASS_BODY#" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="21" y1="23" x2="18" y2="33" stroke="#CLASS_BODY#" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="27" y1="23" x2="32" y2="17" stroke="#CLASS_BODY#" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="27" y1="23" x2="33" y2="23" stroke="#CLASS_BODY#" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="27" y1="23" x2="32" y2="29" stroke="#CLASS_BODY#" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="27" y1="23" x2="30" y2="33" stroke="#CLASS_BODY#" stroke-width="1.2" stroke-linecap="round"/>
+    <circle cx="22.5" cy="18" r="1.3" fill="#1C1916"/><circle cx="25.5" cy="18" r="1.3" fill="#1C1916"/>
+    <circle cx="22.8" cy="17.6" r="0.5" fill="#FFF"/><circle cx="25.8" cy="17.6" r="0.5" fill="#FFF"/>
+  </svg>`,
+  'owl': `<svg width="40" height="40" viewBox="0 0 48 48" fill="none">
+    <circle cx="24" cy="24" r="22" fill="#CLASS_FILL#" stroke="#CLASS_STROKE#" stroke-width="1.5"/>
+    <ellipse cx="24" cy="28" rx="10" ry="12" fill="#CLASS_BODY#"/>
+    <ellipse cx="24" cy="31" rx="6" ry="8" fill="#CLASS_BODY2#"/>
+    <circle cx="19" cy="20" r="5.5" fill="#CLASS_EYE_RING#"/>
+    <circle cx="29" cy="20" r="5.5" fill="#CLASS_EYE_RING#"/>
+    <circle cx="19" cy="20" r="3.5" fill="#1C1916"/>
+    <circle cx="29" cy="20" r="3.5" fill="#1C1916"/>
+    <circle cx="19" cy="20" r="2" fill="#CLASS_IRIS#"/>
+    <circle cx="29" cy="20" r="2" fill="#CLASS_IRIS#"/>
+    <circle cx="19" cy="20" r="0.9" fill="#1C1916"/>
+    <circle cx="29" cy="20" r="0.9" fill="#1C1916"/>
+    <circle cx="19.5" cy="19.3" r="0.6" fill="#FFF"/>
+    <circle cx="29.5" cy="19.3" r="0.6" fill="#FFF"/>
+    <path d="M22,23 L24,26 L26,23Z" fill="#CLASS_IRIS#"/>
+    <path d="M14,14 Q16,10 18,14" fill="#CLASS_BODY#"/>
+    <path d="M30,14 Q32,10 34,14" fill="#CLASS_BODY#"/>
+  </svg>`
+};
+
+const AVATAR_COLORS = {
+  elephant: {
+    glow:   { FILL:'#2A2218', STROKE:'#D4A46C', BODY:'#C49A6C', BODY2:'#B08858' },
+    normal: { FILL:'#1C1916', STROKE:'#3D3530', BODY:'#8A7A66', BODY2:'#7A6A56' }
+  },
+  spider: {
+    glow:   { FILL:'#1E2420', STROKE:'#7EBF8A', BODY:'#7EBF8A', BODY2:'', WEB:'#4A7A52' },
+    normal: { FILL:'#1C1916', STROKE:'#3D3530', BODY:'#5A8A62', BODY2:'', WEB:'#2E3A30' }
+  },
+  owl: {
+    glow:   { FILL:'#22202A', STROKE:'#9A8ABF', BODY:'#8A7AAF', BODY2:'#7A6A9F', EYE_RING:'#C4B8DF', IRIS:'#EAC44C' },
+    normal: { FILL:'#1C1916', STROKE:'#3D3530', BODY:'#5E5475', BODY2:'#4E4465', EYE_RING:'#8A7AAF', IRIS:'#BFA030' }
+  }
+};
+
+function getAvatar(animal, highlight) {
+  const svg = AVATARS[animal] || '';
+  const colors = (AVATAR_COLORS[animal] || {})[highlight ? 'glow' : 'normal'] || {};
+  return svg
+    .replace(/#CLASS_FILL#/g, colors.FILL || '#1C1916')
+    .replace(/#CLASS_STROKE#/g, colors.STROKE || '#3D3530')
+    .replace(/#CLASS_BODY#/g, colors.BODY || '#888')
+    .replace(/#CLASS_BODY2#/g, colors.BODY2 || '#666')
+    .replace(/#CLASS_WEB#/g, colors.WEB || '#333')
+    .replace(/#CLASS_EYE_RING#/g, colors.EYE_RING || '#888')
+    .replace(/#CLASS_IRIS#/g, colors.IRIS || '#AA8030');
+}
+
+// ─── Helpers ───
+function daysAgo(d) {
+  if (!d) return null;
+  return Math.floor((Date.now() - new Date(d).getTime()) / 864e5);
+}
+function fmtAgo(d) {
+  const n = daysAgo(d);
+  if (n === null) return '\u2014';
+  if (n === 0) return 'today';
+  if (n === 1) return '1d ago';
+  return n + 'd ago';
+}
+
+const kindIcons = { config: '\u2699', data: '\u25C6', output: '\u25B8' };
+const statusColors = { running: '#7EC47E', stopped: '#CC9955', not_deployed: '#666058' };
+const statusLabels = { running: 'Running', stopped: 'Stopped', not_deployed: 'Planned' };
+
+// ─── Topology positions (from layout.json or defaults) ───
+function getTopoPositions() {
+  const topo = LAYOUT.topology || {};
+  const agentPos = {};
+  const filePos = {};
+  (topo.agents || []).forEach(a => { agentPos[a.id] = { x: a.x, y: a.y }; });
+  (topo.files || []).forEach(f => { filePos[f.id] = { x: f.x, y: f.y }; });
+  return { agentPos, filePos };
+}
+
+// ─── State ───
+let selected = null;
+let layers = { reads: true, writes: true, agents: true, files: true };
+
+function matchFilePattern(pattern, fileId) {
+  // Normalize a file pattern like "connections/scores-*.json" to match a file id like "scores"
+  let fid = pattern;
+  fid = fid.replace('connections/', '').replace('rubric_history/', '');
+  fid = fid.replace('.yaml', '').replace('.json', '').replace('.md', '');
+  fid = fid.replace(/[-_]*\*[-_]*/g, '').replace(/ memories/g, '').trim();
+  fid = fid.replace(/-+$/, '').replace(/^-+/, '');
+  return fileId === fid || fileId.includes(fid) || fid.includes(fileId);
+}
+
+function isConnected(entityId) {
+  if (!selected) return false;
+  // Check if selected is an agent and entityId is a connected file
+  const agent = STATE.agents.find(a => a.id === selected);
+  if (agent) {
+    const flow = agent.data_flow || {};
+    const reads = flow.reads_from_bus || [];
+    const writes = flow.writes_to_bus || [];
+    return [...reads, ...writes].some(f => matchFilePattern(f, entityId));
+  }
+  // Check if selected is a file and entityId is a connected agent
+  const isFile = STATE.shared_files.some(f => f.id === selected);
+  if (isFile) {
+    const ag = STATE.agents.find(a => a.id === entityId);
+    if (ag) {
+      const flow = ag.data_flow || {};
+      const reads = flow.reads_from_bus || [];
+      const writes = flow.writes_to_bus || [];
+      return [...reads, ...writes].some(f => matchFilePattern(f, selected));
+    }
+  }
+  return false;
+}
+
+// ─── Render ───
+function render() {
+  const app = document.getElementById('app');
+  const pos = getTopoPositions();
+  const emphasis = LAYOUT.emphasis || {};
+  const narrative = LAYOUT.narrative || '';
+
+  let html = '';
+
+  // Header
+  html += `<header class="header" style="margin-bottom:48px;animation:fadeIn .7s ease both">
+    <h1>Digital Me</h1>
+    <div class="header-meta">
+      <span>System Portrait</span>
+      <span class="sep">\u00B7</span>
+      <span>${new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}</span>
+    </div>
+    ${narrative ? `<div style="font-family:var(--body);font-size:16px;color:var(--text-body);margin-top:14px;font-style:italic;line-height:1.5">${narrative}</div>` : ''}
+  </header>`;
+
+  // ═══ Topology ═══
+  html += `<section style="margin-bottom:52px">
+    <div class="section-header" style="justify-content:space-between;flex-wrap:wrap;gap:12px">
+      <div style="display:flex;align-items:center;gap:12px">
+        <span class="section-label">Agent Topology</span>
+        <button id="clear-btn" class="layer-toggle active" onclick="clearSelection()" style="display:none">Clear selection</button>
+      </div>
+      <div class="layer-toggles">
+        <button class="layer-toggle active" data-layer="reads" onclick="toggleLayer('reads')" style="border-color:#5EAA6E40;color:#5EAA6E">
+          <span class="dot" style="background:#5EAA6E"></span>Reads</button>
+        <button class="layer-toggle active" data-layer="writes" onclick="toggleLayer('writes')" style="border-color:#E0A86040;color:#E0A860">
+          <span class="dot" style="background:#E0A860"></span>Writes</button>
+        <button class="layer-toggle active" data-layer="agents" onclick="toggleLayer('agents')">
+          <span class="dot" style="background:#B8ACA0"></span>Agents</button>
+        <button class="layer-toggle active" data-layer="files" onclick="toggleLayer('files')">
+          <span class="dot" style="background:#B8ACA0"></span>Files</button>
+      </div>
+    </div>
+    <div class="topology-scroll">
+    <div class="topology-canvas" id="topo-canvas" onclick="if(event.target===this)clearSelection()">
+      <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:.6;pointer-events:none">
+        <defs><pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.4" fill="#1C1916"/></pattern></defs>
+        <rect width="100%" height="100%" fill="url(#dots)"/>
+      </svg>
+      <div class="col-label" style="left:3%">Agents</div>
+      <div class="col-label" style="left:46%">Shared Bus \u00B7 my-memories</div>
+      <div class="col-label" style="left:78%">Outputs</div>
+      <svg class="connections" id="conn-svg"></svg>
+      <div id="topo-nodes"></div>
+    </div>
+    </div>
+  </section>`;
+
+  // ═══ Metrics ═══
+  const memWarn = emphasis['memory-pulse'] === 'warning' || emphasis['memory-pulse'] === 'critical';
+  const scoreWarn = emphasis['scoring'] === 'warning' || emphasis['scoring'] === 'critical';
+  const dirWarn = emphasis['direction'] === 'warning' || emphasis['direction'] === 'critical';
+
+  html += `<section class="metrics-grid" style="animation:fadeIn .7s ease .5s both">`;
+
+  // Memory Pulse
+  html += `<div class="card">
+    <div class="card-label">Memory Pulse</div>
+    <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:12px">
+      <span class="card-big">${STATE.memory.total_count}</span>
+      <span class="card-unit">captured</span>
+    </div>
+    <canvas id="sparkline" width="160" height="36" class="sparkline"></canvas>
+    <div style="margin-top:10px;font-family:var(--body);font-size:15px;color:${memWarn?'var(--warm)':'#6A6258'}">
+      Last capture ${fmtAgo(STATE.memory.latest_capture)}${memWarn?' \u25CF':''}
+    </div>
+  </div>`;
+
+  // Scoring
+  html += `<div class="card">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+      <span class="card-label" style="margin-bottom:0">Scoring</span>
+      <span style="font-family:var(--mono);font-size:14px;color:${scoreWarn?'var(--warm)':'#6A6258'}">
+        ${STATE.scoring.unscored_count} unscored${scoreWarn?' \u25CF':''}
+      </span>
+    </div>
+    ${(STATE.scoring.aspects||[]).map(a => `
+      <div class="aspect-row">
+        <span class="aspect-name">${a.name}</span>
+        <div class="aspect-bar-bg"><div class="aspect-bar-fill" style="width:${a.avg*100}%"></div></div>
+        <span class="aspect-val">.${String(Math.round(a.avg*100)).padStart(2,'0')}</span>
+      </div>`).join('')}
+    <div style="margin-top:12px;font-family:var(--body);font-size:15px;color:#6A6258;display:flex;justify-content:space-between">
+      <span>${STATE.scoring.surprise_count} surprise${STATE.scoring.surprise_count!==1?'s':''}</span>
+      <span>Scored ${fmtAgo(STATE.scoring.last_run)}</span>
+    </div>
+  </div>`;
+
+  // Direction
+  const dir = STATE.direction || {};
+  html += `<div class="card">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+      <span class="card-label" style="margin-bottom:0">Growing Toward</span>
+      <span style="font-family:var(--mono);font-size:13px;color:${dirWarn?'var(--warm)':'#4A4238'}">
+        reviewed ${fmtAgo(dir.last_reviewed)}
+      </span>
+    </div>
+    ${(dir.growing_toward||[]).map((item,i) =>
+      `<div class="direction-item">${typeof item === 'object' ? item.description || item.name || JSON.stringify(item) : item}</div>`
+    ).join('')}
+  </div>`;
+  html += `</section>`;
+
+  // ═══ Improvements ═══
+  const imp = STATE.improvements || {};
+  html += `<section style="animation:fadeIn .7s ease .7s both;margin-bottom:48px">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+        <span class="card-label" style="margin-bottom:0">System Improvements</span>
+        <div style="display:flex;gap:20px">
+          <span style="font-family:var(--mono);font-size:14px;color:var(--warm);display:flex;align-items:center;gap:6px">
+            <span style="font-family:var(--display);font-size:24px">${(imp.open||[]).length}</span>
+            <span style="font-size:13px;color:#6A6258">open</span></span>
+          <span style="font-family:var(--mono);font-size:14px;color:var(--green);display:flex;align-items:center;gap:6px">
+            <span style="font-family:var(--display);font-size:24px">${imp.addressed||0}</span>
+            <span style="font-size:13px;color:#6A6258">addressed</span></span>
+          <span style="font-family:var(--mono);font-size:14px;color:#6A6258;display:flex;align-items:center;gap:6px">
+            <span style="font-family:var(--display);font-size:24px">${imp.deferred||0}</span>
+            <span style="font-size:13px;color:#6A6258">deferred</span></span>
+        </div>
+      </div>
+      ${(imp.open||[]).map(item => `
+        <div class="improvement-item">
+          <span class="improvement-marker">\u25CB</span>
+          <span>${item}</span>
+        </div>`).join('')}
+    </div>
+  </section>`;
+
+  // Footer
+  html += `<footer class="footer">rebuilt on open \u00B7 no persistent state \u00B7 truth lives in github</footer>`;
+
+  app.innerHTML = html;
+
+  // Draw topology after DOM is ready
+  requestAnimationFrame(() => {
+    renderTopologyNodes();
+    renderConnections();
+    drawSparkline();
+  });
+}
+
+function renderTopologyNodes() {
+  const container = document.getElementById('topo-nodes');
+  if (!container) return;
+  const pos = getTopoPositions();
+  let html = '';
+
+  // Compute safe pixel positions to prevent card overlap
+  const agentSpacing = 195;
+  const fileSpacing = 72;
+  const outputSpacing = 120;
+  const nodeStartY = 40;
+  const _centerFiles = STATE.shared_files.filter(f => f.kind !== 'output');
+  const _outputFiles = STATE.shared_files.filter(f => f.kind === 'output');
+  window._posPx = {};
+  STATE.agents.forEach((a, i) => {
+    window._posPx[a.id] = { xPct: (pos.agentPos[a.id]||{}).x || 3, yPx: nodeStartY + i * agentSpacing };
+  });
+  _centerFiles.forEach((f, i) => {
+    window._posPx[f.id] = { xPct: (pos.filePos[f.id]||{}).x || 46, yPx: nodeStartY + i * fileSpacing };
+  });
+  _outputFiles.forEach((f, i) => {
+    window._posPx[f.id] = { xPct: (pos.filePos[f.id]||{}).x || 78, yPx: nodeStartY + i * outputSpacing };
+  });
+
+  // Agent cards
+  if (layers.agents) {
+    STATE.agents.forEach((agent, i) => {
+      const sp = window._posPx[agent.id] || { xPct: 3, yPx: nodeStartY + i * agentSpacing };
+      const isSel = selected === agent.id;
+      const conn = isConnected(agent.id);
+      const highlight = isSel || conn;
+      const faded = selected && !highlight;
+      const statusColor = statusColors[agent.status] || '#666';
+      const alive = agent.status === 'running';
+      const avatarKey = agent.avatar || 'elephant';
+
+      html += `<div class="agent-card ${agent.status} ${highlight?'highlight':''} ${faded?'faded':''}"
+        style="left:${sp.xPct}%;top:${sp.yPx}px;animation:nodeIn .55s cubic-bezier(.16,1,.3,1) ${.15+i*.1}s both"
+        onclick="event.stopPropagation();selectEntity('${agent.id}')">
+        <div class="agent-card-inner">
+          ${alive?'<div class="agent-glow"></div>':''}
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+            <div style="flex-shrink:0;line-height:0">${getAvatar(avatarKey, highlight)}</div>
+            <div style="min-width:0">
+              <div class="agent-name" style="font-weight:${highlight?600:400}">${agent.name}</div>
+              <div class="agent-meta">${agent.version} \u00B7 ${agent.platform}</div>
+            </div>
+          </div>
+          ${agent.description ? `<div class="agent-desc">${agent.description.substring(0,80)}${agent.description.length>80?'...':''}</div>`:''}
+          <div class="agent-status">
+            <div style="display:flex;align-items:center;gap:6px">
+              <span class="status-dot">
+                ${alive?'<span class="status-dot-pulse"></span>':''}
+                <span class="status-dot-inner" style="background:${statusColor}"></span>
+              </span>
+              <span style="color:${statusColor};text-transform:uppercase;letter-spacing:.06em;font-size:12px">
+                ${statusLabels[agent.status]||agent.status}</span>
+            </div>
+            ${agent.data_flow ? `<span style="color:#6A6258">${fmtAgo(STATE.memory.latest_capture)}</span>` : ''}
+          </div>
+        </div>
+      </div>`;
+    });
+  }
+
+  // File nodes
+  if (layers.files) {
+    STATE.shared_files.forEach((file, i) => {
+      const sp = window._posPx[file.id] || { xPct: 48, yPx: nodeStartY + i * fileSpacing };
+      const isSel = selected === file.id;
+      const conn = isConnected(file.id);
+      const highlight = isSel || conn;
+      const faded = selected && !highlight;
+      const age = daysAgo(file.last_updated);
+      const stale = age > 14;
+
+      html += `<div class="file-node ${highlight?'highlight':''} ${faded?'faded':''} ${stale?'stale':''}"
+        style="left:${sp.xPct}%;top:${sp.yPx}px;animation:nodeIn .45s ease ${.35+i*.05}s both"
+        onclick="event.stopPropagation();selectEntity('${file.id}')">
+        <div class="file-node-inner">
+          <div class="file-name">
+            <span class="file-kind">${kindIcons[file.kind]||'\u00B7'}</span>
+            <span style="color:${highlight?'#F0E0C8':stale?'#D4A870':'#B8ACA0'};font-weight:${highlight?500:400}">${file.name}</span>
+          </div>
+          <div class="file-date" style="color:${highlight?'#A08868':stale?'#8A6E4E':'#5A5248'}">
+            ${fmtAgo(file.last_updated)}${stale&&!highlight?' \u25CF':''}
+          </div>
+        </div>
+      </div>`;
+    });
+  }
+
+  container.innerHTML = html;
+}
+
+function renderConnections() {
+  const svg = document.getElementById('conn-svg');
+  const canvas = document.getElementById('topo-canvas');
+  if (!svg || !canvas) return;
+  const w = canvas.offsetWidth;
+  const h = canvas.offsetHeight;
+  const pos = getTopoPositions();
+
+  let paths = '';
+
+  // Defs for markers
+  paths += `<defs>
+    <marker id="ar-r" viewBox="0 0 8 6" refX="7" refY="3" markerWidth="7" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0.5 L7,3 L0,5.5" fill="none" stroke="#5EAA6E" stroke-width="1.2"/></marker>
+    <marker id="ar-w" viewBox="0 0 8 6" refX="7" refY="3" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0.5 L7,3 L0,5.5" fill="none" stroke="#E0A860" stroke-width="1.2"/></marker>
+    <marker id="ar-rh" viewBox="0 0 8 6" refX="7" refY="3" markerWidth="8" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0.5 L7,3 L0,5.5" fill="none" stroke="#80D090" stroke-width="1.5"/></marker>
+    <marker id="ar-wh" viewBox="0 0 8 6" refX="7" refY="3" markerWidth="8" markerHeight="6" orient="auto">
+      <path d="M0,0.5 L7,3 L0,5.5" fill="none" stroke="#F0C070" stroke-width="1.5"/></marker>
+    <marker id="ar-dim" viewBox="0 0 8 6" refX="7" refY="3" markerWidth="6" markerHeight="4" orient="auto">
+      <path d="M0,0.5 L7,3 L0,5.5" fill="none" stroke="#2D2822" stroke-width="1"/></marker>
+  </defs>`;
+
+  STATE.agents.forEach(agent => {
+    const ap = window._posPx ? window._posPx[agent.id] : null;
+    if (!ap) return;
+    const ax = (ap.xPct/100)*w + 248;
+    const ay = ap.yPx + 38;
+    const flow = agent.data_flow || {};
+
+    function drawConn(filePattern, type) {
+      if (type === 'read' && !layers.reads) return;
+      if (type === 'write' && !layers.writes) return;
+
+      // Match file pattern to a shared file id
+      // Handle patterns like: direction.yaml, connections/scores-*.json, *.md, rubric_history/rubric-*.yaml
+      let fid = filePattern;
+      // Strip path prefixes
+      fid = fid.replace('connections/', '').replace('rubric_history/', '');
+      // Strip extensions
+      fid = fid.replace('.yaml', '').replace('.json', '').replace('.md', '');
+      // Strip wildcards and date patterns
+      fid = fid.replace(/[-_]*\*[-_]*/g, '').replace(/ memories/g, '').trim();
+      // Remove trailing hyphens
+      fid = fid.replace(/-+$/, '').replace(/^-+/, '');
+
+      const matchedFile = STATE.shared_files.find(f => {
+        // Exact match
+        if (f.id === fid) return true;
+        // File name contains the pattern
+        if (f.name === filePattern) return true;
+        // Partial matches
+        if (f.id.includes(fid) || fid.includes(f.id)) return true;
+        // Match by stripped name
+        const fname = f.name.replace('connections/', '').replace('.yaml', '').replace('.json', '').replace('.md', '').replace(/[-_]*\*[-_]*/g, '').replace(/ memories/g, '').replace(/-+$/, '').trim();
+        if (fname === fid || fname.includes(fid) || fid.includes(fname)) return true;
+        return false;
+      });
+      if (!matchedFile) return;
+      const fp = window._posPx ? window._posPx[matchedFile.id] : null;
+      if (!fp) return;
+
+      const fx = (fp.xPct/100)*w;
+      const fy = fp.yPx + 16;
+      const dx = Math.abs(fx-ax);
+      const cp = dx*0.42;
+
+      const agentHighlight = selected===agent.id || selected===matchedFile.id;
+      const dimmed = selected && !agentHighlight;
+      const isW = type==='write';
+      const alive = agent.status==='running';
+      const notDeployed = agent.status==='not_deployed';
+
+      let stroke, sw, opacity, dash, marker;
+      if (dimmed) {
+        stroke='#1E1A16'; sw=1; opacity=0.5; dash='3,5'; marker='url(#ar-dim)';
+      } else if (agentHighlight) {
+        stroke=isW?'#F0C070':'#80D090'; sw=2.5; opacity=1; dash=isW?'none':'6,4';
+        marker=isW?'url(#ar-wh)':'url(#ar-rh)';
+      } else if (notDeployed) {
+        stroke=isW?'#8A7048':'#4A7A50'; sw=1; opacity=0.45; dash='4,4';
+        marker=isW?'url(#ar-w)':'url(#ar-r)';
+      } else if (alive) {
+        stroke=isW?'#E0A860':'#5EAA6E'; sw=1.5; opacity=0.55; dash=isW?'none':'5,4';
+        marker=isW?'url(#ar-w)':'url(#ar-r)';
+      } else {
+        stroke=isW?'#9A8058':'#4A8A56'; sw=1.2; opacity=0.4; dash=isW?'none':'5,4';
+        marker=isW?'url(#ar-w)':'url(#ar-r)';
+      }
+
+      paths += `<path d="M${ax},${ay} C${ax+cp},${ay} ${fx-cp},${fy} ${fx},${fy}"
+        fill="none" stroke="${stroke}" stroke-width="${sw}" stroke-dasharray="${dash}"
+        opacity="${opacity}" marker-end="${marker}" style="transition:all .35s ease"/>`;
+    }
+
+    (flow.reads_from_bus||[]).forEach(f => drawConn(f, 'read'));
+    (flow.writes_to_bus||[]).forEach(f => drawConn(f, 'write'));
+  });
+
+  svg.innerHTML = paths;
+}
+
+function drawSparkline() {
+  const canvas = document.getElementById('sparkline');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const data = STATE.memory.capture_frequency || [];
+  if (!data.length) return;
+
+  const w = canvas.width, h = canvas.height;
+  const max = Math.max(...data.map(d => d.count), 1);
+  const pts = data.map((d,i) => ({
+    x: (i/(data.length-1))*w,
+    y: h - (d.count/max)*(h-6) - 3
+  }));
+
+  // Area fill
+  const grad = ctx.createLinearGradient(0,0,0,h);
+  grad.addColorStop(0, 'rgba(224,168,96,0.2)');
+  grad.addColorStop(1, 'rgba(224,168,96,0)');
+  ctx.beginPath();
+  pts.forEach((p,i) => i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y));
+  ctx.lineTo(w,h); ctx.lineTo(0,h); ctx.closePath();
+  ctx.fillStyle = grad; ctx.fill();
+
+  // Line
+  ctx.beginPath();
+  pts.forEach((p,i) => i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y));
+  ctx.strokeStyle = '#E0A860'; ctx.lineWidth = 1.5;
+  ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.stroke();
+
+  // Dots
+  pts.forEach((p,i) => {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, i===pts.length-1?2.5:1.5, 0, Math.PI*2);
+    ctx.fillStyle = i===pts.length-1?'#E0A860':'#7A6E5E';
+    ctx.fill();
+  });
+}
+
+// ─── Interaction ───
+function selectEntity(id) {
+  selected = selected === id ? null : id;
+  renderTopologyNodes();
+  renderConnections();
+  // Update clear selection button visibility
+  const clearBtn = document.getElementById('clear-btn');
+  if (clearBtn) clearBtn.style.display = selected ? 'inline-block' : 'none';
+}
+function clearSelection() {
+  selected = null;
+  renderTopologyNodes();
+  renderConnections();
+  const clearBtn = document.getElementById('clear-btn');
+  if (clearBtn) clearBtn.style.display = 'none';
+}
+function toggleLayer(key) {
+  // Solo logic: clicking a toggle makes it the only active one in its group.
+  // Clicking an already-solo toggle restores all in that group.
+  const lineGroup = ['reads', 'writes'];
+  const nodeGroup = ['agents', 'files'];
+  const group = lineGroup.includes(key) ? lineGroup : nodeGroup;
+  const otherKey = group.find(k => k !== key);
+
+  if (layers[key] && !layers[otherKey]) {
+    // Already solo — restore both
+    layers[key] = true;
+    layers[otherKey] = true;
+  } else {
+    // Solo this one — turn off the other
+    layers[key] = true;
+    layers[otherKey] = false;
+  }
+
+  renderTopologyNodes();
+  renderConnections();
+  // Update toggle button styles
+  document.querySelectorAll('.layer-toggle').forEach(btn => {
+    const k = btn.dataset.layer;
+    if (k) {
+      const active = layers[k];
+      btn.classList.toggle('active', active);
+      const dot = btn.querySelector('.dot');
+      const colors = { reads:'#5EAA6E', writes:'#E0A860', agents:'#B8ACA0', files:'#B8ACA0' };
+      if (dot) dot.style.background = active ? (colors[k]||'#B8ACA0') : '#2A2520';
+      btn.style.borderColor = active ? (colors[k]||'#B8ACA0')+'40' : '#2A2520';
+      btn.style.color = active ? (colors[k]||'#B8ACA0') : '#4A4238';
+    }
+  });
+}
+
+// ─── Init ───
+function setCanvasSize() {
+  const canvas = document.getElementById('topo-canvas');
+  if (!canvas) return;
+  const agentCount = STATE.agents.length;
+  const fileCount = STATE.shared_files.length;
+  // Each agent card is ~180px tall with padding. Enforce minimum spacing.
+  const agentHeight = agentCount * 200 + 60;
+  const fileHeight = fileCount * 80 + 60;
+  const height = Math.max(550, agentHeight, fileHeight);
+  canvas.style.height = height + 'px';
+  // Width: ensure outputs column is fully visible
+  canvas.style.width = Math.max(1100, canvas.parentElement.offsetWidth) + 'px';
+}
+window.addEventListener('resize', () => { setCanvasSize(); renderConnections(); });
+render();
+setCanvasSize();
+</script>
+</body>
+</html>
