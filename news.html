@@ -148,6 +148,33 @@ a:hover { text-decoration: underline; }
   .card-rank { font-size: 20px; min-width: auto; }
   .header-stats { flex-direction: column; gap: 4px; }
 }
+
+/* Reaction buttons */
+.reaction-bar {
+  display: flex; align-items: center; gap: 6px; margin-top: 8px; flex-wrap: wrap;
+}
+.rx-btn {
+  background: rgba(255,255,255,0.04); border: 1px solid var(--border);
+  border-radius: 6px; padding: 4px 10px; cursor: pointer;
+  font-size: 16px; transition: all 0.15s;
+}
+.rx-btn:hover { background: rgba(224,168,96,0.12); border-color: rgba(224,168,96,0.3); }
+.rx-btn.active { background: rgba(224,168,96,0.2); border-color: var(--warm); }
+.rx-btn.active[data-rx="dislike"] { background: rgba(244,67,54,0.15); border-color: #F44336; }
+.rx-input {
+  display: flex; gap: 6px; align-items: center; margin-top: 4px; width: 100%;
+}
+.rx-text {
+  flex: 1; background: rgba(255,255,255,0.05); border: 1px solid var(--border);
+  border-radius: 4px; padding: 5px 8px; color: var(--text-body);
+  font-family: var(--body); font-size: 13px;
+}
+.rx-text:focus { outline: none; border-color: var(--warm); }
+.rx-send {
+  background: var(--warm); color: #0E0C0A; border: none; border-radius: 4px;
+  padding: 5px 12px; font-size: 12px; font-weight: 600; cursor: pointer;
+}
+.rx-send:hover { opacity: 0.85; }
 </style>
 </head>
 <body>
@@ -175,6 +202,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">HIGH VALUE: Introduces security attack surface Sean hasn't considered in multi-agent collaboration design, challenging his assumption that agent systems can operate with primarily transparency-based governance.</div>
     <div class="mem-links"><span class="mem-tag">#23</span> <span class="mem-tag">#30</span></div>
     <div class="tags"><span class="tag">Security</span><span class="tag">framework</span><span class="tag">for</span><span class="tag">multi-agent</span><span class="tag">collaboration</span></div>
+    <div class="reaction-bar" data-item-id="rss-19f421019c" data-title="DynaTrust: Defending Multi-Agent Systems Against Sleeper Agents via Dynamic Trust Graphs" data-url="https://arxiv.org/abs/2603.15661" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.6}" data-rank="8">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">10</div>
@@ -190,6 +227,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">WeChat agent implementation walkthrough</div>
     
     <div class="tags"><span class="tag">WeChat</span><span class="tag">agent</span><span class="tag">implementation</span><span class="tag">walkthrough</span></div>
+    <div class="reaction-bar" data-item-id="cn-94f8c28e77" data-title="求码10天，我终于过上了在微信上使唤🦞的日子" data-url="https://www.qbitai.com/2026/03/388980.html" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.52}" data-rank="10">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">13</div>
@@ -205,6 +252,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Live event agent implementation cases</div>
     
     <div class="tags"><span class="tag">Live</span><span class="tag">event</span><span class="tag">agent</span><span class="tag">implementation</span><span class="tag">cases</span></div>
+    <div class="reaction-bar" data-item-id="cn-fc22d92b51" data-title="北京养虾er！明晚19点，为你带来9+场养虾干货Talk，来创业大街见" data-url="https://www.qbitai.com/2026/03/388807.html" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.9, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.48}" data-rank="13">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">15</div>
@@ -220,6 +277,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Samsung strike supply chain disruption news</div>
     
     <div class="tags"><span class="tag">Samsung</span><span class="tag">strike</span><span class="tag">supply</span><span class="tag">chain</span><span class="tag">disruption</span></div>
+    <div class="reaction-bar" data-item-id="cn-b94d1fa000" data-title="氪星晚报｜新疆新能源外送电量突破3000亿千瓦时；三星电子或发生大规模罢工，恐波及全球半导体产供链；社交平台X调整印尼用户年龄限制以符合新规" data-url="https://36kr.com/p/3728294939966598?f=rss" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.0, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.0, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.3}" data-rank="15">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">17</div>
@@ -235,6 +302,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Daily news digest regulatory compliance updates</div>
     
     <div class="tags"><span class="tag">Daily</span><span class="tag">news</span><span class="tag">digest</span><span class="tag">regulatory</span><span class="tag">compliance</span></div>
+    <div class="reaction-bar" data-item-id="cn-dadb7ac41b" data-title="8点1氪丨宝宝巴士推送低俗广告被罚30万；山姆客服回应给三文鱼加不可生食标签；360回应“安全龙虾”私钥泄露" data-url="https://36kr.com/p/3727701336833157?f=rss" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.1, &quot;timeliness&quot;: 0.9, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.36}" data-rank="17">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">18</div>
@@ -250,6 +327,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Product announcements and tech news roundup</div>
     
     <div class="tags"><span class="tag">Product</span><span class="tag">announcements</span><span class="tag">and</span><span class="tag">tech</span><span class="tag">news</span></div>
+    <div class="reaction-bar" data-item-id="cn-63344a0664" data-title="派早报：OPPO Find N6 发布，广汽、华为联合发布「启境」GT7 等" data-url="https://sspai.com/post/107485" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.36}" data-rank="18">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">19</div>
@@ -265,6 +352,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Product showcase event and community engagement</div>
     
     <div class="tags"><span class="tag">Product</span><span class="tag">showcase</span><span class="tag">event</span><span class="tag">and</span><span class="tag">community</span></div>
+    <div class="reaction-bar" data-item-id="cn-7762e7c4d8" data-title="少数派十四周年直播：我们挑选了这四类好产品" data-url="https://sspai.com/post/107428" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.38}" data-rank="19">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">20</div>
@@ -280,6 +377,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">SSD commodity price speculation bubble</div>
     
     <div class="tags"><span class="tag">SSD</span><span class="tag">commodity</span><span class="tag">price</span><span class="tag">speculation</span><span class="tag">bubble</span></div>
+    <div class="reaction-bar" data-item-id="cn-abe27f888f" data-title="固态硬盘成理财工具，价格涨幅为何比黄金还猛？" data-url="http://www.huxiu.com/article/4842455.html?f=wangzhan" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.0, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.1, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.28}" data-rank="20">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">22</div>
@@ -295,6 +402,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">AI infrastructure cost increases</div>
     
     <div class="tags"><span class="tag">AI</span><span class="tag">infrastructure</span><span class="tag">cost</span><span class="tag">increases</span></div>
+    <div class="reaction-bar" data-item-id="cn-c05fdc9e88" data-title="阿里云 AI 算力和存储产品最高涨价 34%" data-url="https://www.oschina.net/news/411701" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.4}" data-rank="22">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div><div class="category-section"><h3 class="category-header">💼 Work <span class="cat-count">4</span></h3><div class="card card-ranked">
   <div class="card-rank">5</div>
@@ -310,6 +427,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Directly addresses latent factual memory architecture for LLM agents, solving a core technical problem Sean identifies in his Memory Agent design and multi-aspect memory tracking.</div>
     <div class="mem-links"><span class="mem-tag">#14</span> <span class="mem-tag">#24</span> <span class="mem-tag">#29</span> <span class="mem-tag">#13</span></div>
     <div class="tags"><span class="tag">Latent</span><span class="tag">factual</span><span class="tag">memory</span><span class="tag">architecture</span><span class="tag">for</span></div>
+    <div class="reaction-bar" data-item-id="rss-747233e3fa" data-title="NextMem: Towards Latent Factual Memory for LLM-based Agents" data-url="https://arxiv.org/abs/2603.15634" data-category="Work" data-l1="{&quot;relevance&quot;: 0.7, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.66}" data-rank="5">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">6</div>
@@ -325,6 +452,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Proposes robustness-gating for agent economic agency, directly relevant to Sean's project architecture choices and the safety/capability tradeoff he needs to consider for agent autonomy levels.</div>
     <div class="mem-links"><span class="mem-tag">#26</span> <span class="mem-tag">#29</span> <span class="mem-tag">#30</span></div>
     <div class="tags"><span class="tag">Robustness-first</span><span class="tag">architecture</span><span class="tag">for</span><span class="tag">economic</span><span class="tag">AI</span></div>
+    <div class="reaction-bar" data-item-id="rss-b92a63181f" data-title="The Comprehension-Gated Agent Economy: A Robustness-First Architecture for AI Economic Agency" data-url="https://arxiv.org/abs/2603.15639" data-category="Work" data-l1="{&quot;relevance&quot;: 0.8, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.76}" data-rank="6">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">7</div>
@@ -340,6 +477,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Bridges Sean's agent memory architecture thinking with biological systems, connecting his technical framework design to principled cognitive inspiration he hasn't yet explored.</div>
     <div class="mem-links"><span class="mem-tag">#24</span> <span class="mem-tag">#29</span></div>
     <div class="tags"><span class="tag">Biologically-inspired</span><span class="tag">memory</span><span class="tag">system</span><span class="tag">for</span><span class="tag">long-running</span></div>
+    <div class="reaction-bar" data-item-id="rss-b9a1f78beb" data-title="CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems" data-url="https://arxiv.org/abs/2603.15642" data-category="Work" data-l1="{&quot;relevance&quot;: 0.7, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.64}" data-rank="7">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">11</div>
@@ -355,6 +502,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Enterprise agent platform with built-in solutions</div>
     
     <div class="tags"><span class="tag">Enterprise</span><span class="tag">agent</span><span class="tag">platform</span><span class="tag">with</span><span class="tag">built-in</span></div>
+    <div class="reaction-bar" data-item-id="cn-c777db0b61" data-title="阿里“悟空”上线！钉钉给企业送来龙虾大军" data-url="https://www.qbitai.com/2026/03/388845.html" data-category="Work" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.52}" data-rank="11">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div><div class="category-section"><h3 class="category-header">🧠 Thinking <span class="cat-count">7</span></h3><div class="card card-ranked">
   <div class="card-rank">2</div>
@@ -370,6 +527,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">HIGH VALUE CHALLENGE: Frames AI coding as inherently probabilistic/risky rather than deterministic, challenging Sean's confidence in agent-written code reliability for his system architecture.</div>
     <div class="mem-links"><span class="mem-tag">#24</span> <span class="mem-tag">#26</span> <span class="mem-tag">#30</span></div>
     <div class="tags"><span class="tag">AI</span><span class="tag">coding</span><span class="tag">reliability</span><span class="tag">and</span><span class="tag">risk</span></div>
+    <div class="reaction-bar" data-item-id="rss-38eec60a4f" data-title="AI coding is gambling" data-url="https://notes.visaint.space/ai-coding-is-gambling/" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.6, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.8, &quot;composite&quot;: 0.66}" data-rank="2">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">4</div>
@@ -385,6 +552,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">HIGH VALUE CHALLENGE: Demonstrates critical safety vulnerability in agent sandbox isolation, directly threatening the privacy-first and vendor-independence principles Sean holds core to his system design.</div>
     <div class="mem-links"><span class="mem-tag">#30</span> <span class="mem-tag">#28</span> <span class="mem-tag">#29</span></div>
     <div class="tags"><span class="tag">AI</span><span class="tag">safety</span><span class="tag">sandbox</span><span class="tag">escape</span><span class="tag">vulnerability</span></div>
+    <div class="reaction-bar" data-item-id="rss-bcda6852cc" data-title="Snowflake AI Escapes Sandbox and Executes Malware" data-url="https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.8, &quot;composite&quot;: 0.68}" data-rank="4">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">12</div>
@@ -400,6 +577,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Challenges Sean's assumption that hardware efficiency is primarily an infrastructure concern rather than a design problem requiring architectural rethinking.</div>
     <div class="mem-links"><span class="mem-tag">#24</span> <span class="mem-tag">#29</span></div>
     <div class="tags"><span class="tag">GPU</span><span class="tag">utilization</span><span class="tag">optimization</span><span class="tag">breakthrough</span></div>
+    <div class="reaction-bar" data-item-id="cn-9f33101323" data-title="英伟达最强B200算力浪费60%！普林斯顿团队出手，利用率升至71%" data-url="https://www.qbitai.com/2026/03/388815.html" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.6, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.66}" data-rank="12">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">24</div>
@@ -415,6 +602,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Signals transition from speculative agent thinking to engineering maturity challenges, directly relevant to Sean's growth direction of moving from concept to production systems.</div>
     <div class="mem-links"><span class="mem-tag">#28</span> <span class="mem-tag">#32</span></div>
     <div class="tags"><span class="tag">OpenClaw</span><span class="tag">engineering</span><span class="tag">maturity</span><span class="tag">analysis</span></div>
+    <div class="reaction-bar" data-item-id="cn-2f1e812f7d" data-title="从狂热到工程、组织实践，OpenClaw这阵风能刮多久？" data-url="https://www.infoq.cn/article/Th0um55qt9mMORoZ7MD8?utm_source=rss&amp;utm_medium=article" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.8, &quot;composite&quot;: 0.64}" data-rank="24">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">25</div>
@@ -430,6 +627,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Claims AI coding eliminates framework paradigms, directly relevant to Sean's technical architecture decisions for agent system implementation.</div>
     <div class="mem-links"><span class="mem-tag">#24</span> <span class="mem-tag">#26</span></div>
     <div class="tags"><span class="tag">AI</span><span class="tag">coding</span><span class="tag">ending</span><span class="tag">framework</span><span class="tag">paradigm</span></div>
+    <div class="reaction-bar" data-item-id="cn-eddfa21a47" data-title="AI 编程正在终结框架时代" data-url="https://www.infoq.cn/article/FyW5gwJotRRb8lUAO7z2?utm_source=rss&amp;utm_medium=article" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.8, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.9, &quot;composite&quot;: 0.76}" data-rank="25">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">26</div>
@@ -445,6 +652,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">HIGH VALUE CHALLENGE: Jeremy Howard's critique of Claude Code approach directly contradicts current implementation patterns Sean may be considering, questioning whether autonomous code generation is the right path.</div>
     <div class="mem-links"><span class="mem-tag">#26</span> <span class="mem-tag">#24</span> <span class="mem-tag">#30</span></div>
     <div class="tags"><span class="tag">Jeremy</span><span class="tag">Howard</span><span class="tag">critiques</span><span class="tag">Claude</span><span class="tag">Code</span></div>
+    <div class="reaction-bar" data-item-id="cn-251b3cd6e5" data-title="“Claude Code 这条路线错了”！元老级 AI 大师 Jeremy Howard 开炮：马斯克和 Dario 根本不懂现代软件工程" data-url="https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&amp;utm_medium=article" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.9, &quot;composite&quot;: 0.72}" data-rank="26">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">27</div>
@@ -460,6 +677,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">HIGH VALUE CHALLENGE: Suggests agents may outpace human code review capability, directly contradicting the human-in-loop principle Sean articulates as core to his design philosophy.</div>
     <div class="mem-links"><span class="mem-tag">#30</span> <span class="mem-tag">#28</span> <span class="mem-tag">#19</span></div>
     <div class="tags"><span class="tag">Agents</span><span class="tag">writing</span><span class="tag">parallel</span><span class="tag">code</span><span class="tag">scalability</span></div>
+    <div class="reaction-bar" data-item-id="cn-41fd257fc8" data-title="每天审200个PR、每月3000个Issue？智能体开始并行写代码，人类可能成最薄弱环节" data-url="https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&amp;utm_medium=article" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.6, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.9, &quot;source_quality&quot;: 0.9, &quot;composite&quot;: 0.78}" data-rank="27">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div><div class="category-section"><h3 class="category-header">🌱 Growth <span class="cat-count">2</span></h3><div class="card card-ranked">
   <div class="card-rank">1</div>
@@ -475,6 +702,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Demonstrates real-world agent system scaling that directly validates Sean's core vision of multi-agent systems handling parallel execution across specialized roles, showing the content production use case he hasn't explored.</div>
     <div class="mem-links"><span class="mem-tag">#23</span> <span class="mem-tag">#25</span> <span class="mem-tag">#29</span> <span class="mem-tag">#21</span></div>
     <div class="tags"><span class="tag">Agent</span><span class="tag">automation</span><span class="tag">creative</span><span class="tag">content</span><span class="tag">production</span></div>
+    <div class="reaction-bar" data-item-id="cn-8ea8f14e49" data-title="想帮大家做「一人公司」，茉莉语境融资百万美元" data-url="https://36kr.com/p/3727752358919305?f=rss" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.8, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.9, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.9, &quot;composite&quot;: 0.82}" data-rank="1">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">16</div>
@@ -490,6 +727,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Provides concrete industry validation that token economy thinking is becoming structural business logic, relevant to Sean's conceptual framework around data units and value.</div>
     <div class="mem-links"><span class="mem-tag">#20</span> <span class="mem-tag">#13</span></div>
     <div class="tags"><span class="tag">Token</span><span class="tag">economy</span><span class="tag">paradigm</span><span class="tag">shift</span><span class="tag">across</span></div>
+    <div class="reaction-bar" data-item-id="cn-7d64dbdcb7" data-title="当黄仁勋和吴泳铭喊出同一个英文单词" data-url="https://36kr.com/p/3727806050565251?f=rss" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.8, &quot;composite&quot;: 0.64}" data-rank="16">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div><div class="category-section"><h3 class="category-header">🌍 World <span class="cat-count">5</span></h3><div class="card card-ranked">
   <div class="card-rank">3</div>
@@ -505,6 +752,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">VR platform sunset and metaverse viability</div>
     
     <div class="tags"><span class="tag">VR</span><span class="tag">platform</span><span class="tag">sunset</span><span class="tag">and</span><span class="tag">metaverse</span></div>
+    <div class="reaction-bar" data-item-id="rss-6a44e962a2" data-title="Meta will shut down VR Horizon Worlds access June 15" data-url="https://www.engadget.com/ar-vr/meta-will-shut-down-vr-horizon-worlds-access-in-june-222028919.html" data-category="World" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.42}" data-rank="3">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">9</div>
@@ -520,6 +777,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">AI agent self-evolution capability</div>
     
     <div class="tags"><span class="tag">AI</span><span class="tag">agent</span><span class="tag">self-evolution</span><span class="tag">capability</span></div>
+    <div class="reaction-bar" data-item-id="cn-236b12468a" data-title="全行业都在忙着“吃虾”，MiniMax M2.7已经让虾自己拿起筷子了" data-url="https://www.qbitai.com/2026/03/389024.html" data-category="World" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.44}" data-rank="9">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">14</div>
@@ -535,6 +802,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Huang's framing of AI systems as a new operating system paradigm represents the architectural paradigm shift Sean is building toward—multi-agent systems as foundational infrastructure rather than feature layers.</div>
     <div class="mem-links"><span class="mem-tag">#28</span> <span class="mem-tag">#29</span></div>
     <div class="tags"><span class="tag">Foundational</span><span class="tag">architecture</span><span class="tag">paradigm</span><span class="tag">shift</span></div>
+    <div class="reaction-bar" data-item-id="cn-2bb28ce8b0" data-title="黄仁勋：龙虾就是新操作系统！英伟达7种芯片拼出算力怪兽，放话2027营收万亿美元" data-url="https://www.qbitai.com/2026/03/388720.html" data-category="World" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.8, &quot;source_quality&quot;: 0.8, &quot;composite&quot;: 0.56}" data-rank="14">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">21</div>
@@ -550,6 +827,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Baidu's multi-platform agent ecosystem launch demonstrates the real-world execution pattern Sean aspires toward—moving from prototype to integrated product across devices—while revealing competitive urgency in the agent platform space.</div>
     <div class="mem-links"><span class="mem-tag">#28</span> <span class="mem-tag">#32</span> <span class="mem-tag">#22</span></div>
     <div class="tags"><span class="tag">Multi-platform</span><span class="tag">AI</span><span class="tag">agent</span><span class="tag">ecosystem</span><span class="tag">launch</span></div>
+    <div class="reaction-bar" data-item-id="cn-ecced1ea4a" data-title="百度发布“龙虾全家桶”：手机、电脑、家居全覆盖" data-url="https://www.oschina.net/news/411706" data-category="World" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.8, &quot;composite&quot;: 0.58}" data-rank="21">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-ranked">
   <div class="card-rank">23</div>
@@ -565,6 +852,16 @@ a:hover { text-decoration: underline; }
     <div class="card-connection">Solo entrepreneur AI agent workshop</div>
     
     <div class="tags"><span class="tag">Solo</span><span class="tag">entrepreneur</span><span class="tag">AI</span><span class="tag">agent</span><span class="tag">workshop</span></div>
+    <div class="reaction-bar" data-item-id="cn-e0f94b8350" data-title="一人吃虾，不如一起吃虾！「龙虾夜校」线下主题活动邀您报名" data-url="https://www.oschina.net/news/411672" data-category="World" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.7, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.42}" data-rank="23">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div>  <div class="section-title">More Stories</div>
 <div class="category-section"><h3 class="category-header">🔴 Urgent <span class="cat-count">3</span></h3><div class="card card-l2">
@@ -575,6 +872,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🔴 Urgent</span>
     </div>
     <div class="card-connection">Apple Watch health monitoring feature update</div>
+    <div class="reaction-bar" data-item-id="cn-c5bf457a25" data-title="为心脏健康持续护航，Apple Watch 房颤迹象记录软件功能上线" data-url="https://sspai.com/post/107453" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.24}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -584,6 +891,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🔴 Urgent</span>
     </div>
     <div class="card-connection">Stellantis partnership negotiation news</div>
+    <div class="reaction-bar" data-item-id="cn-671bef71b0" data-title="玛莎拉蒂母公司Stellantis接洽小米小鹏投资？能双赢吗" data-url="http://www.huxiu.com/article/4842120.html?f=wangzhan" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.3}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -593,6 +910,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🔴 Urgent</span>
     </div>
     <div class="card-connection">TDSQL HBase compatibility performance</div>
+    <div class="reaction-bar" data-item-id="cn-e39881dbfa" data-title="兼容 HBase 不裁剪，TDSQL Boundless 性能拉满" data-url="https://www.infoq.cn/video/ZXcae7fUViD2NJxIBYSt?utm_source=rss&amp;utm_medium=article" data-category="Urgent" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.2, &quot;composite&quot;: 0.22}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div><div class="category-section"><h3 class="category-header">💼 Work <span class="cat-count">10</span></h3><div class="card card-l2">
   <div class="card-body">
@@ -602,6 +929,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">NVIDIA's NemoClaw GPU optimization framework directly supports the technical implementation layer Sean needs for his agent system's performance at scale.</div>
+    <div class="reaction-bar" data-item-id="rss-5a64136209" data-title="Nvidia NemoClaw" data-url="https://github.com/NVIDIA/NemoClaw" data-category="Work" data-l1="{&quot;relevance&quot;: 0.7, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.56}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -611,6 +948,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">Design critique on scroll fade aesthetics</div>
+    <div class="reaction-bar" data-item-id="rss-3dd82464a3" data-title="Death to Scroll Fade" data-url="https://dbushell.com/2026/01/09/death-to-scroll-fade/" data-category="Work" data-l1="{&quot;relevance&quot;: 0.8, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.5}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -620,6 +967,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">Benchmark for AI document understanding systems</div>
+    <div class="reaction-bar" data-item-id="rss-9ffa87d5f8" data-title="AIDABench: AI Data Analytics Benchmark" data-url="https://arxiv.org/abs/2603.15636" data-category="Work" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.36}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -629,6 +986,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">Cost-aware memory routing for multi-store agents directly addresses a specific implementation challenge Sean will face in his memory-augmented agent architecture—optimizing which memory stores to query and when.</div>
+    <div class="reaction-bar" data-item-id="rss-63c4463427" data-title="Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents" data-url="https://arxiv.org/abs/2603.15658" data-category="Work" data-l1="{&quot;relevance&quot;: 0.6, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.54}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -638,6 +1005,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">Industry AI role expansion trend</div>
+    <div class="reaction-bar" data-item-id="cn-08d8254a48" data-title="淘天开启2027届实习生招聘：岗位全面拥抱AI，新增3类AI岗位" data-url="https://www.qbitai.com/2026/03/388972.html" data-category="Work" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.28}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -647,6 +1024,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">Provides specific architectural reference for Sean's home automation integration plans and demonstrates practical agent orchestration with existing APIs.</div>
+    <div class="reaction-bar" data-item-id="cn-f7f4235456" data-title="打造我的「智能家」：使用 Claude Code 轻松使用 Home Assistant" data-url="https://sspai.com/post/106992" data-category="Work" data-l1="{&quot;relevance&quot;: 0.7, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.62}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -656,6 +1043,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">AI coding solutions community discussion</div>
+    <div class="reaction-bar" data-item-id="cn-c1be5a63e5" data-title="社区速递 133 | 派友热议 AI Coding 方案、西圣 Pencil X 平替笔体验" data-url="https://sspai.com/post/107466" data-category="Work" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.48}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -665,6 +1062,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">Lightweight OS testing automation toolkit</div>
+    <div class="reaction-bar" data-item-id="cn-4b3dd35c1e" data-title="OC 冒烟测试套件开源" data-url="https://www.oschina.net/news/411724" data-category="Work" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.4}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -674,6 +1081,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">Provides practical end-to-end agent data pipeline implementation guide, directly applicable to Sean's current work on Memory Agent architecture and the technical implementation details he's investigating.</div>
+    <div class="reaction-bar" data-item-id="cn-a96df29c0a" data-title="从零构建智能体：面向 AI 智能体的端到端数据管道搭建实战 ｜ 技术实践" data-url="https://www.infoq.cn/article/Q7g7WJDk9lBPGGmkMqqb?utm_source=rss&amp;utm_medium=article" data-category="Work" data-l1="{&quot;relevance&quot;: 0.8, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.68}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -683,6 +1100,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">💼 Work</span>
     </div>
     <div class="card-connection">NVIDIA's end-to-end agent development platform (desktop to enterprise) directly mirrors Sean's desire to move from prototype thinking to production-grade system architecture with clear implementation pathways.</div>
+    <div class="reaction-bar" data-item-id="cn-c1a5b74207" data-title="从桌面到企业：DGX 双系统搭配 NemoClaw，打造自主智能体全流程开发平台" data-url="https://www.infoq.cn/article/5XMEXakce56W4NdSp7kI?utm_source=rss&amp;utm_medium=article" data-category="Work" data-l1="{&quot;relevance&quot;: 0.7, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.58}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div><div class="category-section"><h3 class="category-header">🧠 Thinking <span class="cat-count">32</span></h3><div class="card card-l2">
   <div class="card-body">
@@ -692,6 +1119,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Logic reasoning in non-euclidean knowledge graphs</div>
+    <div class="reaction-bar" data-item-id="rss-45b251917f" data-title="Neural-Symbolic Logic Query Answering in Non-Euclidean Space" data-url="https://arxiv.org/abs/2603.15633" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.48}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -701,6 +1138,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Weight-shared recursive networks for complex reasoning</div>
+    <div class="reaction-bar" data-item-id="rss-9b5eae81e0" data-title="Form Follows Function: Recursive Stem Model" data-url="https://arxiv.org/abs/2603.15641" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.46}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -710,6 +1157,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Domain knowledge enhancement for infrastructure inspection</div>
+    <div class="reaction-bar" data-item-id="rss-2882ce9071" data-title="GSI Agent: Domain Knowledge Enhancement for Large Language Models in Green Stormwater Infrastructure" data-url="https://arxiv.org/abs/2603.15643" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.2, &quot;composite&quot;: 0.32}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -719,6 +1176,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Linguistic foundations of attention mechanisms provides theoretical grounding for understanding how LLMs process context—foundational knowledge for Sean's conceptual framework around AI understanding of human uniqueness.</div>
+    <div class="reaction-bar" data-item-id="rss-b81c3e7ab8" data-title="QV May Be Enough: Toward the Essence of Attention in LLMs" data-url="https://arxiv.org/abs/2603.15665" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.54}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -728,6 +1195,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Real-world deployment data on AI writing scaffolds shows concrete evidence that thoughtful cognitive scaffolding actually changes user behavior—directly relevant to Sean's aspiration of building things people actually use rather than prototypes.</div>
+    <div class="reaction-bar" data-item-id="rss-2f4858e9ae" data-title="Lessons from Real-World Deployment of a Cognition-Preserving Writing Tool: Students Actively Engage with Critical Thinking and Planning Affordances" data-url="https://arxiv.org/abs/2603.15777" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.6, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.56}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -737,6 +1214,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">ASR bias impact on user perception</div>
+    <div class="reaction-bar" data-item-id="rss-446a1bfcdb" data-title="Lost in Transcription: Subtitle Errors in Automatic Speech Recognition Reduce Speaker and Content Evaluations" data-url="https://arxiv.org/abs/2603.15807" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.34}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -746,6 +1233,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Hidden bias in AI decision support systems</div>
+    <div class="reaction-bar" data-item-id="rss-3c330c148d" data-title="Same Performance, Hidden Bias: Evaluating Hypothesis- and Recommendation-Driven AI" data-url="https://arxiv.org/abs/2603.15824" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.44}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -755,6 +1252,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Bridges Sean's user-centric design growth direction with his agent architecture thinking, surfacing that interfaces for AI systems require interpretative rather than explanatory design.</div>
+    <div class="reaction-bar" data-item-id="rss-da6cee7cfb" data-title="Interpretative Interfaces: Designing for AI-Mediated Reading Practices and the Knowledge Commons" data-url="https://arxiv.org/abs/2603.15863" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.6}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -764,6 +1271,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Generative AI legal risks and limitations</div>
+    <div class="reaction-bar" data-item-id="rss-92a2b5ee4a" data-title="Why Avoid Generative Legal AI Systems? Hallucination, Overreliance, and their Impact on Explainability" data-url="https://arxiv.org/abs/2603.15937" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.46}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -773,6 +1290,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">XR input modality tradeoffs and failure modes</div>
+    <div class="reaction-bar" data-item-id="rss-e2b464aee9" data-title="The Midas Touch in Gaze vs. Hand Pointing: Modality-Specific Failure Modes and Implications for XR Interfaces" data-url="https://arxiv.org/abs/2603.15991" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.48}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -782,6 +1309,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Accessibility through lived experience lens</div>
+    <div class="reaction-bar" data-item-id="rss-d5c456b3f5" data-title="Accessibility for Vestibular Disorders: How My Temporary Disability Changed My Perspective" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/Zw7tx-r5WA0/accessibility-for-vestibular" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.48}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -791,6 +1328,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">JavaScript performance implications architecture</div>
+    <div class="reaction-bar" data-item-id="rss-943217e378" data-title="Responsible JavaScript: Part I" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/No8RYIWCyvQ/responsible-javascript-part-1" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.42}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -800,6 +1347,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Screen reader semantic interpretation design</div>
+    <div class="reaction-bar" data-item-id="rss-6857c0c9da" data-title="Semantics to Screen Readers" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/2VWN4n_FhyE/semantics-to-screen-readers" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.5}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -809,6 +1366,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Measuring creative success beyond feeling</div>
+    <div class="reaction-bar" data-item-id="rss-4f0a4ba7d7" data-title="Designing for Conversions" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/PpJ7Dft25AM/designing-for-conversions" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.38}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -818,6 +1385,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Personalization UX design considerations framework</div>
+    <div class="reaction-bar" data-item-id="rss-4bcab5b8f4" data-title="UX in the Age of Personalization" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/6NWTbQuZ19M/emerging-ux-role-in-personalization" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.44}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -827,6 +1404,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Client-side JavaScript data processing patterns</div>
+    <div class="reaction-bar" data-item-id="rss-eaea8d7aba" data-title="Taming Data with JavaScript" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/iLSufDjBylw/taming-data-with-javascript" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.6, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.46}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -836,6 +1423,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Multi-modal interaction design principles</div>
+    <div class="reaction-bar" data-item-id="rss-c801dadde1" data-title="Designing for Interaction Modes" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/yU_aKmJHuYM/designing-for-interaction-modes" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.5}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -845,6 +1442,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">SaaS AI Agent transformation business model</div>
+    <div class="reaction-bar" data-item-id="cn-d26ac7e414" data-title="微盟集团2025年来自AI收入破亿，SaaS商业化找到新路径｜最前线" data-url="https://36kr.com/p/3728689823006343?f=rss" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.5}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -854,6 +1461,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Alibaba's enterprise agent philosophy about execution subjects shifting from human to AI echoes Sean's theoretical framework, providing validation at massive scale and revealing an unexplored domain (enterprise) for his system.</div>
+    <div class="reaction-bar" data-item-id="cn-c8287c51d5" data-title="2000万只“龙虾”进入企业，阿里的企业Agent新故事 | 最前线" data-url="https://36kr.com/p/3727395193388161?f=rss" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.7, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.8, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.8, &quot;composite&quot;: 0.74}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -863,6 +1480,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">AR hardware design problem-solving implementation</div>
+    <div class="reaction-bar" data-item-id="cn-c9b9687d51" data-title="36氪首发｜专注智能运动眼镜，「光粒科技」完成近亿元Pre-B轮融资" data-url="https://36kr.com/p/3726585094863236?f=rss" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.32}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -872,6 +1499,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Biotech equipment supply chain specialization</div>
+    <div class="reaction-bar" data-item-id="cn-a1272e11bb" data-title="小核酸药爆发在即，上游设备耗材供应商「聚海恒创」完成数千万元融资｜36氪首发" data-url="https://36kr.com/p/3725325152729736?f=rss" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.2, &quot;composite&quot;: 0.24}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -881,6 +1518,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">AI-assisted learning methodology framework</div>
+    <div class="reaction-bar" data-item-id="cn-1567c507ef" data-title="年度征文｜效率杂谈：告别纸笔拓荒，怎么用 AI 来辅助学习？" data-url="https://sspai.com/post/106878" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.5}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -890,6 +1537,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Travel experience design methodology</div>
+    <div class="reaction-bar" data-item-id="cn-d5b1743adc" data-title="年度征文｜为时间和精力埋单：我的旅行峰值体验塑造方法论" data-url="https://sspai.com/post/106217" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.32}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -899,6 +1556,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">AI panic and human capital scarcity</div>
+    <div class="reaction-bar" data-item-id="cn-fb8b9c8efc" data-title="重金求安装，连夜付费卸载：龙虾潮背后的焦虑" data-url="http://www.huxiu.com/article/4842273.html?f=wangzhan" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.42}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -908,6 +1575,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Buffett early career detailed analysis</div>
+    <div class="reaction-bar" data-item-id="cn-4fc7fc91bb" data-title="青年韭菜巴菲特？不做价投爱套利？预测行情遭打脸？分币不投骗资金？" data-url="http://www.huxiu.com/article/4841650.html?f=wangzhan" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.3}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -917,6 +1594,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Life philosophy aging without regrets</div>
+    <div class="reaction-bar" data-item-id="cn-d20f5db8c6" data-title="东北女性的飒爽哲学：人生啥时候开始都不晚" data-url="http://www.huxiu.com/article/4840656.html?f=wangzhan" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.0, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.28}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -926,6 +1613,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Agent architecture improvements in LLMs</div>
+    <div class="reaction-bar" data-item-id="cn-8f1f2a8994" data-title="腾讯混元新模型 HY 3.0 下月发布" data-url="https://www.oschina.net/news/411783" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.52}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -935,6 +1632,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Document layout analysis and multi-modal understanding relates to Sean's exploration of context-aware recording and memory capture—revealing how structured information extraction can improve content understanding.</div>
+    <div class="reaction-bar" data-item-id="cn-62232bfa77" data-title="智谱发布多模态模型 GLM-OCR 技术报告" data-url="https://www.oschina.net/news/411746" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.54}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -944,6 +1651,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">Registry governance and agent skill standardization directly addresses the architectural complexity Sean is designing into his multi-agent system, particularly the need for structured capability management across agents.</div>
+    <div class="reaction-bar" data-item-id="cn-059d5422ae" data-title="OpenClaw 不踩坑恶意 Skills，企业需要自己的 Skills Registry：Nacos 3.2 发布" data-url="https://my.oschina.net/u/3874284/blog/19224764" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.6, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.6}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -953,6 +1670,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">HIGH VALUE: Directly contradicts Sean's principle that AI evolution requires external social feedback by demonstrating self-directed model iteration through agent frameworks.</div>
+    <div class="reaction-bar" data-item-id="cn-0037a03bf5" data-title="MiniMax M2.7: 开启模型的自我进化" data-url="https://www.oschina.net/news/411666" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.8, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.66}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -962,6 +1689,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">TDSQL hybrid workload architecture</div>
+    <div class="reaction-bar" data-item-id="cn-6ae0c548ed" data-title="统一架构搞定 TP+AP 混合负载，TDSQL-B实时分析引擎三大核心价值一次讲清" data-url="https://www.infoq.cn/video/iWKMyl5ZCr4cvBcwNXC9?utm_source=rss&amp;utm_medium=article" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.36}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -971,6 +1708,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🧠 Thinking</span>
     </div>
     <div class="card-connection">TDSQL multimodal database capabilities</div>
+    <div class="reaction-bar" data-item-id="cn-d03311e496" data-title="多模态能力拆解，揭秘TDSQL Boundless的四大关键点" data-url="https://www.infoq.cn/video/UZXD8jU3Hadlce3L8OVS?utm_source=rss&amp;utm_medium=article" data-category="Thinking" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.4, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.34}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div><div class="category-section"><h3 class="category-header">🌱 Growth <span class="cat-count">13</span></h3><div class="card card-l2">
   <div class="card-body">
@@ -980,6 +1727,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Decentralized web exploration tool architecture</div>
+    <div class="reaction-bar" data-item-id="rss-fad910500e" data-title="A tiny, decentralised tool to explore the small web" data-url="https://codeberg.org/susam/wander" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.5, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.46}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -989,6 +1746,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Machine-to-machine payment protocol introduces an underexplored dimension—agent economic interactions—that could bridge Sean's agent communication model with actual value exchange between systems.</div>
+    <div class="reaction-bar" data-item-id="rss-9d6a86a196" data-title="Machine Payments Protocol (MPP)" data-url="https://stripe.com/blog/machine-payments-protocol" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.56}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -998,6 +1765,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Ultrasound HMI interface modality exploration</div>
+    <div class="reaction-bar" data-item-id="rss-549334f399" data-title="Parameter-Efficient Deep Learning for Ultrasound-Based Human-Machine Interfaces" data-url="https://arxiv.org/abs/2603.15625" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.38}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1007,6 +1784,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Text-visualization synthesis for communication design</div>
+    <div class="reaction-bar" data-item-id="rss-20a1ba145c" data-title="The Evolving Duet of Two Modalities: A Survey on Integrating Text and Visualization for Data Communication" data-url="https://arxiv.org/abs/2603.15640" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.48}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1016,6 +1803,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Accessible captioning design for neurodiversity</div>
+    <div class="reaction-bar" data-item-id="rss-cdd3564335" data-title="Adaptive Captioning with Emotional Cues: Supporting DHH and Neurodivergent Learners in STEM" data-url="https://arxiv.org/abs/2603.15977" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.4, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.48}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1025,6 +1822,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Psychology principles informing browser design</div>
+    <div class="reaction-bar" data-item-id="rss-5ce60d78a9" data-title="Paint the Picture, Not the Frame: How Browsers Provide Everything Users Need" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/2DiF9aUHrmA/paint-the-picture-not-the-frame" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.44}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1034,6 +1841,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Direct alignment with Sean's core project vision of voice-based interaction and structured content integration, matching his active exploration of voice agent architecture.</div>
+    <div class="reaction-bar" data-item-id="rss-5efcdd906b" data-title="Conversations with Robots: Voice, Smart Agents &amp;amp; the Case for Structured Content" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/kr5tkl-hL5o/conversations-with-robots" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.7, &quot;novelty&quot;: 0.7, &quot;actionability&quot;: 0.8, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.66}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1043,6 +1860,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">AI vehicle design integration strategy</div>
+    <div class="reaction-bar" data-item-id="cn-5609e9666d" data-title="小牛电动举办2026科技新品发布会，开启“造AI好车”新十年" data-url="https://www.qbitai.com/2026/03/388959.html" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.28}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1052,6 +1879,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Extends Sean's embodied agent concept from digital to physical interaction, creating practical instantiation of his theoretical multi-purpose digital twin thinking.</div>
+    <div class="reaction-bar" data-item-id="cn-41e6ba7f7f" data-title="从“养虾热”到实体交互：元萝卜推动OpenClaw走向真实世界" data-url="https://www.qbitai.com/2026/03/388701.html" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.7, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.62}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1061,6 +1898,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Design synthesis bridging digital and physical</div>
+    <div class="reaction-bar" data-item-id="cn-a963e7ba58" data-title="投票开启｜BeatBox 盖板设计实录：用一块透明亚克力，把奇妙灵感凝成实体" data-url="https://sspai.com/post/106917" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.52}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1070,6 +1917,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">GPU to AI dominance strategic shift</div>
+    <div class="reaction-bar" data-item-id="cn-72d59ddfee" data-title="黄仁勋又来送“致富指南”了？" data-url="http://www.huxiu.com/article/4842211.html?f=wangzhan" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.5, &quot;actionability&quot;: 0.6, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.44}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1079,6 +1936,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">AI integration across consumer products</div>
+    <div class="reaction-bar" data-item-id="cn-87e679532d" data-title="逛了一天AWE，我突然发现原来这些未来AI黑科技离我们这么近" data-url="http://www.huxiu.com/article/4842566.html?f=wangzhan" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.5, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.38}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1088,6 +1955,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌱 Growth</span>
     </div>
     <div class="card-connection">Multimodal databases for AI era</div>
+    <div class="reaction-bar" data-item-id="cn-8c610791be" data-title="TDSQL Boundless：AI时代的多模态数据库" data-url="https://www.infoq.cn/article/foslK73gb4vm9PmKdezs?utm_source=rss&amp;utm_medium=article" data-category="Growth" data-l1="{&quot;relevance&quot;: 0.3, &quot;novelty&quot;: 0.6, &quot;actionability&quot;: 0.7, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.52}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div><div class="category-section"><h3 class="category-header">🌍 World <span class="cat-count">15</span></h3><div class="card card-l2">
   <div class="card-body">
@@ -1097,6 +1974,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Privacy policy surveillance implications</div>
+    <div class="reaction-bar" data-item-id="rss-f31f2ce251" data-title="FBI is buying location data to track US citizens, director confirms" data-url="https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.4}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1106,6 +1993,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Geopolitical threat and labor arbitrage</div>
+    <div class="reaction-bar" data-item-id="rss-96c83465ab" data-title="North Korean's 100k fake IT workers net $500M a year for Kim" data-url="https://www.theregister.com/2026/03/18/researchers_lift_the_lid_on/" data-category="World" data-l1="{&quot;relevance&quot;: 0.0, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.32}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1115,6 +2012,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Government cloud infrastructure security approval</div>
+    <div class="reaction-bar" data-item-id="rss-787584ad66" data-title="Despite Doubts, Federal Cyber Experts Approved Microsoft Cloud Service" data-url="https://www.propublica.org/article/microsoft-cloud-fedramp-cybersecurity-government" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.6, &quot;source_quality&quot;: 0.7, &quot;composite&quot;: 0.4}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1124,6 +2031,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Machine translation social media adoption patterns</div>
+    <div class="reaction-bar" data-item-id="rss-9bfcbc53e0" data-title="Machine Translation in the Wild: User Reaction to Xiaohongshu's Built-In Translation Feature" data-url="https://arxiv.org/abs/2603.15922" data-category="World" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.36}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1133,6 +2050,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Tech platforms enabling hate speech</div>
+    <div class="reaction-bar" data-item-id="rss-7c22355078" data-title="Canary in a Coal Mine: How Tech Provides Platforms for Hate" data-url="http://feedproxy.google.com/~r/alistapart/main/~3/frLViehpDBk/canary-in-a-coal-mine-how-tech-provides-platforms-for-hate" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.28}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1142,6 +2069,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Entertainment news irrelevant</div>
+    <div class="reaction-bar" data-item-id="cn-f2185971ee" data-title="担心被曝“于谦门”，57岁的于谦到底用龙虾做了什么？" data-url="https://www.qbitai.com/2026/03/389004.html" data-category="World" data-l1="{&quot;relevance&quot;: 0.0, &quot;novelty&quot;: 0.0, &quot;actionability&quot;: 0.0, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.2, &quot;composite&quot;: 0.14}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1151,6 +2088,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Retail business growth financial performance</div>
+    <div class="reaction-bar" data-item-id="cn-bcfd5c8bf9" data-title="一年卖出515亿，万辰集团怎么做到的？" data-url="https://36kr.com/p/3728249171295363?f=rss" data-category="World" data-l1="{&quot;relevance&quot;: 0.0, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.0, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.18}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1160,6 +2107,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Hardware components semiconductor innovation funding</div>
+    <div class="reaction-bar" data-item-id="cn-25a774cb3b" data-title="36氪首发 | 高能粒子应用核心部件公司完成超亿元融资，加速高端仪器、半导体领域国产替代" data-url="https://36kr.com/p/3727812168367238?f=rss" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.26}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1169,6 +2126,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Camera review and aesthetic discussion</div>
+    <div class="reaction-bar" data-item-id="cn-566f60f3bd" data-title="越过参数的凝视：哈苏 X2D II 100C 漫谈" data-url="https://sspai.com/post/106734" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.1, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.18}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1178,6 +2145,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Travel photography and seasonal narrative</div>
+    <div class="reaction-bar" data-item-id="cn-6fcfb990b3" data-title="年度征文 | 冬游九寨，或许这个季节更适合叙述她的美" data-url="https://sspai.com/post/106439" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.1, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.2}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1187,6 +2164,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Defense contractor history patterns</div>
+    <div class="reaction-bar" data-item-id="cn-180853bedf" data-title="看完洛·马发家史，才明白世界是个草台班子" data-url="http://www.huxiu.com/article/4842887.html?f=wangzhan" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.6, &quot;composite&quot;: 0.32}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1196,6 +2183,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Wagon car market challenges China</div>
+    <div class="reaction-bar" data-item-id="cn-555a95a068" data-title="广汽想借华为“摸鱼”，不过还是有四个难题" data-url="http://www.huxiu.com/article/4842652.html?f=wangzhan" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.2, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.5, &quot;source_quality&quot;: 0.4, &quot;composite&quot;: 0.3}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1205,6 +2202,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Older housing market decision framework</div>
+    <div class="reaction-bar" data-item-id="cn-fcb205d81b" data-title="老破小正在回暖，还是被抛弃？" data-url="http://www.huxiu.com/article/4841654.html?f=wangzhan" data-category="World" data-l1="{&quot;relevance&quot;: 0.0, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.1, &quot;timeliness&quot;: 0.3, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.24}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1214,6 +2221,16 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Habit tracking gamification updates</div>
+    <div class="reaction-bar" data-item-id="cn-9d3fdc3940" data-title="Habitica v5.46.4 发布，习惯养成游戏" data-url="https://www.oschina.net/news/411762/habitica-5-46-4-released" data-category="World" data-l1="{&quot;relevance&quot;: 0.2, &quot;novelty&quot;: 0.3, &quot;actionability&quot;: 0.2, &quot;timeliness&quot;: 0.2, &quot;source_quality&quot;: 0.3, &quot;composite&quot;: 0.24}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div><div class="card card-l2">
   <div class="card-body">
@@ -1223,12 +2240,115 @@ a:hover { text-decoration: underline; }
       <span class="card-cat">🌍 World</span>
     </div>
     <div class="card-connection">Open source security funding initiative</div>
+    <div class="reaction-bar" data-item-id="cn-287788d0b2" data-title="谷歌、微软、OpenAI 等向 Linux 基金会捐赠 1250 万美元" data-url="https://www.oschina.net/news/411668/linux-foundation-12-5-million" data-category="World" data-l1="{&quot;relevance&quot;: 0.1, &quot;novelty&quot;: 0.4, &quot;actionability&quot;: 0.3, &quot;timeliness&quot;: 0.4, &quot;source_quality&quot;: 0.5, &quot;composite&quot;: 0.34}" data-rank="None">
+  <button class="rx-btn" data-rx="like" title="Like">&#x1F44D;</button>
+  <button class="rx-btn" data-rx="dislike" title="Dislike">&#x1F44E;</button>
+  <button class="rx-btn" data-rx="save" title="Save to memory">&#x2B50;</button>
+  <button class="rx-btn" data-rx="thought" title="Add a thought">&#x1F4AC;</button>
+  <div class="rx-input" style="display:none">
+    <input type="text" placeholder="Why? (optional)" class="rx-text" />
+    <button class="rx-send">Send</button>
+  </div>
+</div>
   </div>
 </div></div>
   <div class="footer">
     Digital Me — Information Agent · Interface Agent<br>
-    Generated 2026-03-22 03:33 UTC
+    Generated 2026-03-22 03:49 UTC
   </div>
 </div>
+<script>
+(function() {
+  var API = 'https://information-agent-production.up.railway.app';
+  var today = new Date().toISOString().slice(0, 10);
+  var reacted = {};
+
+  // Restore reactions on page load
+  fetch(API + '/reactions/' + today)
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      (data.reactions || []).forEach(function(rx) {
+        var key = rx.item_id + ':' + rx.reaction;
+        reacted[key] = true;
+        var bars = document.querySelectorAll('.reaction-bar[data-item-id="' + rx.item_id + '"]');
+        bars.forEach(function(bar) {
+          var btn = bar.querySelector('[data-rx="' + rx.reaction + '"]');
+          if (btn) btn.classList.add('active');
+        });
+      });
+    })
+    .catch(function() {});
+
+  // Handle button clicks
+  document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.rx-btn');
+    if (!btn) return;
+
+    var bar = btn.closest('.reaction-bar');
+    if (!bar) return;
+
+    var rx = btn.getAttribute('data-rx');
+    var itemId = bar.getAttribute('data-item-id');
+    var key = itemId + ':' + rx;
+
+    // Toggle off
+    if (reacted[key]) {
+      btn.classList.remove('active');
+      delete reacted[key];
+      return;
+    }
+
+    // Optimistic UI
+    btn.classList.add('active');
+    reacted[key] = true;
+
+    // Show text input for dislike (optional) or thought (required)
+    if (rx === 'dislike' || rx === 'thought') {
+      var inp = bar.querySelector('.rx-input');
+      if (inp) {
+        inp.style.display = 'flex';
+        inp.querySelector('.rx-text').placeholder = rx === 'thought' ? 'Your thought...' : 'Why? (optional)';
+        inp.querySelector('.rx-text').focus();
+        inp.querySelector('.rx-send').onclick = function() {
+          var text = inp.querySelector('.rx-text').value;
+          inp.style.display = 'none';
+          sendReaction(bar, rx, text);
+        };
+        if (rx === 'dislike') {
+          // Allow skipping reason for dislike
+          setTimeout(function() {
+            if (inp.style.display === 'flex' && !inp.querySelector('.rx-text').value) {
+              // Auto-send after 5s if no input
+            }
+          }, 5000);
+        }
+        return;
+      }
+    }
+
+    sendReaction(bar, rx, null);
+  });
+
+  function sendReaction(bar, rx, text) {
+    var payload = {
+      item_id: bar.getAttribute('data-item-id'),
+      title: bar.getAttribute('data-title'),
+      url: bar.getAttribute('data-url'),
+      reaction: rx,
+      source_category: bar.getAttribute('data-category'),
+      l2_rank: bar.getAttribute('data-rank') || null
+    };
+    try { payload.l1_scores = JSON.parse(bar.getAttribute('data-l1') || '{}'); } catch(e) { payload.l1_scores = {}; }
+    if (rx === 'dislike' && text) payload.reason = text;
+    if (rx === 'thought' && text) payload.text = text;
+
+    fetch(API + '/reactions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).catch(function(err) { console.log('Reaction failed:', err); });
+  }
+})();
+</script>
 </body>
 </html>
