@@ -2254,7 +2254,7 @@ a:hover { text-decoration: underline; }
 </div></div>
   <div class="footer">
     Digital Me — Information Agent · Interface Agent<br>
-    Generated 2026-03-22 03:49 UTC
+    Generated 2026-03-22 04:06 UTC
   </div>
 </div>
 <script>
@@ -2279,6 +2279,23 @@ a:hover { text-decoration: underline; }
     })
     .catch(function() {});
 
+  // Helper: hide input bar and clear text
+  function hideInput(bar) {
+    var inp = bar.querySelector('.rx-input');
+    if (inp) { inp.style.display = 'none'; inp.querySelector('.rx-text').value = ''; }
+  }
+
+  // Helper: deselect a button by rx type
+  function deselectBtn(bar, itemId, rxType) {
+    var key = itemId + ':' + rxType;
+    if (reacted[key]) {
+      delete reacted[key];
+      var b = bar.querySelector('[data-rx="' + rxType + '"]');
+      if (b) b.classList.remove('active');
+      if (rxType === 'dislike' || rxType === 'thought') hideInput(bar);
+    }
+  }
+
   // Handle button clicks
   document.addEventListener('click', function(e) {
     var btn = e.target.closest('.rx-btn');
@@ -2295,15 +2312,29 @@ a:hover { text-decoration: underline; }
     if (reacted[key]) {
       btn.classList.remove('active');
       delete reacted[key];
+      if (rx === 'dislike' || rx === 'thought') hideInput(bar);
       return;
     }
 
-    // Optimistic UI
+    // Exclusivity rules:
+    // Dislike is exclusive — deselect all positive buttons
+    if (rx === 'dislike') {
+      deselectBtn(bar, itemId, 'like');
+      deselectBtn(bar, itemId, 'save');
+      deselectBtn(bar, itemId, 'thought');
+    }
+    // Any positive button deselects dislike
+    if (rx === 'like' || rx === 'save' || rx === 'thought') {
+      deselectBtn(bar, itemId, 'dislike');
+    }
+
+    // Activate
     btn.classList.add('active');
     reacted[key] = true;
 
-    // Show text input for dislike (optional) or thought (required)
+    // Show text input for dislike or thought (only one at a time)
     if (rx === 'dislike' || rx === 'thought') {
+      hideInput(bar);  // close any existing input first
       var inp = bar.querySelector('.rx-input');
       if (inp) {
         inp.style.display = 'flex';
@@ -2311,17 +2342,9 @@ a:hover { text-decoration: underline; }
         inp.querySelector('.rx-text').focus();
         inp.querySelector('.rx-send').onclick = function() {
           var text = inp.querySelector('.rx-text').value;
-          inp.style.display = 'none';
+          hideInput(bar);
           sendReaction(bar, rx, text);
         };
-        if (rx === 'dislike') {
-          // Allow skipping reason for dislike
-          setTimeout(function() {
-            if (inp.style.display === 'flex' && !inp.querySelector('.rx-text').value) {
-              // Auto-send after 5s if no input
-            }
-          }, 5000);
-        }
         return;
       }
     }
