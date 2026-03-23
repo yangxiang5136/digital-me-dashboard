@@ -1772,13 +1772,14 @@ a:hover { text-decoration: underline; }
 </div></div>
   <div class="footer">
     Digital Me — Information Agent · Interface Agent<br>
-    Generated 2026-03-23 00:38 UTC
+    Generated 2026-03-23 00:44 UTC
   </div>
 </div>
 <script>
 (function() {
   var API = 'https://information-agent-production.up.railway.app';
-  var today = new Date().toISOString().slice(0, 10);
+  var digestDate = '2026-03-22';
+  var today = digestDate;
   var reacted = {};
 
   // Restore reactions on page load
@@ -1877,6 +1878,7 @@ a:hover { text-decoration: underline; }
       title: bar.getAttribute('data-title'),
       url: bar.getAttribute('data-url'),
       reaction: rx,
+      digest_date: digestDate,
       source_category: bar.getAttribute('data-category'),
       l2_rank: bar.getAttribute('data-rank') || null
     };
