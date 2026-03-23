@@ -1772,7 +1772,7 @@ a:hover { text-decoration: underline; }
 </div></div>
   <div class="footer">
     Digital Me — Information Agent · Interface Agent<br>
-    Generated 2026-03-22 20:34 UTC
+    Generated 2026-03-23 00:30 UTC
   </div>
 </div>
 <script>
@@ -1859,7 +1859,8 @@ a:hover { text-decoration: underline; }
         inp.querySelector('.rx-text').placeholder = rx === 'thought' ? 'Your thought...' : 'Why? (optional)';
         inp.querySelector('.rx-text').focus();
         inp.querySelector('.rx-send').onclick = function() {
-          var text = inp.querySelector('.rx-text').value;
+          var text = inp.querySelector('.rx-text').value.trim();
+          if (rx === 'thought' && !text) { return; }
           hideInput(bar);
           sendReaction(bar, rx, text);
         };
