@@ -299,18 +299,10 @@ a:hover { text-decoration: underline; }
   color: #0E0C0A; background: var(--warm); border-color: var(--warm); font-weight: 600;
 }
 
-/* 评分 (rating) — collapse columns into one global ranked list */
-.flat-list { display: none; }
-.flat-list .card-ranked, .flat-list .card-l2 { margin-bottom: 12px; }
-.news-grid[data-sort="rating"] {
-  display: block; max-width: 760px; margin: 0 auto; overflow: visible;
-}
-.news-grid[data-sort="rating"] .column,
-.news-grid[data-sort="rating"] .col-anchor { display: none; }
-.news-grid[data-sort="rating"] .flat-list { display: block; }
-
-/* Surprise — hide the editorial anchor column (relevance picks are the
-   opposite of break-the-bubble); category columns are reordered via JS */
+/* 评分 (rating) & Surprise both keep the column grid and hide the editorial
+   anchor column; JS reorders the category columns (by score / by engagement).
+   Within-column item order stays rating-descending from the default render. */
+.news-grid[data-sort="rating"] .col-anchor,
 .news-grid[data-sort="surprise"] .col-anchor { display: none; }
 </style>
 </head>
@@ -3430,7 +3422,7 @@ a:hover { text-decoration: underline; }
 
   <div class="footer">
     Digital Me — Information Agent · Interface Agent<br>
-    Generated 2026-05-30 21:28 UTC
+    Generated 2026-05-30 21:40 UTC
   </div>
 </div>
 <script>
@@ -3465,7 +3457,6 @@ a:hover { text-decoration: underline; }
     if (!grid) return;
     grid.addEventListener('wheel', function(event) {
       if (window.matchMedia('(max-width: 767px)').matches) return;
-      if (grid.getAttribute('data-sort') === 'rating') return;  // flat list — no column snap
       var delta = horizontalIntent(event);
       if (!delta) return;
       event.preventDefault();
@@ -3623,28 +3614,24 @@ a:hover { text-decoration: underline; }
     col.setAttribute('data-col-default', ci);
     Array.prototype.forEach.call(col.querySelectorAll('.card'), function(card, idx) {
       card.setAttribute('data-card-default', idx);
-      card.setAttribute('data-home-col', ci);
     });
   });
-
-  // Single-list container used by the 评分 (rating) mode.
-  var flat = document.createElement('div');
-  flat.className = 'flat-list';
-  grid.appendChild(flat);
 
   function isAnchor(col) { return col.classList.contains('col-anchor'); }
   function num(el, attr) { return parseFloat(el.getAttribute(attr)) || 0; }
 
+  // Move the given columns to the end of the grid in order — reorders the
+  // visible columns. Moves existing nodes only (state preserved). The anchor
+  // column, when not included, keeps its position and is hidden via CSS.
+  function orderColumns(ordered) {
+    ordered.forEach(function(col) { grid.appendChild(col); });
+  }
+
   function restoreDefault() {
-    // Pull any flattened cards back to their home column.
-    Array.prototype.forEach.call(flat.querySelectorAll('.card'), function(card) {
-      var home = columns[parseInt(card.getAttribute('data-home-col'), 10)];
-      if (home) home.appendChild(card);
-    });
     // Restore column order (anchor included), then card order within each.
-    columns.slice().sort(function(a, b) {
+    orderColumns(columns.slice().sort(function(a, b) {
       return num(a, 'data-col-default') - num(b, 'data-col-default');
-    }).forEach(function(col) { grid.insertBefore(col, flat); });
+    }));
     columns.forEach(function(col) {
       Array.prototype.slice.call(col.querySelectorAll('.card')).sort(function(a, b) {
         return num(a, 'data-card-default') - num(b, 'data-card-default');
@@ -3653,15 +3640,21 @@ a:hover { text-decoration: underline; }
   }
 
   function applyRating() {
-    // Anchor column is hidden in rating mode, so flattening the remaining
-    // columns yields each item exactly once — no dedupe needed.
-    var cards = [];
-    columns.forEach(function(col) {
-      if (isAnchor(col)) return;
-      Array.prototype.forEach.call(col.querySelectorAll('.card'), function(c) { cards.push(c); });
-    });
-    cards.sort(function(a, b) { return num(b, 'data-rating') - num(a, 'data-rating'); });
-    cards.forEach(function(c) { flat.appendChild(c); });
+    // Keep the column grid; order the category columns by their best item
+    // rating (highest-scoring category first). Within each column the cards
+    // are already in rating-descending order from the default render. The
+    // editorial anchor is hidden via CSS.
+    var nonAnchor = columns.filter(function(c) { return !isAnchor(c); });
+    function colScore(col) {
+      var max = 0;
+      Array.prototype.forEach.call(col.querySelectorAll('.card'), function(c) {
+        var r = num(c, 'data-rating'); if (r > max) max = r;
+      });
+      return max;
+    }
+    orderColumns(nonAnchor.slice().sort(function(a, b) {
+      return colScore(b) - colScore(a) || num(a, 'data-col-default') - num(b, 'data-col-default');
+    }));
   }
 
   function applySurprise() {
@@ -3671,8 +3664,7 @@ a:hover { text-decoration: underline; }
       // Unknown categories keep their default relative position, after known ones.
       return i < 0 ? ENGAGEMENT.length + num(col, 'data-col-default') : i;
     }
-    nonAnchor.slice().sort(function(a, b) { return rank(a) - rank(b); })
-      .forEach(function(col) { grid.insertBefore(col, flat); });
+    orderColumns(nonAnchor.slice().sort(function(a, b) { return rank(a) - rank(b); }));
     // Float pipeline-flagged surprise items to the top within each column.
     nonAnchor.forEach(function(col) {
       var surprises = Array.prototype.slice.call(col.querySelectorAll('.card[data-surprise="1"]'));
