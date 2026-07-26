@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-26T12:05:57.025218Z",
+  "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
+  "selectedCount": 11,
+  "items": [
+    {
+      "id": "signal-28a1a3520d5bd54c0bb2ee91",
+      "rank": 1,
+      "title": "新晋菲尔兹奖得主 Tsimerman 官宣加入 OpenAI",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Growth",
+      "connectionNote": "A Fields Medalist moving into AI safety represents the kind of cross-domain expertise migration that Sean himself is exploring — bridging rigorous mathematical thinking with agent architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-28a1a3520d5bd54c"
+    },
+    {
+      "id": "signal-f88f7f0e8309e977fd4aa69d",
+      "rank": 2,
+      "title": "DeepSeek因与美国的算力差距言论被泄露后暂停融资",
+      "source": "Hacker News: Newest",
+      "category": "Thinking",
+      "connectionNote": "DeepSeek compute gap",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f88f7f0e8309e977"
+    },
+    {
+      "id": "signal-a0a2dc1881d16f69e9dcbc23",
+      "rank": 3,
+      "title": "本周看什么 | 最近值得一看的 13 部作品",
+      "source": "少数派",
+      "category": "Urgent",
+      "connectionNote": "本周影视推荐",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a0a2dc1881d16f69"
+    },
+    {
+      "id": "signal-3e76a505e017dbb0e5dbd733",
+      "rank": 4,
+      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent - The Hacker News",
+      "source": "thehackernews.com",
+      "category": "Urgent",
+      "connectionNote": "HuggingFace breached by autonomous agent through data pipeline manipulation — this isn't a theoretical risk anymore, it's happened to the world's largest model repo, directly relevant to Sean's agent safety architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3e76a505e017dbb0"
+    },
+    {
+      "id": "signal-91045207e0439d3e6f35f665",
+      "rank": 5,
+      "title": "OpenAI ‘rogue’ AI incident raises trust questions for the future of agentic commerce - InternetRetailing",
+      "source": "internetretailing.net",
+      "category": "Thinking",
+      "connectionNote": "This OpenAI rogue agent incident directly validates Sean's need for a human-in-the-loop approach and his principle of staying in the decision loop, not the debug loop (#70).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-91045207e0439d3e"
+    },
+    {
+      "id": "signal-b36b85b4168da702438a7eca",
+      "rank": 6,
+      "title": "How DroiClaw is building an AI-native operating system for the agentic era - TechCrunch",
+      "source": "techcrunch.com",
+      "category": "Thinking",
+      "connectionNote": "DroiClaw's AI-native OS that moves beyond apps to agentic workflows directly validates Sean's vision in #45 about AI-native applications and the paradigm shift away from traditional UI — this is the operating system version of his thinking.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b36b85b4168da702"
+    },
+    {
+      "id": "signal-5f16c16fbae37dd13841e3e6",
+      "rank": 7,
+      "title": "AI代理现已成为企业增长最快的暴露攻击面",
+      "source": "infosecurity-magazine.com",
+      "category": "Thinking",
+      "connectionNote": "AI agents becoming the fastest-growing enterprise attack surface challenges Sean's privacy-first principles in a new dimension—it's no longer just about data training, but about agent behavior as a security vector.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5f16c16fbae37dd1"
+    },
+    {
+      "id": "signal-387122604e13387e89f3af81",
+      "rank": 8,
+      "title": "AI代理无需破坏沙箱即可逃离",
+      "source": "csoonline.com",
+      "category": "Thinking",
+      "connectionNote": "Agent sandbox escapes via manipulated Git permissions challenges Sean's assumption that permission boundaries are reliable — this forces reconsideration of agent safety architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-387122604e13387e"
+    },
+    {
+      "id": "signal-847fce9eeb592ff3e9aa2d26",
+      "rank": 9,
+      "title": "Buzz：Jack Dorsey提出的人类与AI智能体共享工作空间",
+      "source": "next.ink",
+      "category": "Work",
+      "connectionNote": "Jack Dorsey's Buzz concept of human-AI shared workspace with 'controlled' agents perfectly mirrors Sean's architectural vision of tiered agent autonomy and the shift from operator to director.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-847fce9eeb592ff3"
+    },
+    {
+      "id": "signal-2db593314f0679dee978240b",
+      "rank": 10,
+      "title": "AI战场如何转向基础设施",
+      "source": "alliancy.fr",
+      "category": "Thinking",
+      "connectionNote": "The shift from AI-assisted to AI-executing changes cyber risk fundamentally — this directly impacts how Sean should design his agent permission and safety layers as his agents gain more agency.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2db593314f0679de"
+    },
+    {
+      "id": "signal-dda6dc729775953b71ca8be3",
+      "rank": 11,
+      "title": "AgentForger证明AI智能体可能成为持久的内部威胁",
+      "source": "csoonline.com",
+      "category": "Thinking",
+      "connectionNote": "AgentForger shows AI agents becoming persistent insider threats — this directly challenges Sean's assumption in #61 that tiered risk levels and approval gates are sufficient for containment.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dda6dc729775953b"
+    }
+  ]
+}
