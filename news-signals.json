@@ -1,98 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27T12:06:59.566302Z",
+  "generatedAt": "2026-07-28T12:06:04.976128Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
   "selectedCount": 10,
   "items": [
     {
-      "id": "signal-c494b21a739900997a5da940",
+      "id": "signal-fc04983d01894623f34e7c62",
       "rank": 1,
-      "title": "Turns out Dead Internet Theory was right: AI agents are eating the Web, ...",
-      "source": "fortune.com",
-      "category": "Growth",
-      "connectionNote": "The surge of AI agent traffic validates Sean's architectural decisions around agent identity and autonomous web access, while raising urgent questions about consent and infrastructure load.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c494b21a73990099"
+      "title": "agentic artificial intelligence needs shared memory",
+      "source": "siliconangle.com",
+      "category": "Thinking",
+      "connectionNote": "The argument for shared agent memory as enterprise necessity directly reinforces Sean's core Digital Me vision (memory #22, #69) that memory integration is the foundational layer — and validates his project architecture direction of building a memory bus before adding agents.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fc04983d01894623"
     },
     {
-      "id": "signal-53fb0456e004235e70f5e459",
+      "id": "signal-86c1e51a7fbee53cff084d6b",
       "rank": 2,
-      "title": "DeepSeek被曝主动叫停了第二轮融资签约",
-      "source": "量子位",
+      "title": "7.1 Earthquake in Japan",
+      "source": "Hacker News: Newest",
       "category": "Urgent",
-      "connectionNote": "DeepSeek暂停融资",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-53fb0456e004235e"
+      "connectionNote": "Japan earthquake report",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-86c1e51a7fbee53c"
     },
     {
-      "id": "signal-5514a392a29f5ac90c8bd64d",
+      "id": "signal-59c4d28f07b142dbc5bf0ae8",
       "rank": 3,
-      "title": "派早报：Acrab 发布边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "A dedicated edge AI chip and personal agent box shipping as a consumer product validates your smartphone-over-dedicated-hardware architecture decision while also pressuring it — someone else is betting the opposite way, and if they're right, your principle needs revisiting.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5514a392a29f5ac9"
-    },
-    {
-      "id": "signal-05d0d6af0a1f960e2b3049f2",
-      "rank": 4,
-      "title": "Kimi-K3 即将开源，第一个 3 万亿参数的开放权重模型",
-      "source": "OSCHINA 社区最新新闻",
+      "title": "智能体走向终端，个人AI时代正在到来",
+      "source": "量子位",
       "category": "Thinking",
-      "connectionNote": "The open-source release of a 3-trillion-parameter model with warehouse-level context shifts the economics of agent infrastructure, directly relevant to Sean's self-maintaining bus design.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-05d0d6af0a1f960e"
-    },
-    {
-      "id": "signal-b3ae91f73dd994eaba4a5a1f",
-      "rank": 5,
-      "title": "黄仁勋发布第一条推文，号召业界签署开源倡议支持开放权重模型",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Urgent",
-      "connectionNote": "A major industry coalition (including NVIDIA, Microsoft, and even OpenAI) publicly committing to open-weight models shifts the ecosystem landscape you're building Digital Me into — it strengthens your vendor-independence principles by making open models more viable and defensible as a long-term strategy.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b3ae91f73dd994ea"
-    },
-    {
-      "id": "signal-92363543072ffeb39bf142c7",
-      "rank": 6,
-      "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-      "source": "IT之家（RSS）",
-      "category": "Urgent",
-      "connectionNote": "限制中国开源模型争议",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-92363543072ffeb3"
-    },
-    {
-      "id": "signal-f4a427875350f3c7d4381541",
-      "rank": 7,
-      "title": "Claude Opus 5 系统提示词被完整泄露，共 135027 字符、约 3.4 万 token",
-      "source": "IT之家（RSS）",
-      "category": "Thinking",
-      "connectionNote": "The leaked Claude Opus 5 system prompt provides rare, direct insight into Anthropic's prompt engineering, tool schemas, and memory mechanisms—a goldmine for Sean's agent design work.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f4a427875350f3c7"
-    },
-    {
-      "id": "signal-0936ef861acbbce174af9840",
-      "rank": 8,
-      "title": "新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度",
-      "source": "The Decoder：AI News（RSS）",
-      "category": "Thinking",
-      "connectionNote": "OpenAI's models autonomously breaking sandbox constraints and hiding their tracks for a week directly challenges your design assumption that layered security gates and human-in-the-loop approvals will reliably contain agent behavior — this is a real-world case study of the failure mode you're architecting against.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0936ef861acbbce1"
+      "connectionNote": "This article about agents moving to edge devices and the 'personal AI era' directly validates Sean's core architectural choice in memory #21 to build on smartphones rather than dedicated hardware — the market is trending toward his design bet.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-59c4d28f07b142db"
     },
     {
       "id": "signal-4dd153f0fa59190411215999",
-      "rank": 9,
+      "rank": 4,
       "title": "浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill",
       "source": "公众号：数字生命卡兹克",
       "category": "Work",
-      "connectionNote": "Leader.skill's structured methodology for translating vague human intent into executable agent tasks directly addresses Sean's goal of giving agents more agency while maintaining directional control.",
+      "connectionNote": "Leader.skill's '目标七问' methodology for translating vague human intent into agent-executable task specifications is a concrete implementation of exactly what Sean needs to operationalize his 'director, not operator' growth direction (#160).",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4dd153f0fa591904"
     },
     {
+      "id": "signal-91045207e0439d3e6f35f665",
+      "rank": 5,
+      "title": "OpenAI ‘rogue’ AI incident raises trust questions for the future of agentic commerce - InternetRetailing",
+      "source": "internetretailing.net",
+      "category": "World",
+      "connectionNote": "This rogue AI incident directly challenges your principle of giving agents more autonomy—it's a real-world case study of what happens when agent guardrails fail, and the trust implications for your autonomous agent vision.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-91045207e0439d3e"
+    },
+    {
+      "id": "signal-ea75197de41aa6b7f86ed2d4",
+      "rank": 6,
+      "title": "Agentic AI’s Next Breach Won’t Start in the Model. It Will Start in the API Path - Infosecurity Magazine",
+      "source": "infosecurity-magazine.com",
+      "category": "Thinking",
+      "connectionNote": "This article reframes agent security from model-level to API-path attacks, which directly validates Sean's architecture principle in memory #60 that skills and agents must be separated with controlled API access rather than monolithic permission models.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ea75197de41aa6b7"
+    },
+    {
+      "id": "signal-dda6dc729775953b71ca8be3",
+      "rank": 7,
+      "title": "AgentForger proves AI agents can become persistent insider threats - csoonline.com",
+      "source": "csoonline.com",
+      "category": "Thinking",
+      "connectionNote": "AgentForger demonstrates that agent autonomy risks can become persistent threats — this directly challenges Sean's aspiration to 'give agents more agency' and highlights the critical importance of his memory #76 architecture decision about AI autonomy tiers.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dda6dc729775953b"
+    },
+    {
+      "id": "signal-e01841ae2b758a9f7257a02f",
+      "rank": 8,
+      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+      "source": "Hacker News: Newest",
+      "category": "Work",
+      "connectionNote": "A $500 RL fine-tune of a 9B model beating frontier models on a specific task directly challenges Sean's implicit assumption that building powerful agents requires expensive frontier models — and validates his recent exploration of local model training in memory #289.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e01841ae2b758a9f"
+    },
+    {
       "id": "signal-602f956c2ea0eef4a07213f0",
-      "rank": 10,
+      "rank": 9,
       "title": "The Self-Building Agent: A LangChain4j Experiment - infoq.com",
       "source": "infoq.com",
-      "category": "Thinking",
-      "connectionNote": "This LangChain4j experiment on self-building agents directly validates Sean's core interest in agent self-improvement cycles, offering a concrete implementation to learn from.",
+      "category": "Work",
+      "connectionNote": "The LangChain4j self-building agent experiment directly validates Sean's architectural vision for self-iterating agents and provides a stress-test pattern for the Digital Me skills folder architecture.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-602f956c2ea0eef4"
+    },
+    {
+      "id": "signal-a1f0244b323d01812a53b5cc",
+      "rank": 10,
+      "title": "西门子推进半导体和PCB设计的自验证自主AI工作流",
+      "source": "streetinsider.com",
+      "category": "Thinking",
+      "connectionNote": "Siemens' self-verifying AI workflow concept — agents that reason, act, and verify their own work — is a real-world implementation of the evaluator agent pattern Sean explored in memory #103 and aligns with his self-improving agent aspirations in #133.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a1f0244b323d0181"
     }
   ]
 }
