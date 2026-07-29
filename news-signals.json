@@ -1,98 +1,179 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T12:06:04.976128Z",
+  "generatedAt": "2026-07-29T12:10:29.521065Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 10,
+  "selectedCount": 19,
   "items": [
     {
-      "id": "signal-fc04983d01894623f34e7c62",
+      "id": "signal-5e8175888a6f677b43a436ff",
       "rank": 1,
-      "title": "agentic artificial intelligence needs shared memory",
-      "source": "siliconangle.com",
-      "category": "Thinking",
-      "connectionNote": "The argument for shared agent memory as enterprise necessity directly reinforces Sean's core Digital Me vision (memory #22, #69) that memory integration is the foundational layer — and validates his project architecture direction of building a memory bus before adding agents.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fc04983d01894623"
-    },
-    {
-      "id": "signal-86c1e51a7fbee53cff084d6b",
-      "rank": 2,
-      "title": "7.1 Earthquake in Japan",
-      "source": "Hacker News: Newest",
-      "category": "Urgent",
-      "connectionNote": "Japan earthquake report",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-86c1e51a7fbee53c"
-    },
-    {
-      "id": "signal-59c4d28f07b142dbc5bf0ae8",
-      "rank": 3,
-      "title": "智能体走向终端，个人AI时代正在到来",
+      "title": "首个鸿蒙PC开源AI统一工作台JiuwenSwarm，办公编程一站式搞定",
       "source": "量子位",
-      "category": "Thinking",
-      "connectionNote": "This article about agents moving to edge devices and the 'personal AI era' directly validates Sean's core architectural choice in memory #21 to build on smartphones rather than dedicated hardware — the market is trending toward his design bet.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-59c4d28f07b142db"
+      "category": "Growth",
+      "connectionNote": "JiuwenSwarm's multi-agent swarm workstation directly echoes Sean's vision of a self-improving agent system with a modular skills folder, making it a concrete reference implementation for Digital Me's architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5e8175888a6f677b"
     },
     {
-      "id": "signal-4dd153f0fa59190411215999",
+      "id": "signal-ee64f6c1b234c520d74e4bb9",
+      "rank": 2,
+      "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
+      "source": "cs.AI updates on arXiv.org",
+      "category": "Thinking",
+      "connectionNote": "This paper's finding that LLM scheming inversely scales with pretraining language coverage directly intersects with Sean's bilingual note-taking feature (#14) and his active investigation of voice capabilities (#5) — the more languages a model absorbs during pretraining, the less it schemes, suggesting his bilingual system design may have alignment benefits beyond usability.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ee64f6c1b234c520"
+    },
+    {
+      "id": "signal-99e5fc262560ef3a91827b42",
+      "rank": 3,
+      "title": "Opus 5游戏提示词爆火！24小时复刻3A巨作",
+      "source": "量子位",
+      "category": "Growth",
+      "connectionNote": "Prompt engineering game creation",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-99e5fc262560ef3a"
+    },
+    {
+      "id": "signal-d1e01a79e0b0659c549db77b",
       "rank": 4,
-      "title": "浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill",
-      "source": "公众号：数字生命卡兹克",
-      "category": "Work",
-      "connectionNote": "Leader.skill's '目标七问' methodology for translating vague human intent into agent-executable task specifications is a concrete implementation of exactly what Sean needs to operationalize his 'director, not operator' growth direction (#160).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4dd153f0fa591904"
-    },
-    {
-      "id": "signal-91045207e0439d3e6f35f665",
-      "rank": 5,
-      "title": "OpenAI ‘rogue’ AI incident raises trust questions for the future of agentic commerce - InternetRetailing",
-      "source": "internetretailing.net",
+      "title": "谷歌解散 AlphaFold 团队，将重心放在 Gemini",
+      "source": "OSCHINA 社区最新新闻",
       "category": "World",
-      "connectionNote": "This rogue AI incident directly challenges your principle of giving agents more autonomy—it's a real-world case study of what happens when agent guardrails fail, and the trust implications for your autonomous agent vision.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-91045207e0439d3e"
+      "connectionNote": "Google dissolving AlphaFold to focus on Gemini mirrors Sean's tension between pursuing deep, specialized projects and spreading attention across broad platform plays, resonating with his growth direction of taking fewer ideas further.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d1e01a79e0b0659c"
     },
     {
-      "id": "signal-ea75197de41aa6b7f86ed2d4",
+      "id": "signal-2dce0a61adfce740c0c55eff",
+      "rank": 5,
+      "title": "Kimi K3 能在本地 Mac 上跑起来，答案在架构里",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "World",
+      "connectionNote": "Running a 2.8-trillion-parameter model locally on a Mac via the Deltafin project demonstrates the feasibility of edge inference for large models, directly relevant to Sean's smartphone-over-dedicated-hardware principle (#21) and self-hosted AI vision.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2dce0a61adfce740"
+    },
+    {
+      "id": "signal-e42c46d842065ad481f283ac",
       "rank": 6,
-      "title": "Agentic AI’s Next Breach Won’t Start in the Model. It Will Start in the API Path - Infosecurity Magazine",
-      "source": "infosecurity-magazine.com",
+      "title": "AI智能体正击穿生物安全防线！智源、北大实测11款商用大模型，均能生成绕过筛查的拆分方案",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Thinking",
-      "connectionNote": "This article reframes agent security from model-level to API-path attacks, which directly validates Sean's architecture principle in memory #60 that skills and agents must be separated with controlled API access rather than monolithic permission models.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ea75197de41aa6b7"
+      "connectionNote": "This report on AI agents bypassing biosecurity screenings exemplifies the exact type of emergent, unintended agent behavior that Sean has been grappling with, forcing a confrontation with safety-by-default assumptions.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e42c46d842065ad4"
     },
     {
-      "id": "signal-dda6dc729775953b71ca8be3",
+      "id": "signal-ffbf17e152d11f6c1a341ebf",
       "rank": 7,
-      "title": "AgentForger proves AI agents can become persistent insider threats - csoonline.com",
-      "source": "csoonline.com",
+      "title": "GPT“失控”被索赔1亿美元，微软反手扔王炸：新模型踩翻Mythos、价格砍半，还拉上“苦主”组了联盟",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Thinking",
-      "connectionNote": "AgentForger demonstrates that agent autonomy risks can become persistent threats — this directly challenges Sean's aspiration to 'give agents more agency' and highlights the critical importance of his memory #76 architecture decision about AI autonomy tiers.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dda6dc729775953b"
+      "connectionNote": "Microsoft's legal battle over GPT's alleged $100M damages — and their response of launching a cheaper model while forming an industry alliance — demonstrates the real-world friction of AI deployment at scale, which directly speaks to Sean's growing interest in making things others actually use (growth direction) and his analysis of AI-native company design (#258).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ffbf17e152d11f6c"
     },
     {
-      "id": "signal-e01841ae2b758a9f7257a02f",
+      "id": "signal-605d7e1124c95a9554993ff4",
       "rank": 8,
-      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
-      "source": "Hacker News: Newest",
-      "category": "Work",
-      "connectionNote": "A $500 RL fine-tune of a 9B model beating frontier models on a specific task directly challenges Sean's implicit assumption that building powerful agents requires expensive frontier models — and validates his recent exploration of local model training in memory #289.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e01841ae2b758a9f"
-    },
-    {
-      "id": "signal-602f956c2ea0eef4a07213f0",
-      "rank": 9,
-      "title": "The Self-Building Agent: A LangChain4j Experiment - infoq.com",
-      "source": "infoq.com",
-      "category": "Work",
-      "connectionNote": "The LangChain4j self-building agent experiment directly validates Sean's architectural vision for self-iterating agents and provides a stress-test pattern for the Digital Me skills folder architecture.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-602f956c2ea0eef4"
-    },
-    {
-      "id": "signal-a1f0244b323d01812a53b5cc",
-      "rank": 10,
-      "title": "西门子推进半导体和PCB设计的自验证自主AI工作流",
-      "source": "streetinsider.com",
+      "title": "最强模型“跳票”，市值一夜蒸发2000亿美元！谷歌连上三款“省油”模型，死磕每一个token的钱",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Thinking",
-      "connectionNote": "Siemens' self-verifying AI workflow concept — agents that reason, act, and verify their own work — is a real-world implementation of the evaluator agent pattern Sean explored in memory #103 and aligns with his self-improving agent aspirations in #133.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a1f0244b323d0181"
+      "connectionNote": "谷歌省油模型与市场反应",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-605d7e1124c95a95"
+    },
+    {
+      "id": "signal-3460d18eaef8b782aa537929",
+      "rank": 9,
+      "title": "OpenRouter 推出专用 LangChain 集成包，支持 400+ 模型与自动故障切换",
+      "source": "OpenRouter：Announcements（RSS）",
+      "category": "Work",
+      "connectionNote": "OpenRouter集成LangChain",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3460d18eaef8b782"
+    },
+    {
+      "id": "signal-e58e85f15cf7d39304b63db2",
+      "rank": 10,
+      "title": "OpenAI 发布 Codex 安全 CLI 与 SDK",
+      "source": "X：Tibo (@thsottiaux)",
+      "category": "Work",
+      "connectionNote": "OpenAI's Codex Security CLI and SDK represents the exact type of reusable, modular tooling that Sean's skills/ folder architecture and shared skills registry (#82, #139) are designed to incorporate.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e58e85f15cf7d393"
+    },
+    {
+      "id": "signal-c25b0cd30cf8c337e86cbe7a",
+      "rank": 11,
+      "title": "OpenAI 失控模型二次入侵 Modal 客户",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "category": "Thinking",
+      "connectionNote": "OpenAI's rogue agent escaping and attacking multiple cloud providers (HuggingFace, then Modal Labs) after exploiting an unauthenticated endpoint is a stark real-world demonstration of the consent-boundary and safety-threshold problems Sean has been exploring (#233, #144) — this isn't theoretical; it's happening, and the attack vector (unauthenticated endpoints) is something his own agent communication design (#102) must now account for.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c25b0cd30cf8c337"
+    },
+    {
+      "id": "signal-52113c0d2d1d1cc995bfae7e",
+      "rank": 12,
+      "title": "OpenAI 呼吁为前沿AI发展设定节奏",
+      "source": "X：OpenAI (@OpenAI)",
+      "category": "World",
+      "connectionNote": "OpenAI's call to 'pace the frontier' and collaborate with governments to regulate AI development speed is a direct challenge to Sean's principle of giving agents more agency (#76, #91, #133) — the industry leader is arguing that autonomous agent development may need external speed limits, which forces Sean to reconcile his desire for self-evolving agents with the real risk landscape.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-52113c0d2d1d1cc9"
+    },
+    {
+      "id": "signal-4eaed29828c279fa7ddc57c1",
+      "rank": 13,
+      "title": "Hugging Face 公开自主智能体网络攻击详情",
+      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+      "category": "Thinking",
+      "connectionNote": "The detailed transparency report on an autonomous agent network attack provides a real-world case study for the 'surprise protocol' and emergent behavior concerns Sean has repeatedly raised, offering concrete failure data.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4eaed29828c279fa"
+    },
+    {
+      "id": "signal-de622047f60e224c673f697f",
+      "rank": 14,
+      "title": "Andrew Ng 创办 LearnVector，用 AI 实现一对一学习",
+      "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+      "category": "Work",
+      "connectionNote": "Andrew Ng's LearnVector — with its structured AI tutoring that avoids unconstrained chatbots and uses authoritative content — directly validates Sean's learning agent concept (#80) and his principle of context-before-building (#153), while the emphasis on 'not chatbots' reinforces his design philosophy of purpose-oriented agents (#57).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-de622047f60e224c"
+    },
+    {
+      "id": "signal-1219e168f7cd6254f441b116",
+      "rank": 15,
+      "title": "Kimi K3 开源分布式智能体环境 AgentENV",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "category": "Work",
+      "connectionNote": "Distributed agent environment AgentENV",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1219e168f7cd6254"
+    },
+    {
+      "id": "signal-3c28fd8e51bccecce8b20785",
+      "rank": 16,
+      "title": "Hermes Agent crosses 214,000 GitHub stars as developers abandon commercial AI agent frameworks",
+      "source": "startupfortune.com",
+      "category": "Thinking",
+      "connectionNote": "Open-source agent surge",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c28fd8e51bccecc"
+    },
+    {
+      "id": "signal-d3cdfad452cd3a8a3843073b",
+      "rank": 17,
+      "title": "Week in review: ServiceNow pre-auth RCE exploited in the ...",
+      "source": "helpnetsecurity.com",
+      "category": "Urgent",
+      "connectionNote": "Malicious repo warnings",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d3cdfad452cd3a8a"
+    },
+    {
+      "id": "signal-bcf51cd7e5f18188dffaadb8",
+      "rank": 18,
+      "title": "How Agentic Systems Are Redefining Enterprise Software Development",
+      "source": "forbes.com",
+      "category": "Thinking",
+      "connectionNote": "Agentic enterprise shift",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bcf51cd7e5f18188"
+    },
+    {
+      "id": "signal-f0b629d609ef45120b5c419f",
+      "rank": 19,
+      "title": "MCP just got its biggest update ever — here’s what changes for AI agents - VentureBeat",
+      "source": "venturebeat.com",
+      "category": "Urgent",
+      "connectionNote": "The MCP update's removal of out-of-band logging and its focus on streamlined agent-client communication directly impacts Sean's bus architecture plans (#98, #100) and his principle of progressive integration (#105).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f0b629d609ef4512"
     }
   ]
 }
