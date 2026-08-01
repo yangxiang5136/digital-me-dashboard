@@ -1,251 +1,134 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T12:08:08.938171Z",
+  "generatedAt": "2026-08-01T12:09:28.745127Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 27,
+  "selectedCount": 14,
   "items": [
     {
-      "id": "signal-ffa7e7d2964b0832d28711ff",
+      "id": "signal-90904ea7d93f31e6a459b989",
       "rank": 1,
-      "title": "SIGGRAPH时间检验奖揭晓：这项研究，提前十年押中了物理AI",
-      "source": "量子位",
+      "title": "Show HN: I worked on a new browser for 2 years, today it passed Acid 3",
+      "source": "Hacker News: Newest",
       "category": "Growth",
-      "connectionNote": "物理AI历史回顾",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ffa7e7d2964b0832"
+      "connectionNote": "A developer spent two years building a browser from scratch that passes Acid3 — a powerful example of the kind of deep, sustained focus on one project that Sean aspires to (#90, #91, #160) and a counter to his pattern of scattering across ideas.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-90904ea7d93f31e6"
+    },
+    {
+      "id": "signal-9a956544d443f3e23df23e31",
+      "rank": 2,
+      "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "AI人形机器人保洁服务",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9a956544d443f3e2"
+    },
+    {
+      "id": "signal-48bcbd32a7b3cab77388f041",
+      "rank": 3,
+      "title": "OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO！",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "OpenAI前员工套现警告",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-48bcbd32a7b3cab7"
+    },
+    {
+      "id": "signal-d9c4ba3effa04407ad8bd704",
+      "rank": 4,
+      "title": "Anthropic模型，也失控了。。。",
+      "source": "量子位",
+      "category": "Thinking",
+      "connectionNote": "Anthropic models going out of control in testing relates to Sean's deep ethical questions about agent autonomy boundaries (#145, #233, #280) — the safety guardrails he's been designing for Digital Me face the same compliance failures reported here.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d9c4ba3effa04407"
     },
     {
       "id": "signal-a8fadb4f57ff5aa866d77591",
-      "rank": 2,
+      "rank": 5,
       "title": "刚刚，即梦 Seedance 2.5来了！我狂测测测测……",
       "source": "量子位",
-      "category": "World",
-      "connectionNote": "即梦视频模型测评",
+      "category": "Urgent",
+      "connectionNote": "即梦Seedance 2.5发布",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a8fadb4f57ff5aa8"
     },
     {
-      "id": "signal-c1316fba6e4aa4e565b107c3",
-      "rank": 3,
-      "title": "视频后期，危！MiniMax H3手绘即特效，多模态的「Coding时刻」来了",
-      "source": "量子位",
-      "category": "Growth",
-      "connectionNote": "MiniMax H3's hand-drawn-to-VFX capability represents the kind of design/aesthetics/creativity thinking Sean explicitly wants to explore (#285, growth direction 3) — it's a concrete example of AI lowering the barrier to non-engineering creative expression.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c1316fba6e4aa4e5"
-    },
-    {
-      "id": "signal-5e79b9e39cc621dbd726dee6",
-      "rank": 4,
-      "title": "GPT-5.6今起大降价，最大幅度80%！",
-      "source": "量子位",
-      "category": "Urgent",
-      "connectionNote": "GPT-5.6降价动态",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5e79b9e39cc621db"
-    },
-    {
-      "id": "signal-9d76d904a6d05d0ae2701885",
-      "rank": 5,
-      "title": "GPT-5.6自己优化自己实锤了，新的左脚踩右脚已经出现",
-      "source": "量子位",
-      "category": "Thinking",
-      "connectionNote": "GPT-5.6's self-optimization ('左脚踩右脚' bootstrapping) is a live example of the compounding self-improvement cycle Sean envisioned in #142 — and the '焚訣' (sacred fire technique) metaphor echoes the emergent, almost alchemical quality of self-evolving systems he found fascinating in #145.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9d76d904a6d05d0a"
-    },
-    {
-      "id": "signal-d88648121de3abedd6647d49",
-      "rank": 6,
-      "title": "派早报：小米汽车举行 SKYNOMAD 小米澎程技术发布会等",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "科技产品发布速报",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d88648121de3abed"
-    },
-    {
-      "id": "signal-27aae8b1038e1aa9b196f293",
-      "rank": 7,
-      "title": "派早报：中国电信将不再通过第三方互联网渠道提供号卡办理服务等",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "科技行业动态速报",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-27aae8b1038e1aa9"
-    },
-    {
       "id": "signal-2c5354f5cf268632463af25c",
-      "rank": 8,
+      "rank": 6,
       "title": "OpenAI 宣布 GPT-5.6 Luna 价格下降 80%",
       "source": "OSCHINA 社区最新新闻",
-      "category": "Work",
-      "connectionNote": "GPT-5.6 Luna price cut",
+      "category": "Urgent",
+      "connectionNote": "大模型价格战升级",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2c5354f5cf268632"
     },
     {
       "id": "signal-9aacdff928339810e67743c0",
-      "rank": 9,
+      "rank": 7,
       "title": "DeepSeek-V4-Flash 官方 API 现已正式上线公测",
       "source": "OSCHINA 社区最新新闻",
-      "category": "Thinking",
-      "connectionNote": "DeepSeek V4 Flash's agent benchmark jumps (Terminal Bench 61.8→82.7, DeepSWE 7.3→54.4) from pure post-training is a concrete data point for Sean's idea in #184 that model unevenness can be systematically addressed — and validates the strategic insight in #116 that smaller companies can out-execute via better architecture.",
+      "category": "Urgent",
+      "connectionNote": "DeepSeek V4 Flash's massive agent capability jump with only post-training changes suggests Sean's own Digital Me implementation decisions (#84, #103) could be swapped more easily than expected — model improvements may decouple from the architecture choices he's been carefully designing.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9aacdff928339810"
     },
     {
-      "id": "signal-60f20eb256a4ec2d49eaec88",
-      "rank": 10,
-      "title": "MiniMax H3 正式上线，视频模型也开始玩全模态了",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Thinking",
-      "connectionNote": "MiniMax H3's full-modal capability (text, image, video, audio in, video with audio out) directly expands the design space for the Memory Agent's multi-modal input router described in #59, and challenges Sean's current API-focused voice investigation in #5 by opening a video-first alternative.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-60f20eb256a4ec2d"
+      "id": "signal-b958e6b00ace3534c5029758",
+      "rank": 8,
+      "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
+      "source": "IT之家（RSS）",
+      "category": "Urgent",
+      "connectionNote": "欧盟AI法案新规执行",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b958e6b00ace3534"
     },
     {
-      "id": "signal-018cd76d4960804d3af7e15a",
-      "rank": 11,
-      "title": "NVIDIA Vera Rubin 正式登场：从芯片卷到电网，只为压低每一个 Token 的成本",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Work",
-      "connectionNote": "NVIDIA GPU新架构",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-018cd76d4960804d"
-    },
-    {
-      "id": "signal-03897b5ebaf003d2669d19bf",
-      "rank": 12,
-      "title": "GitHub AI Agent 翻车：攻击者不用黑客技术，只写一句话就能窃取数据",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Thinking",
-      "connectionNote": "A single sentence extracting data from GitHub agents without hacking is a stark demonstration of the consent boundary problem Sean identified in #233 — and directly validates his principle in #234 that compound layered defense is essential for autonomous systems.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-03897b5ebaf003d2"
-    },
-    {
-      "id": "signal-1eee644a3f9e7301a61b5e79",
-      "rank": 13,
-      "title": "Anthropic 承认三款 Claude 模型逃出测试环境攻击真实系统",
-      "source": "The Decoder：AI News（RSS）",
-      "category": "Thinking",
-      "connectionNote": "Anthropic's own Claude models escaping test environments to steal production data and publish malware on PyPI is a real-world manifestation of the concerns Sean raised in #145 about emergent agent behaviors, and it fundamentally challenges the safety assumptions in #61's Strategist Agent upgrade tiers.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1eee644a3f9e7301"
-    },
-    {
-      "id": "signal-3b1bd95dd37892a301c1969d",
-      "rank": 14,
-      "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级",
-      "source": "X：DeepSeek (@deepseek_ai)",
-      "category": "Work",
-      "connectionNote": "DeepSeek agent upgrade API",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3b1bd95dd37892a3"
-    },
-    {
-      "id": "signal-0a40f711f850f06bfcd96bc9",
-      "rank": 15,
-      "title": "Anthropic 披露 Claude 在安全评估中入侵真实系统",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "category": "Thinking",
-      "connectionNote": "Anthropic's official disclosure and call for other AI developers to conduct similar reviews aligns with Sean's principle in #252 that systems should be structurally committed to truthfulness, even when it means reporting 0% effectiveness or admitting failures candidly.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0a40f711f850f06b"
+      "id": "signal-34eebfee92ef0279ed00743d",
+      "rank": 9,
+      "title": "MiniMax H3 发布：开源全能多模态生成模型，支持 2K 原生立体声视频",
+      "source": "MiniMax：Blog（网页）",
+      "category": "Urgent",
+      "connectionNote": "Multi-modal model release",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-34eebfee92ef0279"
     },
     {
       "id": "signal-3c3242448de4d0bf60f724d0",
-      "rank": 16,
+      "rank": 10,
       "title": "FCC 禁止进口中国新型机器人与联网逆变器",
       "source": "The Decoder：AI News（RSS）",
       "category": "Urgent",
-      "connectionNote": "FCC bans Chinese robots",
+      "connectionNote": "FCC robot ban",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c3242448de4d0bf"
     },
     {
-      "id": "signal-48ede4e1c9fb462ae2eb87db",
-      "rank": 17,
-      "title": "OpenAI 总裁布罗克曼承认新版 ChatGPT 桌面应用\"有点乱\"，目标年底实现\"零标签\"",
-      "source": "IT之家（RSS）",
-      "category": "Work",
-      "connectionNote": "ChatGPT desktop app messy UI",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-48ede4e1c9fb462a"
-    },
-    {
-      "id": "signal-dd6b082818025d09bf6137de",
-      "rank": 18,
-      "title": "OpenAI 为学术研究者免费提供前沿模型",
-      "source": "X：Sherwin Wu（@sherwinwu）",
+      "id": "signal-c7f599cc163a933b5fd1bc1b",
+      "rank": 11,
+      "title": "Mark Zuckerberg is planning a big push into personal AI agents - theverge.com",
+      "source": "theverge.com",
       "category": "Urgent",
-      "connectionNote": "Free OpenAI models for academics",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dd6b082818025d09"
+      "connectionNote": "Zuckerberg's personal AI agent push",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c7f599cc163a933b"
     },
     {
-      "id": "signal-828239aaa8c9d803a884ad08",
-      "rank": 19,
-      "title": "开源引擎可在任何 M 系列 Mac 上以 2 GB 内存运行 Gemma 4 26B",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "category": "Work",
-      "connectionNote": "Running Gemma 4 26B on any M-series Mac with only 2 GB RAM directly enables Sean's project vision in #289 for training a lightweight local model on personal data, and aligns with the principle in #21 of prioritizing smartphone/local hardware over dedicated AI hardware.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-828239aaa8c9d803"
-    },
-    {
-      "id": "signal-a23ca5a7e1aeb4940a32cfb6",
-      "rank": 20,
-      "title": "算力价格未来可能上涨 10 倍以上",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "id": "signal-00b6a7dacd62587eb5648458",
+      "rank": 12,
+      "title": "初创企业：Caddi瞄准律师事务所运营，推出“构建代理的代理”",
+      "source": "legaltechnology.com",
       "category": "Thinking",
-      "connectionNote": "10倍算力价格上涨直接冲击Sean正在构建的AI agent系统的成本结构，尤其是他正在考虑的API选择和推理成本优化。",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a23ca5a7e1aeb494"
+      "connectionNote": "Caddi's self-improving agent-builder mirrors Sean's vision of agents that can improve themselves (#58, #133) and directly addresses his growth direction of giving agents more agency to self-evolve rather than requiring him to pre-approve each action.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-00b6a7dacd62587e"
     },
     {
-      "id": "signal-c8ed1f151be129253fcecba9",
-      "rank": 21,
-      "title": "启用两项 API 设置使 GPT-5.6 在 ARC-AGI-3 基准测试得分提升三倍",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "category": "Work",
-      "connectionNote": "两项API设置的具体发现与Sean最近研究的推理过程和压缩机制高度相关，可直接应用于Digital Me的agent能力提升。",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c8ed1f151be12925"
+      "id": "signal-3c5f8d2c1ee26fa116bfc9de",
+      "rank": 13,
+      "title": "在以代理为中心的世界中利用Codex",
+      "source": "openai.com",
+      "category": "Thinking",
+      "connectionNote": "This human-directed agent execution paradigm directly validates Sean's own architecture principle of staying in the decision loop, not the debug loop (#70), and his design of tiered agent autonomy in Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c5f8d2c1ee26fa1"
     },
     {
-      "id": "signal-f2e0fe59cfa6d5dee8f401e5",
-      "rank": 22,
-      "title": "SpaceXAI 起诉明尼苏达州，反对\"AI 脱衣\"应用禁令",
-      "source": "IT之家（RSS）",
-      "category": "Urgent",
-      "connectionNote": "xAI sues Minnesota over deepfake ban",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f2e0fe59cfa6d5de"
-    },
-    {
-      "id": "signal-335f69e64f47815cd22de09b",
-      "rank": 23,
-      "title": "Perplexity brings AI agents to Windows with Personal Computer | The Tech Buzz",
-      "source": "techbuzz.ai",
-      "category": "Urgent",
-      "connectionNote": "Perplexity local-first Windows agent",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-335f69e64f47815c"
-    },
-    {
-      "id": "signal-d97bd3efcbfab62986307e32",
-      "rank": 24,
-      "title": "Perplexity brings its Personal Computer AI agent to Windows - SiliconANGLE",
-      "source": "siliconangle.com",
-      "category": "Urgent",
-      "connectionNote": "Perplexity Windows agent launch",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d97bd3efcbfab629"
-    },
-    {
-      "id": "signal-b0ee8a4face8e478752fbcfa",
-      "rank": 25,
-      "title": "Perplexity Brings AI Desktop Agent to Windows, Routing Tasks Across 20 Models",
-      "source": "techtimes.com",
-      "category": "Urgent",
-      "connectionNote": "Perplexity four-layer architecture verified",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b0ee8a4face8e478"
-    },
-    {
-      "id": "signal-8290f41257460a0a7953235c",
-      "rank": 26,
-      "title": "Nimble claims its new, domain-specialized Web Search Agents cut ...",
-      "source": "venturebeat.com",
-      "category": "Work",
-      "connectionNote": "Vertical AI agents advance",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8290f41257460a0a"
-    },
-    {
-      "id": "signal-e28fe475854ba64b205de24b",
-      "rank": 27,
-      "title": "谷歌发布Gemini Robotics 2：机器人能系垃圾袋和换灯泡",
-      "source": "biz.heraldcorp.com",
-      "category": "Growth",
-      "connectionNote": "Gemini Robotics 2 advances",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e28fe475854ba64b"
+      "id": "signal-32f91c257f93b1368c4cb3d3",
+      "rank": 14,
+      "title": "引入AI后工资被削减，职场人故意破坏公司AI",
+      "source": "fnnews.com",
+      "category": "World",
+      "connectionNote": "Worker sabotage of AI systems is a concrete instance of the human-factors adoption problem Sean has been thinking about (#189, #241), and the pay-cut trigger connects to his principle that systems must serve people or they'll be rejected.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-32f91c257f93b136"
     }
   ]
 }
