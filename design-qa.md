@@ -25,6 +25,6 @@
 - Desktop and mobile states have no document-level horizontal overflow.
 - On mobile, the GitHub label collapses to its source icon in a 44x44 tap target matching the language button, and the architecture diagram remains visible as the first project artifact.
 - The architecture diagram was checked in both languages on mobile and desktop: every tier label clears its nearest connector, with the longest label (`UNDERSTAND`) ending at x=123.1 against the connector at x=128.
-- Both diagram accessible names describe the nodes currently drawn.
+- All three diagram accessible names (data flow, agent cross-section, human gate) describe the nodes currently drawn.
 
 Result: passed
