@@ -3,10 +3,11 @@
 ## Reference
 
 - Live baseline: `https://digital-me-dashboard.vercel.app/`
-- Side-by-side evidence: `qa/source-vs-minimal.jpg` (live baseline on the left, minimal architecture-first revision on the right)
-- Final desktop states: `qa/minimal-desktop-en-final.jpg`, `qa/minimal-desktop-zh.jpg`
-- Final mobile states: `qa/minimal-mobile-hero-zh-final.jpg`, `qa/minimal-mobile-structure-zh-final.jpg`, `qa/minimal-mobile-structure-en-final.jpg`
-- Every screenshot above was captured at 1440x810 for desktop and 390x844 for mobile, from the architecture-first revision of `index.html` that preceded the navigation alignment below. The current top-bar captures are listed in that section.
+- Every state below was reviewed against screenshots captured at 1440×810 for desktop and
+  390×844 for mobile. Those captures, and the side-by-side comparison scaffold built from
+  them, stay in the local `qa/` working directory: this repository is the public Vercel
+  deploy root, so QA evidence is never committed or deployed. This file is the committed
+  record of what the captures showed.
 
 ## Visual comparison
 
@@ -27,12 +28,10 @@
 
 ## Portfolio navigation alignment — 2026-08-02
 
-- Visual source of truth: the current local personal Portfolio at `/Users/yangxiang/hci-portfolio/index.html`.
-- Source capture: `qa/design-source-portfolio-nav.jpg`.
-- Digital Me before / after: `qa/design-before-digital-me-nav.jpg` and `qa/design-after-digital-me-nav.jpg`.
-- Combined comparison input: `qa/design-qa-comparison.jpg`, generated from `qa/design-qa-comparison.html`.
-- Mobile implementation: `qa/design-after-digital-me-nav-mobile.jpg`.
-- Chinese scrolled state with active section and back-to-top: `qa/design-after-digital-me-nav-scrolled-zh.jpg`.
+- Visual source of truth: the author's personal Portfolio site, reviewed from a local
+  working copy that is not part of this repository.
+- Desktop, mobile, and scrolled Chinese states of the new top bar were captured before and
+  after the change and compared side by side against the Portfolio source.
 - Matched the Portfolio's fixed translucent bar, quiet identity line, pill navigation, two-state language control, active-section feedback, and labelled back-to-top action.
 - Preserved Digital Me's own violet-blue identity and architecture-first page hierarchy instead of importing the Portfolio's ambient background or project-page content styling.
 - Anchor navigation now jumps directly instead of smooth-scrolling. Architecture, Agents, Guardrails, and Why all resolve to existing sections and update the active pill.
