@@ -1,0 +1,4 @@
+# Design-QA captures and comparison scaffolds.
+# They are reviewed locally and deliberately never committed: this repository is
+# the public Vercel deploy root, and the captures include private local surfaces.
+qa/

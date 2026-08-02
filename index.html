@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Digital Me — architecture</title>
 <meta name="description" content="Digital Me — a multi-agent personal AI system: memory, reasoning and delivery over a shared bus.">
+<link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -13,13 +14,13 @@
     --blue:#4D6BFE; --blue-strong:#3B5BFD; --blue-soft:#EEF3FF; --blue-border:#D8E2FF;
     --ink:#0F1115; --slate-8:#1E293B; --slate-6:#475569; --slate-5:#64748B; --slate-4:#94A3B8;
     --line:#EAEEF5; --line-2:#DFE5EF;
-    --green:#16A34A; --amber:#D97706;
     --sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;
     --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --topbar-h:69px;
   }
   *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-  body{margin:0;color:var(--slate-6);font-family:var(--sans);font-size:15.5px;line-height:1.6;
+  html{-webkit-text-size-adjust:100%;scroll-behavior:auto}
+  body{margin:0;padding-top:var(--topbar-h);color:var(--slate-6);font-family:var(--sans);font-size:15.5px;line-height:1.6;
     -webkit-font-smoothing:antialiased;
     background:
       radial-gradient(1000px 560px at 88% -6%, rgba(109,134,255,.16), transparent 62%),
@@ -28,44 +29,48 @@
       #FDFDFF;}
   a{color:var(--blue);text-decoration:none}
   a:hover{text-decoration:underline}
+  a:focus-visible,button:focus-visible{outline:3px solid rgba(77,107,254,.28);outline-offset:3px}
   .wrap{max-width:1000px;margin:0 auto;padding:0 28px}
 
-  .navbar{position:sticky;top:0;z-index:50;background:rgba(253,253,255,.78);
-    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(223,229,239,.7)}
-  nav{display:flex;align-items:center;gap:30px;padding:18px 0}
-  .mark{font-weight:800;font-size:21px;letter-spacing:-.03em;color:var(--blue);text-decoration:none}
-  .mark:hover{text-decoration:none}
-  nav .grow{flex:1}
-  nav a.nl{color:var(--slate-6);font-size:15.5px;font-weight:500;
-    display:inline-flex;align-items:center;gap:8px;padding:4px 2px}
-  nav a.nl:hover{color:var(--ink);text-decoration:none}
-  .num{font-family:var(--mono);font-size:12px;color:var(--slate-4);font-weight:500}
-  nav a.nl:hover .num{color:var(--blue)}
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+    min-height:var(--topbar-h);padding:8px 24px;background:rgba(253,253,255,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid transparent;transition:border-color .24s ease,box-shadow .24s ease}
+  .topbar.scrolled{border-bottom-color:var(--line-2);box-shadow:0 1px 0 rgba(16,24,40,.02)}
+  .brand{display:inline-flex;min-height:44px;align-items:center;gap:6px;color:var(--slate-6);font-size:13.5px;text-decoration:none;white-space:nowrap}
+  .brand:hover{text-decoration:none;color:var(--slate-6)}
+  .brand b{color:var(--ink);font-weight:650;letter-spacing:-.01em}
+  .top-actions{display:flex;align-items:center;gap:12px;min-width:0}
+  .topnav{display:flex;align-items:center;gap:2px;padding:3px;border:1px solid var(--line-2);
+    border-radius:999px;background:rgba(255,255,255,.86);box-shadow:0 1px 3px rgba(16,24,40,.08)}
+  .topnav a{display:inline-flex;min-width:44px;min-height:44px;align-items:center;justify-content:center;padding:0 12px;
+    border-radius:999px;font:600 11.5px/1 var(--mono);color:var(--slate-5);text-decoration:none;
+    transition:color .18s ease,background-color .18s ease,box-shadow .18s ease}
+  .topnav a:hover{color:var(--blue-strong);background:#F7F9FC;text-decoration:none}
+  .topnav a.on{color:var(--blue-strong);background:var(--blue-soft);box-shadow:inset 0 0 0 1px rgba(77,107,254,.12)}
   .gh-ic{width:18px;height:18px;flex:none}
-  .lang-btn{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--slate-6);
-    background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:7px 18px;cursor:pointer;
-    transition:border-color .15s,color .15s}
-  .lang-btn:hover{border-color:var(--blue);color:var(--blue)}
-  .totop{position:fixed;right:26px;bottom:26px;width:46px;height:46px;border-radius:50%;
-    background:rgba(255,255,255,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-    border:1px solid var(--line-2);box-shadow:0 4px 16px rgba(16,24,40,.10);
-    display:grid;place-items:center;cursor:pointer;color:var(--slate-6);
-    opacity:0;pointer-events:none;transform:translateY(8px);
-    transition:opacity .2s,transform .2s,color .15s,border-color .15s;z-index:60}
-  .totop.show{opacity:1;pointer-events:auto;transform:none}
-  .totop:hover{color:var(--blue);border-color:var(--blue)}
+  .github-link{display:inline-flex;flex:none;align-items:center;justify-content:center;min-width:44px;min-height:44px;border-radius:999px;
+    color:var(--slate-5);text-decoration:none;transition:color .18s ease,background-color .18s ease}
+  .github-link:hover{color:var(--blue-strong);background:var(--blue-soft);text-decoration:none}
+  .langtoggle{display:flex;gap:2px;border:1px solid var(--line-2);border-radius:999px;padding:3px;background:#fff}
+  .langtoggle button{min-width:44px;min-height:44px;font:500 11.5px/1 var(--mono);padding:0 12px;border:0;border-radius:999px;
+    background:transparent;color:var(--slate-5);cursor:pointer;transition:.18s ease}
+  .langtoggle button[aria-pressed="true"]{background:var(--blue-soft);color:var(--blue-strong)}
+  .totop{position:fixed;right:24px;bottom:24px;z-index:60;display:flex;align-items:center;justify-content:center;
+    min-width:132px;min-height:48px;padding:0 18px;border:1px solid rgba(255,255,255,.22);border-radius:999px;
+    background:rgba(23,26,31,.94);color:#fff;box-shadow:0 12px 34px rgba(16,24,40,.24);
+    font:600 12px/1 var(--mono);letter-spacing:.02em;cursor:pointer;opacity:0;pointer-events:none;transform:translateY(12px);
+    transition:opacity .2s ease,transform .2s ease,background-color .2s ease}
+  .totop.show{opacity:1;pointer-events:auto;transform:translateY(0)}
+  .totop:hover{background:var(--blue-strong)}
 
-  .hero{padding:48px 0 44px}
-  .announce{display:inline-block;font-size:13.5px;color:var(--slate-6);background:rgba(255,255,255,.65);
-    border:1px solid var(--blue-border);border-radius:999px;padding:6px 15px;margin-bottom:26px}
-  .announce b{color:var(--blue);font-weight:600}
+  .hero{padding:54px 0 44px}
   .wordmark{font-weight:800;letter-spacing:-.04em;color:var(--blue);
     font-size:clamp(42px,6.6vw,68px);line-height:1.02;margin:0}
   .tagline{font-size:clamp(21px,2.8vw,27px);font-weight:500;color:var(--slate-8);
     letter-spacing:-.01em;margin:14px 0 10px}
   .lede{max-width:56ch;margin:0;font-size:16px;color:var(--slate-5)}
 
-  .hero-cards{display:grid;grid-template-columns:1fr 1fr 1.12fr;gap:14px;margin-top:34px}
+  .hero-cards{display:grid;grid-template-columns:1.12fr 1fr 1fr;gap:14px;margin-top:34px}
   .hcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 20px 18px;
     box-shadow:0 1px 2px rgba(16,24,40,.04),0 8px 22px rgba(16,24,40,.05);
     transition:transform .18s,box-shadow .18s;display:block}
@@ -78,7 +83,7 @@
   .hcard-feature .go{color:#fff;font-weight:600;font-size:14px}
   .hcard-feature:hover .go{text-decoration:underline}
 
-  section{padding:40px 0;scroll-margin-top:88px}
+  section{padding:40px 0;scroll-margin-top:72px}
   .sec-eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.14em;color:var(--blue);
     text-transform:uppercase;margin-bottom:8px}
   h2{font-size:clamp(23px,2.9vw,29px);font-weight:700;letter-spacing:-.02em;color:var(--ink);margin:0 0 8px}
@@ -100,28 +105,21 @@
     box-shadow:0 1px 2px rgba(16,24,40,.04),0 6px 20px rgba(16,24,40,.04);
     transition:transform .18s,box-shadow .18s}
   .card:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(16,24,40,.05),0 12px 30px rgba(16,24,40,.08)}
-  .card .top{display:flex;align-items:center;gap:11px;margin-bottom:8px}
-  .avatar{width:34px;height:34px;border-radius:9px;background:var(--blue-soft);
-    display:grid;place-items:center;font-size:17px;flex:none}
-  .card h3{margin:0;font-size:15.5px;font-weight:600;color:var(--ink)}
+  .card h3{margin:0 0 8px;font-size:15.5px;font-weight:600;color:var(--ink)}
   .card .role{color:var(--slate-5);font-size:13.5px;margin:0 0 12px;min-height:2.5em;line-height:1.5}
-  .card .foot{display:flex;align-items:center;justify-content:space-between;gap:8px}
-  .stat{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;letter-spacing:.01em}
-  .stat .d{width:7px;height:7px;border-radius:50%}
-  .live .d{background:var(--green)} .live{color:var(--green)}
-  .warn .d{background:var(--amber)} .warn{color:var(--amber)}
-  .tag{font-family:var(--mono);font-size:11px;color:var(--slate-4);background:#F6F8FB;
-    border:1px solid var(--line);border-radius:6px;padding:2px 8px}
-  .legend{display:flex;gap:20px;flex-wrap:wrap;margin-top:16px;font-size:12.5px;color:var(--slate-5)}
-  .legend span{display:inline-flex;align-items:center;gap:6px}
-  .legend .d{width:7px;height:7px;border-radius:50%}
-  .also{margin-top:10px;font-size:13px;color:var(--slate-4)}
-  .also b{color:var(--slate-5);font-weight:600}
+
+  .why-summary{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;align-items:start;
+    background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px;
+    box-shadow:0 1px 2px rgba(16,24,40,.04),0 8px 22px rgba(16,24,40,.05)}
+  .why-summary .statement{font-size:clamp(21px,3vw,30px);line-height:1.35;letter-spacing:-.02em;
+    color:var(--ink);font-weight:650;margin:0}
+  .principles{display:grid;gap:18px;margin:0}
+  .principles div{border-left:2px solid var(--blue-border);padding-left:16px}
+  .principles dt{color:var(--slate-8);font-weight:650;margin:0 0 3px}
+  .principles dd{margin:0;color:var(--slate-5);font-size:14px}
 
   .figure{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;margin:0;
     box-shadow:0 1px 2px rgba(16,24,40,.04),0 8px 22px rgba(16,24,40,.05)}
-  html[lang="zh-CN"] .en-only{display:none}
-  html:not([lang="zh-CN"]) .zh-only{display:none}
   figcaption{font-size:12.5px;color:var(--slate-4);margin-top:8px;text-align:center}
 
   svg .box{fill:#fff;stroke:var(--line-2)}
@@ -131,150 +129,146 @@
   svg .busbox{fill:#EEF3FF;stroke:#B9C9FF}
   svg .t1{fill:var(--ink);font-family:var(--sans);font-weight:600;font-size:14px}
   svg .t2{fill:var(--slate-5);font-family:var(--mono);font-size:11px}
-  svg .lbl{fill:var(--slate-4);font-family:var(--sans);font-weight:600;font-size:11px;letter-spacing:.16em}
+  svg .lbl{fill:var(--slate-4);font-family:var(--sans);font-weight:600;font-size:11px;letter-spacing:.12em}
   svg .edge{stroke:#C6D0DE;stroke-width:1.2;fill:none}
 
-  #structure{padding-bottom:76px}
+  #why{padding-bottom:88px}
 
-  @media(max-width:860px){.hero-cards{grid-template-columns:1fr 1fr}.hcard-feature{grid-column:1/-1}}
+  @media(max-width:860px){.hero-cards{grid-template-columns:1fr 1fr}.hcard-feature{grid-column:1/-1}.why-summary{grid-template-columns:1fr}}
+  @media(max-width:789.98px){.brand span{display:none}}
+  @media(max-width:759.98px){.topnav{display:none}}
   @media(max-width:600px){.hero{padding:34px 0 30px}.hero-cards{grid-template-columns:1fr}
-    .bus .s{display:none}nav a.nl{display:none}nav a.nl.keep{display:inline}}
+    .wrap{padding-left:20px;padding-right:20px}.bus .s{display:none}.topbar{padding-left:16px;padding-right:16px}
+    .top-actions{gap:6px}
+    .langtoggle button{padding-left:10px;padding-right:10px}.why-summary{padding:22px}.figure{padding:8px}
+    .totop{left:50%;right:auto;bottom:16px;min-width:156px;transform:translate(-50%,12px)}
+    .totop.show{transform:translate(-50%,0)}
+    #structure svg .t1{font-size:18px}#structure svg .t2{font-size:14px}}
 </style>
 </head>
 <body>
-<div class="navbar">
-  <nav class="wrap">
-    <a class="mark" href="./">Digital Me</a>
-    <span class="grow"></span>
-    <a class="nl" href="#topology"><span class="num">01</span><span data-zh="拓扑">Topology</span></a>
-    <a class="nl" href="#structure"><span class="num">02</span><span data-zh="结构">Structure</span></a>
-    <a class="nl" href="#harness"><span class="num">03</span><span>Harness</span></a>
-    <a class="nl" href="#why"><span class="num">04</span><span data-zh="理念">Why</span></a>
-    <a class="nl keep" href="https://github.com/yangxiang5136" target="_blank" rel="noopener"><svg class="gh-ic" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>GitHub</a>
-    <button class="lang-btn" id="langBtn" aria-label="Switch language">中文</button>
-  </nav>
+<div class="topbar" id="topbar">
+  <a class="brand" href="./"><b>Digital Me</b><span data-zh="· 个人 AI 架构">· Personal AI Architecture</span></a>
+  <div class="top-actions">
+    <nav class="topnav" aria-label="Primary navigation" data-zh-label="主导航">
+      <a href="#structure"><span data-zh="架构">Architecture</span></a>
+      <a href="#topology"><span data-zh="智能体">Agents</span></a>
+      <a href="#harness"><span data-zh="约束">Guardrails</span></a>
+      <a href="#why"><span data-zh="理念">Why</span></a>
+    </nav>
+    <a class="github-link" href="https://github.com/yangxiang5136" target="_blank" rel="noopener" aria-label="Open Xiang Yang's GitHub profile" data-zh-label="打开杨翔的 GitHub 主页"><svg class="gh-ic" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg></a>
+    <div class="langtoggle" aria-label="Language" data-zh-label="语言">
+      <button id="btnZh" type="button" aria-pressed="false">中文</button>
+      <button id="btnEn" type="button" aria-pressed="true">EN</button>
+    </div>
+  </div>
 </div>
 
 <div class="wrap">
   <header class="hero">
-    <div class="announce" data-zh="🎉 <b>六个生产 agent 全部在线</b> — 运行时已迁移至 DeepSeek&nbsp;V4">🎉 <b>All six production agents live</b> — runtime migrated to DeepSeek&nbsp;V4</div>
     <h1 class="wordmark">Digital Me</h1>
-    <div class="tagline" data-zh="探索记忆之境">Exploring the realm of memory</div>
-    <p class="lede" data-zh="一组各司其职的智能体：捕获、推理、交付一个人的记忆 — 全部通过一条共享总线协同。">A system of specialized agents that capture, reason over, and deliver a person's memory — coordinating through one shared bus.</p>
+    <div class="tagline" data-zh="一个会长期理解你的个人 AI 系统">A personal AI system that learns with you over time</div>
+    <p class="lede" data-zh="真实记忆、外部信息与多个专职智能体通过一条共享总线协作。系统负责整理和提出帮助，最终判断仍由人完成。">Memory, outside information, and specialized agents coordinate through one shared bus. The system organizes and proposes; people still decide.</p>
 
     <div class="hero-cards">
+      <a class="hcard hcard-feature" href="#structure">
+        <h3 data-zh="从记忆到判断，<br>系统如何协作">How the system moves<br>from memory to judgment</h3>
+        <span class="go" data-zh="查看系统架构 →">See the architecture →</span>
+      </a>
       <a class="hcard" href="#topology">
-        <h3 data-zh="智能体拓扑">Agent topology</h3>
-        <p data-zh="六个专职 agent、一条共享记忆总线 — 没有任何 agent 间直连。">Six specialized agents, one shared memory bus — no direct agent-to-agent calls.</p>
+        <h3 data-zh="六个专职角色">Six specialized roles</h3>
+        <p data-zh="每个智能体只做一类判断，通过共享记忆协作，而不是彼此直接调用。">Each agent owns one kind of judgment and collaborates through shared memory.</p>
       </a>
-      <a class="hcard" href="#structure">
-        <h3 data-zh="系统结构">System structure</h3>
-        <p data-zh="一条流：采集 → 总线 → 推理 → 交付，总线是整个系统的脊柱。">One flow: intake → bus → reason → deliver, with the bus as the spine.</p>
-      </a>
-      <a class="hcard hcard-feature" href="#harness">
-        <h3 data-zh="指令驱动的智能体，<br>开放的架构">Instruction-driven agents,<br>open architecture</h3>
-        <span class="go" data-zh="查看引擎 →">View the engine →</span>
+      <a class="hcard" href="#harness">
+        <h3 data-zh="让智能体保持可控">Keeping agents controllable</h3>
+        <p data-zh="契约、权限与人的闸门，让自动化保持有界、可追溯。">Contracts, permissions, and a human gate keep automation bounded and traceable.</p>
       </a>
     </div>
   </header>
 
-  <section id="topology">
-    <div class="sec-eyebrow" data-zh="01 · 智能体拓扑">01 · Agent topology</div>
-    <h2 data-zh="六个智能体，一份契约">Six agents, one contract</h2>
-    <p class="sec-sub" data-zh="每个 agent 只读写同一个事实源 — <code>my-memories</code> 总线。没有任何 agent 直接对话；<b>总线即契约</b>。">Every agent reads from and writes to a single source of truth — the <code>my-memories</code> bus. No agent talks to another directly; <b>the bus is the contract</b>.</p>
-
-    <div class="bus">
-      <span class="dot"></span>
-      <span class="t"><code>my-memories</code> · <span data-zh="共享记忆总线">shared memory bus</span></span>
-      <span class="s" data-zh="唯一事实源 — 所有读写都经过这里">single source of truth — all reads &amp; writes flow here</span>
-    </div>
-
-    <div class="grid">
-      <div class="card">
-        <div class="top"><div class="avatar">🐘</div><h3 data-zh="记忆智能体">Memory agent</h3></div>
-        <p class="role" data-zh="通过 Telegram 与 HTTP 采集接口捕获想法、链接与媒体；结构化并打分，沉淀为记忆。">Captures thoughts, links &amp; media via Telegram and an HTTP intake API; structures and scores them into memories.</p>
-        <div class="foot"><span class="stat live"><span class="d"></span><span data-zh="在线">live</span></span><span class="tag">intake api</span></div>
-      </div>
-      <div class="card">
-        <div class="top"><div class="avatar">🦊</div><h3 data-zh="战略家">Strategist</h3></div>
-        <p class="role" data-zh="对话式思考伙伴 — 提出提案、追踪矛盾、每日撰写系统脉搏。">A conversational thinking partner — surfaces proposals, tracks contradictions, writes a daily system pulse.</p>
-        <div class="foot"><span class="stat live"><span class="d"></span><span data-zh="在线">live</span></span><span class="tag">daily pulse</span></div>
-      </div>
-      <div class="card">
-        <div class="top"><div class="avatar">🕸️</div><h3 data-zh="连接映射师">Connection mapper</h3></div>
-        <p class="role" data-zh="按评分准则为记忆打分，在整个语料上编织连接、趋势与变更报告。">Scores memories against a rubric and weaves connections, trends and change-reports across the corpus.</p>
-        <div class="foot"><span class="stat live"><span class="d"></span><span data-zh="在线">live</span></span><span class="tag">weekly cron</span></div>
-      </div>
-      <div class="card">
-        <div class="top"><div class="avatar">🦉</div><h3 data-zh="情报智能体">Information agent</h3></div>
-        <p class="role" data-zh="两层新闻流水线 + 编辑式筛选 — 只递送值得注意的内容，经由 Telegram。">A two-tier news pipeline with editorial triage — delivers only what earns attention, over Telegram.</p>
-        <div class="foot"><span class="stat live"><span class="d"></span><span data-zh="在线">live</span></span><span class="tag">daily digest</span></div>
-      </div>
-      <div class="card">
-        <div class="top"><div class="avatar">🦎</div><h3 data-zh="界面智能体">Interface agent</h3></div>
-        <p class="role" data-zh="把系统状态渲染成视图 — 本站、实时仪表盘与新闻报告。">Renders the system's state into views — this site, the live dashboard and the news report.</p>
-        <div class="foot"><span class="stat live"><span class="d"></span><span data-zh="在线">live</span></span><span class="tag">renders views</span></div>
-      </div>
-      <div class="card">
-        <div class="top"><div class="avatar">🐙</div><h3 data-zh="学习智能体">Learning agent</h3></div>
-        <p class="role" data-zh="把记忆编译成结构化知识 — 知识拓扑、学习路径与教学伙伴。">Compiles memories into structured knowledge — topology, learning paths and a pedagogical companion.</p>
-        <div class="foot"><span class="stat warn"><span class="d"></span><span data-zh="需关注">attention</span></span><span class="tag">compiler</span></div>
-      </div>
-    </div>
-
-    <div class="legend">
-      <span><span class="d" style="background:var(--green)"></span><span data-zh="在线 · 按节奏运行">live · on cadence</span></span>
-      <span><span class="d" style="background:var(--amber)"></span><span data-zh="需关注">needs attention</span></span>
-      <span><span class="d" style="background:var(--slate-4)"></span><span data-zh="未激活">inactive</span></span>
-    </div>
-    <p class="also" data-zh="总线上还有 — <b>triage-loop</b>（loop-engineering 试点，尚未部署）与 <b>news-agent</b>（已退役，由 news pipeline 接替）。">Also on the bus — <b>triage-loop</b> (loop-engineering pilot, not yet deployed) and <b>news-agent</b> (retired, superseded by the news pipeline).</p>
-  </section>
-
   <section id="structure">
-    <div class="sec-eyebrow" data-zh="02 · 结构">02 · Structure</div>
-    <h2 data-zh="一条流，四个层">One flow, four tiers</h2>
-    <p class="sec-sub" data-zh="同一批智能体，换个视角看成一条流。一切经过 <b>采集 → 总线 → 推理 → 交付</b>，总线是脊柱。">The same agents, seen as a flow. Everything moves through <b>intake → bus → reason → deliver</b>, with the bus as the spine.</p>
+    <div class="sec-eyebrow" data-zh="01 · 系统架构">01 · System architecture</div>
+    <h2 data-zh="一条信息流，连接记忆与行动">One flow connects memory to action</h2>
+    <p class="sec-sub" data-zh="信息先被采集，进入共享记忆，再由不同角色建立联系、提出建议并转化为可用的界面。<b>共享总线是整个系统的脊柱。</b>">Information is captured into shared memory, interpreted by specialized roles, and turned into useful views and suggestions. <b>The shared bus is the system's spine.</b></p>
 
     <figure class="figure">
-      <svg width="100%" viewBox="0 0 680 400" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="Digital Me data flow: intake agents write to the shared bus; reasoning agents read and write; delivery agents render out.">
+      <svg width="100%" viewBox="0 0 680 400" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="Digital Me data flow: memory and interactions plus outside information feed the shared memory bus; a connection mapper, a strategist, and a learning agent work from that bus; relevant information and useful interfaces come back out.">
         <defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#B9C4D4" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
 
         <text x="34" y="34" class="lbl" data-zh="采集">INTAKE</text>
-        <g><rect class="live-b" x="34" y="46" width="188" height="52" rx="12"/><text x="128" y="70" class="t1" text-anchor="middle" data-zh="记忆智能体">Memory agent</text><text x="128" y="87" class="t2" text-anchor="middle" data-zh="捕获 + 打分">captures + scores</text></g>
-        <g><rect class="live-b" x="246" y="46" width="188" height="52" rx="12"/><text x="340" y="70" class="t1" text-anchor="middle" data-zh="新闻流水线">News pipeline</text><text x="340" y="87" class="t2" text-anchor="middle" data-zh="两级打分">two-tier scoring</text></g>
-        <g><rect class="idle-b" x="458" y="46" width="188" height="52" rx="12"/><text x="552" y="70" class="t1" text-anchor="middle" style="fill:#64748B">x-intake</text><text x="552" y="87" class="t2" text-anchor="middle" data-zh="实验">experiment</text></g>
+        <g><rect class="live-b" x="34" y="46" width="294" height="52" rx="12"/><text x="181" y="70" class="t1" text-anchor="middle" data-zh="真实记忆与互动">Memory &amp; interactions</text><text x="181" y="87" class="t2" text-anchor="middle" data-zh="捕获经历与选择">captures experience + choices</text></g>
+        <g><rect class="live-b" x="352" y="46" width="294" height="52" rx="12"/><text x="499" y="70" class="t1" text-anchor="middle" data-zh="外部信息">Outside information</text><text x="499" y="87" class="t2" text-anchor="middle" data-zh="带回新的视角">brings in new perspectives</text></g>
 
-        <line class="edge" x1="128" y1="98" x2="128" y2="140" marker-end="url(#ah)"/>
-        <line class="edge" x1="340" y1="98" x2="340" y2="140" marker-end="url(#ah)"/>
-        <line class="edge" x1="552" y1="98" x2="552" y2="140" marker-end="url(#ah)"/>
+        <line class="edge" x1="181" y1="98" x2="181" y2="140" marker-end="url(#ah)"/>
+        <line class="edge" x1="499" y1="98" x2="499" y2="140" marker-end="url(#ah)"/>
 
         <rect class="busbox" x="34" y="144" width="612" height="46" rx="12"/>
-        <text x="340" y="163" class="t1" text-anchor="middle" style="fill:#3B5BFD" data-zh="my-memories · 共享总线">my-memories · shared bus</text>
-        <text x="340" y="180" class="t2" text-anchor="middle" data-zh="唯一事实源">single source of truth</text>
+        <text x="340" y="163" class="t1" text-anchor="middle" style="fill:#3B5BFD" data-zh="my-memories · 共享记忆总线">my-memories · shared memory bus</text>
+        <text x="340" y="180" class="t2" text-anchor="middle" data-zh="所有角色共享的事实基础">common ground for every role</text>
 
-        <text x="34" y="214" class="lbl" data-zh="推理">REASON</text>
+        <text x="34" y="214" class="lbl" data-zh="理解">UNDERSTAND</text>
         <line class="edge" x1="128" y1="190" x2="128" y2="222" marker-end="url(#ah)"/>
         <line class="edge" x1="340" y1="190" x2="340" y2="222" marker-end="url(#ah)"/>
         <line class="edge" x1="552" y1="190" x2="552" y2="222" marker-end="url(#ah)"/>
         <line class="edge" x1="234" y1="190" x2="234" y2="306" marker-end="url(#ah)"/>
         <line class="edge" x1="446" y1="190" x2="446" y2="306" marker-end="url(#ah)"/>
 
-        <g><rect class="live-b" x="34" y="226" width="188" height="52" rx="12"/><text x="128" y="250" class="t1" text-anchor="middle" data-zh="连接映射师">Connection mapper</text><text x="128" y="267" class="t2" text-anchor="middle" data-zh="打分 + 连接">scores + connects</text></g>
-        <g><rect class="live-b" x="246" y="226" width="188" height="52" rx="12"/><text x="340" y="250" class="t1" text-anchor="middle" data-zh="战略家">Strategist</text><text x="340" y="267" class="t2" text-anchor="middle" data-zh="思考 + 提案">thinks + proposes</text></g>
-        <g><rect class="warn-b" x="458" y="226" width="188" height="52" rx="12"/><text x="552" y="250" class="t1" text-anchor="middle" data-zh="学习智能体">Learning agent</text><text x="552" y="267" class="t2" text-anchor="middle" data-zh="编译知识">compiles knowledge</text></g>
+        <g><rect class="live-b" x="34" y="226" width="188" height="52" rx="12"/><text x="128" y="250" class="t1" text-anchor="middle" data-zh="连接映射">Connection mapper</text><text x="128" y="267" class="t2" text-anchor="middle" data-zh="寻找记忆之间的联系">finds connections</text></g>
+        <g><rect class="live-b" x="246" y="226" width="188" height="52" rx="12"/><text x="340" y="250" class="t1" text-anchor="middle" data-zh="策略建议">Strategist</text><text x="340" y="267" class="t2" text-anchor="middle" data-zh="结合个人方向提出建议">proposes next moves</text></g>
+        <g><rect class="live-b" x="458" y="226" width="188" height="52" rx="12"/><text x="552" y="250" class="t1" text-anchor="middle" data-zh="学习支持">Learning agent</text><text x="552" y="267" class="t2" text-anchor="middle" data-zh="组织知识与学习路径">shapes learning paths</text></g>
 
-        <text x="34" y="298" class="lbl" data-zh="交付">DELIVER</text>
-        <g><rect class="live-b" x="140" y="310" width="188" height="52" rx="12"/><text x="234" y="334" class="t1" text-anchor="middle" data-zh="情报智能体">Information agent</text><text x="234" y="351" class="t2" text-anchor="middle">telegram</text></g>
-        <g><rect class="live-b" x="352" y="310" width="188" height="52" rx="12"/><text x="446" y="334" class="t1" text-anchor="middle" data-zh="界面智能体">Interface agent</text><text x="446" y="351" class="t2" text-anchor="middle" data-zh="仪表盘 + 视图">dashboards + views</text></g>
+        <text x="34" y="298" class="lbl" data-zh="呈现">DELIVER</text>
+        <g><rect class="live-b" x="140" y="310" width="188" height="52" rx="12"/><text x="234" y="334" class="t1" text-anchor="middle" data-zh="合适的信息">Relevant information</text><text x="234" y="351" class="t2" text-anchor="middle" data-zh="匹配当下需求">matched to the moment</text></g>
+        <g><rect class="live-b" x="352" y="310" width="188" height="52" rx="12"/><text x="446" y="334" class="t1" text-anchor="middle" data-zh="可用的界面">Useful interfaces</text><text x="446" y="351" class="t2" text-anchor="middle" data-zh="让脉络可以被看见">makes context visible</text></g>
       </svg>
-      <figcaption data-zh="采集写入总线 · 推理读写总线 · 交付向外渲染">intake writes to the bus · reasoning reads &amp; writes · delivery renders out</figcaption>
+      <figcaption data-zh="采集经历与信息 · 建立联系与判断 · 在合适的时刻返回帮助">capture experience and information · build connections and judgment · return useful help at the right moment</figcaption>
     </figure>
   </section>
 
+  <section id="topology">
+    <div class="sec-eyebrow" data-zh="02 · 智能体角色">02 · Agent roles</div>
+    <h2 data-zh="六个角色，一条共享总线">Six roles, one shared bus</h2>
+    <p class="sec-sub" data-zh="每个智能体只负责一类判断，并以同一份记忆作为协作基础。这样可以替换单个角色，也不会丢掉整个系统的脉络。">Each agent owns one kind of judgment and works from the same memory base. A role can change without losing the system's broader context.</p>
+
+    <div class="bus">
+      <span class="dot"></span>
+      <span class="t"><code>my-memories</code> · <span data-zh="共享记忆总线">shared memory bus</span></span>
+      <span class="s" data-zh="让不同角色拥有共同上下文">shared context across specialized roles</span>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3 data-zh="记忆智能体">Memory agent</h3>
+        <p class="role" data-zh="把想法、互动与重要经历整理成可以继续使用的记忆。">Turns thoughts, interactions, and lived experience into reusable memory.</p>
+      </div>
+      <div class="card">
+        <h3 data-zh="策略智能体">Strategist</h3>
+        <p class="role" data-zh="结合个人方向与当下情境，提出更合适的下一步。">Connects long-term direction with the present moment to suggest a better next step.</p>
+      </div>
+      <div class="card">
+        <h3 data-zh="连接映射智能体">Connection mapper</h3>
+        <p class="role" data-zh="寻找分散记忆之间的联系，让长期变化和认知边界变得可见。">Finds links across scattered memories so patterns and cognitive boundaries become visible.</p>
+      </div>
+      <div class="card">
+        <h3 data-zh="信息智能体">Information agent</h3>
+        <p class="role" data-zh="让外部信息与个人记忆对碰，只带回此刻真正有价值的内容。">Tests outside information against personal context and returns what is useful now.</p>
+      </div>
+      <div class="card">
+        <h3 data-zh="界面智能体">Interface agent</h3>
+        <p class="role" data-zh="把复杂的系统脉络转化成可以浏览、理解和行动的界面。">Turns system context into interfaces that can be browsed, understood, and acted on.</p>
+      </div>
+      <div class="card">
+        <h3 data-zh="学习智能体">Learning agent</h3>
+        <p class="role" data-zh="把已有理解组织成知识结构，并沿着认知边界设计学习路径。">Organizes existing understanding and shapes learning paths along the edge of what is known.</p>
+      </div>
+    </div>
+
+  </section>
+
   <section id="harness">
-    <div class="sec-eyebrow">03 · Harness engineering</div>
-    <h2 data-zh="有意思的不是 agent，是驾驭它的 harness">The interesting part isn't the agents — it's the harness</h2>
-    <p class="sec-sub" data-zh="每个 agent 都被同一套工程结构握住：自然语言契约定义身份，代码只做执行，模型在运行时解析，权限收窄写入范围，失败走带外报警。下面是一个 agent 的解剖。">Every agent is held by the same engineering structure: a natural-language contract defines identity, code only executes, models resolve at runtime, permissions narrow the write scope, failures escape out-of-band. Here is one agent, dissected.</p>
+    <div class="sec-eyebrow" data-zh="03 · 运行边界">03 · Harness engineering</div>
+    <h2 data-zh="真正让智能体可用的，是它外面的 Harness">What makes an agent useful is the harness around it</h2>
+    <p class="sec-sub" data-zh="模型可以更换，但智能体的职责、可用工具、记忆范围和写入权限由外部结构约束。这样，能力可以升级，边界仍然清楚。">Models can change, while responsibilities, tools, memory scope, and write permissions remain explicit. Capability can evolve without making the system opaque.</p>
 
     <figure class="figure">
       <svg width="100%" viewBox="0 0 680 442" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="Anatomy of one agent: contract layer over execution layer; model config and health alert as side channels; a permissions gate between the agent and the shared bus.">
@@ -303,204 +297,116 @@
         <text x="340" y="395" class="t1" text-anchor="middle" style="fill:#3B5BFD">my-memories · shared bus</text>
         <text x="340" y="412" class="t2" text-anchor="middle" data-zh="唯一事实源 · 每一次写都留痕">single source of truth · every write is a commit</text>
       </svg>
-      <figcaption data-zh="自然语言是身份层，代码是执行层 — 契约变，行为变，代码不用动">natural language is the identity layer, code is the execution layer</figcaption>
+      <figcaption data-zh="契约定义职责，代码负责执行，权限控制它能改变什么">the contract defines responsibility · code executes · permissions bound what can change</figcaption>
     </figure>
 
-    <p class="sec-sub" style="margin-top:40px" data-zh="一个定时任务并不是一个循环。四个原语把 cron 变成可以无人值守的 loop —— 已在 triage-loop 试点跑通，正逐个装回生产 agent。">A cron job is not a loop. Four primitives turn one into a system that can run unattended — piloted in triage-loop, now being retrofitted onto the production agents.</p>
-
-    <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">
-      <div class="card">
-        <h3 style="color:var(--blue);margin-bottom:6px" data-zh="心跳">Heartbeat</h3>
-        <p class="role" style="min-height:3.2em" data-zh="每个循环有自己的节拍：cron、轮询或进程内定时器 — 沉默本身可被发现。">Every loop has a pulse — cron, poll, or in-process timer. Silence itself becomes detectable.</p>
-        <span class="tag">cron · poll · timer</span>
-      </div>
-      <div class="card">
-        <h3 style="color:var(--blue);margin-bottom:6px" data-zh="完成条件">Done-condition</h3>
-        <p class="role" style="min-height:3.2em" data-zh="“做完了”必须机器可判：输出 schema、来源可追溯、重启安全的标记文件。">"Done" must be machine-checkable: output schema, source traceability, restart-safe markers.</p>
-        <span class="tag">schema gate · marker</span>
-      </div>
-      <div class="card">
-        <h3 style="color:var(--blue);margin-bottom:6px" data-zh="出题 ≠ 阅卷">Maker ≠ Checker</h3>
-        <p class="role" style="min-height:3.2em" data-zh="产出和审核永远不同一个模型：Claude 起草，Codex（异厂）只读审查。">The model that makes never grades itself: Claude drafts, Codex (different vendor) verifies read-only.</p>
-        <span class="tag">cross-vendor review</span>
-      </div>
-      <div class="card">
-        <h3 style="color:var(--blue);margin-bottom:6px" data-zh="失败要响">Fail-loud</h3>
-        <p class="role" style="min-height:3.2em" data-zh="失败写 FAILED 标记、带外报警 — 绝不允许一份看起来正常的空报告。">Failures write a FAILED marker and alert out-of-band — never a clean-looking empty report.</p>
-        <span class="tag">health_alert</span>
-      </div>
-    </div>
-
-    <p class="sec-sub" style="margin-top:40px" data-zh="最后一道结构是人的闸门：agent 只提议，跨厂评审先核，人拍板才落地。自动化只在「可逆 · 有界 · 可审计」的域里逐级升级。">The last structure is the human gate: agents propose, cross-vendor review verifies, a human decides before anything lands. Autonomy is only ever raised domain-by-domain — where changes are reversible, bounded, and auditable.</p>
+    <p class="sec-sub" style="margin-top:40px" data-zh="最后一道边界仍然是人：智能体提出建议，独立检查先确认风险，最终由人决定继续、修改或停止。">The final boundary is human: agents propose, an independent check surfaces risk, and a person decides whether to continue, revise, or stop.</p>
 
     <figure class="figure">
-      <svg width="100%" viewBox="0 0 680 130" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="The human gate: agents propose, cross-vendor review verifies with risk tiers, the human decides, and the change lands on the bus.">
+      <svg width="100%" viewBox="0 0 680 130" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="The human gate: agents propose rather than change things directly, an independent check tests the evidence and the risk, and a person decides whether to continue, revise, or stop.">
         <defs><marker id="ah3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#B9C4D4" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
         <g><rect class="box" x="34" y="34" width="180" height="60" rx="10"/><text x="124" y="58" class="t1" text-anchor="middle" data-zh="Agent 提议">Agents propose</text><text x="124" y="76" class="t2" text-anchor="middle" data-zh="提案 · 不直接改动">proposals, not changes</text></g>
         <line class="edge" x1="214" y1="64" x2="246" y2="64" marker-end="url(#ah3)"/>
-        <g><rect class="box" x="250" y="34" width="180" height="60" rx="10"/><text x="340" y="58" class="t1" text-anchor="middle" data-zh="跨厂评审">Cross-vendor review</text><text x="340" y="76" class="t2" text-anchor="middle" data-zh="风险分层 T0–T3">risk tiers T0–T3</text></g>
+        <g><rect class="box" x="250" y="34" width="180" height="60" rx="10"/><text x="340" y="58" class="t1" text-anchor="middle" data-zh="独立检查">Independent check</text><text x="340" y="76" class="t2" text-anchor="middle" data-zh="确认依据与风险">tests evidence + risk</text></g>
         <line class="edge" x1="430" y1="64" x2="462" y2="64" marker-end="url(#ah3)"/>
-        <g><rect class="busbox" x="466" y="34" width="180" height="60" rx="10"/><text x="556" y="58" class="t1" text-anchor="middle" style="fill:#3B5BFD" data-zh="人拍板">Human decides</text><text x="556" y="76" class="t2" text-anchor="middle" data-zh="EXECUTE 闸门">the EXECUTE gate</text></g>
+        <g><rect class="busbox" x="466" y="34" width="180" height="60" rx="10"/><text x="556" y="58" class="t1" text-anchor="middle" style="fill:#3B5BFD" data-zh="人做决定">Human decides</text><text x="556" y="76" class="t2" text-anchor="middle" data-zh="继续 · 修改 · 停止">continue · revise · stop</text></g>
       </svg>
-      <figcaption data-zh="harness 握住 agent，人握住 harness">the harness holds the agents · the human holds the harness</figcaption>
+      <figcaption data-zh="Harness 约束智能体，人决定系统往哪里走">the harness bounds the agents · people decide where the system goes</figcaption>
     </figure>
   </section>
 
   <section id="why">
-    <div class="sec-eyebrow" data-zh="04 · 和人一起成长的 AGI">04 · AGI that grows with people</div>
-    <h2 data-zh="AI 需要和人一起成长">AI should grow together with you</h2>
-    <p class="sec-sub" data-zh="他替你跑重复工作，你腾出精力去成长；而你每次怎么判断，也一点点教会了它。这是整个系统的价值底座 — 三张卡说清楚。">It runs the repetitive work so you can spend yourself on growing — and every judgment you make quietly teaches it. This is the value layer under everything above, in three cards.</p>
+    <div class="sec-eyebrow" data-zh="04 · 为什么做 Digital Me">04 · Why Digital Me</div>
+    <h2 data-zh="不是替人做更多，而是帮助人看得更清楚">Not to do more for people, but to help people see more clearly</h2>
+    <p class="sec-sub" data-zh="现有 AI 工具擅长完成具体任务。Digital Me 更关心任务之间的脉络：一个人正在成为什么样的人，哪些经历正在改变他的判断，以及下一步什么最值得关注。">Existing AI tools are increasingly good at completing tasks. Digital Me focuses on the context between them: who a person is becoming, which experiences are changing their judgment, and what deserves attention next.</p>
 
-    <figure class="figure zh-only"><img src="assets/why-card-1.png" alt="AI 工具，是在帮你，还是在悄悄养废你？" style="width:100%;display:block;border-radius:9px"></figure>
-    <figure class="figure zh-only" style="margin-top:16px"><img src="assets/why-card-2.png" alt="你会的，做成 skill；踩着它，够向更高的。" style="width:100%;display:block;border-radius:9px"></figure>
-    <figure class="figure zh-only" style="margin-top:16px"><img src="assets/why-card-3.png" alt="定义该解决什么？— 帮你看清这一步，做选择的是你" style="width:100%;display:block;border-radius:9px"></figure>
-
-    <figure class="figure en-only">
-      <div style="font-weight:600;font-size:16.5px;color:var(--ink);margin:6px 8px 2px" data-zh="AI 工具，是在帮你，还是在悄悄养废你？">Is the AI tool helping you — or quietly crippling you?</div>
-      <svg width="100%" viewBox="0 0 680 300" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="Two diverging paths from now: the ideal AGI path rises — stronger with every use; the path of most AI tools today sinks — ever more dependent.">
-        <circle cx="80" cy="150" r="5" fill="var(--ink)"/>
-        <text x="80" y="176" class="t2" text-anchor="middle" data-zh="现在">now</text>
-        <line x1="85" y1="150" x2="170" y2="150" stroke="var(--ink)" stroke-width="2"/>
-        <path d="M170 150 L466 60" stroke="#3B5BFD" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-        <text x="280" y="90" class="t1" style="fill:#3B5BFD" data-zh="我理想中的 AGI">the AGI I want</text>
-        <circle cx="500" cy="42" r="11" fill="#3B5BFD"/>
-        <rect x="490" y="58" width="20" height="34" rx="9" fill="#3B5BFD"/>
-        <text x="528" y="78" class="t1" style="fill:#3B5BFD" data-zh="↑ 越用越强">↑ stronger with use</text>
-        <path d="M170 150 L462 244" stroke="#AAB4C4" stroke-width="2" fill="none" stroke-dasharray="6 5" stroke-linecap="round"/>
-        <text x="280" y="216" class="t2" data-zh="今天多数 AI 工具">most AI tools today</text>
-        <circle cx="498" cy="252" r="10" fill="#AAB4C4"/>
-        <rect x="486" y="266" width="22" height="24" rx="10" fill="#AAB4C4"/>
-        <text x="526" y="282" class="t2" data-zh="↓ 越来越离不开它">↓ ever more dependent</text>
-      </svg>
-    </figure>
-
-    <figure class="figure en-only" style="margin-top:16px">
-      <div style="font-weight:600;font-size:16.5px;color:var(--ink);margin:6px 8px 2px" data-zh="你会的，做成 skill；踩着它，够向更高的。">What you master becomes a skill — step on it to reach higher.</div>
-      <svg width="100%" viewBox="0 0 680 340" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="A staircase of abilities done with AI: research, drafts, prototypes, judging the path, and — next, dashed — defining what to solve. The harness (context, tools, memory, loop, guardrail) is the platform under the steps.">
-        <text x="46" y="40" class="t2" data-zh="个人能力 ↑">personal ability ↑</text>
-        <path d="M60 262 L172 262 L172 224 L284 224 L284 186 L396 186 L396 148 L508 148 L508 110" stroke="#3B5BFD" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
-        <path d="M60 262 L172 262 L172 224 L284 224 L284 186 L396 186 L396 148 L508 148 L508 262 Z" fill="rgba(77,107,254,.07)" stroke="none"/>
-        <path d="M508 110 L620 110" stroke="#3B5BFD" stroke-width="2" fill="none" stroke-dasharray="5 5"/>
-        <text x="116" y="250" class="t2" text-anchor="middle" data-zh="查资料、找参考">research</text>
-        <text x="228" y="212" class="t2" text-anchor="middle" data-zh="整理初稿">first drafts</text>
-        <text x="340" y="174" class="t2" text-anchor="middle" data-zh="搭出原型">prototypes</text>
-        <text x="452" y="136" class="t2" text-anchor="middle" data-zh="判断哪条路对">judging the path</text>
-        <text x="564" y="98" class="t2" text-anchor="middle" style="fill:#3B5BFD" data-zh="定义该解决什么">defining what to solve</text>
-        <circle cx="508" cy="86" r="9" fill="var(--ink)"/>
-        <rect x="500" y="99" width="16" height="26" rx="7" fill="var(--ink)"/>
-        <rect x="60" y="274" width="448" height="40" rx="9" fill="rgba(77,107,254,.08)" stroke="#C9D6FF"/>
-        <text x="84" y="294" class="t1" dominant-baseline="central" style="fill:#3B5BFD;font-size:13px">Harness</text>
-        <text x="168" y="294" class="t2" dominant-baseline="central">Context · Tools · Memory · Loop · Guardrail</text>
-        <text x="620" y="330" class="t2" text-anchor="end" data-zh="和 AI 一起做的事 →">done together with AI →</text>
-      </svg>
-    </figure>
-
-    <figure class="figure en-only" style="margin-top:16px">
-      <div style="font-weight:600;font-size:16.5px;color:var(--ink);margin:6px 8px 14px" data-zh="它帮你看清这一步 — 做选择的，始终是你。">It shows you the step — the one who chooses is always you.</div>
-      <div style="max-width:440px;margin:0 auto;background:#fff;border:1px solid var(--line-2);border-radius:14px;box-shadow:0 8px 26px rgba(16,24,40,.08);padding:16px 18px">
-        <div style="font-size:12px;color:var(--slate-4);margin-bottom:10px"><span style="color:var(--blue);font-weight:600">✦ Harness</span> · <span data-zh="帮你看清这一步，做选择的是你">sees this step clearly — the one choosing is you</span></div>
-        <div style="font-weight:600;font-size:15.5px;color:var(--ink);margin-bottom:10px" data-zh="定义该解决什么？">What should we actually solve?</div>
-        <div style="display:flex;align-items:center;justify-content:space-between;padding:9px 10px;border-radius:8px;font-size:13.5px;color:var(--slate-6)">
-          <span>○ <span data-zh="解决你说的那个">solve the one you named</span></span><span class="tag" data-zh="快 · 但治标">fast · symptom-level</span>
+    <div class="why-summary">
+      <p class="statement" data-zh="它像一套个人的元认知系统：站在旁边看见长期脉络，但不替你做最后的选择。">It acts as a personal metacognitive system: seeing the long arc from the side without taking the final choice away from you.</p>
+      <dl class="principles">
+        <div>
+          <dt data-zh="理解，而不只是记住">Understand, not just remember</dt>
+          <dd data-zh="寻找记忆背后的联系，让变化、矛盾和认知边界变得可见。">Find the connections behind memories so change, tension, and cognitive boundaries become visible.</dd>
         </div>
-        <div style="display:flex;align-items:center;justify-content:space-between;padding:9px 10px;border-radius:8px;font-size:13.5px;color:var(--slate-6)">
-          <span>○ <span data-zh="挖到根上再解">dig to the root, then solve</span></span><span class="tag" data-zh="稳 · 但慢">solid · slower</span>
+        <div>
+          <dt data-zh="匹配，而不只是推送">Match, not just deliver</dt>
+          <dd data-zh="让外部信息与个人脉络对碰，返回密度和深度都更合适的内容。">Test outside information against personal context and return the right depth and density.</dd>
         </div>
-        <div style="display:flex;align-items:center;justify-content:space-between;padding:9px 10px;border-radius:8px;font-size:13.5px;background:var(--blue-soft);border:1px solid var(--blue-border);color:var(--blue-strong);font-weight:500">
-          <span>✦ <span data-zh="其实该解的是另一个问题">the real problem is a different one</span></span><span style="font-size:12px" data-zh="跳出框来看">step outside the frame</span>
+        <div>
+          <dt data-zh="支持判断，而不替代判断">Support judgment, do not replace it</dt>
+          <dd data-zh="系统提出建议、解释依据；方向、取舍与最终决定仍然属于人。">The system proposes and explains; direction, trade-offs, and final decisions remain human.</dd>
         </div>
-      </div>
-
-      <svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="An isometric staircase of solid blue blocks — the skills you've already made yours — with a figure standing on top. Dashed ghost blocks float around it: possible next steps. The choice picked above drops in as the glowing next block of the stair.">
-        <defs><marker id="ah4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#4D6BFE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-        <g transform="translate(30,10)">
-          <path d="M378 26 L378 168" stroke="#4D6BFE" stroke-width="1.5" fill="none" stroke-dasharray="5 5" marker-end="url(#ah4)"/>
-
-          <g>
-            <polygon points="130,300 170,320 170,378 130,358" fill="#7E96FE" stroke="#FDFDFF"/>
-            <polygon points="170,320 210,300 210,358 170,378" fill="#4D6BFE" stroke="#FDFDFF"/>
-            <polygon points="170,280 210,300 170,320 130,300" fill="#C7D4FF" stroke="#FDFDFF"/>
-            <text x="162" y="300" class="t2" text-anchor="middle" dominant-baseline="central" style="font-size:10.5px;fill:#1E293B" data-zh="查资料">research</text>
-          </g>
-          <g>
-            <polygon points="182,274 222,294 222,378 182,358" fill="#7E96FE" stroke="#FDFDFF"/>
-            <polygon points="222,294 262,274 262,358 222,378" fill="#4D6BFE" stroke="#FDFDFF"/>
-            <polygon points="222,254 262,274 222,294 182,274" fill="#C7D4FF" stroke="#FDFDFF"/>
-            <text x="212" y="274" class="t2" text-anchor="middle" dominant-baseline="central" style="font-size:10.5px;fill:#1E293B" data-zh="整理初稿">drafts</text>
-          </g>
-          <g>
-            <polygon points="234,248 274,268 274,378 234,358" fill="#7E96FE" stroke="#FDFDFF"/>
-            <polygon points="274,268 314,248 314,358 274,378" fill="#4D6BFE" stroke="#FDFDFF"/>
-            <polygon points="274,228 314,248 274,268 234,248" fill="#C7D4FF" stroke="#FDFDFF"/>
-            <text x="264" y="248" class="t2" text-anchor="middle" dominant-baseline="central" style="font-size:10.5px;fill:#1E293B" data-zh="搭出原型">prototype</text>
-          </g>
-          <g>
-            <polygon points="286,222 326,242 326,378 286,358" fill="#7E96FE" stroke="#FDFDFF"/>
-            <polygon points="326,242 366,222 366,358 326,378" fill="#4D6BFE" stroke="#FDFDFF"/>
-            <polygon points="326,202 366,222 326,242 286,222" fill="#C7D4FF" stroke="#FDFDFF"/>
-            <text x="346" y="296" text-anchor="middle" dominant-baseline="central" style="font-size:10px;fill:#fff;font-family:var(--sans)" data-zh="判断路线">judge</text>
-          </g>
-
-          <circle cx="326" cy="178" r="9" fill="#0F1115"/>
-          <rect x="317" y="190" width="18" height="26" rx="8" fill="#0F1115"/>
-          <text x="326" y="156" class="t1" text-anchor="middle" style="font-size:13px" data-zh="你">you</text>
-
-          <g stroke="#4D6BFE" stroke-width="1.2" stroke-dasharray="4 3">
-            <polygon points="378,176 418,196 378,216 338,196" fill="rgba(77,107,254,.12)"/>
-            <polygon points="338,196 378,216 378,246 338,226" fill="rgba(77,107,254,.05)"/>
-            <polygon points="378,216 418,196 418,226 378,246" fill="rgba(77,107,254,.05)"/>
-          </g>
-          <text x="428" y="182" class="t1" style="fill:#3B5BFD;font-size:12.5px" data-zh="定义该解决什么">define the problem</text>
-
-          <g stroke="#AAB4C4" stroke-width="1" stroke-dasharray="4 3">
-            <polygon points="240,135 270,150 240,165 210,150" fill="rgba(170,180,196,.08)"/>
-            <polygon points="210,150 240,165 240,187 210,172" fill="rgba(170,180,196,.04)"/>
-            <polygon points="240,165 270,150 270,172 240,187" fill="rgba(170,180,196,.04)"/>
-          </g>
-          <g stroke="#AAB4C4" stroke-width="1" stroke-dasharray="4 3">
-            <polygon points="470,265 500,280 470,295 440,280" fill="rgba(170,180,196,.08)"/>
-            <polygon points="440,280 470,295 470,317 440,302" fill="rgba(170,180,196,.04)"/>
-            <polygon points="470,295 500,280 500,302 470,317" fill="rgba(170,180,196,.04)"/>
-          </g>
-        </g>
-      </svg>
-      <figcaption data-zh="实心是你已沉淀的技能，虚影是还没走的路 — 哪一块成真，由你选">solid blocks are skills already yours · dashed ones are paths not yet taken — you choose which becomes real</figcaption>
-    </figure>
+      </dl>
+    </div>
   </section>
 </div>
 
-<button class="totop" id="toTop" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<button class="totop" id="toTop" type="button" aria-label="Back to top" data-zh-label="回到顶部" aria-hidden="true" tabindex="-1"><span data-zh="回到顶部">Back to top</span></button>
 
 <script>
 (function(){
-  var els = document.querySelectorAll('[data-zh]');
+  var els = document.querySelectorAll('[data-zh], [data-zh-label]');
   els.forEach(function(el){
-    if (el instanceof SVGElement) el.dataset.en = el.textContent;
-    else el.dataset.en = el.innerHTML;
+    if (el.dataset.zh !== undefined) {
+      if (el instanceof SVGElement) el.dataset.en = el.textContent;
+      else el.dataset.en = el.innerHTML;
+    }
+    if (el.dataset.zhLabel !== undefined) el.dataset.enLabel = el.getAttribute('aria-label') || '';
   });
-  var btn = document.getElementById('langBtn');
+  var btnZh = document.getElementById('btnZh');
+  var btnEn = document.getElementById('btnEn');
+  var toTop = document.getElementById('toTop');
+  var topbar = document.getElementById('topbar');
+  var brand = document.querySelector('.brand');
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.topnav a'));
+  var sections = navLinks.map(function(link){ return document.querySelector(link.getAttribute('href')); });
   var titles = {en:'Digital Me — architecture', zh:'Digital Me — 架构总览'};
+  function onScroll(){
+    var showTop = window.scrollY > Math.max(360, window.innerHeight * .7);
+    toTop.classList.toggle('show', showTop);
+    toTop.setAttribute('aria-hidden', showTop ? 'false' : 'true');
+    toTop.tabIndex = showTop ? 0 : -1;
+    topbar.classList.toggle('scrolled', window.scrollY > 40);
+    var y = window.scrollY + topbar.offsetHeight + 30;
+    var active = -1;
+    sections.forEach(function(section, index){ if (section && section.offsetTop <= y) active = index; });
+    var nearPageEnd = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 4;
+    if (nearPageEnd && sections[sections.length - 1]) active = sections.length - 1;
+    navLinks.forEach(function(link, index){
+      var on = index === active;
+      link.classList.toggle('on', on);
+      if (on) link.setAttribute('aria-current', 'true'); else link.removeAttribute('aria-current');
+    });
+  }
   function apply(lang){
     els.forEach(function(el){
-      var v = lang === 'zh' ? el.dataset.zh : el.dataset.en;
-      if (el instanceof SVGElement) el.textContent = v; else el.innerHTML = v;
+      if (el.dataset.zh !== undefined) {
+        var v = lang === 'zh' ? el.dataset.zh : el.dataset.en;
+        if (el instanceof SVGElement) el.textContent = v; else el.innerHTML = v;
+      }
+      if (el.dataset.zhLabel !== undefined) {
+        el.setAttribute('aria-label', lang === 'zh' ? el.dataset.zhLabel : el.dataset.enLabel);
+      }
     });
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
     document.title = titles[lang];
-    btn.textContent = lang === 'zh' ? 'EN' : '中文';
+    btnZh.setAttribute('aria-pressed', lang === 'zh' ? 'true' : 'false');
+    btnEn.setAttribute('aria-pressed', lang === 'en' ? 'true' : 'false');
     try { localStorage.setItem('dm-lang', lang); } catch(e){}
+    onScroll();
   }
   var saved = 'en';
   try { saved = localStorage.getItem('dm-lang') || 'en'; } catch(e){}
   if (saved === 'zh') apply('zh');
-  btn.addEventListener('click', function(){
-    apply(document.documentElement.lang.indexOf('zh') === 0 ? 'en' : 'zh');
-  });
-  var toTop = document.getElementById('toTop');
-  function onScroll(){ toTop.classList.toggle('show', window.scrollY > 420); }
+  btnZh.addEventListener('click', function(){ apply('zh'); });
+  btnEn.addEventListener('click', function(){ apply('en'); });
   window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll, {passive:true});
   onScroll();
-  toTop.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'auto'});
+    if (brand) brand.focus({preventScroll:true});
+    onScroll();
+  });
 })();
 </script>
 </body>
