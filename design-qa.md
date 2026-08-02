@@ -27,4 +27,19 @@
 - The architecture diagram was checked in both languages on mobile and desktop: every tier label clears its nearest connector, with the longest label (`UNDERSTAND`) ending at x=123.1 against the connector at x=128.
 - All three diagram accessible names (data flow, agent cross-section, human gate) describe the nodes currently drawn.
 
-Result: passed
+## Portfolio navigation alignment — 2026-08-02
+
+- Visual source of truth: the current local personal Portfolio at `/Users/yangxiang/hci-portfolio/index.html`.
+- Source capture: `qa/design-source-portfolio-nav.jpg`.
+- Digital Me before / after: `qa/design-before-digital-me-nav.jpg` and `qa/design-after-digital-me-nav.jpg`.
+- Combined comparison input: `qa/design-qa-comparison.jpg`, generated from `qa/design-qa-comparison.html`.
+- Mobile implementation: `qa/design-after-digital-me-nav-mobile.jpg`.
+- Chinese scrolled state with active section and back-to-top: `qa/design-after-digital-me-nav-scrolled-zh.jpg`.
+- Matched the Portfolio's fixed translucent bar, quiet identity line, pill navigation, two-state language control, active-section feedback, and labelled back-to-top action.
+- Preserved Digital Me's own violet-blue identity and architecture-first page hierarchy instead of importing the Portfolio's ambient background or project-page content styling.
+- Anchor navigation now jumps directly instead of smooth-scrolling. Architecture, Agents, Guardrails, and Why all resolve to existing sections and update the active pill.
+- Chinese / English switching updates page content, document language, navigation labels, button labels, and accessibility names. The selected language remains explicit through `aria-pressed`.
+- Back-to-top becomes keyboard reachable only while visible, returns to `scrollY = 0`, then leaves the tab order.
+- Checked at the in-app browser's desktop viewport and a requested 390 × 844 mobile viewport. Neither state has document-level horizontal overflow.
+
+final result: passed
