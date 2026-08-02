@@ -19,7 +19,7 @@
   }
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%;scroll-behavior:auto}
-  body{margin:0;padding-top:59px;color:var(--slate-6);font-family:var(--sans);font-size:15.5px;line-height:1.6;
+  body{margin:0;padding-top:67px;color:var(--slate-6);font-family:var(--sans);font-size:15.5px;line-height:1.6;
     -webkit-font-smoothing:antialiased;
     background:
       radial-gradient(1000px 560px at 88% -6%, rgba(109,134,255,.16), transparent 62%),
@@ -32,26 +32,26 @@
   .wrap{max-width:1000px;margin:0 auto;padding:0 28px}
 
   .topbar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
-    padding:13px 24px;background:rgba(253,253,255,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    padding:8px 24px;background:rgba(253,253,255,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
     border-bottom:1px solid transparent;transition:border-color .24s ease,box-shadow .24s ease}
   .topbar.scrolled{border-bottom-color:var(--line-2);box-shadow:0 1px 0 rgba(16,24,40,.02)}
-  .brand{display:inline-flex;align-items:baseline;gap:6px;color:var(--slate-6);font-size:13.5px;text-decoration:none;white-space:nowrap}
+  .brand{display:inline-flex;min-height:44px;align-items:center;gap:6px;color:var(--slate-6);font-size:13.5px;text-decoration:none;white-space:nowrap}
   .brand:hover{text-decoration:none;color:var(--slate-6)}
   .brand b{color:var(--ink);font-weight:650;letter-spacing:-.01em}
   .top-actions{display:flex;align-items:center;gap:12px;min-width:0}
   .topnav{display:flex;align-items:center;gap:2px;padding:3px;border:1px solid var(--line-2);
     border-radius:999px;background:rgba(255,255,255,.86);box-shadow:0 1px 3px rgba(16,24,40,.08)}
-  .topnav a{display:inline-flex;min-height:31px;align-items:center;justify-content:center;padding:0 12px;
+  .topnav a{display:inline-flex;min-width:44px;min-height:44px;align-items:center;justify-content:center;padding:0 12px;
     border-radius:999px;font:600 11.5px/1 var(--mono);color:var(--slate-5);text-decoration:none;
     transition:color .18s ease,background-color .18s ease,box-shadow .18s ease}
   .topnav a:hover{color:var(--blue-strong);background:#F7F9FC;text-decoration:none}
   .topnav a.on{color:var(--blue-strong);background:var(--blue-soft);box-shadow:inset 0 0 0 1px rgba(77,107,254,.12)}
   .gh-ic{width:18px;height:18px;flex:none}
-  .github-link{display:inline-flex;align-items:center;justify-content:center;width:38px;min-height:38px;border-radius:999px;
+  .github-link{display:inline-flex;align-items:center;justify-content:center;width:44px;min-height:44px;border-radius:999px;
     color:var(--slate-5);text-decoration:none;transition:color .18s ease,background-color .18s ease}
   .github-link:hover{color:var(--blue-strong);background:var(--blue-soft);text-decoration:none}
   .langtoggle{display:flex;gap:2px;border:1px solid var(--line-2);border-radius:999px;padding:3px;background:#fff}
-  .langtoggle button{font:500 11.5px/1 var(--mono);padding:6px 13px;border:0;border-radius:999px;
+  .langtoggle button{min-width:44px;min-height:44px;font:500 11.5px/1 var(--mono);padding:0 12px;border:0;border-radius:999px;
     background:transparent;color:var(--slate-5);cursor:pointer;transition:.18s ease}
   .langtoggle button[aria-pressed="true"]{background:var(--blue-soft);color:var(--blue-strong)}
   .totop{position:fixed;right:24px;bottom:24px;z-index:60;display:flex;align-items:center;justify-content:center;
@@ -134,10 +134,10 @@
   #why{padding-bottom:88px}
 
   @media(max-width:860px){.hero-cards{grid-template-columns:1fr 1fr}.hcard-feature{grid-column:1/-1}.why-summary{grid-template-columns:1fr}}
-  @media(max-width:860px){.topnav{display:none}}
+  @media(max-width:759.98px){.topnav{display:none}}
   @media(max-width:600px){.hero{padding:34px 0 30px}.hero-cards{grid-template-columns:1fr}
     .wrap{padding-left:20px;padding-right:20px}.bus .s{display:none}.topbar{padding-left:16px;padding-right:16px}
-    .brand span{display:none}.github-link{width:34px;min-height:34px}.top-actions{gap:6px}
+    .brand span{display:none}.github-link{width:44px;min-height:44px}.top-actions{gap:6px}
     .langtoggle button{padding-left:10px;padding-right:10px}.why-summary{padding:22px}.figure{padding:8px}
     .totop{left:50%;right:auto;bottom:16px;min-width:156px;transform:translate(-50%,12px)}
     .totop.show{transform:translate(-50%,0)}
@@ -264,7 +264,7 @@
   </section>
 
   <section id="harness">
-    <div class="sec-eyebrow">03 · Harness engineering</div>
+    <div class="sec-eyebrow" data-zh="03 · 运行边界">03 · Harness engineering</div>
     <h2 data-zh="真正让智能体可用的，是它外面的 Harness">What makes an agent useful is the harness around it</h2>
     <p class="sec-sub" data-zh="模型可以更换，但智能体的职责、可用工具、记忆范围和写入权限由外部结构约束。这样，能力可以升级，边界仍然清楚。">Models can change, while responsibilities, tools, memory scope, and write permissions remain explicit. Capability can evolve without making the system opaque.</p>
 

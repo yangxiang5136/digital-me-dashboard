@@ -34,9 +34,11 @@
   after the change and compared side by side against the Portfolio source.
 - Matched the Portfolio's fixed translucent bar, quiet identity line, pill navigation, two-state language control, active-section feedback, and labelled back-to-top action.
 - Preserved Digital Me's own violet-blue identity and architecture-first page hierarchy instead of importing the Portfolio's ambient background or project-page content styling.
+- Every top-bar control keeps a minimum 44×44 px target. The full segmented section navigation remains visible at 760 px and above, then collapses below that Portfolio-aligned breakpoint.
 - Anchor navigation now jumps directly instead of smooth-scrolling. Architecture, Agents, Guardrails, and Why all resolve to existing sections and update the active pill.
 - The active pill is exposed as `aria-current`, is recomputed on scroll, resize, and language switch, and the last pill stays active once the page is scrolled to the bottom.
 - Chinese / English switching updates page content, document language, navigation labels, button labels, and accessibility names. The selected language remains explicit through `aria-pressed`.
+- Section 03 keeps the concise `Guardrails / 约束` navigation label while its eyebrow switches between `03 · Harness engineering` and `03 · 运行边界`.
 - Back-to-top becomes keyboard reachable only while visible, returns to `scrollY = 0`, then leaves the tab order.
 - Checked at the in-app browser's desktop viewport and a requested 390 × 844 mobile viewport. Neither state has document-level horizontal overflow.
 
