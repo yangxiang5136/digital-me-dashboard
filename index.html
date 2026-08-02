@@ -148,14 +148,14 @@
 <div class="topbar" id="topbar">
   <a class="brand" href="./"><b>Digital Me</b><span data-zh="· 个人 AI 架构">· Personal AI Architecture</span></a>
   <div class="top-actions">
-    <nav class="topnav" aria-label="Primary navigation">
+    <nav class="topnav" aria-label="Primary navigation" data-zh-label="主导航">
       <a href="#structure"><span data-zh="架构">Architecture</span></a>
       <a href="#topology"><span data-zh="智能体">Agents</span></a>
       <a href="#harness"><span data-zh="约束">Guardrails</span></a>
       <a href="#why"><span data-zh="理念">Why</span></a>
     </nav>
-    <a class="github-link" href="https://github.com/yangxiang5136" target="_blank" rel="noopener" aria-label="Open Xiang Yang's GitHub profile"><svg class="gh-ic" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg></a>
-    <div class="langtoggle" aria-label="Language">
+    <a class="github-link" href="https://github.com/yangxiang5136" target="_blank" rel="noopener" aria-label="Open Xiang Yang's GitHub profile" data-zh-label="打开杨翔的 GitHub 主页"><svg class="gh-ic" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg></a>
+    <div class="langtoggle" aria-label="Language" data-zh-label="语言">
       <button id="btnZh" type="button" aria-pressed="false">中文</button>
       <button id="btnEn" type="button" aria-pressed="true">EN</button>
     </div>
@@ -338,42 +338,25 @@
   </section>
 </div>
 
-<button class="totop" id="toTop" type="button" aria-label="Back to top" aria-hidden="true" tabindex="-1"><span data-zh="回到顶部">Back to top</span></button>
+<button class="totop" id="toTop" type="button" aria-label="Back to top" data-zh-label="回到顶部" aria-hidden="true" tabindex="-1"><span data-zh="回到顶部">Back to top</span></button>
 
 <script>
 (function(){
-  var els = document.querySelectorAll('[data-zh]');
+  var els = document.querySelectorAll('[data-zh], [data-zh-label]');
   els.forEach(function(el){
-    if (el instanceof SVGElement) el.dataset.en = el.textContent;
-    else el.dataset.en = el.innerHTML;
+    if (el.dataset.zh !== undefined) {
+      if (el instanceof SVGElement) el.dataset.en = el.textContent;
+      else el.dataset.en = el.innerHTML;
+    }
+    if (el.dataset.zhLabel !== undefined) el.dataset.enLabel = el.getAttribute('aria-label') || '';
   });
   var btnZh = document.getElementById('btnZh');
   var btnEn = document.getElementById('btnEn');
-  var titles = {en:'Digital Me — architecture', zh:'Digital Me — 架构总览'};
-  function apply(lang){
-    els.forEach(function(el){
-      var v = lang === 'zh' ? el.dataset.zh : el.dataset.en;
-      if (el instanceof SVGElement) el.textContent = v; else el.innerHTML = v;
-    });
-    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-    document.title = titles[lang];
-    btnZh.setAttribute('aria-pressed', lang === 'zh' ? 'true' : 'false');
-    btnEn.setAttribute('aria-pressed', lang === 'en' ? 'true' : 'false');
-    document.querySelector('.langtoggle').setAttribute('aria-label', lang === 'zh' ? '语言' : 'Language');
-    document.querySelector('.topnav').setAttribute('aria-label', lang === 'zh' ? '主导航' : 'Primary navigation');
-    document.querySelector('.github-link').setAttribute('aria-label', lang === 'zh' ? '打开杨翔的 GitHub 主页' : "Open Xiang Yang's GitHub profile");
-    document.getElementById('toTop').setAttribute('aria-label', lang === 'zh' ? '回到顶部' : 'Back to top');
-    try { localStorage.setItem('dm-lang', lang); } catch(e){}
-  }
-  var saved = 'en';
-  try { saved = localStorage.getItem('dm-lang') || 'en'; } catch(e){}
-  if (saved === 'zh') apply('zh');
-  btnZh.addEventListener('click', function(){ apply('zh'); });
-  btnEn.addEventListener('click', function(){ apply('en'); });
   var toTop = document.getElementById('toTop');
   var topbar = document.getElementById('topbar');
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.topnav a'));
   var sections = navLinks.map(function(link){ return document.querySelector(link.getAttribute('href')); });
+  var titles = {en:'Digital Me — architecture', zh:'Digital Me — 架构总览'};
   function onScroll(){
     var showTop = window.scrollY > Math.max(360, window.innerHeight * .7);
     toTop.classList.toggle('show', showTop);
@@ -383,9 +366,36 @@
     var y = window.scrollY + topbar.offsetHeight + 30;
     var active = -1;
     sections.forEach(function(section, index){ if (section && section.offsetTop <= y) active = index; });
-    navLinks.forEach(function(link, index){ link.classList.toggle('on', index === active); });
+    navLinks.forEach(function(link, index){
+      var on = index === active;
+      link.classList.toggle('on', on);
+      if (on) link.setAttribute('aria-current', 'true'); else link.removeAttribute('aria-current');
+    });
   }
+  function apply(lang){
+    els.forEach(function(el){
+      if (el.dataset.zh !== undefined) {
+        var v = lang === 'zh' ? el.dataset.zh : el.dataset.en;
+        if (el instanceof SVGElement) el.textContent = v; else el.innerHTML = v;
+      }
+      if (el.dataset.zhLabel !== undefined) {
+        el.setAttribute('aria-label', lang === 'zh' ? el.dataset.zhLabel : el.dataset.enLabel);
+      }
+    });
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    document.title = titles[lang];
+    btnZh.setAttribute('aria-pressed', lang === 'zh' ? 'true' : 'false');
+    btnEn.setAttribute('aria-pressed', lang === 'en' ? 'true' : 'false');
+    try { localStorage.setItem('dm-lang', lang); } catch(e){}
+    onScroll();
+  }
+  var saved = 'en';
+  try { saved = localStorage.getItem('dm-lang') || 'en'; } catch(e){}
+  if (saved === 'zh') apply('zh');
+  btnZh.addEventListener('click', function(){ apply('zh'); });
+  btnEn.addEventListener('click', function(){ apply('en'); });
   window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll, {passive:true});
   onScroll();
   toTop.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'auto'}); });
 })();
