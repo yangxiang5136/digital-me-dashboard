@@ -5,7 +5,8 @@
 - Live baseline: `https://digital-me-dashboard.vercel.app/`
 - Side-by-side evidence: `qa/source-vs-minimal.jpg` (live baseline on the left, minimal architecture-first revision on the right)
 - Final desktop states: `qa/minimal-desktop-en-final.jpg`, `qa/minimal-desktop-zh.jpg`
-- Final mobile states: `qa/minimal-mobile-hero-zh-final.jpg`, `qa/minimal-mobile-structure-zh-final.jpg`
+- Final mobile states: `qa/minimal-mobile-hero-zh-final.jpg`, `qa/minimal-mobile-structure-zh-final.jpg`, `qa/minimal-mobile-structure-en-final.jpg`
+- Every screenshot above was captured from the current revision of `index.html`, at 1440x810 for desktop and 390x844 for mobile.
 
 ## Visual comparison
 
@@ -22,6 +23,8 @@
 - Chinese and English switching updates content, document language, and title.
 - The back-to-top control remains available after scrolling.
 - Desktop and mobile states have no document-level horizontal overflow.
-- On mobile, the GitHub label collapses to its source icon and the architecture diagram remains visible as the first project artifact.
+- On mobile, the GitHub label collapses to its source icon in a 44x44 tap target matching the language button, and the architecture diagram remains visible as the first project artifact.
+- The architecture diagram was checked in both languages on mobile and desktop: every tier label clears its nearest connector, with the longest label (`UNDERSTAND`) ending at x=123.1 against the connector at x=128.
+- Both diagram accessible names describe the nodes currently drawn.
 
 Result: passed
