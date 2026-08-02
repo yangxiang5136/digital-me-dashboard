@@ -366,6 +366,8 @@
     var y = window.scrollY + topbar.offsetHeight + 30;
     var active = -1;
     sections.forEach(function(section, index){ if (section && section.offsetTop <= y) active = index; });
+    var nearPageEnd = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 4;
+    if (nearPageEnd && sections[sections.length - 1]) active = sections.length - 1;
     navLinks.forEach(function(link, index){
       var on = index === active;
       link.classList.toggle('on', on);
