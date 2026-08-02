@@ -16,10 +16,11 @@
     --line:#EAEEF5; --line-2:#DFE5EF;
     --sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;
     --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --topbar-h:69px;
   }
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%;scroll-behavior:auto}
-  body{margin:0;padding-top:67px;color:var(--slate-6);font-family:var(--sans);font-size:15.5px;line-height:1.6;
+  body{margin:0;padding-top:var(--topbar-h);color:var(--slate-6);font-family:var(--sans);font-size:15.5px;line-height:1.6;
     -webkit-font-smoothing:antialiased;
     background:
       radial-gradient(1000px 560px at 88% -6%, rgba(109,134,255,.16), transparent 62%),
@@ -32,7 +33,7 @@
   .wrap{max-width:1000px;margin:0 auto;padding:0 28px}
 
   .topbar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
-    padding:8px 24px;background:rgba(253,253,255,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    min-height:var(--topbar-h);padding:8px 24px;background:rgba(253,253,255,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
     border-bottom:1px solid transparent;transition:border-color .24s ease,box-shadow .24s ease}
   .topbar.scrolled{border-bottom-color:var(--line-2);box-shadow:0 1px 0 rgba(16,24,40,.02)}
   .brand{display:inline-flex;min-height:44px;align-items:center;gap:6px;color:var(--slate-6);font-size:13.5px;text-decoration:none;white-space:nowrap}
@@ -47,7 +48,7 @@
   .topnav a:hover{color:var(--blue-strong);background:#F7F9FC;text-decoration:none}
   .topnav a.on{color:var(--blue-strong);background:var(--blue-soft);box-shadow:inset 0 0 0 1px rgba(77,107,254,.12)}
   .gh-ic{width:18px;height:18px;flex:none}
-  .github-link{display:inline-flex;align-items:center;justify-content:center;width:44px;min-height:44px;border-radius:999px;
+  .github-link{display:inline-flex;flex:none;align-items:center;justify-content:center;min-width:44px;min-height:44px;border-radius:999px;
     color:var(--slate-5);text-decoration:none;transition:color .18s ease,background-color .18s ease}
   .github-link:hover{color:var(--blue-strong);background:var(--blue-soft);text-decoration:none}
   .langtoggle{display:flex;gap:2px;border:1px solid var(--line-2);border-radius:999px;padding:3px;background:#fff}
@@ -134,10 +135,11 @@
   #why{padding-bottom:88px}
 
   @media(max-width:860px){.hero-cards{grid-template-columns:1fr 1fr}.hcard-feature{grid-column:1/-1}.why-summary{grid-template-columns:1fr}}
+  @media(max-width:789.98px){.brand span{display:none}}
   @media(max-width:759.98px){.topnav{display:none}}
   @media(max-width:600px){.hero{padding:34px 0 30px}.hero-cards{grid-template-columns:1fr}
     .wrap{padding-left:20px;padding-right:20px}.bus .s{display:none}.topbar{padding-left:16px;padding-right:16px}
-    .brand span{display:none}.github-link{width:44px;min-height:44px}.top-actions{gap:6px}
+    .top-actions{gap:6px}
     .langtoggle button{padding-left:10px;padding-right:10px}.why-summary{padding:22px}.figure{padding:8px}
     .totop{left:50%;right:auto;bottom:16px;min-width:156px;transform:translate(-50%,12px)}
     .totop.show{transform:translate(-50%,0)}
@@ -354,6 +356,7 @@
   var btnEn = document.getElementById('btnEn');
   var toTop = document.getElementById('toTop');
   var topbar = document.getElementById('topbar');
+  var brand = document.querySelector('.brand');
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.topnav a'));
   var sections = navLinks.map(function(link){ return document.querySelector(link.getAttribute('href')); });
   var titles = {en:'Digital Me — architecture', zh:'Digital Me — 架构总览'};
@@ -399,7 +402,11 @@
   window.addEventListener('scroll', onScroll, {passive:true});
   window.addEventListener('resize', onScroll, {passive:true});
   onScroll();
-  toTop.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'auto'}); });
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'auto'});
+    if (brand) brand.focus({preventScroll:true});
+    onScroll();
+  });
 })();
 </script>
 </body>

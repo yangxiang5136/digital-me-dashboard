@@ -34,12 +34,23 @@
   after the change and compared side by side against the Portfolio source.
 - Matched the Portfolio's fixed translucent bar, quiet identity line, pill navigation, two-state language control, active-section feedback, and labelled back-to-top action.
 - Preserved Digital Me's own violet-blue identity and architecture-first page hierarchy instead of importing the Portfolio's ambient background or project-page content styling.
-- Every top-bar control keeps a minimum 44×44 px target. The full segmented section navigation remains visible at 760 px and above, then collapses below that Portfolio-aligned breakpoint.
+- Every top-bar control keeps a minimum 44×44 px target, verified by measuring the section
+  pills, the GitHub control, and both language buttons across the 320–1440 px range rather
+  than at the two capture widths alone. The GitHub control is sized with `min-width` and is
+  not shrinkable, so it holds 44×44 px even in the narrow desktop band where the bar is
+  tightest. The full segmented section navigation remains visible at 760 px and above, then
+  collapses below that Portfolio-aligned breakpoint.
+- Below roughly 790 px the descriptive half of the identity line (`· Personal AI Architecture`
+  / `· 个人 AI 架构`) is hidden while the `Digital Me` name stays visible. That frees the width
+  the full pill navigation needs between 760 px and 790 px, so the bar stays within its own
+  horizontal padding instead of running over capacity.
+- The fixed bar's height and the body's top offset are both driven by the shared
+  `--topbar-h` custom property (69 px), so the two cannot drift apart.
 - Anchor navigation now jumps directly instead of smooth-scrolling. Architecture, Agents, Guardrails, and Why all resolve to existing sections and update the active pill.
 - The active pill is exposed as `aria-current`, is recomputed on scroll, resize, and language switch, and the last pill stays active once the page is scrolled to the bottom.
 - Chinese / English switching updates page content, document language, navigation labels, button labels, and accessibility names. The selected language remains explicit through `aria-pressed`.
 - Section 03 keeps the concise `Guardrails / 约束` navigation label while its eyebrow switches between `03 · Harness engineering` and `03 · 运行边界`.
-- Back-to-top becomes keyboard reachable only while visible, returns to `scrollY = 0`, then leaves the tab order.
-- Checked at the in-app browser's desktop viewport and a requested 390 × 844 mobile viewport. Neither state has document-level horizontal overflow.
+- Back-to-top becomes keyboard reachable only while visible, returns to `scrollY = 0`, then leaves the tab order. Activating it moves focus to the identity link at the top of the page before the button is hidden, so keyboard focus is never left on a hidden, `aria-hidden` element.
+- Checked at the in-app browser's desktop viewport, the 760–790 px narrow desktop band, and a requested 390 × 844 mobile viewport. No state has document-level horizontal overflow.
 
 final result: passed
