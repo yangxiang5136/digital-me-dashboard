@@ -1,134 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T12:09:28.745127Z",
+  "generatedAt": "2026-08-02T12:08:47.114552Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 14,
+  "selectedCount": 10,
   "items": [
     {
-      "id": "signal-90904ea7d93f31e6a459b989",
+      "id": "signal-a1279e7c6ca473d55f473eaa",
       "rank": 1,
-      "title": "Show HN: I worked on a new browser for 2 years, today it passed Acid 3",
-      "source": "Hacker News: Newest",
+      "title": "最前线｜创客工具赛道升温，国内首个Maker Tool行业联盟成立",
+      "source": "36氪",
       "category": "Growth",
-      "connectionNote": "A developer spent two years building a browser from scratch that passes Acid3 — a powerful example of the kind of deep, sustained focus on one project that Sean aspires to (#90, #91, #160) and a counter to his pattern of scattering across ideas.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-90904ea7d93f31e6"
+      "connectionNote": "Connects Sean's hardware idea about flavor sensors and his abstract thinking about user communities to a real industry trend where maker tools + AI are creating a new creative economy.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a1279e7c6ca473d5"
     },
     {
-      "id": "signal-9a956544d443f3e23df23e31",
+      "id": "signal-0114a17b459140e61485e7fd",
       "rank": 2,
-      "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
-      "source": "量子位",
-      "category": "Urgent",
-      "connectionNote": "AI人形机器人保洁服务",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9a956544d443f3e2"
-    },
-    {
-      "id": "signal-48bcbd32a7b3cab77388f041",
-      "rank": 3,
-      "title": "OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO！",
-      "source": "量子位",
-      "category": "Urgent",
-      "connectionNote": "OpenAI前员工套现警告",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-48bcbd32a7b3cab7"
-    },
-    {
-      "id": "signal-d9c4ba3effa04407ad8bd704",
-      "rank": 4,
-      "title": "Anthropic模型，也失控了。。。",
-      "source": "量子位",
-      "category": "Thinking",
-      "connectionNote": "Anthropic models going out of control in testing relates to Sean's deep ethical questions about agent autonomy boundaries (#145, #233, #280) — the safety guardrails he's been designing for Digital Me face the same compliance failures reported here.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d9c4ba3effa04407"
-    },
-    {
-      "id": "signal-a8fadb4f57ff5aa866d77591",
-      "rank": 5,
-      "title": "刚刚，即梦 Seedance 2.5来了！我狂测测测测……",
-      "source": "量子位",
-      "category": "Urgent",
-      "connectionNote": "即梦Seedance 2.5发布",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a8fadb4f57ff5aa8"
-    },
-    {
-      "id": "signal-2c5354f5cf268632463af25c",
-      "rank": 6,
-      "title": "OpenAI 宣布 GPT-5.6 Luna 价格下降 80%",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Urgent",
-      "connectionNote": "大模型价格战升级",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2c5354f5cf268632"
-    },
-    {
-      "id": "signal-9aacdff928339810e67743c0",
-      "rank": 7,
-      "title": "DeepSeek-V4-Flash 官方 API 现已正式上线公测",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Urgent",
-      "connectionNote": "DeepSeek V4 Flash's massive agent capability jump with only post-training changes suggests Sean's own Digital Me implementation decisions (#84, #103) could be swapped more easily than expected — model improvements may decouple from the architecture choices he's been carefully designing.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9aacdff928339810"
-    },
-    {
-      "id": "signal-b958e6b00ace3534c5029758",
-      "rank": 8,
-      "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
-      "source": "IT之家（RSS）",
-      "category": "Urgent",
-      "connectionNote": "欧盟AI法案新规执行",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b958e6b00ace3534"
-    },
-    {
-      "id": "signal-34eebfee92ef0279ed00743d",
-      "rank": 9,
-      "title": "MiniMax H3 发布：开源全能多模态生成模型，支持 2K 原生立体声视频",
-      "source": "MiniMax：Blog（网页）",
-      "category": "Urgent",
-      "connectionNote": "Multi-modal model release",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-34eebfee92ef0279"
-    },
-    {
-      "id": "signal-3c3242448de4d0bf60f724d0",
-      "rank": 10,
-      "title": "FCC 禁止进口中国新型机器人与联网逆变器",
-      "source": "The Decoder：AI News（RSS）",
-      "category": "Urgent",
-      "connectionNote": "FCC robot ban",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c3242448de4d0bf"
-    },
-    {
-      "id": "signal-c7f599cc163a933b5fd1bc1b",
-      "rank": 11,
-      "title": "Mark Zuckerberg is planning a big push into personal AI agents - theverge.com",
-      "source": "theverge.com",
-      "category": "Urgent",
-      "connectionNote": "Zuckerberg's personal AI agent push",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c7f599cc163a933b"
-    },
-    {
-      "id": "signal-00b6a7dacd62587eb5648458",
-      "rank": 12,
-      "title": "初创企业：Caddi瞄准律师事务所运营，推出“构建代理的代理”",
-      "source": "legaltechnology.com",
-      "category": "Thinking",
-      "connectionNote": "Caddi's self-improving agent-builder mirrors Sean's vision of agents that can improve themselves (#58, #133) and directly addresses his growth direction of giving agents more agency to self-evolve rather than requiring him to pre-approve each action.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-00b6a7dacd62587e"
-    },
-    {
-      "id": "signal-3c5f8d2c1ee26fa116bfc9de",
-      "rank": 13,
-      "title": "在以代理为中心的世界中利用Codex",
-      "source": "openai.com",
-      "category": "Thinking",
-      "connectionNote": "This human-directed agent execution paradigm directly validates Sean's own architecture principle of staying in the decision loop, not the debug loop (#70), and his design of tiered agent autonomy in Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c5f8d2c1ee26fa1"
-    },
-    {
-      "id": "signal-32f91c257f93b1368c4cb3d3",
-      "rank": 14,
-      "title": "引入AI后工资被削减，职场人故意破坏公司AI",
-      "source": "fnnews.com",
+      "title": "Grok 支持分析任意视频",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
       "category": "World",
-      "connectionNote": "Worker sabotage of AI systems is a concrete instance of the human-factors adoption problem Sean has been thinking about (#189, #241), and the pay-cut trigger connects to his principle that systems must serve people or they'll be rejected.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-32f91c257f93b136"
+      "connectionNote": "Grok video analysis capability",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0114a17b459140e6"
+    },
+    {
+      "id": "signal-dac8b2586ba890415f57080d",
+      "rank": 3,
+      "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
+      "source": "The Decoder：AI News（RSS）",
+      "category": "World",
+      "connectionNote": "AI music copyright ruling",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dac8b2586ba89041"
+    },
+    {
+      "id": "signal-c3911a3d160bad2ed9e44ec8",
+      "rank": 4,
+      "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "category": "Thinking",
+      "connectionNote": "It demonstrates the kind of autonomous, self-improving, multi-step agent attack that directly validates Sean's architectural focus on agent permissions and safety guardrails.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c3911a3d160bad2e"
+    },
+    {
+      "id": "signal-3e56150fed0770a2467ba7a3",
+      "rank": 5,
+      "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "category": "Urgent",
+      "connectionNote": "DeepSeek V4 Flash open source",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3e56150fed0770a2"
+    },
+    {
+      "id": "signal-335f69e64f47815cd22de09b",
+      "rank": 6,
+      "title": "Perplexity brings AI agents to Windows with Personal Computer",
+      "source": "techbuzz.ai",
+      "category": "Urgent",
+      "connectionNote": "Introduces a local-first architecture distinction that is technically relevant to Sean's privacy principles and his hardware vs. platform debates.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-335f69e64f47815c"
+    },
+    {
+      "id": "signal-b0ee8a4face8e478752fbcfa",
+      "rank": 7,
+      "title": "Perplexity Brings AI Desktop Agent to Windows, Routing Tasks Across 20 Models",
+      "source": "techtimes.com",
+      "category": "Urgent",
+      "connectionNote": "Provides a concrete, verified security architecture for agent credential handling that Sean can adapt for his privacy-first design principles.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b0ee8a4face8e478"
+    },
+    {
+      "id": "signal-5b2cae9f4599a31352bf61be",
+      "rank": 8,
+      "title": "国内唯一做多模态长记忆的公司，融资数千万，押注主动智能｜涌现新项目",
+      "source": "36氪",
+      "category": "Thinking",
+      "connectionNote": "Directly validates the Digital Me vision of multi-modal memory as the foundation for proactive, personalized AI—a Chinese startup is literally building what Sean has been designing.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5b2cae9f4599a313"
+    },
+    {
+      "id": "signal-82258d04f72801f702abbe67",
+      "rank": 9,
+      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "category": "Work",
+      "connectionNote": "Provides a concrete implementation pattern for agent delegation and task decomposition that maps directly to Sean's planned multi-agent architecture and skill registry.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-82258d04f72801f7"
+    },
+    {
+      "id": "signal-ffb0992a9f2032ff8a9c2383",
+      "rank": 10,
+      "title": "面壁智能ALIGN：自动对齐智能体与环境接口",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "category": "Work",
+      "connectionNote": "The ALIGN paper solves a problem Sean is architecting for: mismatches between agent interfaces and environments—this directly supports his skills folder (#139) and multi-agent contracts (#28), and the 45.67% improvement with just feedback rewording validates his principle that structure and contracts matter more than model size.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ffb0992a9f2032ff"
     }
   ]
 }
