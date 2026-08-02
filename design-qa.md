@@ -53,4 +53,36 @@
 - Back-to-top becomes keyboard reachable only while visible, returns to `scrollY = 0`, then leaves the tab order. Activating it moves focus to the identity link at the top of the page before the button is hidden, so keyboard focus is never left on a hidden, `aria-hidden` element.
 - Checked at the in-app browser's desktop viewport, the 760–790 px narrow desktop band, and a requested 390 × 844 mobile viewport. No state has document-level horizontal overflow.
 
+## Right-edge scroll companion — 2026-08-02
+
+- Source visual truth: `/Users/yangxiang/.codex/generated_images/019fb9b2-ce1e-7ea0-bb6d-cee22c04d07d/exec-22ec9ccc-8557-411f-9396-16b9834aec88.png` (1487 × 1058 px).
+- Browser-rendered implementation: `/Users/yangxiang/.codex/generated_images/nav-build-qa-2026-08-02/digital-me-implementation-expanded.png` (1100 × 619 px at an 1113 × 626 CSS viewport, density 1).
+- Normalization: the source was scaled to 1100 px wide and top-cropped to 1100 × 619 so the two first-view states could be compared without browser chrome or density drift.
+- Combined comparison evidence: `/Users/yangxiang/.codex/generated_images/nav-build-qa-2026-08-02/digital-me-comparison.png`.
+- State: Chinese, page top, right rail expanded through keyboard focus. The active section remains visible when the rail collapses.
+
+### Findings and iteration history
+
+- First browser pass found a P1 collision at the 1113 px desktop viewport: the active section capsule extended over the rightmost hero card because the existing 1000 px content shell left no dedicated rail zone.
+- Fix: at desktop rail widths, the content shell now reserves a 230 px right gutter and stays left-aligned within the same 1000 px maximum. The rail no longer covers text, cards, or the native scrollbar.
+- Post-fix evidence: the combined comparison shows the selected thin progress line, readable 14 px labels, active capsule, and Portfolio return action occupying their own right-side zone.
+- Fonts and typography: the header identity increased from 13.5 to 15 px; navigation and language controls increased from 11.5 to 13 px; rail labels render at 14 px. Hierarchy and Inter/IBM Plex Mono usage remain aligned with the existing site.
+- Spacing and layout rhythm: the source page rhythm, card sizing, section spacing, radii, and shadows remain unchanged except for the intentional desktop rail gutter.
+- Colors and visual tokens: the rail reuses the existing blue, blue-soft, line, and slate tokens; no new visual system was introduced.
+- Image quality and asset fidelity: no source imagery or diagrams were changed; the selected concept contains no new raster asset requirement.
+- Copy and content: all existing page copy is preserved. Section labels and the Portfolio return action switch completely between Chinese and English.
+- Interaction checks: direct section jumps, scroll-driven active state, keyboard focus expansion, Chinese/English switching, Portfolio URL, and zero document-level horizontal overflow passed in the in-app browser. Browser console: zero warnings or errors.
+- Focused comparison: no separate crop was needed because every rail label, marker, and header control is readable in the 2200 × 619 combined evidence.
+- Follow-up P3 test gap: the in-app browser's temporary viewport override did not change its visible 1113 × 626 canvas during this run. The existing below-1024 fallback and below-760 mobile rules were therefore checked in source, not recaptured as a dedicated phone screenshot.
+
+final result: passed
+
+## Rail alignment and scroll continuity — 2026-08-02
+
+- Source state: `digital-me-implementation-expanded.png`, plus the user's report that the vertical axis appeared offset and the active state felt stationary between sections.
+- Rendered evidence: `digital-me-rail-expanded-final.png`, `digital-me-rail-final.png`, and the side-by-side `digital-me-rail-alignment-comparison.png` in `/Users/yangxiang/.codex/generated_images/nav-build-qa-2026-08-02/`.
+- Geometry check: the base line, progress line, and every section marker now share the same `--rail-axis: 9px` anchor and the same centering transform. The browser reported the same 9 px right anchor for the line and active marker.
+- Motion check: while the active section remained `#topology`, the rail progress advanced from `0.3891` to `0.4608`; after the next handoff point it advanced to `0.5325` and changed the active section to `#harness`.
+- Visual check: the line passes through the center of all four markers in both collapsed and expanded states. The active label, page content, and native scrollbar remain unobstructed.
+
 final result: passed
