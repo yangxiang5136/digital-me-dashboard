@@ -66,19 +66,23 @@
   .totop.show{opacity:1;pointer-events:auto;transform:translateY(0)}
   .totop:hover{background:var(--blue-strong)}
 
-  .edge-rail{position:fixed;right:18px;top:50%;z-index:45;display:none;width:164px;padding:12px 0;
+  .edge-rail{--rail-axis:9px;--rail-progress:0;position:fixed;right:18px;top:50%;z-index:45;display:none;width:164px;padding:12px 0;
     transform:translateY(-50%);opacity:.58;transition:opacity .18s ease}
-  .edge-rail::after{content:"";position:absolute;right:9px;top:31px;bottom:77px;width:1px;background:var(--blue-border)}
+  .edge-rail::before,.edge-rail::after{content:"";position:absolute;right:var(--rail-axis);top:34px;height:141px;
+    transform:translateX(50%);transform-origin:center top;border-radius:999px;pointer-events:none}
+  .edge-rail::before{width:1px;background:var(--blue-border)}
+  .edge-rail::after{width:2px;background:var(--blue);transform:translateX(50%) scaleY(var(--rail-progress));transition:transform .08s linear}
   .edge-rail:hover,.edge-rail:focus-within{opacity:1}
   .edge-rail-list{display:grid;gap:3px;position:relative;z-index:1}
   .edge-rail a{position:relative;display:flex;align-items:center;justify-content:flex-end;min-height:44px;padding:0 27px 0 10px;
     border-radius:999px;color:var(--slate-5);font:600 14px/1.15 var(--sans);text-decoration:none;white-space:nowrap}
   .edge-rail a:hover{color:var(--blue-strong);text-decoration:none}
-  .edge-rail a::after{content:"";position:absolute;right:4px;width:11px;height:11px;border:2px solid #fff;border-radius:50%;
-    background:#C7D1FF;box-shadow:0 0 0 1px var(--blue-border)}
+  .edge-rail a::after{content:"";position:absolute;right:var(--rail-axis);width:12px;height:12px;border:2px solid #fff;border-radius:50%;
+    background:#C7D1FF;box-shadow:0 0 0 1px var(--blue-border);transform:translateX(50%);
+    transition:background-color .18s ease,box-shadow .18s ease,transform .18s ease}
   .edge-rail-label{max-width:0;overflow:hidden;opacity:0;transform:translateX(7px);transition:max-width .2s ease,opacity .18s ease,transform .18s ease}
   .edge-rail a.on{color:var(--blue-strong)}
-  .edge-rail a.on::after{background:var(--blue);box-shadow:0 0 0 4px rgba(77,107,254,.12)}
+  .edge-rail a.on::after{background:var(--blue);box-shadow:0 0 0 4px rgba(77,107,254,.12);transform:translateX(50%) scale(1.08)}
   .edge-rail a.on .edge-rail-label,.edge-rail:hover .edge-rail-label,.edge-rail:focus-within .edge-rail-label{
     max-width:126px;opacity:1;transform:none}
   .edge-rail a.on .edge-rail-label{padding:9px 13px;border:1px solid var(--blue-border);border-radius:999px;
@@ -400,6 +404,7 @@
   var toTop = document.getElementById('toTop');
   var topbar = document.getElementById('topbar');
   var brand = document.querySelector('.brand');
+  var edgeRail = document.getElementById('edgeRail');
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.edge-rail a[href^="#"]'));
   var topNavLinks = Array.prototype.slice.call(document.querySelectorAll('.topnav a'));
   var sections = navLinks.map(function(link){ return document.querySelector(link.getAttribute('href')); });
@@ -410,12 +415,22 @@
     toTop.setAttribute('aria-hidden', showTop ? 'false' : 'true');
     toTop.tabIndex = showTop ? 0 : -1;
     topbar.classList.toggle('scrolled', window.scrollY > 40);
-    var y = window.scrollY + topbar.offsetHeight + 30;
-    var active = -1;
-    sections.forEach(function(section, index){ if (section && section.offsetTop <= y) active = index; });
-    if (active < 0 && sections.length) active = 0;
+    var probeY = window.scrollY + Math.min(window.innerHeight * .42, 320);
+    var active = sections.length ? 0 : -1;
+    for (var i = 0; i < sections.length - 1; i++) {
+      if (!sections[i] || !sections[i + 1]) continue;
+      var handoffPoint = sections[i].offsetTop + (sections[i + 1].offsetTop - sections[i].offsetTop) * .65;
+      if (probeY >= handoffPoint) active = i + 1;
+    }
     var nearPageEnd = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 4;
     if (nearPageEnd && sections[sections.length - 1]) active = sections.length - 1;
+    if (edgeRail && sections.length > 1) {
+      var firstTop = sections[0].offsetTop;
+      var lastTop = sections[sections.length - 1].offsetTop;
+      var progress = lastTop > firstTop ? (probeY - firstTop) / (lastTop - firstTop) : 0;
+      if (nearPageEnd) progress = 1;
+      edgeRail.style.setProperty('--rail-progress', Math.max(0, Math.min(1, progress)).toFixed(4));
+    }
     navLinks.concat(topNavLinks).forEach(function(link){
       var index = sections.indexOf(document.querySelector(link.getAttribute('href')));
       var on = index === active;

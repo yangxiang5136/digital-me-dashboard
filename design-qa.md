@@ -76,3 +76,13 @@
 - Follow-up P3 test gap: the in-app browser's temporary viewport override did not change its visible 1113 × 626 canvas during this run. The existing below-1024 fallback and below-760 mobile rules were therefore checked in source, not recaptured as a dedicated phone screenshot.
 
 final result: passed
+
+## Rail alignment and scroll continuity — 2026-08-02
+
+- Source state: `digital-me-implementation-expanded.png`, plus the user's report that the vertical axis appeared offset and the active state felt stationary between sections.
+- Rendered evidence: `digital-me-rail-expanded-final.png`, `digital-me-rail-final.png`, and the side-by-side `digital-me-rail-alignment-comparison.png` in `/Users/yangxiang/.codex/generated_images/nav-build-qa-2026-08-02/`.
+- Geometry check: the base line, progress line, and every section marker now share the same `--rail-axis: 9px` anchor and the same centering transform. The browser reported the same 9 px right anchor for the line and active marker.
+- Motion check: while the active section remained `#topology`, the rail progress advanced from `0.3891` to `0.4608`; after the next handoff point it advanced to `0.5325` and changed the active section to `#harness`.
+- Visual check: the line passes through the center of all four markers in both collapsed and expanded states. The active label, page content, and native scrollbar remain unobstructed.
+
+final result: passed
