@@ -22,7 +22,7 @@
 - Navigation, language switching, and back-to-top behavior are recorded in the navigation alignment section below.
 - The GitHub control is explicitly labeled as a profile link and opens the verified public profile.
 - Desktop and mobile states have no document-level horizontal overflow.
-- On mobile, the section pills collapse out of the top bar, leaving the identity line, the icon-only GitHub control, and the language toggle, and the architecture diagram remains visible as the first project artifact.
+- On mobile, the architecture diagram remains visible as the first project artifact. The top bar's own responsive composition is recorded in the navigation alignment section below.
 - The architecture diagram was checked in both languages on mobile and desktop: every tier label clears its nearest connector, with the longest label (`UNDERSTAND`) ending at x=123.1 against the connector at x=128.
 - All three diagram accessible names (data flow, agent cross-section, human gate) describe the nodes currently drawn.
 
