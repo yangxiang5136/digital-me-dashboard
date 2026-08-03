@@ -1,98 +1,116 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:08:47.114552Z",
+  "generatedAt": "2026-08-03T12:06:45.175875Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 10,
+  "selectedCount": 12,
   "items": [
     {
-      "id": "signal-a1279e7c6ca473d55f473eaa",
+      "id": "signal-86f09c04e7b3d12e5065fcc9",
       "rank": 1,
-      "title": "最前线｜创客工具赛道升温，国内首个Maker Tool行业联盟成立",
-      "source": "36氪",
+      "title": "Seeing Differently: Modeling Interpretive Perspectives in Computational Creativity using a Four-World Framework",
+      "source": "cs.HC updates on arXiv.org",
       "category": "Growth",
-      "connectionNote": "Connects Sean's hardware idea about flavor sensors and his abstract thinking about user communities to a real industry trend where maker tools + AI are creating a new creative economy.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a1279e7c6ca473d5"
+      "connectionNote": "Four-world framework for computational creativity",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-86f09c04e7b3d12e"
+    },
+    {
+      "id": "signal-684a5c58ccc1dabd56bdb584",
+      "rank": 2,
+      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+      "source": "Hacker News: Newest",
+      "category": "World",
+      "connectionNote": "OpenAI's super PAC using AI-generated news sites to attack industry critics is a concrete, alarming instance of the ethical concerns Sean has been exploring — AI power concentrated in few hands, used for manipulation, exactly the pattern he critiqued.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-684a5c58ccc1dabd"
+    },
+    {
+      "id": "signal-b89ae0367c76b389a20b8f58",
+      "rank": 3,
+      "title": "Zadig v5.0 发布：AI 发布专员与 AI 审查专员上线",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "World",
+      "connectionNote": "The bottleneck shifting from code-writing to code-review is a pattern Sean should recognize in his own system design — as he gives agents more agency, he needs evaluator agents to handle the review volume, not become the bottleneck himself.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b89ae0367c76b389"
+    },
+    {
+      "id": "signal-a21f9f7a86e4ce8a87892825",
+      "rank": 4,
+      "title": "AI 将系统从 COBOL 迁移到 Java，连 bug 也一起带过去",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Thinking",
+      "connectionNote": "The 'lock the AI in a cage' containment pattern validates Sean's architectural direction of constraining agents with deterministic guardrails and evaluators rather than trusting open-ended autonomy.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a21f9f7a86e4ce8a"
+    },
+    {
+      "id": "signal-e5e31068bf341eb5227a5a5f",
+      "rank": 5,
+      "title": "寒武纪给超8成员工发股票激励，人均160万；宇树员工掏2.7亿认购IPO，王兴兴自掏1500万；Altman自曝沉迷 TikTok：一刷就是 3 小时｜AI周报",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "World",
+      "connectionNote": "AI industry news roundup",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e5e31068bf341eb5"
+    },
+    {
+      "id": "signal-75ee81442380d11fe427a88b",
+      "rank": 6,
+      "title": "AWS 计费系统故障：用户收到数万亿美元账单预估，自家成本告警却未能阻止问题扩大",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Urgent",
+      "connectionNote": "AWS billing system failure",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-75ee81442380d11f"
     },
     {
       "id": "signal-0114a17b459140e61485e7fd",
-      "rank": 2,
+      "rank": 7,
       "title": "Grok 支持分析任意视频",
       "source": "X：Elon Musk (@elonmusk, xAI)",
-      "category": "World",
+      "category": "Work",
       "connectionNote": "Grok video analysis capability",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0114a17b459140e6"
     },
     {
-      "id": "signal-dac8b2586ba890415f57080d",
-      "rank": 3,
-      "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
-      "source": "The Decoder：AI News（RSS）",
-      "category": "World",
-      "connectionNote": "AI music copyright ruling",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dac8b2586ba89041"
-    },
-    {
-      "id": "signal-c3911a3d160bad2ed9e44ec8",
-      "rank": 4,
-      "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "category": "Thinking",
-      "connectionNote": "It demonstrates the kind of autonomous, self-improving, multi-step agent attack that directly validates Sean's architectural focus on agent permissions and safety guardrails.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c3911a3d160bad2e"
-    },
-    {
-      "id": "signal-3e56150fed0770a2467ba7a3",
-      "rank": 5,
-      "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "category": "Urgent",
-      "connectionNote": "DeepSeek V4 Flash open source",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3e56150fed0770a2"
-    },
-    {
-      "id": "signal-335f69e64f47815cd22de09b",
-      "rank": 6,
-      "title": "Perplexity brings AI agents to Windows with Personal Computer",
-      "source": "techbuzz.ai",
-      "category": "Urgent",
-      "connectionNote": "Introduces a local-first architecture distinction that is technically relevant to Sean's privacy principles and his hardware vs. platform debates.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-335f69e64f47815c"
-    },
-    {
-      "id": "signal-b0ee8a4face8e478752fbcfa",
-      "rank": 7,
-      "title": "Perplexity Brings AI Desktop Agent to Windows, Routing Tasks Across 20 Models",
-      "source": "techtimes.com",
-      "category": "Urgent",
-      "connectionNote": "Provides a concrete, verified security architecture for agent credential handling that Sean can adapt for his privacy-first design principles.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b0ee8a4face8e478"
-    },
-    {
-      "id": "signal-5b2cae9f4599a31352bf61be",
+      "id": "signal-1cdecbc89dd7b04e8186360c",
       "rank": 8,
-      "title": "国内唯一做多模态长记忆的公司，融资数千万，押注主动智能｜涌现新项目",
-      "source": "36氪",
-      "category": "Thinking",
-      "connectionNote": "Directly validates the Digital Me vision of multi-modal memory as the foundation for proactive, personalized AI—a Chinese startup is literally building what Sean has been designing.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5b2cae9f4599a313"
+      "title": "Claude Code Pricing Splits: Agents Capped at $200 [2026]",
+      "source": "tech-insider.org",
+      "category": "Urgent",
+      "connectionNote": "Claude Code pricing agent caps",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1cdecbc89dd7b04e"
     },
     {
-      "id": "signal-82258d04f72801f702abbe67",
+      "id": "signal-77b96963686b942c2faef53a",
       "rank": 9,
-      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "category": "Work",
-      "connectionNote": "Provides a concrete implementation pattern for agent delegation and task decomposition that maps directly to Sean's planned multi-agent architecture and skill registry.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-82258d04f72801f7"
+      "title": "Tabnine’s Acquisition by Tricentis: A Strategic Move for Agentic Quality Engineering",
+      "source": "futurumgroup.com",
+      "category": "World",
+      "connectionNote": "Tabnine acquisition for agentic QA",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-77b96963686b942c"
     },
     {
-      "id": "signal-ffb0992a9f2032ff8a9c2383",
+      "id": "signal-9df37f073bdc0e5a3710935f",
       "rank": 10,
-      "title": "面壁智能ALIGN：自动对齐智能体与环境接口",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "category": "Work",
-      "connectionNote": "The ALIGN paper solves a problem Sean is architecting for: mismatches between agent interfaces and environments—this directly supports his skills folder (#139) and multi-agent contracts (#28), and the 45.67% improvement with just feedback rewording validates his principle that structure and contracts matter more than model size.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ffb0992a9f2032ff"
+      "title": "在SaaS末日恐慌中甄别优劣… “并非SaaS终结，而是重新评估”",
+      "source": "newstheai.com",
+      "category": "Thinking",
+      "connectionNote": "The SaaSocalypse concept — where AI agents disrupt SaaS billing models — connects to Sean's recent thinking about AI-native app architecture (#45) and his exploration of AI platform economics (#163), suggesting his platform design assumptions may need to account for this disruption.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9df37f073bdc0e5a"
+    },
+    {
+      "id": "signal-eede9578a12a26d1bcecfd03",
+      "rank": 11,
+      "title": "OpenAI的现场报告显示，AI代理将科学计算时间缩短90%",
+      "source": "yellow.com",
+      "category": "Thinking",
+      "connectionNote": "AI agents cutting scientific compute time by 90% directly connects to Sean's ergonomic risk modeling idea (#16) — the same pattern of domain experts bottlenecked by technical debt applies to his own exploration of applying mathematical modeling to specialized domains.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-eede9578a12a26d1"
+    },
+    {
+      "id": "signal-875bf2d85435f62170240793",
+      "rank": 12,
+      "title": "Y Combinator发布开源框架QM，用于AI智能体",
+      "source": "borncity.com",
+      "category": "Growth",
+      "connectionNote": "Y Combinator's open-source multi-agent coordination framework validates the market need for exactly what Sean is building — a skills-based, contract-driven agent orchestration system across multiple platforms.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-875bf2d85435f621"
     }
   ]
 }
