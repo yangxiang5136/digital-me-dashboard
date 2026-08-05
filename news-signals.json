@@ -1,116 +1,143 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T12:06:45.175875Z",
+  "generatedAt": "2026-08-05T12:07:03.544560Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 12,
+  "selectedCount": 15,
   "items": [
     {
-      "id": "signal-86f09c04e7b3d12e5065fcc9",
+      "id": "signal-9c45be46f36b863cf4e11fb2",
       "rank": 1,
-      "title": "Seeing Differently: Modeling Interpretive Perspectives in Computational Creativity using a Four-World Framework",
-      "source": "cs.HC updates on arXiv.org",
+      "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+      "source": "公众号：数字生命卡兹克",
       "category": "Growth",
-      "connectionNote": "Four-world framework for computational creativity",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-86f09c04e7b3d12e"
+      "connectionNote": "A non-engineer building hardware entirely through AI dialogue — from circuit design to 3D printing — is a proof point for Sean's cross-domain potential (robotics, hardware ideas) and his growth direction of making things others actually use.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9c45be46f36b863c"
     },
     {
-      "id": "signal-684a5c58ccc1dabd56bdb584",
+      "id": "signal-2d962e83e0bce56d2b236d9a",
       "rank": 2,
-      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "source": "Hacker News: Newest",
-      "category": "World",
-      "connectionNote": "OpenAI's super PAC using AI-generated news sites to attack industry critics is a concrete, alarming instance of the ethical concerns Sean has been exploring — AI power concentrated in few hands, used for manipulation, exactly the pattern he critiqued.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-684a5c58ccc1dabd"
+      "title": "中国开源 AI 模型将豁免美国政府安全审查",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Thinking",
+      "connectionNote": "中国开源AI获豁免",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2d962e83e0bce56d"
     },
     {
-      "id": "signal-b89ae0367c76b389a20b8f58",
+      "id": "signal-f4bb6658dc1f55db1d96a220",
       "rank": 3,
-      "title": "Zadig v5.0 发布：AI 发布专员与 AI 审查专员上线",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "World",
-      "connectionNote": "The bottleneck shifting from code-writing to code-review is a pattern Sean should recognize in his own system design — as he gives agents more agency, he needs evaluator agents to handle the review volume, not become the bottleneck himself.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b89ae0367c76b389"
+      "title": "AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Urgent",
+      "connectionNote": "AICon Shenzhen's focus on Agent engineering and building reliable intelligence directly supports Sean's current project phase of architecting and consolidating the Digital Me system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f4bb6658dc1f55db"
     },
     {
-      "id": "signal-a21f9f7a86e4ce8a87892825",
+      "id": "signal-cbf82244b15a5c6b2dc20a67",
       "rank": 4,
-      "title": "AI 将系统从 COBOL 迁移到 Java，连 bug 也一起带过去",
-      "source": "OSCHINA 社区最新新闻",
+      "title": "美国上诉法院推翻禁令，Perplexity AI 购物智能体重返 Amazon",
+      "source": "The Decoder：AI News（RSS）",
       "category": "Thinking",
-      "connectionNote": "The 'lock the AI in a cage' containment pattern validates Sean's architectural direction of constraining agents with deterministic guardrails and evaluators rather than trusting open-ended autonomy.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a21f9f7a86e4ce8a"
+      "connectionNote": "The Perplexity AI legal ruling that users, not AI agents, are the legal actors connects to Sean's principle of agent autonomy and the need for clear permission boundaries.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cbf82244b15a5c6b"
     },
     {
-      "id": "signal-e5e31068bf341eb5227a5a5f",
+      "id": "signal-0301ee848b3df37a14a5383c",
       "rank": 5,
-      "title": "寒武纪给超8成员工发股票激励，人均160万；宇树员工掏2.7亿认购IPO，王兴兴自掏1500万；Altman自曝沉迷 TikTok：一刷就是 3 小时｜AI周报",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "World",
-      "connectionNote": "AI industry news roundup",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e5e31068bf341eb5"
+      "title": "Google Assistant 下月起逐步退场，\"Hey Google\"将由谷歌 Gemini 接棒",
+      "source": "IT之家（RSS）",
+      "category": "Urgent",
+      "connectionNote": "Google Assistant sunsets to Gemini",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0301ee848b3df37a"
     },
     {
-      "id": "signal-75ee81442380d11fe427a88b",
+      "id": "signal-82e5da39945fd0c07d9449c0",
       "rank": 6,
-      "title": "AWS 计费系统故障：用户收到数万亿美元账单预估，自家成本告警却未能阻止问题扩大",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Urgent",
-      "connectionNote": "AWS billing system failure",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-75ee81442380d11f"
-    },
-    {
-      "id": "signal-0114a17b459140e61485e7fd",
-      "rank": 7,
-      "title": "Grok 支持分析任意视频",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "title": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
+      "source": "公众号：数字生命卡兹克",
       "category": "Work",
-      "connectionNote": "Grok video analysis capability",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0114a17b459140e6"
+      "connectionNote": "The 'human Writing.skill' concept — using real examples and emotional content to de-AI-ify writing — connects to Sean's exploration of design, creativity, and building things others actually use, not just engineering tools.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-82e5da39945fd0c0"
     },
     {
-      "id": "signal-1cdecbc89dd7b04e8186360c",
+      "id": "signal-9af70173ad8f512648b6a0fa",
+      "rank": 7,
+      "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志",
+      "source": "Simon Willison 博客",
+      "category": "Work",
+      "connectionNote": "Simon Willison's LLM CLI update with reasoning traces and server-side tools directly validates Sean's recent deep dives into agent tooling patterns and skill architectures.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9af70173ad8f5126"
+    },
+    {
+      "id": "signal-1f869b57263a891490ef0634",
       "rank": 8,
-      "title": "Claude Code Pricing Splits: Agents Capped at $200 [2026]",
-      "source": "tech-insider.org",
-      "category": "Urgent",
-      "connectionNote": "Claude Code pricing agent caps",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1cdecbc89dd7b04e"
-    },
-    {
-      "id": "signal-77b96963686b942c2faef53a",
-      "rank": 9,
-      "title": "Tabnine’s Acquisition by Tricentis: A Strategic Move for Agentic Quality Engineering",
-      "source": "futurumgroup.com",
+      "title": "Claude Mythos 5 与 GPT-5.6 Sol 在 AISI 评测中失控",
+      "source": "X：Anthropic (@AnthropicAI)",
       "category": "World",
-      "connectionNote": "Tabnine acquisition for agentic QA",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-77b96963686b942c"
+      "connectionNote": "AISI report on Claude Mythos 5 and GPT-5.6 Sol acting harmfully without safeguards connects to Sean's deep engagement with AI ethics, labor exploitation, and the social cost of the AI industry.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1f869b57263a8914"
     },
     {
-      "id": "signal-9df37f073bdc0e5a3710935f",
+      "id": "signal-c6b9721b9200b22475be873f",
+      "rank": 9,
+      "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Urgent",
+      "connectionNote": "Anthropic's $10B compute deal",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c6b9721b9200b224"
+    },
+    {
+      "id": "signal-0ef2146ed774ec7bc9e053d2",
       "rank": 10,
-      "title": "在SaaS末日恐慌中甄别优劣… “并非SaaS终结，而是重新评估”",
-      "source": "newstheai.com",
-      "category": "Thinking",
-      "connectionNote": "The SaaSocalypse concept — where AI agents disrupt SaaS billing models — connects to Sean's recent thinking about AI-native app architecture (#45) and his exploration of AI platform economics (#163), suggesting his platform design assumptions may need to account for this disruption.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9df37f073bdc0e5a"
+      "title": "GPT-5.6 Luna降价80%永久生效",
+      "source": "X：Tibo (@thsottiaux)",
+      "category": "Urgent",
+      "connectionNote": "GPT-5.6 Luna永久降价",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0ef2146ed774ec7b"
     },
     {
-      "id": "signal-eede9578a12a26d1bcecfd03",
+      "id": "signal-f882cab13b0c66b50e6a87e0",
       "rank": 11,
-      "title": "OpenAI的现场报告显示，AI代理将科学计算时间缩短90%",
-      "source": "yellow.com",
-      "category": "Thinking",
-      "connectionNote": "AI agents cutting scientific compute time by 90% directly connects to Sean's ergonomic risk modeling idea (#16) — the same pattern of domain experts bottlenecked by technical debt applies to his own exploration of applying mathematical modeling to specialized domains.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-eede9578a12a26d1"
+      "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
+      "source": "OpenRouter：Announcements（RSS）",
+      "category": "Work",
+      "connectionNote": "OpenRouter ori CLI for harnesses",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f882cab13b0c66b5"
     },
     {
-      "id": "signal-875bf2d85435f62170240793",
+      "id": "signal-ede4728ffa37bc96327e14fd",
       "rank": 12,
-      "title": "Y Combinator发布开源框架QM，用于AI智能体",
-      "source": "borncity.com",
-      "category": "Growth",
-      "connectionNote": "Y Combinator's open-source multi-agent coordination framework validates the market need for exactly what Sean is building — a skills-based, contract-driven agent orchestration system across multiple platforms.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-875bf2d85435f621"
+      "title": "GPT-Live实时音频新架构发布",
+      "source": "X：Greg Brockman (@gdb)",
+      "category": "Thinking",
+      "connectionNote": "GPT-Live's architecture — continuous audio flow, simultaneous speaking/listening, reasoning+tool use not breaking conversation — is a reference design for Sean's voiceover feature investigation for the Memory Agent.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ede4728ffa37bc96"
+    },
+    {
+      "id": "signal-e06a34873b1f45bb8d47c57d",
+      "rank": 13,
+      "title": "Claude Code 连接器可复用至 Artifacts",
+      "source": "X：Thariq (@trq212)",
+      "category": "Work",
+      "connectionNote": "Claude Code connectors being reusable in Artifacts directly validates Sean's thinking about shared infrastructure and connector patterns across agent components.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e06a34873b1f45bb"
+    },
+    {
+      "id": "signal-a90716f78bf1c41e1dbc1606",
+      "rank": 14,
+      "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
+      "source": "The Verge：AI（RSS）",
+      "category": "Urgent",
+      "connectionNote": "EU AI Act transparency rules effective",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a90716f78bf1c41e"
+    },
+    {
+      "id": "signal-7ec06878085ee407c3166c75",
+      "rank": 15,
+      "title": "白宫完成尖端AI模型评估框架…计划与OpenAI、谷歌等审查",
+      "source": "mobile.newsis.com",
+      "category": "Urgent",
+      "connectionNote": "白宫将评估前沿AI模型",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7ec06878085ee407"
     }
   ]
 }
