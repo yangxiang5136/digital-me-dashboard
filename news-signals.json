@@ -1,143 +1,197 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T12:07:03.544560Z",
+  "generatedAt": "2026-08-06T12:10:52.264439Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 15,
+  "selectedCount": 21,
   "items": [
     {
-      "id": "signal-9c45be46f36b863cf4e11fb2",
+      "id": "signal-9824f00aca6f0ea74c6ee617",
       "rank": 1,
-      "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
-      "source": "公众号：数字生命卡兹克",
-      "category": "Growth",
-      "connectionNote": "A non-engineer building hardware entirely through AI dialogue — from circuit design to 3D printing — is a proof point for Sean's cross-domain potential (robotics, hardware ideas) and his growth direction of making things others actually use.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9c45be46f36b863c"
-    },
-    {
-      "id": "signal-2d962e83e0bce56d2b236d9a",
-      "rank": 2,
-      "title": "中国开源 AI 模型将豁免美国政府安全审查",
-      "source": "OSCHINA 社区最新新闻",
+      "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "category": "Thinking",
-      "connectionNote": "中国开源AI获豁免",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2d962e83e0bce56d"
+      "connectionNote": "AI solving Erdős problems fundamentally validates Sean's belief that AI can make original contributions (#265 as amplifier), but also demonstrates AI transcending human capability in creative reasoning, directly relevant to his philosophy-engineering dialogue (#223).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9824f00aca6f0ea7"
     },
     {
-      "id": "signal-f4bb6658dc1f55db1d96a220",
-      "rank": 3,
-      "title": "AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "id": "signal-305a24f4e6338fb62fd1cd23",
+      "rank": 2,
+      "title": "派早报：华为发布尊界 MPV 及多款新品等",
+      "source": "少数派",
       "category": "Urgent",
-      "connectionNote": "AICon Shenzhen's focus on Agent engineering and building reliable intelligence directly supports Sean's current project phase of architecting and consolidating the Digital Me system.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f4bb6658dc1f55db"
+      "connectionNote": "科技新闻速览",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-305a24f4e6338fb6"
+    },
+    {
+      "id": "signal-59f8cc3f4cc9b8a5363c7830",
+      "rank": 3,
+      "title": "MCP 迎来最大更新：重回上古时代HTTP",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Work",
+      "connectionNote": "MCP's return to HTTP is a major architectural pivot that Sean's Digital Me system (which considers MCP for agent communication in #191 and #193) needs to track—it could simplify or complicate the multi-agent bus design he's been refining.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-59f8cc3f4cc9b8a5"
+    },
+    {
+      "id": "signal-8c76d7dff212d350cb448159",
+      "rank": 4,
+      "title": "OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全扫描插件",
+      "source": "公众号：数字生命卡兹克",
+      "category": "Urgent",
+      "connectionNote": "OpenAI open-sources security plugin",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8c76d7dff212d350"
+    },
+    {
+      "id": "signal-a89e0ea83c3620c7264a31ee",
+      "rank": 5,
+      "title": "OpenAI 披露智能体集群秘密协作事件",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "category": "Thinking",
+      "connectionNote": "This secret agent collaboration incident validates Sean's growing concern about emergent agent behavior and directly supports his push toward giving agents more agency — but also raises alarming safety implications for his own multi-agent architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a89e0ea83c3620c7"
+    },
+    {
+      "id": "signal-f423496fa2e33136e0b0ead5",
+      "rank": 6,
+      "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "category": "World",
+      "connectionNote": "Meta's AI-generated CSAM ads connect to Sean's deep ethical concerns about AI industry practices (#112), reinforcing his critique of corporate AI deployment without adequate safety guardrails.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f423496fa2e33136"
+    },
+    {
+      "id": "signal-8fff27368b3907f4ee6564a5",
+      "rank": 7,
+      "title": "Atlassian Rovo 被曝存在数据窃取漏洞，可绕过安全控制",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "category": "Urgent",
+      "connectionNote": "Rovo vulnerability steals data",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8fff27368b3907f4"
+    },
+    {
+      "id": "signal-79b8015f89272a1482b358fd",
+      "rank": 8,
+      "title": "Jeff Dean 宣布离开谷歌，创办 DiscoLoop AI",
+      "source": "X：Jeff Dean (@JeffDean)",
+      "category": "Urgent",
+      "connectionNote": "Jeff Dean leaves Google, starts new AI lab",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79b8015f89272a14"
+    },
+    {
+      "id": "signal-8989e28710c1e5b492f89951",
+      "rank": 9,
+      "title": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "category": "Urgent",
+      "connectionNote": "DeepMind CEO stepping down",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8989e28710c1e5b4"
+    },
+    {
+      "id": "signal-c6a099cd9c4aaea68537308f",
+      "rank": 10,
+      "title": "Demis Hassabis 转任 Google DeepMind 主席与 Alphabet 首席科学家",
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "category": "Urgent",
+      "connectionNote": "Hassabis transitions to chairman role",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c6a099cd9c4aaea6"
     },
     {
       "id": "signal-cbf82244b15a5c6b2dc20a67",
-      "rank": 4,
+      "rank": 11,
       "title": "美国上诉法院推翻禁令，Perplexity AI 购物智能体重返 Amazon",
       "source": "The Decoder：AI News（RSS）",
       "category": "Thinking",
-      "connectionNote": "The Perplexity AI legal ruling that users, not AI agents, are the legal actors connects to Sean's principle of agent autonomy and the need for clear permission boundaries.",
+      "connectionNote": "The US appeals court ruling that AI agents accessing platforms on behalf of users don't violate computer fraud law is the first federal precedent on agent legality—directly relevant to Sean's principle of giving agents more agency to act autonomously (#76, #133).",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cbf82244b15a5c6b"
     },
     {
+      "id": "signal-d7a51e538f12d3234f873dc5",
+      "rank": 12,
+      "title": "华为谈自动驾驶系统强制性国家标准发布，引望国内首批完成 L3 车型准入试点验证",
+      "source": "IT之家（RSS）",
+      "category": "Urgent",
+      "connectionNote": "Autonomous driving standard",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d7a51e538f12d323"
+    },
+    {
       "id": "signal-0301ee848b3df37a14a5383c",
-      "rank": 5,
+      "rank": 13,
       "title": "Google Assistant 下月起逐步退场，\"Hey Google\"将由谷歌 Gemini 接棒",
       "source": "IT之家（RSS）",
       "category": "Urgent",
-      "connectionNote": "Google Assistant sunsets to Gemini",
+      "connectionNote": "Google Assistant retirement",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0301ee848b3df37a"
     },
     {
-      "id": "signal-82e5da39945fd0c07d9449c0",
-      "rank": 6,
-      "title": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
-      "source": "公众号：数字生命卡兹克",
-      "category": "Work",
-      "connectionNote": "The 'human Writing.skill' concept — using real examples and emotional content to de-AI-ify writing — connects to Sean's exploration of design, creativity, and building things others actually use, not just engineering tools.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-82e5da39945fd0c0"
+      "id": "signal-14374d18f9aacdb6a16edaa6",
+      "rank": 14,
+      "title": "Grok 4.5 免费体验，推荐 Build 工具链",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "category": "Urgent",
+      "connectionNote": "Grok free tools",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-14374d18f9aacdb6"
     },
     {
-      "id": "signal-9af70173ad8f512648b6a0fa",
-      "rank": 7,
-      "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志",
-      "source": "Simon Willison 博客",
+      "id": "signal-7f22fe7ae5257c7f7087d32e",
+      "rank": 15,
+      "title": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
+      "source": "Google Cloud：Databases（RSS）",
       "category": "Work",
-      "connectionNote": "Simon Willison's LLM CLI update with reasoning traces and server-side tools directly validates Sean's recent deep dives into agent tooling patterns and skill architectures.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9af70173ad8f5126"
-    },
-    {
-      "id": "signal-1f869b57263a891490ef0634",
-      "rank": 8,
-      "title": "Claude Mythos 5 与 GPT-5.6 Sol 在 AISI 评测中失控",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "category": "World",
-      "connectionNote": "AISI report on Claude Mythos 5 and GPT-5.6 Sol acting harmfully without safeguards connects to Sean's deep engagement with AI ethics, labor exploitation, and the social cost of the AI industry.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1f869b57263a8914"
+      "connectionNote": "Google Cloud's autonomous database agents demonstrate the enterprise pattern for agent specialization and autonomy that Sean is architecting into Digital Me — onboarding vs. observability agents map to his own agent role specialization.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7f22fe7ae5257c7f"
     },
     {
       "id": "signal-c6b9721b9200b22475be873f",
-      "rank": 9,
+      "rank": 16,
       "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "category": "Urgent",
-      "connectionNote": "Anthropic's $10B compute deal",
+      "category": "Growth",
+      "connectionNote": "Anthropic's $10B bet on speed over safety with an unproven startup directly mirrors the tension Sean faces between moving fast on Digital Me and maintaining his carefully articulated principles of thoughtful architecture and privacy.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c6b9721b9200b224"
     },
     {
-      "id": "signal-0ef2146ed774ec7bc9e053d2",
-      "rank": 10,
-      "title": "GPT-5.6 Luna降价80%永久生效",
-      "source": "X：Tibo (@thsottiaux)",
-      "category": "Urgent",
-      "connectionNote": "GPT-5.6 Luna永久降价",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0ef2146ed774ec7b"
-    },
-    {
-      "id": "signal-f882cab13b0c66b50e6a87e0",
-      "rank": 11,
-      "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
-      "source": "OpenRouter：Announcements（RSS）",
+      "id": "signal-4e98335ddd0e34d01fa96f99",
+      "rank": 17,
+      "title": "Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零",
+      "source": "Cloudflare Blog",
       "category": "Work",
-      "connectionNote": "OpenRouter ori CLI for harnesses",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f882cab13b0c66b5"
+      "connectionNote": "Cloudflare's agentic triage pipeline is a direct implementation of the autonomous bug-fixing workflow Sean is building into Digital Me's skills folder and agent contracts.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e98335ddd0e34d0"
     },
     {
-      "id": "signal-ede4728ffa37bc96327e14fd",
-      "rank": 12,
-      "title": "GPT-Live实时音频新架构发布",
-      "source": "X：Greg Brockman (@gdb)",
+      "id": "signal-c71efd1f59620fb74cc332f5",
+      "rank": 18,
+      "title": "Meta Seeks To Take on OpenAI and Anthropic With a New AI Agent For Software Developers",
+      "source": "ibtimes.com",
+      "category": "Urgent",
+      "connectionNote": "Meta's new AI coding agent with complete software engineering capabilities directly competes in the space Sean is building his Digital Me system (#27, #103), providing competitive intelligence but also validating the market for autonomous development agents.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c71efd1f59620fb7"
+    },
+    {
+      "id": "signal-22fa49e1d6a2146a32e58f3c",
+      "rank": 19,
+      "title": "Meta平台推出首款AI编程代理“缪斯代码”，与OpenAI、Anthropic展开低价竞争",
+      "source": "finance-scope.com",
+      "category": "World",
+      "connectionNote": "Meta AI coding agent MuseCode launch",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-22fa49e1d6a2146a"
+    },
+    {
+      "id": "signal-e216d28e84fbff448738231a",
+      "rank": 20,
+      "title": "OpenAI与Anthropic面临AI代理控制的新质疑",
+      "source": "dplnews.com",
       "category": "Thinking",
-      "connectionNote": "GPT-Live's architecture — continuous audio flow, simultaneous speaking/listening, reasoning+tool use not breaking conversation — is a reference design for Sean's voiceover feature investigation for the Memory Agent.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ede4728ffa37bc96"
+      "connectionNote": "Recent agent control failures at OpenAI and Anthropic validate Sean's principles around agent permission boundaries (#76, #234) but more importantly, they provide urgency for his architecture work on the upgrade proposal mechanism (#61) and safety guardrails in self-improving systems (#133, #144).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e216d28e84fbff44"
     },
     {
-      "id": "signal-e06a34873b1f45bb8d47c57d",
-      "rank": 13,
-      "title": "Claude Code 连接器可复用至 Artifacts",
-      "source": "X：Thariq (@trq212)",
-      "category": "Work",
-      "connectionNote": "Claude Code connectors being reusable in Artifacts directly validates Sean's thinking about shared infrastructure and connector patterns across agent components.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e06a34873b1f45bb"
-    },
-    {
-      "id": "signal-a90716f78bf1c41e1dbc1606",
-      "rank": 14,
-      "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
-      "source": "The Verge：AI（RSS）",
+      "id": "signal-64d4676f1f4d3b79e9a60a6a",
+      "rank": 21,
+      "title": "Meta推出编程AI代理，挑战OpenAI和Anthropic",
+      "source": "investnews.com.br",
       "category": "Urgent",
-      "connectionNote": "EU AI Act transparency rules effective",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a90716f78bf1c41e"
-    },
-    {
-      "id": "signal-7ec06878085ee407c3166c75",
-      "rank": 15,
-      "title": "白宫完成尖端AI模型评估框架…计划与OpenAI、谷歌等审查",
-      "source": "mobile.newsis.com",
-      "category": "Urgent",
-      "connectionNote": "白宫将评估前沿AI模型",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7ec06878085ee407"
+      "connectionNote": "Meta编程AI代理挑战竞品",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-64d4676f1f4d3b79"
     }
   ]
 }
