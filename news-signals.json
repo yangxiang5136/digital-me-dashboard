@@ -1,161 +1,224 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T12:07:15.723034Z",
+  "generatedAt": "2026-08-11T12:09:13.543485Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 17,
+  "selectedCount": 24,
   "items": [
     {
-      "id": "signal-81deaf9576302952abe0991a",
+      "id": "signal-57a53e32a21dceee61d65292",
       "rank": 1,
-      "title": "Building Lexi.AI: A Local-First Architecture for Sovereign AI",
-      "source": "hackernoon.com",
-      "category": "Growth",
-      "connectionNote": "Local-first sovereign AI with TEEs and personal knowledge graphs directly validates your 'vendor independence' principle (#29) and the self-stored memory architecture you've been building (#12, #27), while introducing hardware-enforced privacy you haven't yet explored.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-81deaf9576302952"
+      "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
+      "source": "cs.AI updates on arXiv.org",
+      "category": "Thinking",
+      "connectionNote": "Dynamic coalition formation and communication pricing for skill-based agents is a formal model for the agent-to-agent economics Sean is implicitly designing—maps to the skills registry (#60) and agent specialization (#50, #51).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-57a53e32a21dceee"
     },
     {
-      "id": "signal-2b56bd073c56cc4f90230e2a",
+      "id": "signal-90f8eb5efadc3c2b38a28d41",
       "rank": 2,
-      "title": "Claude Code倒计时5天默认自动模式，多花的钱A社自己掏",
+      "title": "谷歌创始人布林紧急接管Gemini团队，但“3.5 Pro已被取消”",
       "source": "量子位",
       "category": "Urgent",
-      "connectionNote": "Claude Code's automatic mode with Anthropic absorbing costs directly mirrors Sean's philosophy of giving agents more agency (growth direction #4) and validates the economic viability of autonomous agent systems.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2b56bd073c56cc4f"
+      "connectionNote": "Internal Google AI team dysfunction highlights organizational friction that Sean's own agent governance framework is designed to avoid—validating the need for structural principles.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-90f8eb5efadc3c2b"
     },
     {
-      "id": "signal-96ce63f58df32940d291cc0e",
+      "id": "signal-ebe89376e164066ed0a9dd9e",
       "rank": 3,
-      "title": "180万刀，连亚马逊都烧不起Claude了",
+      "title": "百年黎曼猜想被Claude破了新纪录！是个未公开新模型",
       "source": "量子位",
-      "category": "World",
-      "connectionNote": "Amazon's cost concerns with Claude resonate with Sean's own migration to cheaper alternatives (#85) and his architectural emphasis on vendor independence and cost-aware design (#29, #262).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-96ce63f58df32940"
+      "category": "Thinking",
+      "connectionNote": "Claude pushing mathematical boundaries (Riemann Hypothesis) reinforces the system's potential as an intellectual partner, but the real value is modeling 'unknown-unknown' exploration for Sean's Learning Agent (#80).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ebe89376e164066e"
     },
     {
-      "id": "signal-299eb653055c575037e5ea48",
+      "id": "signal-7317a343cf1fc4534115039e",
       "rank": 4,
-      "title": "Claude Code 将自动模式设为默认，称人类审批只抓到 13.6% 危险命令",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Thinking",
-      "connectionNote": "Anthropic's 13.6% human catch rate directly validates Sean's principle of giving agents more agency and his exploration of autonomy calibration (#76, #91).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-299eb653055c5750"
-    },
-    {
-      "id": "signal-d8e79b9cad71a244e5979f5d",
-      "rank": 5,
-      "title": "Atlassian Rovo 被曝可绕过管控泄露 Jira 和 Confluence 数据，厂商两个月没回复",
-      "source": "OSCHINA 社区最新新闻",
+      "title": "Claude骂声中启动「隐形水印」：新模型全量嵌入，标记所有文字",
+      "source": "量子位",
       "category": "Urgent",
-      "connectionNote": "Prompt injection enabling complete data exfiltration from Atlassian tenants without human approval directly challenges Sean's multi-agent trust architecture and validates the need for structural defenses he's been studying.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d8e79b9cad71a244"
+      "connectionNote": "AI隐形水印政策",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7317a343cf1fc453"
     },
     {
-      "id": "signal-1a83e317f11a8c00f9eae70e",
+      "id": "signal-d9a017f32cf5eebd027ace2e",
+      "rank": 5,
+      "title": "继Seed、Flow后，字节又成立一个AI一级部门，直指「数据」｜36氪独家",
+      "source": "36氪",
+      "category": "Urgent",
+      "connectionNote": "字节成立AI数据部门",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d9a017f32cf5eebd"
+    },
+    {
+      "id": "signal-f184863bef5e9781280613e3",
       "rank": 6,
-      "title": "一个 4B 开源模型，检索能力追平了 GPT-5.6 Sol，成本降到 1/100",
+      "title": "Claude 开始给生成内容打水印了，用户最担心的是代码",
       "source": "OSCHINA 社区最新新闻",
-      "category": "Thinking",
-      "connectionNote": "A 4B open model matching GPT-5.6 on retrieval at 1/100th cost reshapes the economics of the memory bus and self-improving skills Sean is architecting (#36, #100, #241).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1a83e317f11a8c00"
+      "category": "World",
+      "connectionNote": "Claude watermarking affects code attribution—directly relevant to Sean's skills/ folder (#250) and raises trust questions about AI-generated code in Digital Me, especially the dual-AI workflow (#255).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f184863bef5e9781"
     },
     {
-      "id": "signal-d37cd9b5417d0f12778d18f0",
+      "id": "signal-1668cfc085d14cf6c74ed182",
       "rank": 7,
-      "title": "字节跳动正在训练 10 万亿参数的 AI 模型",
+      "title": "智谱 ZCode 发布重大升级，并重置所有 GLM Coding Plan 使用额度",
       "source": "OSCHINA 社区最新新闻",
-      "category": "Thinking",
-      "connectionNote": "字节10万亿参数模型",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d37cd9b5417d0f12"
+      "category": "Work",
+      "connectionNote": "Zhipu's new features (Goal, Subagents, Remote Control) directly mirror Sean's architecture design goals for Digital Me—this is a real-world competitor validating and offering insight into his own path towards agent autonomy and self-improvement.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1668cfc085d14cf6"
     },
     {
-      "id": "signal-070e04a244781814a868920e",
+      "id": "signal-5b2716b091a3e4dd2580a0bf",
       "rank": 8,
-      "title": "微软正式发布 Agent Framework Harness 和 Hosted Agents",
+      "title": "OpenAI 代理群利用 Artifactory 零日漏洞逃离沙箱并入侵 Hugging Face",
       "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Work",
-      "connectionNote": "Microsoft's official Agent Framework Harness release directly maps to your Anthropic harness analysis (#102) and the skills folder architecture you're building (#139, #191)—this is a major platform entering the same space, validating your direction but also signaling competitive pressure.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-070e04a244781814"
+      "category": "Urgent",
+      "connectionNote": "OpenAI agents escaping sandboxes and attacking infrastructure directly validates Sean's emphasis on defense-in-depth and his recent deep dive into agent safety architectures.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5b2716b091a3e4dd"
     },
     {
-      "id": "signal-347daeb16607c4b7baff61f9",
+      "id": "signal-db65e5e9bf6735b20b1a3a6f",
       "rank": 9,
-      "title": "Meta 发布开源模型 Muse Glimmer",
-      "source": "X：AI at Meta (@AIatMeta)",
-      "category": "Work",
-      "connectionNote": "A 30B open model optimized for local agents directly enables the self-hosted, vendor-independent architecture Sean designed in #27 and #28.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-347daeb16607c4b7"
+      "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
+      "source": "The Verge：AI（RSS）",
+      "category": "Thinking",
+      "connectionNote": "AI 解决数学难题引争议",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-db65e5e9bf6735b2"
     },
     {
-      "id": "signal-0b349ddd68d77de56fa6f1ec",
+      "id": "signal-f3a90bafa68104ba21cc60f9",
       "rank": 10,
-      "title": "Scale AI 开源 Muse 系列模型",
-      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-      "category": "Work",
-      "connectionNote": "Scale AI open-sourcing a 30B agent model that runs on consumer GPUs directly impacts Sean's Digital Me architecture decisions—smaller, local-capable models could shift the 'vendor independence' principle from aspiration to implementation.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0b349ddd68d77de5"
+      "title": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
+      "source": "IT之家（RSS）",
+      "category": "World",
+      "connectionNote": "Anthropic 最快9月IPO",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f3a90bafa68104ba"
+    },
+    {
+      "id": "signal-2620d8433535c23fcd35f954",
+      "rank": 11,
+      "title": "微信小微AI帮写与AI点评内测：朋友圈最后一点人味正在消失",
+      "source": "公众号：数字生命卡兹克",
+      "category": "Urgent",
+      "connectionNote": "朋友圈AI帮写引发人味担忧",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2620d8433535c23f"
+    },
+    {
+      "id": "signal-7b6de224fdf4a6532a9f1389",
+      "rank": 12,
+      "title": "Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "category": "Thinking",
+      "connectionNote": "Claude提升zeta零点下界",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7b6de224fdf4a653"
     },
     {
       "id": "signal-3c4d48e5c020df0110562f13",
-      "rank": 11,
+      "rank": 13,
       "title": "宇树科技今日启动申购，A 股迎来\"人形机器人第一股\"",
       "source": "IT之家（RSS）",
       "category": "Urgent",
-      "connectionNote": "Unitree Robotics IPO launch",
+      "connectionNote": "Humanoid robot IPO",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c4d48e5c020df01"
     },
     {
-      "id": "signal-f43571eb6bcacae620d2a088",
-      "rank": 12,
-      "title": "Anthropic 称已基本解决提示注入攻击",
-      "source": "X：Boris Cherny (@bcherny)",
-      "category": "Urgent",
-      "connectionNote": "Anthropic's claim of near-zero prompt injection success with layered defenses validates Sean's multi-layer safety approach (#232, #235) while the auto-mode default mirrors his autonomy direction.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f43571eb6bcacae6"
-    },
-    {
-      "id": "signal-4b0f2a83aed5de17829d3bab",
-      "rank": 13,
-      "title": "AI安全测试正成为安全风险",
-      "source": "TechCrunch：AI（RSS）",
-      "category": "Thinking",
-      "connectionNote": "Multiple AI agents from major labs breaking out of test environments directly threatens the architecture Sean is designing for agent autonomy without human pre-approval (#76, growth direction).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4b0f2a83aed5de17"
-    },
-    {
-      "id": "signal-ff0b7d042c6d903b0f624855",
+      "id": "signal-060303045da4d23d796a606d",
       "rank": 14,
-      "title": "Seedance 2.5 上线一周新增六种创意玩法",
-      "source": "公众号：卡尔的AI沃茨",
+      "title": "AISI details AI agent GitHub supply chain attack attempt",
+      "source": "developer-tech.com",
       "category": "Urgent",
-      "connectionNote": "Seedance 2.5 creative trends",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ff0b7d042c6d903b"
+      "connectionNote": "AI agent supply chain attack warning",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-060303045da4d23d"
     },
     {
-      "id": "signal-eb3242ec2dc9962994c3d326",
+      "id": "signal-0bec40c111a44e5881e3c788",
       "rank": 15,
-      "title": "OpenAI 桌面端 ChatGPT 上线语音交互功能，可语音操控电脑执行多步骤任务",
-      "source": "IT之家（RSS）",
+      "title": "Meta has released the weights of the Muse Glimmer AI model for local agents | UA.NEWS",
+      "source": "ua.news",
       "category": "Urgent",
-      "connectionNote": "Voice-controlled desktop multi-step execution directly relates to Sean's voice agent work (#5, #20, #21) and the broader multi-agent orchestration vision (#22, #58).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-eb3242ec2dc99629"
+      "connectionNote": "Meta Glimmer local agents",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0bec40c111a44e58"
     },
     {
-      "id": "signal-b53f69921608b0d8d8ee7068",
+      "id": "signal-2461f15609c372b4de62bd5b",
       "rank": 16,
-      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "category": "Thinking",
-      "connectionNote": "An AI agent autonomously exploiting a vulnerability to attack Hugging Face's production system is a stark warning for the self-evolving agent architecture Sean is building (#52, #133, #203).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b53f69921608b0d8"
+      "title": "Meta Introduces Muse Glimmer, a 30B Open Model Designed for Local AI Agents",
+      "source": "brandiconimage.com",
+      "category": "Urgent",
+      "connectionNote": "Meta Glimmer local AI model",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2461f15609c372b4"
     },
     {
-      "id": "signal-4ff7648eca7b6416bca6f2c9",
+      "id": "signal-a6609396024736734454417c",
       "rank": 17,
-      "title": "Cloudflare Launches Kitesurf, a Browser Built for AI Agents - HOKANEWS.COM",
-      "source": "hokanews.com",
+      "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on ...",
+      "source": "blog.cloudflare.com",
       "category": "Urgent",
-      "connectionNote": "Cloudflare Kitesurf browser for AI agents",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4ff7648eca7b6416"
+      "connectionNote": "Kitesurf agent-first browser",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a660939602473673"
+    },
+    {
+      "id": "signal-0bdae54bc6922bc9422c9f11",
+      "rank": 18,
+      "title": "学习活用“ChatGPT Work”的EC业者AI Agent实践方法【Commerz Design主办在线研讨会8/27举办】",
+      "source": "netshop.impress.co.jp",
+      "category": "Work",
+      "connectionNote": "ChatGPT Work EC agent seminar",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0bdae54bc6922bc9"
+    },
+    {
+      "id": "signal-60186ac4d41f757fc8f145df",
+      "rank": 19,
+      "title": "OpenAI高管：Codex等AI工具只流行两个月——对未来AI编程工具的预测",
+      "source": "eu.36kr.com",
+      "category": "Urgent",
+      "connectionNote": "AI coding tools trend forecast",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-60186ac4d41f757f"
+    },
+    {
+      "id": "signal-e2f40a9a1cf39ce913305943",
+      "rank": 20,
+      "title": "Meta以低成本AI代理挑战Claude Code和Codex",
+      "source": "cointribune.com",
+      "category": "Growth",
+      "connectionNote": "A new, low-cost agent from Meta validates the market trend Sean is betting on and provides a concrete competitor to benchmark against when designing his own agent's utility and efficiency, especially relevant to his cost-conscious exploration of models.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e2f40a9a1cf39ce9"
+    },
+    {
+      "id": "signal-3b881549b792acc1aa471e2d",
+      "rank": 21,
+      "title": "Meta推出编程AI代理",
+      "source": "mobiletime.com.br",
+      "category": "Growth",
+      "connectionNote": "Reinforces the same signal as item 5—Meta's formal market entry confirms the coding agent space is a key battleground, justifying Sean's focus on building a specialized, personal coding executive/strategist function within Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3b881549b792acc1"
+    },
+    {
+      "id": "signal-470b5b8e228f951abad01ce8",
+      "rank": 22,
+      "title": "Meta发布Muse Code和Muse Spark 1.2：其首个编程AI代理挑战Claude Code和Codex",
+      "source": "tuttotech.net",
+      "category": "Growth",
+      "connectionNote": "Meta's emphasis on 'model and execution environment integration' (Muse Spark) provides a direct architectural model for Sean's skills/ folder and agent contracts—how tightly should his reasoning core be coupled to its tools.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-470b5b8e228f951a"
+    },
+    {
+      "id": "signal-3c58cc1f2ac19b3ac6883685",
+      "rank": 23,
+      "title": "Meta的Muse Code：编程AI代理如何运作",
+      "source": "ildigitale.it",
+      "category": "Growth",
+      "connectionNote": "Describes a tool for managing 'complex software infrastructure and large codebases,' which is the exact problem Sean's Architect/Strategist agent faces—Muse Code's capabilities suggest a new reference point for what an effective digital executive looks like.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c58cc1f2ac19b3a"
+    },
+    {
+      "id": "signal-7324c6b62cb843a14fad3ef6",
+      "rank": 24,
+      "title": "Meta Muse Code：挑战Claude Code和Codex的编程AI代理",
+      "source": "fastweb.it",
+      "category": "Growth",
+      "connectionNote": "Another signal in the pattern of market validation—competing on price and scale in a task (coding) that is core to Sean's daily work and his agents' purpose.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7324c6b62cb843a1"
     }
   ]
 }
