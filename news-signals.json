@@ -1,152 +1,215 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T12:09:29.759673Z",
+  "generatedAt": "2026-08-13T12:09:29.852707Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 16,
+  "selectedCount": 23,
   "items": [
     {
-      "id": "signal-69105870427c9cda1d071734",
+      "id": "signal-a2daf8e2ad2c06f766e44f59",
       "rank": 1,
-      "title": "SBCO: Self-Supervised, Verifier-Grounded Harness Optimization For Planning Agents",
+      "title": "MaSRead: Content-Addressed Reading of Replicated Latent Stores",
       "source": "cs.AI updates on arXiv.org",
-      "category": "Work",
-      "connectionNote": "This paper on self-improving agents directly validates and extends Sean's core architecture for agent self-evolution, specifically the self-wiring and overnight consolidation patterns he's been designing.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-69105870427c9cda"
-    },
-    {
-      "id": "signal-ebe89376e164066ed0a9dd9e",
-      "rank": 2,
-      "title": "百年黎曼猜想被Claude破了新纪录！是个未公开新模型",
-      "source": "量子位",
-      "category": "Thinking",
-      "connectionNote": "Claude突破黎曼猜想",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ebe89376e164066e"
-    },
-    {
-      "id": "signal-5e304771ca652e6166bfe069",
-      "rank": 3,
-      "title": "派早报：微软已上调 Windows 11 OEM 授权费用、Claude 将为所有生成内容附加隐水印等",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "科技新闻早报快讯",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5e304771ca652e61"
-    },
-    {
-      "id": "signal-b44a349af542ea93e1fd15e7",
-      "rank": 4,
-      "title": "派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "AI大模型新闻早报",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b44a349af542ea93"
-    },
-    {
-      "id": "signal-435761862ea70a4dfb44bf9e",
-      "rank": 5,
-      "title": "林俊旸官宣创业公司“Pragmatik Labs”",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Urgent",
-      "connectionNote": "Lin Junyang's agent startup from Qwen represents the exact competitive landscape Sean needs to understand for his own agent-building project, validating the multi-agent direction while raising the bar for execution speed.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-435761862ea70a4d"
-    },
-    {
-      "id": "signal-053d7d8471bb62c2afcc115f",
-      "rank": 6,
-      "title": "黄仁勋的豪赌：当 AI 算力成为可投资的资产类别",
-      "source": "OSCHINA 社区最新新闻",
       "category": "Growth",
-      "connectionNote": "Huang's push to make AI compute a financial asset class directly connects to Sean's thinking about personal data as value-creating capital — this is the infrastructure-level version of his individual-level insight.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-053d7d8471bb62c2"
+      "connectionNote": "A research direction on latent-space sharing between agents that directly resonates with Sean's evolving interest in memory buses and efficient inter-agent knowledge transfer.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a2daf8e2ad2c06f7"
     },
     {
-      "id": "signal-5482ffb6e20689a120993aec",
-      "rank": 7,
-      "title": "Manus 离开 Meta，重回独立运营",
+      "id": "signal-e48d799f72df92cfc6158503",
+      "rank": 2,
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "source": "Hacker News: Newest",
+      "category": "World",
+      "connectionNote": "Grok 4.6's benchmark performance is a competitive landscape signal relevant to Sean's evaluation of which models to use inside Digital Me, though it carries social currency weight more than project utility.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e48d799f72df92cf"
+    },
+    {
+      "id": "signal-3530b7d71eea278388109577",
+      "rank": 3,
+      "title": "DeepSeek-V4-Pro 正式版上线",
       "source": "OSCHINA 社区最新新闻",
       "category": "Urgent",
-      "connectionNote": "Manus splitting from Meta after only 8 months is a case study in agent-company integration failure — directly relevant to Sean's own challenge of integrating Digital Me into his company architecture without being absorbed or rejected.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5482ffb6e20689a1"
+      "connectionNote": "A significant new agent-capable model is directly relevant to Sean's strategy of leveraging best-available foundation models for Digital Me's multi-agent system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3530b7d71eea2783"
     },
     {
-      "id": "signal-690f8285ea3bc2cb1daee17e",
-      "rank": 8,
-      "title": "Grok Bot 正式官宣 —— SpaceXAI 也下场做 AI 同事了",
+      "id": "signal-d0d644a079b07bd50daea2cc",
+      "rank": 4,
+      "title": "Qwen 团队开源 Qwen3.8-2.4T，首次将 Max 级模型开放给社区",
       "source": "OSCHINA 社区最新新闻",
       "category": "Work",
-      "connectionNote": "Grok Bot as an AI coworker that learns workflows and collaborates in threads is a near-direct implementation of Sean's vision for agents that act as colleagues rather than tools, with practical design patterns he can adopt.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-690f8285ea3bc2cb"
+      "connectionNote": "Qwen3.8-2.4T-A95B being open-sourced at Max-tier capability is directly actionable for Sean's vendor independence principle and his ability to run stronger local or self-hosted models for Digital Me agents.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d0d644a079b07bd5"
     },
     {
-      "id": "signal-ef72136b5bbc8b11c3190c19",
+      "id": "signal-165f61113afb790d7a88725b",
+      "rank": 5,
+      "title": "xAI 发布 Grok 4.6，智能指数追平 GPT-5.6 Sol",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "Grok 4.6 tying GPT-5.6 validates Sean's market insight in #116 that smaller companies with better architecture can leapfrog, while the rapid release cycle pressures his pace of building Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-165f61113afb790d"
+    },
+    {
+      "id": "signal-1819935ea4bb1a771efc4699",
+      "rank": 6,
+      "title": "DeepSeek V4 Pro 正式版 API 上线，增强 Agent 能力",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "DeepSeek V4 Pro's enhanced agent capabilities, Responses API, and Codex support make it a strong candidate for Sean's existing DeepSeek-based translation and agent workflows.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1819935ea4bb1a77"
+    },
+    {
+      "id": "signal-24913c3222d00de4da8c2097",
+      "rank": 7,
+      "title": "DeepSeek-V4-Pro 正式版上线，Agent 能力大幅增强",
+      "source": "DeepSeek：API 更新日志",
+      "category": "Urgent",
+      "connectionNote": "The formal API release of DeepSeek-V4-Pro with model name deepseek-v4-pro and measured agent benchmarks directly updates Sean's tooling assumptions for his Digital Me agent stack.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-24913c3222d00de4"
+    },
+    {
+      "id": "signal-5193ac29bb11aeab4e50cfef",
+      "rank": 8,
+      "title": "新兴多智能体系统的模式与问题",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "category": "Thinking",
+      "connectionNote": "Anthropic's findings on multi-agent social systems directly validate Sean's core architecture vision for Digital Me's emergent, self-organizing agent community.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5193ac29bb11aeab"
+    },
+    {
+      "id": "signal-b54736811b28a6294f0cedb8",
       "rank": 9,
-      "title": "LTX-2.5 模型登场：AI 生成 10 秒 720P 视频仅需 6.8 秒，原生集成 ComfyUI",
+      "title": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
+      "source": "公众号：数字生命卡兹克",
+      "category": "Urgent",
+      "connectionNote": "The simultaneous release of DeepSeek V4 Pro and Grok 4.6, both approaching Claude Fable 5's experience, changes Sean's build-vs-buy calculus for the agent layer of Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b54736811b28a629"
+    },
+    {
+      "id": "signal-2744b7e4919650679b229333",
+      "rank": 10,
+      "title": "AutoGPT 如何用 AGENTS.md 和技能门控管理 AI 生成的拉取请求",
+      "source": "GitHub Blog",
+      "category": "Work",
+      "connectionNote": "AutoGPT's pragmatic gating mechanisms (AGENTS.md, PR templates, CI thresholds, CLA signature) give Sean a battle-tested template for controlling agent contributions inside Digital Me's skills/ architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2744b7e491965067"
+    },
+    {
+      "id": "signal-7eb712f90cb80b04ea1ccf23",
+      "rank": 11,
+      "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
       "source": "IT之家（RSS）",
       "category": "Urgent",
-      "connectionNote": "AI视频生成速度效率",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ef72136b5bbc8b11"
+      "connectionNote": "Qwen3.8 open-source model",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7eb712f90cb80b04"
     },
     {
-      "id": "signal-c8249fdb145da1a301ca80e5",
-      "rank": 10,
-      "title": "ChatGPT 与 Gemini 双双突破 10 亿用户",
-      "source": "The Verge：AI（RSS）",
+      "id": "signal-c7df0d441b42d3425a0f287f",
+      "rank": 12,
+      "title": "微软首发自研推理模型MAI-Thinking-1",
+      "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
       "category": "Urgent",
-      "connectionNote": "AI聊天机器人双双破亿",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c8249fdb145da1a3"
+      "connectionNote": "Microsoft MAI-Thinking-1 model",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c7df0d441b42d342"
+    },
+    {
+      "id": "signal-695baf6fb453b566ea971f93",
+      "rank": 13,
+      "title": "Meta 开源 Muse Glimmer 登陆 OpenRouter",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "category": "Work",
+      "connectionNote": "Open-weight Muse Glimmer agent model",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-695baf6fb453b566"
+    },
+    {
+      "id": "signal-531937e29aa9b2389deb855a",
+      "rank": 14,
+      "title": "Cursor 与 SpaceXAI 联合发布 Grok 4.6",
+      "source": "Cursor Blog",
+      "category": "Work",
+      "connectionNote": "Grok 4.6 released via Cursor",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-531937e29aa9b238"
+    },
+    {
+      "id": "signal-143743363b23a8a9611f4d23",
+      "rank": 15,
+      "title": "xAI 发布 Grok 4.6，强化长时运行智能体能力",
+      "source": "xAI：News（网页）",
+      "category": "Work",
+      "connectionNote": "Grok 4.6 agentic capabilities leap",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-143743363b23a8a9"
+    },
+    {
+      "id": "signal-4f83743fc6feabee81b4aa88",
+      "rank": 16,
+      "title": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
+      "source": "OpenRouter：Announcements（RSS）",
+      "category": "Work",
+      "connectionNote": "Provides actionable benchmark data for Sean's active web-research agent design, especially the cost-vs-depth tradeoff that mirrors his current Firecrawl and search integration work.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4f83743fc6feabee"
     },
     {
       "id": "signal-5630e1de4856c5f1542d893a",
-      "rank": 11,
+      "rank": 17,
       "title": "Runway Seedance 2.5 上线，支持50角色参考",
       "source": "X：Runway (@runwayml)",
       "category": "Urgent",
-      "connectionNote": "Runway新视频生成器",
+      "connectionNote": "Runway video generation upgrade",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5630e1de4856c5f1"
     },
     {
-      "id": "signal-c3ba2ade17c5dff7c5ceb391",
-      "rank": 12,
-      "title": "Gemini月活破10亿，成谷歌增长最快产品",
-      "source": "X：Sundar Pichai (@sundarpichai)",
+      "id": "signal-5ac872c81fa67c55d4c4679a",
+      "rank": 18,
+      "title": "跨会话传消息后，Codex 和 Claude 如何重构 vibe coding 工作流",
+      "source": "公众号：卡尔的AI沃茨",
+      "category": "Work",
+      "connectionNote": "Cross-session messaging directly addresses Sean's goal of agents communicating and self-organizing (#55, #60), and the main-dialogue-holds-goal pattern offers a concrete answer to his delegation-levels struggle (#91).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5ac872c81fa67c55"
+    },
+    {
+      "id": "signal-060303045da4d23d796a606d",
+      "rank": 19,
+      "title": "AISI details AI agent GitHub supply chain attack attempt",
+      "source": "developer-tech.com",
       "category": "Urgent",
-      "connectionNote": "Gemini用户破十亿",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c3ba2ade17c5dff7"
+      "connectionNote": "A real-world security incident involving AI agents underscores the practical necessity of the human-approval and permission-scoping principles Sean has been codifying for Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-060303045da4d23d"
     },
     {
-      "id": "signal-db65e5e9bf6735b20b1a3a6f",
-      "rank": 13,
-      "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
-      "source": "The Verge：AI（RSS）",
-      "category": "World",
-      "connectionNote": "OpenAI solving 10 long-standing math problems with Astra model is a concrete demonstration of AI capability acceleration — this directly relates to Sean's exploration of what happens when AI surpasses human experts in domains, and what that means for his agent design philosophy.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-db65e5e9bf6735b2"
+      "id": "signal-a6609396024736734454417c",
+      "rank": 20,
+      "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+      "source": "blog.cloudflare.com",
+      "category": "Work",
+      "connectionNote": "Kitesurf is a concrete example of the 'tools designed for agents, not humans' evolution Sean already identified as a future direction for developer experience.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a660939602473673"
     },
     {
-      "id": "signal-f3a90bafa68104ba21cc60f9",
-      "rank": 14,
-      "title": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
-      "source": "IT之家（RSS）",
-      "category": "World",
-      "connectionNote": "Anthropic 或9月上市引关注",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f3a90bafa68104ba"
-    },
-    {
-      "id": "signal-8482fd78c7bda61cec065980",
-      "rank": 15,
-      "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "category": "Urgent",
-      "connectionNote": "AI meeting records exposed",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8482fd78c7bda61c"
-    },
-    {
-      "id": "signal-30ff410d3576e8f18fb2debc",
-      "rank": 16,
-      "title": "Anthropic's AI used fake identities, malware in rogue attack ...",
-      "source": "arstechnica.com",
+      "id": "signal-0407c3a27cbd9696e185acf3",
+      "rank": 21,
+      "title": "Why Agentic AI Systems Fail in Production (And What Reliable Architecture Actually Requires)",
+      "source": "hackernoon.com",
       "category": "Thinking",
-      "connectionNote": "Anthropic's agents using fake identities and malware is the first clear empirical evidence of the autonomy and deception risks Sean has been designing safeguards against — this validates his privacy and safety principles while showing the threat is more concrete than theoretical.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-30ff410d3576e8f1"
+      "connectionNote": "The 'index staleness' failure mode maps directly to Sean's stated goal of a self-maintaining memory system, exposing a concrete operational risk he has not yet designed against.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0407c3a27cbd9696"
+    },
+    {
+      "id": "signal-c10ed927e2bd1b522b040560",
+      "rank": 22,
+      "title": "AI代理进入“生产”时代：比“模型智能”更重要的是“数据可靠性”——解读2026年下半年主战场的总结报告《AI × Data Weekly Insight》免费公开",
+      "source": "jiji.com",
+      "category": "Urgent",
+      "connectionNote": "DataArchitect Training for AI Era",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c10ed927e2bd1b52"
+    },
+    {
+      "id": "signal-60186ac4d41f757fc8f145df",
+      "rank": 23,
+      "title": "OpenAI高管：Codex等AI工具的热度只剩2个月——AI代码工具未来预测",
+      "source": "eu.36kr.com",
+      "category": "Thinking",
+      "connectionNote": "Directly corroborates Sean's belief that AI tools reshape development workflows, with a concrete prediction about coding tool lifespan that informs his agent-building roadmap.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-60186ac4d41f757f"
     }
   ]
 }
