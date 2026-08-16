@@ -1,125 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T12:10:14.671043Z",
+  "generatedAt": "2026-08-16T12:07:25.941450Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 13,
+  "selectedCount": 10,
   "items": [
     {
-      "id": "signal-22b8bb1cca88bc5751f021f4",
+      "id": "signal-ffd18a30d63baafe15b9e6d0",
       "rank": 1,
-      "title": "Cursor 正式被 SpaceX 收购",
-      "source": "Cursor Blog",
+      "title": "Cloudflare launches Kitesurf browser for AI agents",
+      "source": "itbrief.co.uk",
       "category": "Growth",
-      "connectionNote": "A major AI tool being absorbed by SpaceX validates Sean's concern (#85) about free services and data, while also proving his architectural bet (#45) that agents/apps adapt to user needs.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-22b8bb1cca88bc57"
+      "connectionNote": "Kitesurf's untrusted-page and fresh-session security model could shape how Sean designs agent-facing web interactions in Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ffd18a30d63baafe"
     },
     {
-      "id": "signal-7d8f41c880ebc3228b18f756",
+      "id": "signal-1c2bbaa604407c8bb6987a06",
       "rank": 2,
-      "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
-      "source": "Hacker News: Newest",
-      "category": "Urgent",
-      "connectionNote": "Major earthquake in Indonesia",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7d8f41c880ebc322"
-    },
-    {
-      "id": "signal-d7c715900f9aae5ab164f7f4",
-      "rank": 3,
-      "title": "Jane Street suffers $15B hit after meltdown at Situational Awareness",
-      "source": "Hacker News: Newest",
-      "category": "Urgent",
-      "connectionNote": "Jane Street $15B loss",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d7c715900f9aae5a"
-    },
-    {
-      "id": "signal-868a31b1cf52353c3230f99d",
-      "rank": 4,
-      "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
+      "title": "牛来！A社营收暴涨1400%，最新季度入账115亿美元",
       "source": "量子位",
       "category": "World",
-      "connectionNote": "A consumer-grade GPU running 'Opus-level' agents challenges Sean's assumption that high-quality agent orchestration requires cloud-scale infrastructure.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-868a31b1cf52353c"
-    },
-    {
-      "id": "signal-7a1a5d2e662b7be7bed5c7a3",
-      "rank": 5,
-      "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
-      "source": "量子位",
-      "category": "Growth",
-      "connectionNote": "The exploding plugin ecosystem for DeepSeek validates Sean's 'everything is a plugin' architecture direction, but the gaming/social plugins reveal use cases far beyond his productivity-focused vision.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7a1a5d2e662b7be7"
-    },
-    {
-      "id": "signal-cf50c174d0ed3ad5cb2cca34",
-      "rank": 6,
-      "title": "刚刚，Qwen3.8-27B 开源了！家用显卡也能跑",
-      "source": "量子位",
-      "category": "Urgent",
-      "connectionNote": "A 27B open-source model that runs on home hardware directly empowers Sean's vision of a private, self-hosted, vendor-independent system (#29, #85).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cf50c174d0ed3ad5"
+      "connectionNote": "Anthropic's explosive ARR and IPO trajectory is direct evidence for Sean's strategic hypothesis that smaller AI companies win through superior agent architectures rather than raw model access (#116).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1c2bbaa604407c8b"
     },
     {
       "id": "signal-1c88645aa1001725a4a346a0",
-      "rank": 7,
+      "rank": 3,
       "title": "派早报：深度求索推出开源 Agent 框架 DeepSeek Harness 及配套插件生态",
       "source": "少数派",
       "category": "Work",
-      "connectionNote": "DeepSeek's open-source Harness framework is a direct, battle-tested implementation of the exact skills/ folder and agent autonomy architecture (#60, #102) Sean is building for Digital Me.",
+      "connectionNote": "DeepSeek's open-source agent harness directly supports Sean's active work on Digital Me's skills folder and multi-agent infrastructure.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1c88645aa1001725"
     },
     {
-      "id": "signal-e6584889783d5c23586269e8",
-      "rank": 8,
-      "title": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
+      "id": "signal-7824ae016a8000c44ee553ba",
+      "rank": 4,
+      "title": "GLM-5.3 正式发布：编程能力最强的开源模型",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Work",
+      "connectionNote": "GLM-5.3's emphasis on post-training scaling over base-model changes directly informs Sean's evaluation of cheap, capable open-source models for Digital Me's multi-agent architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7824ae016a8000c4"
+    },
+    {
+      "id": "signal-79cb152d23d40927e338924e",
+      "rank": 5,
+      "title": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
       "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Work",
-      "connectionNote": "The news that DeepSeek's Harness makes models, tools, and agent loops all plugins directly validates Sean's move toward an AutoGen-based architecture with interchangeable components (#105).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e6584889783d5c23"
+      "connectionNote": "Cloudflare's persistent agent runtime could simplify Digital Me's self-managing infrastructure and reduce operational overhead Sean currently carries.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79cb152d23d40927"
     },
     {
-      "id": "signal-86a1a39f55e8e6622d037591",
-      "rank": 9,
-      "title": "OpenAI与Anthropic价格战，中国AI竞争对手崛起",
-      "source": "Ars Technica：AI（RSS）",
+      "id": "signal-db0a7cb34bea1546b2609fa8",
+      "rank": 6,
+      "title": "Weekly Cybersecurity Newsletter — Top 50 Cybersecurity Stories of the Week (August 3–7, 2026)",
+      "source": "cyberpress.org",
       "category": "Urgent",
-      "connectionNote": "AI price war escalation",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-86a1a39f55e8e662"
+      "connectionNote": "This supply-chain vulnerability in AI coding agents is a direct warning for Digital Me's autonomous repo-absorption and self-improvement workflows.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-db0a7cb34bea1546"
     },
     {
-      "id": "signal-145b3486b83a25d755b795b8",
+      "id": "signal-d95dbf22c32c449e5effebc0",
+      "rank": 7,
+      "title": "Kitesurf explained: Cloudflare's browser built for AI agents, not humans",
+      "source": "business-standard.com",
+      "category": "Growth",
+      "connectionNote": "Kitesurf's reduced-resource browser approach is relevant if Sean wants efficient, cost-effective web capture for News Agent and skills exploration.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d95dbf22c32c449e"
+    },
+    {
+      "id": "signal-ef244e717d48f2ede5fba74b",
+      "rank": 8,
+      "title": "Cloudflare Kitesurf: Agent Browser on Workers",
+      "source": "techmymoney.com",
+      "category": "Growth",
+      "connectionNote": "A Workers-native agent browser fits Sean's interest in low-cost, serverless infrastructure for self-maintaining Digital Me components.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ef244e717d48f2ed"
+    },
+    {
+      "id": "signal-602ad235ee2ddd2704f86c74",
+      "rank": 9,
+      "title": "谷歌公开“高性价比AI引擎”Gemini 3.7 Flash……加速工作自动化竞争",
+      "source": "issueon.co.kr",
+      "category": "Urgent",
+      "connectionNote": "Google's aggressive pricing on a high-performance coding agent directly pressures Sean's plans for vendor independence and his evaluation of cost-efficient agent architectures.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-602ad235ee2ddd27"
+    },
+    {
+      "id": "signal-1bbc185626a589727b630af4",
       "rank": 10,
-      "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
-      "source": "公众号：智谱（GLM）",
-      "category": "Thinking",
-      "connectionNote": "GLM-5.3's superior coding ability on open weights challenges Sean's plan to adopt AutoGen (#105) by suggesting a different model ecosystem may better serve his vision of a private, capable agent infrastructure.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-145b3486b83a25d7"
-    },
-    {
-      "id": "signal-bc0b3e02b207b87dbe874e85",
-      "rank": 11,
-      "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "category": "Work",
-      "connectionNote": "DeepSeek V4 Pro's focus on agentic workflows and tool calling at 10x lower cost directly impacts Sean's ongoing decisions about model selection for his multi-agent Digital Me architecture.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bc0b3e02b207b87d"
-    },
-    {
-      "id": "signal-60186ac4d41f757fc8f145df",
-      "rank": 12,
-      "title": "OpenAI高管：像Codex这样的AI工具带只会在两个月内流行——AI编程工具的未来预测",
-      "source": "eu.36kr.com",
-      "category": "Work",
-      "connectionNote": "The prediction that AI coding tools are a 'transient popularity' directly contradicts Sean's own investment in multi-agent autonomous workflows (#22, #45), forcing him to question whether his system's core mechanism will become commoditized.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-60186ac4d41f757f"
-    },
-    {
-      "id": "signal-6650e0af5d32ffa805ab875c",
-      "rank": 13,
-      "title": "AI 智能体对亚洲政府网络发动近乎自主的网络攻击",
-      "source": "csoonline.com",
-      "category": "Thinking",
-      "connectionNote": "A near-autonomous AI attack on government systems challenges Sean's optimism about giving agents more agency (#76, #263), forcing him to confront the darker implications of his own design philosophy.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6650e0af5d32ffa8"
+      "title": "谷歌公开“编码·代理专用”Gemini 3.7 Flash……“仅3周又换了”",
+      "source": "aipostkorea.com",
+      "category": "Urgent",
+      "connectionNote": "The rapid release cycle and steep discounting of Gemini Flash models directly affect Sean's Digital Me build-or-buy decisions and his sensitivity to avoiding vendor lock-in.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1bbc185626a58972"
     }
   ]
 }
