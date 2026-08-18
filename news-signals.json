@@ -1,98 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T12:07:25.941450Z",
+  "generatedAt": "2026-08-18T12:09:53.194552Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
   "selectedCount": 10,
   "items": [
     {
-      "id": "signal-ffd18a30d63baafe15b9e6d0",
+      "id": "signal-03098f0810e56546e9cec21f",
       "rank": 1,
-      "title": "Cloudflare launches Kitesurf browser for AI agents",
-      "source": "itbrief.co.uk",
+      "title": "When to Communicate: Belief Distributions and KL Divergence for Principled Gating in Multi-Agent RL",
+      "source": "cs.AI updates on arXiv.org",
       "category": "Growth",
-      "connectionNote": "Kitesurf's untrusted-page and fresh-session security model could shape how Sean designs agent-facing web interactions in Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ffd18a30d63baafe"
+      "connectionNote": "KL divergence for agent communication",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-03098f0810e56546"
     },
     {
-      "id": "signal-1c2bbaa604407c8bb6987a06",
+      "id": "signal-b83b10aeccf3a33faeae205f",
       "rank": 2,
-      "title": "牛来！A社营收暴涨1400%，最新季度入账115亿美元",
-      "source": "量子位",
-      "category": "World",
-      "connectionNote": "Anthropic's explosive ARR and IPO trajectory is direct evidence for Sean's strategic hypothesis that smaller AI companies win through superior agent architectures rather than raw model access (#116).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1c2bbaa604407c8b"
+      "title": "Canary in a Coal Mine: How Tech Provides Platforms for Hate",
+      "source": "A List Apart: The Full Feed",
+      "category": "Urgent",
+      "connectionNote": "Tech platforms and hate speech",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b83b10aeccf3a33f"
     },
     {
-      "id": "signal-1c88645aa1001725a4a346a0",
+      "id": "signal-1ed5acd6c6800728281ae946",
       "rank": 3,
-      "title": "派早报：深度求索推出开源 Agent 框架 DeepSeek Harness 及配套插件生态",
-      "source": "少数派",
+      "title": "Cursor challenges GitHub with its own code hosting service",
+      "source": "techzine.eu",
       "category": "Work",
-      "connectionNote": "DeepSeek's open-source agent harness directly supports Sean's active work on Digital Me's skills folder and multi-agent infrastructure.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1c88645aa1001725"
+      "connectionNote": "Confirms Sean's direction toward integrated agent-plus-repo environments and strengthens his vendor-independence stance.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1ed5acd6c6800728"
     },
     {
-      "id": "signal-7824ae016a8000c44ee553ba",
+      "id": "signal-1eb8fb6f3c3d5fab15e46191",
       "rank": 4,
-      "title": "GLM-5.3 正式发布：编程能力最强的开源模型",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Work",
-      "connectionNote": "GLM-5.3's emphasis on post-training scaling over base-model changes directly informs Sean's evaluation of cheap, capable open-source models for Digital Me's multi-agent architecture.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7824ae016a8000c4"
+      "title": "Agentic AI Initiatives Stall When Prototypes Lack Production Discipline, Says Info-Tech Research Group",
+      "source": "ca.finance.yahoo.com",
+      "category": "Thinking",
+      "connectionNote": "Sharpens the gap between prototype and production, directly relevant to Sean's self-critique of shallow builds.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1eb8fb6f3c3d5fab"
     },
     {
-      "id": "signal-79cb152d23d40927e338924e",
+      "id": "signal-67ffd934402ac2575896cfea",
       "rank": 5,
-      "title": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Work",
-      "connectionNote": "Cloudflare's persistent agent runtime could simplify Digital Me's self-managing infrastructure and reduce operational overhead Sean currently carries.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79cb152d23d40927"
+      "title": "Computer-use models will agentify the web, not APIs — Dhruv Batra, Yutori｜AI Engineer — BigGo Finance",
+      "source": "finance.biggo.com",
+      "category": "Thinking",
+      "connectionNote": "Directly challenges Sean's implicit assumption of building own browser agents at scale — validates composition over rebuilding.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-67ffd934402ac257"
     },
     {
-      "id": "signal-db0a7cb34bea1546b2609fa8",
+      "id": "signal-cc51ddc502c40e22ea53d62e",
       "rank": 6,
-      "title": "Weekly Cybersecurity Newsletter — Top 50 Cybersecurity Stories of the Week (August 3–7, 2026)",
-      "source": "cyberpress.org",
-      "category": "Urgent",
-      "connectionNote": "This supply-chain vulnerability in AI coding agents is a direct warning for Digital Me's autonomous repo-absorption and self-improvement workflows.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-db0a7cb34bea1546"
+      "title": "Conversations with Robots: Voice, Smart Agents &amp; the Case for Structured Content",
+      "source": "A List Apart: The Full Feed",
+      "category": "Work",
+      "connectionNote": "Confirms his early thinking about voice-driven capture but shows the whole industry stalled for nearly a decade, which is exactly the kind of market gap he keeps intuiting but not yet building into.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cc51ddc502c40e22"
     },
     {
-      "id": "signal-d95dbf22c32c449e5effebc0",
+      "id": "signal-768f5678d30f3f5993b8115a",
       "rank": 7,
-      "title": "Kitesurf explained: Cloudflare's browser built for AI agents, not humans",
-      "source": "business-standard.com",
-      "category": "Growth",
-      "connectionNote": "Kitesurf's reduced-resource browser approach is relevant if Sean wants efficient, cost-effective web capture for News Agent and skills exploration.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d95dbf22c32c449e"
+      "title": "Your contributors are AI-first now. Is your project?",
+      "source": "github.blog",
+      "category": "Work",
+      "connectionNote": "Validates Sean's 'specify what, not how' principle and the value of moving judgment into agent-readable files.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-768f5678d30f3f59"
     },
     {
-      "id": "signal-ef244e717d48f2ede5fba74b",
+      "id": "signal-1729ec68e38e254c7d8cc45c",
       "rank": 8,
-      "title": "Cloudflare Kitesurf: Agent Browser on Workers",
-      "source": "techmymoney.com",
-      "category": "Growth",
-      "connectionNote": "A Workers-native agent browser fits Sean's interest in low-cost, serverless infrastructure for self-maintaining Digital Me components.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ef244e717d48f2ed"
+      "title": "Becoming a 10x Productivity Engineer",
+      "source": "amd.com",
+      "category": "Work",
+      "connectionNote": "Reinforces Sean's move toward macro-level direction and delegation, and frames it as a professional productivity identity.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1729ec68e38e254c"
     },
     {
-      "id": "signal-602ad235ee2ddd2704f86c74",
+      "id": "signal-2b4f62f6fdeee3898aea1369",
       "rank": 9,
-      "title": "谷歌公开“高性价比AI引擎”Gemini 3.7 Flash……加速工作自动化竞争",
-      "source": "issueon.co.kr",
-      "category": "Urgent",
-      "connectionNote": "Google's aggressive pricing on a high-performance coding agent directly pressures Sean's plans for vendor independence and his evaluation of cost-efficient agent architectures.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-602ad235ee2ddd27"
+      "title": "AI代理将如何改变企业的工作方式？VivaTech 2026上讨论的“Agentic Enterprise”",
+      "source": "ascii.jp",
+      "category": "Thinking",
+      "connectionNote": "Provides real-world evidence for Sean's agent-to-agent and delegation architecture hypotheses.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2b4f62f6fdeee389"
     },
     {
-      "id": "signal-1bbc185626a589727b630af4",
+      "id": "signal-c6b361384889834a1f8cff3d",
       "rank": 10,
-      "title": "谷歌公开“编码·代理专用”Gemini 3.7 Flash……“仅3周又换了”",
-      "source": "aipostkorea.com",
-      "category": "Urgent",
-      "connectionNote": "The rapid release cycle and steep discounting of Gemini Flash models directly affect Sean's Digital Me build-or-buy decisions and his sensitivity to avoiding vendor lock-in.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1bbc185626a58972"
+      "title": "从代码编写到环境工程 | iMasters",
+      "source": "imasters.com.br",
+      "category": "Work",
+      "connectionNote": "From code writing to environment engineering",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c6b361384889834a"
     }
   ]
 }
