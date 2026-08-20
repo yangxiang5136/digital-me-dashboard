@@ -1,98 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T12:08:15.828595Z",
+  "generatedAt": "2026-08-20T12:10:10.110881Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
   "selectedCount": 10,
   "items": [
     {
-      "id": "signal-4c50a522a9362e97a4f0296d",
+      "id": "signal-cc51ddc502c40e22ea53d62e",
       "rank": 1,
-      "title": "How AI Coding Agents Can Unlock Materials Simulation ...",
-      "source": "developer.nvidia.com",
+      "title": "Conversations with Robots: Voice, Smart Agents &amp; the Case for Structured Content",
+      "source": "A List Apart: The Full Feed",
       "category": "Growth",
-      "connectionNote": "Serendipitous cross-domain connection—materials simulation via AI coding agents—relates to Sean's openness to embodied AI (#78) and his interest in cross-disciplinary agent applications (#17).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4c50a522a9362e97"
+      "connectionNote": "This validates Sean's architecture-first principle for voice agents (#20, #21, #23) by arguing that structured content is what actually enables reliable voice interfaces — directly relevant to the Memory Agent's voice transcription exploration.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cc51ddc502c40e22"
     },
     {
-      "id": "signal-41239f58a5fe56d1f7fa8a18",
+      "id": "signal-323beaf485600ca7ff36691c",
       "rank": 2,
-      "title": "美债到5%，吓坏了AI投资者",
-      "source": "36氪",
-      "category": "Thinking",
-      "connectionNote": "美债利率影响AI投资",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-41239f58a5fe56d1"
+      "title": "这届“WRC必看”：全栈AI、20+超难家务，8.99万带回家",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "WRC robot trends",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-323beaf485600ca7"
     },
     {
-      "id": "signal-8c1d964f9eda72d174de4289",
+      "id": "signal-8285c300058741274af72123",
       "rank": 3,
-      "title": "8点1氪丨董明珠出任格力技校校长，学费最高1.5万元；人均557万元，寒武纪部分员工“大红包”即将到账；宇树科技今日上市",
-      "source": "36氪",
-      "category": "World",
-      "connectionNote": "今日商业热点集锦",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8c1d964f9eda72d1"
+      "title": "OpenCode × DeepSeek 配置方案完成重大升级：应对 API 涨价",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Work",
+      "connectionNote": "OpenCode×DeepSeek配置升级",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8285c30005874127"
     },
     {
-      "id": "signal-2ae004af3d199a309a10e982",
+      "id": "signal-fd46678274c0db419d9aebce",
       "rank": 4,
-      "title": "氪星晚报 ｜小米集团二季度智能电动汽车及AI等创新业务收入249亿元；百度二季度总营收313亿元，AI业务收入占比连续过半；我国在量子技术国际标准领域取得新进展",
-      "source": "36氪",
-      "category": "World",
-      "connectionNote": "科技巨头Q2财报动态",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2ae004af3d199a30"
+      "title": "GitHub Copilot 的自动修复把 Snowflake 的 Jira 搞穿了",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Work",
+      "connectionNote": "This is the Chinese-language version of the same security incident, offering Sean an opportunity to connect his English-language agent safety thinking (#232, #239) with Chinese-source technical analysis — a cross-language bridge valuable for his multi-lingual information intake.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fd46678274c0db41"
     },
     {
-      "id": "signal-7bd7019171ac447c3bc9c57d",
+      "id": "signal-683cfcffadf474a875a55dfb",
       "rank": 5,
-      "title": "8点1氪丨李书福辞任董事会主席，吉利汽车管理层大调整；iPhone17或全球涨价，最高涨价近千元；宇树科技发布“超人”",
-      "source": "36氪",
-      "category": "World",
-      "connectionNote": "今日要闻速览",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7bd7019171ac447c"
+      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+      "source": "IT之家（RSS）",
+      "category": "Work",
+      "connectionNote": "Qwen-UI-Agent's GUI-focused grounding directly extends Sean's earlier interest in robot-control abstraction and opens a practical route for agents that operate real screens rather than just APIs.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-683cfcffadf474a8"
     },
     {
       "id": "signal-f06bb744f7748d796db2d2fa",
       "rank": 6,
       "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
       "source": "公众号：智谱（GLM）",
-      "category": "Thinking",
-      "connectionNote": "开源模型能力跃升与成本下降",
+      "category": "World",
+      "connectionNote": "This provides concrete evidence for Sean's hypothesis that smaller companies can compete through superior agent architectures (#116) — GLM-5.3 matches expensive closed models on the AA index at lower cost.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f06bb744f7748d79"
     },
     {
-      "id": "signal-f77a5b3018312945b3c102c5",
+      "id": "signal-49881599f97850aa0da6fa46",
       "rank": 7,
-      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "title": "Cursor Launches Beta of GitHub Rival Origin",
+      "source": "thelec.net",
       "category": "Urgent",
-      "connectionNote": "Mojo语言正式开源",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f77a5b3018312945"
+      "connectionNote": "This signals a major shift in developer infrastructure toward agent-native platforms, directly relevant to Sean's agent-native infrastructure ideas (#187) and his AIEO platform's human-matching value proposition (#180).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-49881599f97850aa"
     },
     {
-      "id": "signal-ce231faef8abef2c1441fb1e",
+      "id": "signal-3c38ade541c793956705b1d2",
       "rank": 8,
-      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "title": "GitHub outage disrupts developers worldwide in latest setback for Microsoft coding platform",
+      "source": "geekwire.com",
       "category": "Urgent",
-      "connectionNote": "Cursor推出Origin代码托管服务",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ce231faef8abef2c"
+      "connectionNote": "GitHub outage from AI agent surge",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c38ade541c79395"
     },
     {
-      "id": "signal-552ff21ad3d7e12dcf84f3c3",
+      "id": "signal-de22b8a76e9b02bf5e44960e",
       "rank": 9,
-      "title": "Owning the thinking behind AI-generated code | Happy Felix Chukwuma posted on the topic | LinkedIn",
-      "source": "linkedin.com",
+      "title": "Feature Request: Support AGENTS.md",
+      "source": "Hacker News: Newest",
       "category": "Work",
-      "connectionNote": "This directly validates Sean's core architectural work on the Digital Me skill system, where he's been extracting patterns from repos like gstack (#82) and Anthropic's harness (#102) to solve the exact problem of what context agents need before they act.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-552ff21ad3d7e12d"
+      "connectionNote": "Agent standards for project context",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-de22b8a76e9b02bf"
     },
     {
-      "id": "signal-e02dda649ab523e0bc897164",
+      "id": "signal-87d134a2b1caca469e171bc5",
       "rank": 10,
-      "title": "AI Beyond Prototypes: Engineering Fundamentals Matter | Dineesha Kudaravalli posted on the topic | LinkedIn",
-      "source": "linkedin.com",
-      "category": "Work",
-      "connectionNote": "Provides an external, product-management framing for Sean's repeated instinct that his personal AI system must be architected like a real product, not layered scripts, directly supporting his stated growth goal of shipping usable things.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e02dda649ab523e0"
+      "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
+      "source": "cs.AI updates on arXiv.org",
+      "category": "Thinking",
+      "connectionNote": "This directly supplies a formal framework for what Sean has been building intuitively — agents as evolving graph structures with skills, memory, and coordination matches his multi-agent architecture work (#22, #23, #60, #65).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-87d134a2b1caca46"
     }
   ]
 }
