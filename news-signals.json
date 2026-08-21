@@ -1,98 +1,107 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T12:10:10.110881Z",
+  "generatedAt": "2026-08-21T12:10:38.692665Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 10,
+  "selectedCount": 11,
   "items": [
     {
-      "id": "signal-cc51ddc502c40e22ea53d62e",
+      "id": "signal-45f66b53d9dd636e23484065",
       "rank": 1,
-      "title": "Conversations with Robots: Voice, Smart Agents &amp; the Case for Structured Content",
-      "source": "A List Apart: The Full Feed",
+      "title": "5 Trending Open Source AI Tools to Try in August 2026",
+      "source": "geeky-gadgets.com",
       "category": "Growth",
-      "connectionNote": "This validates Sean's architecture-first principle for voice agents (#20, #21, #23) by arguing that structured content is what actually enables reliable voice interfaces — directly relevant to the Memory Agent's voice transcription exploration.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cc51ddc502c40e22"
+      "connectionNote": "Local-first open-source tools like Obsidian Skills reinforce Sean's privacy-first stance and his desire for vendor-independent tooling.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-45f66b53d9dd636e"
     },
     {
-      "id": "signal-323beaf485600ca7ff36691c",
+      "id": "signal-063b0ace34fc4dff7fb241c2",
       "rank": 2,
-      "title": "这届“WRC必看”：全栈AI、20+超难家务，8.99万带回家",
-      "source": "量子位",
+      "title": "Codex on AWS bedrock bug causing 10x charges",
+      "source": "Hacker News: Newest",
       "category": "Urgent",
-      "connectionNote": "WRC robot trends",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-323beaf485600ca7"
+      "connectionNote": "Codex AWS billing bug",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-063b0ace34fc4dff"
     },
     {
-      "id": "signal-8285c300058741274af72123",
+      "id": "signal-0f7e4d5653c846efc502dce2",
       "rank": 3,
-      "title": "OpenCode × DeepSeek 配置方案完成重大升级：应对 API 涨价",
-      "source": "OSCHINA 社区最新新闻",
+      "title": "Ox Alpha",
+      "source": "Hacker News: Newest",
       "category": "Work",
-      "connectionNote": "OpenCode×DeepSeek配置升级",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8285c30005874127"
-    },
-    {
-      "id": "signal-fd46678274c0db419d9aebce",
-      "rank": 4,
-      "title": "GitHub Copilot 的自动修复把 Snowflake 的 Jira 搞穿了",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Work",
-      "connectionNote": "This is the Chinese-language version of the same security incident, offering Sean an opportunity to connect his English-language agent safety thinking (#232, #239) with Chinese-source technical analysis — a cross-language bridge valuable for his multi-lingual information intake.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fd46678274c0db41"
-    },
-    {
-      "id": "signal-683cfcffadf474a875a55dfb",
-      "rank": 5,
-      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
-      "source": "IT之家（RSS）",
-      "category": "Work",
-      "connectionNote": "Qwen-UI-Agent's GUI-focused grounding directly extends Sean's earlier interest in robot-control abstraction and opens a practical route for agents that operate real screens rather than just APIs.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-683cfcffadf474a8"
-    },
-    {
-      "id": "signal-f06bb744f7748d796db2d2fa",
-      "rank": 6,
-      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-      "source": "公众号：智谱（GLM）",
-      "category": "World",
-      "connectionNote": "This provides concrete evidence for Sean's hypothesis that smaller companies can compete through superior agent architectures (#116) — GLM-5.3 matches expensive closed models on the AA index at lower cost.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f06bb744f7748d79"
+      "connectionNote": "A new open-source Alpha model via OpenRouter directly affects Sean's model selection decisions, especially his vendor independence and cost optimization for Digital Me agents.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0f7e4d5653c846ef"
     },
     {
       "id": "signal-49881599f97850aa0da6fa46",
-      "rank": 7,
-      "title": "Cursor Launches Beta of GitHub Rival Origin",
+      "rank": 4,
+      "title": "Cursor Launches Beta of GitHub Rival Origin < IT·Gaming < 기사본문 - The Elec Inc.",
       "source": "thelec.net",
       "category": "Urgent",
-      "connectionNote": "This signals a major shift in developer infrastructure toward agent-native platforms, directly relevant to Sean's agent-native infrastructure ideas (#187) and his AIEO platform's human-matching value proposition (#180).",
+      "connectionNote": "Cursor launches GitHub rival",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-49881599f97850aa"
     },
     {
-      "id": "signal-3c38ade541c793956705b1d2",
-      "rank": 8,
-      "title": "GitHub outage disrupts developers worldwide in latest setback for Microsoft coding platform",
-      "source": "geekwire.com",
+      "id": "signal-a96740c45790702d3fb2c902",
+      "rank": 5,
+      "title": "Wiz’s AI Agent Finds A Vulnerability In Snowflake’s Internal Systems",
+      "source": "forbes.com",
       "category": "Urgent",
-      "connectionNote": "GitHub outage from AI agent surge",
+      "connectionNote": "AI agent exploits Snowflake vulnerability",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a96740c45790702d"
+    },
+    {
+      "id": "signal-2886641aff858ed3cc5c32d9",
+      "rank": 6,
+      "title": "Cursor Launches Origin Code Hosting Platform on Day of Major GitHub Outage — BigGo Finance",
+      "source": "finance.biggo.com",
+      "category": "Growth",
+      "connectionNote": "Cursor's metadata tracking for agent-written code directly addresses Sean's need for auditability in autonomous agent systems like Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2886641aff858ed3"
+    },
+    {
+      "id": "signal-3c38ade541c793956705b1d2",
+      "rank": 7,
+      "title": "GitHub outage disrupts developers worldwide in latest setback for ...",
+      "source": "geekwire.com",
+      "category": "Work",
+      "connectionNote": "GitHub's infrastructure strain from AI agent development validates Sean's vendor-independence principle (#29) and his design decision to keep Digital Me portable.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c38ade541c79395"
     },
     {
-      "id": "signal-de22b8a76e9b02bf5e44960e",
-      "rank": 9,
-      "title": "Feature Request: Support AGENTS.md",
-      "source": "Hacker News: Newest",
+      "id": "signal-6481d9d8bb528cfbf19c2458",
+      "rank": 8,
+      "title": "Block’s new Apache 2.0 agent workspace Berd works across models and harnesses, stores conversation history locally",
+      "source": "venturebeat.com",
       "category": "Work",
-      "connectionNote": "Agent standards for project context",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-de22b8a76e9b02bf"
+      "connectionNote": "Berd's local-first, cross-model agent workspace resonates with Sean's vendor-independence principle and his need for portable, self-owned infrastructure.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6481d9d8bb528cfb"
     },
     {
-      "id": "signal-87d134a2b1caca469e171bc5",
+      "id": "signal-1cdf8fbf5262e21d81cb82ff",
+      "rank": 9,
+      "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale | Artificial Intelligence",
+      "source": "aws.amazon.com",
+      "category": "Work",
+      "connectionNote": "Agent-orchestrated payments are a critical missing piece for Sean's fully autonomous agents, especially if they are to act without pre-approval.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1cdf8fbf5262e21d"
+    },
+    {
+      "id": "signal-84641bdad4d2f5db86df89c0",
       "rank": 10,
-      "title": "Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective",
-      "source": "cs.AI updates on arXiv.org",
-      "category": "Thinking",
-      "connectionNote": "This directly supplies a formal framework for what Sean has been building intuitively — agents as evolving graph structures with skills, memory, and coordination matches his multi-agent architecture work (#22, #23, #60, #65).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-87d134a2b1caca46"
+      "title": "谷歌公开'编码与智能体特化'的Gemini 3.7 Flash……\"时隔三周再次改变\" < 全球 < 世界AI < 文章 - AI邮报(AIPOST)",
+      "source": "aipostkorea.com",
+      "category": "Work",
+      "connectionNote": "Gemini's rapid coding-specialized iteration, with heavy Chinese-language framing, is a direct signal for Sean's vendor-independent skill architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-84641bdad4d2f5db"
+    },
+    {
+      "id": "signal-4b9479d17a36be55b4c75549",
+      "rank": 11,
+      "title": "现在AI的最佳投资回报是修复旧代码，而不是编写新代码",
+      "source": "unite.ai",
+      "category": "Work",
+      "connectionNote": "Challenges Sean's pattern of jumping to implementation before deep understanding by arguing for preserving business logic in old code.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4b9479d17a36be55"
     }
   ]
 }
