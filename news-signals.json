@@ -1,98 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:07:19.518024Z",
+  "generatedAt": "2026-08-23T12:09:39.760687Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
   "selectedCount": 10,
   "items": [
     {
-      "id": "signal-1d6d12a11f4a75408ce48c04",
+      "id": "signal-aed33c79c3ea1d97fe386ab3",
       "rank": 1,
-      "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
-      "source": "Hacker News: Newest",
-      "category": "Work",
-      "connectionNote": "This self-hosted agentic factory directly addresses Sean's blind spot about shifting from operator to director and his principle of vendor independence.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1d6d12a11f4a7540"
+      "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "category": "Thinking",
+      "connectionNote": "This confronts Sean's human-in-the-loop assumptions by showing a state AI test agent conducting uncontrolled social engineering, complicating consent-boundary designs.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-aed33c79c3ea1d97"
+    },
+    {
+      "id": "signal-91504a7139ddce16ddb93ed6",
+      "rank": 2,
+      "title": "科氪 | 你的下一副眼镜，会思考：雷鸟 iO 正式发布，首发 1996 元起",
+      "source": "36氪",
+      "category": "Urgent",
+      "connectionNote": "雷鸟AI眼镜发布",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-91504a7139ddce16"
+    },
+    {
+      "id": "signal-4edcbc6c9a289234e287c2a3",
+      "rank": 3,
+      "title": "9点1氪丨有医院能领结婚证了，与婚前检查无缝衔接；阿里巴巴发布财报，2027财年Q1营收2690亿；OpenAI进一步开放Codex的底层能力",
+      "source": "36氪",
+      "category": "Urgent",
+      "connectionNote": "今日热点新闻汇总",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4edcbc6c9a289234"
+    },
+    {
+      "id": "signal-92faa4f19fdd861264f04d1a",
+      "rank": 4,
+      "title": "氪星晚报｜中科曙光超节点产品亮相安徽算力大会；广州市中级人民法院依法受理恒大地产集团有限公司破产清算案；科大讯飞：将于今年全球1024开发者节推出全新主力通用大模型",
+      "source": "36氪",
+      "category": "Urgent",
+      "connectionNote": "AI眼镜算力动态",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-92faa4f19fdd8612"
     },
     {
       "id": "signal-5014f3e6232b25a069d2b50c",
-      "rank": 2,
+      "rank": 5,
       "title": "DeepSeek V4-Flash 补上视觉能力，多模态 Agent 接近 Opus 4.8",
       "source": "OSCHINA 社区最新新闻",
-      "category": "Work",
-      "connectionNote": "DeepSeek's multimodal leap challenges Sean's assumption that open-source models lag on vision capabilities and raises questions about his vendor choices.",
+      "category": "Thinking",
+      "connectionNote": "DeepSeek's vision upgrade matters to Sean's multi-modal input routing plans and his dependence on DeepSeek for cheap Layer 1 scoring.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5014f3e6232b25a0"
     },
     {
-      "id": "signal-b59b644ca0828fe126888ee7",
-      "rank": 3,
-      "title": "百万奖金怎么拿？这有一份上海开源大赛攻略",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Urgent",
-      "connectionNote": "Shanghai open source contest",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b59b644ca0828fe1"
-    },
-    {
-      "id": "signal-5b23bb5b601957cb63e473f9",
-      "rank": 4,
-      "title": "中美 AI 差距正在消失。不是预测，是正在发生的事。",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Thinking",
-      "connectionNote": "The narrowing US-China AI gap reinforces Sean's interest in Chinese tech ecosystems (#75) and challenges assumptions about Western AI dominance implicit in his framework choices.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5b23bb5b601957cb"
+      "id": "signal-f19568d42167301507d8357e",
+      "rank": 6,
+      "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Work",
+      "connectionNote": "Agent observability is a practical gap in Sean's Digital Me design, and this directly supports his human-in-the-loop decision-loop principle.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f19568d421673015"
     },
     {
       "id": "signal-51924c5ac9c8e162ccbec053",
-      "rank": 5,
+      "rank": 7,
       "title": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米",
       "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Urgent",
-      "connectionNote": "Mystery Ox Alpha model",
+      "category": "World",
+      "connectionNote": "The mystery 'Ox Alpha' model is low-relevance social currency but could affect the vendor-independence calculations Sean cares about.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-51924c5ac9c8e162"
     },
     {
-      "id": "signal-1cdf8fbf5262e21d81cb82ff",
-      "rank": 6,
-      "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale | Artificial Intelligence",
-      "source": "aws.amazon.com",
-      "category": "Work",
-      "connectionNote": "AgentCore payments is directly relevant to Sean's ambition of making things other people actually use, since monetization and transactions are crucial for real product adoption.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1cdf8fbf5262e21d"
-    },
-    {
-      "id": "signal-1560c256d6eeca9e5ad23924",
-      "rank": 7,
-      "title": "从运维到控制：AI代理如何重新定义IT基础设施",
-      "source": "it-daily.net",
-      "category": "Work",
-      "connectionNote": "AI agents redefining IT operations is directly relevant to Sean's growing focus on agentic autonomy and self-managing systems.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1560c256d6eeca9e"
-    },
-    {
-      "id": "signal-da5abf1721acab45f510fd74",
+      "id": "signal-b8b87663a75fcc9e11d5136e",
       "rank": 8,
-      "title": "Beyond LLMs: Creating Real-World AI Agents with Lang Chain Deep Agents",
-      "source": "hackernoon.com",
-      "category": "Work",
-      "connectionNote": "This article's framing of planning, skills, and memory as the core abstractions for real-world agents is an external validation of the precise three-layer architecture (Memory Agent, Skills folder, Strategist) Sean has been converging on in his own thinking.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-da5abf1721acab45"
-    },
-    {
-      "id": "signal-c0ea19fa4227cc6cf6ce4a54",
-      "rank": 9,
-      "title": "From AI Copilots to Agent Swarms",
-      "source": "spectrum.ieee.org",
+      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Thinking",
-      "connectionNote": "The shift from copilots to agent swarms speaks directly to Sean's principle that agents should be can improve themselves and explore tools without pre-approval.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c0ea19fa4227cc6c"
+      "connectionNote": "DeepSeek's multimodal expansion is a concrete market signal for Sean's planned multi-modal input routing pipeline and cost-containment strategy.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b8b87663a75fcc9e"
     },
     {
-      "id": "signal-4b9c375e8a38d2861cf3f0ff",
+      "id": "signal-984ba6ad8f18613e85fc5643",
+      "rank": 9,
+      "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
+      "source": "IT之家（RSS）",
+      "category": "World",
+      "connectionNote": "人形机器人运动会破纪录",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-984ba6ad8f18613e"
+    },
+    {
+      "id": "signal-95d3dc27a3c3972025c1ba04",
       "rank": 10,
-      "title": "Spice Factory开始提供“AI代理开发”服务",
-      "source": "prtimes.jp",
-      "category": "Work",
-      "connectionNote": "The '責任設計' (responsibility design) approach—explicitly separating AI, code, and human decision domains—directly echoes Sean's decision loop vs debug loop principle (#70) and his intent-to-agent-adapter architecture (#294).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4b9c375e8a38d286"
+      "title": "Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks",
+      "source": "cybersecuritynews.com",
+      "category": "Thinking",
+      "connectionNote": "This item complicates Sean's agentic vision by showing that fully autonomous agents in the wild are already being weaponized — a constraint on giving agents more agency anywhere.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-95d3dc27a3c39720"
     }
   ]
 }
