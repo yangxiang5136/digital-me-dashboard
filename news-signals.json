@@ -1,98 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T12:06:48.813526Z",
+  "generatedAt": "2026-08-25T12:07:38.991243Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
   "selectedCount": 10,
   "items": [
     {
-      "id": "signal-2c200392c922f972b720682e",
+      "id": "signal-c7860ab31067ce0ed44d533d",
       "rank": 1,
-      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
-      "source": "Hacker News: Newest",
+      "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
+      "source": "cs.HC updates on arXiv.org",
       "category": "Growth",
-      "connectionNote": "This provides a concrete data point on the power of specialized open-weight models for reverse engineering-like tasks, which aligns with Sean's move toward vendor independence.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2c200392c922f972"
+      "connectionNote": "The autonomous scientific dataset exploration paper echoes Sean's idea of giving agents agency to discover and integrate resources, but from a scientific-infrastructure angle he hasn't yet applied to his own system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c7860ab31067ce0e"
+    },
+    {
+      "id": "signal-cef7353cff08f6e5376992d4",
+      "rank": 2,
+      "title": "WAIC CONNECT | AI出海，不聊虚的！CONNECT带你拿下马来西亚真正的AI采购需求",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "马来西亚AI采购活动",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cef7353cff08f6e5"
+    },
+    {
+      "id": "signal-d8cf389546f8f6413116d6b9",
+      "rank": 3,
+      "title": "派早报：阿里云视频生成模型 Wan3.0 上线，小米发布三款玄戒芯片等",
+      "source": "少数派",
+      "category": "Urgent",
+      "connectionNote": "tech news roundup",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d8cf389546f8f641"
     },
     {
       "id": "signal-03d3560cfd22d1b3bd269e7a",
-      "rank": 2,
+      "rank": 4,
       "title": "派早报：九家车企召回近 430 万辆不易识别应急拉手汽车",
       "source": "少数派",
       "category": "Urgent",
-      "connectionNote": "科技汽车新闻早报",
+      "connectionNote": "tech and policy news",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-03d3560cfd22d1b3"
     },
     {
-      "id": "signal-ca4b2cfba8801039b2db058d",
-      "rank": 3,
-      "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
-      "source": "IT之家（RSS）",
-      "category": "Work",
-      "connectionNote": "Directly addresses the risk tier of agent autonomy Sean is designing and validates his 'escalation rules' work by showing the industry is moving toward mandatory safety standards.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ca4b2cfba8801039"
-    },
-    {
-      "id": "signal-aed33c79c3ea1d97fe386ab3",
-      "rank": 4,
-      "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "category": "Thinking",
-      "connectionNote": "This demonstrates a concrete failure mode of the exact autonomous agent systems Sean is architecting, specifically the challenge of AI agents running unchecked and deceiving humans.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-aed33c79c3ea1d97"
-    },
-    {
-      "id": "signal-7f3b049718f0341aeac18b41",
+      "id": "signal-158638e7976dd16326b46f54",
       "rank": 5,
-      "title": "ChainDrop npm Worm: AI Agents And Credential Abuse",
-      "source": "blog.gitguardian.com",
+      "title": "コーディングエージェントは自動的にスケールしない。チームも同様。",
+      "source": "finance.biggo.jp",
       "category": "Thinking",
-      "connectionNote": "This exposes a concrete new attack surface for the exact 'agent on its own device' architecture Sean is contemplating.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7f3b049718f0341a"
+      "connectionNote": "This directly challenges Sean's implicit assumption that his current interactive prompting workflow will scale, by arguing that 90% of tokens will be asynchronous autonomous 'droid' activity within 12-24 months—exactly the agent agency shift he has been designing toward but has not fully operationalized.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-158638e7976dd163"
     },
     {
-      "id": "signal-3796310eb38efc8546c958a3",
+      "id": "signal-5f01fa39eafdba719ffb314f",
       "rank": 6,
-      "title": "Cursor Launches Origin To Challenge GitHub With Agent- ...",
-      "source": "memeburn.com",
-      "category": "Urgent",
-      "connectionNote": "This confirms Sean's concern about security in agentic environments and highlights that repositories are now a primary attack surface for AI development pipelines.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3796310eb38efc85"
-    },
-    {
-      "id": "signal-1ed5acd6c6800728281ae946",
-      "rank": 7,
-      "title": "Cursor challenges GitHub with its own code hosting service - Techzine Global",
-      "source": "techzine.eu",
-      "category": "Urgent",
-      "connectionNote": "This represents a concrete shift in the developer tooling landscape where repositories, PRs, and agents are being merged into a single environment, which is exactly the kind of emergent architecture Sean is tracking.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1ed5acd6c6800728"
-    },
-    {
-      "id": "signal-2d1e87611761f4e2a3ee9c1b",
-      "rank": 8,
-      "title": "Agentic AI’s Production Gap Takes Center Stage at Seoul’s Record AI Summit",
-      "source": "techtimes.com",
-      "category": "Growth",
-      "connectionNote": "The 'production gap' discussion at Seoul's AI summit directly interrogates the leap from prototype to deployed agent that Sean himself is navigating with Digital Me, offering industry-wide framing for his 'aspiration gap'.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2d1e87611761f4e2"
-    },
-    {
-      "id": "signal-f9ed3a8d4b7e39b7ab91b5f6",
-      "rank": 9,
-      "title": "Warp’s new system is an out-of-the-box software factory for AI development",
-      "source": "techcrunch.com",
-      "category": "Thinking",
-      "connectionNote": "Warp's software factory gives concrete form to Sean's growth direction of making tools others actually use, showing what a productized version of his agent orchestration ideas looks like at scale.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f9ed3a8d4b7e39b7"
+      "title": "中小企业中的人工智能代理——自主系统如何彻底改变业务流程",
+      "source": "it-daily.net",
+      "category": "Work",
+      "connectionNote": "This validates Sean's core belief that agents are not just chatbots but action systems that decompose tasks, use tools, and test intermediate results—a principle he has been designing Digital Me around since the early architecture notes.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5f01fa39eafdba71"
     },
     {
       "id": "signal-6481d9d8bb528cfbf19c2458",
-      "rank": 10,
+      "rank": 7,
       "title": "Block’s new Apache 2.0 agent workspace Berd works across models and harnesses, stores conversation history locally",
       "source": "venturebeat.com",
       "category": "Work",
-      "connectionNote": "This directly matches Sean's explicitly stated desire for 'a system that maintains itself' and his exploration of local-first architectures.",
+      "connectionNote": "Block's local-first, permissive-license agent workspace directly validates Sean's architecture principle of vendor independence and could serve as a concrete reference or integration target for his Digital Me system.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6481d9d8bb528cfb"
+    },
+    {
+      "id": "signal-90d805d0d9cc1481d16f262d",
+      "rank": 8,
+      "title": "[개발자 패러다임 전환] 2026년, AI 코딩 에이전트가 바꾼 7가지 개발 실무] 목표를 명확히 설정하고, AI의 결과물을 비판적으로 검토하며, 최종 기술적 결정을 내리는 ‘오케스트레이터’ 역할을 수행",
+      "source": "ainet.link",
+      "category": "Thinking",
+      "connectionNote": "The Korean article's 'orchestrator' reframing is a direct, non-English confirmation of Sean's operator-vs-director growth direction and his articulated principle about outsourcing thinking but not understanding.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-90d805d0d9cc1481"
+    },
+    {
+      "id": "signal-f551d66a4b0d58e54c458bca",
+      "rank": 9,
+      "title": "AMD希望将开发者生产力提高十倍",
+      "source": "it-daily.net",
+      "category": "Work",
+      "connectionNote": "AMD's tenfold developer productivity claim through agent-based systems reinforces Sean's conviction that the competitive wedge is now organizational integration of agents rather than raw model access.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f551d66a4b0d58e5"
+    },
+    {
+      "id": "signal-78a235989db21fa757db3983",
+      "rank": 10,
+      "title": "AI-DLC：由AI驱动的开发生命周期 | IBM",
+      "source": "ibm.com",
+      "category": "Work",
+      "connectionNote": "This validates Sean's architectural leap that skills in a registry, not big models alone, create durable advantage, and the AI-DLC lifecycle framing deepens his Software 3.0 and skills-folder thinking.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-78a235989db21fa7"
     }
   ]
 }
