@@ -1,98 +1,251 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T12:07:38.991243Z",
+  "generatedAt": "2026-08-26T12:07:20.943800Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 10,
+  "selectedCount": 27,
   "items": [
     {
-      "id": "signal-c7860ab31067ce0ed44d533d",
+      "id": "signal-6f4f5c891b002655a1eed5f6",
       "rank": 1,
-      "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
-      "source": "cs.HC updates on arXiv.org",
-      "category": "Growth",
-      "connectionNote": "The autonomous scientific dataset exploration paper echoes Sean's idea of giving agents agency to discover and integrate resources, but from a scientific-infrastructure angle he hasn't yet applied to his own system.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c7860ab31067ce0e"
+      "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Thinking",
+      "connectionNote": "This article aligns with Sean's focus on preparing for the Agentic AI era, aligning with his prior agent architecture work.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6f4f5c891b002655"
     },
     {
-      "id": "signal-cef7353cff08f6e5376992d4",
+      "id": "signal-6d297a94ef6a0ee6188b97fe",
       "rank": 2,
-      "title": "WAIC CONNECT | AI出海，不聊虚的！CONNECT带你拿下马来西亚真正的AI采购需求",
+      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "source": "Hacker News: Newest",
+      "category": "Thinking",
+      "connectionNote": "A new GLM model rivaling DeepSeek could shift Sean's model selection trade-offs.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6d297a94ef6a0ee6"
+    },
+    {
+      "id": "signal-0ce555b6d533d3fd884bb013",
+      "rank": 3,
+      "title": "XCancel also down, at least for time being",
+      "source": "Hacker News: Newest",
+      "category": "Urgent",
+      "connectionNote": "XCancel service shut down",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0ce555b6d533d3fd"
+    },
+    {
+      "id": "signal-4c03d00760f9ab1cf334b3f6",
+      "rank": 4,
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "source": "Hacker News: Newest",
+      "category": "Thinking",
+      "connectionNote": "FDA approves dual-sensor wearable",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4c03d00760f9ab1c"
+    },
+    {
+      "id": "signal-9cc5551dd79dc35d070a4d72",
+      "rank": 5,
+      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "source": "Latent.Space",
+      "category": "World",
+      "connectionNote": "Poolside-NVIDIA $12B reverse deal",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9cc5551dd79dc35d"
+    },
+    {
+      "id": "signal-5e214f76481f17220faf42dd",
+      "rank": 6,
+      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "source": "Latent.Space",
+      "category": "Thinking",
+      "connectionNote": "If post-training becomes the main scaling lever, Sean's emphasis on self-improving agents and skill distillation becomes more strategically valid—his agents can ride this trend instead of competing on raw model choice.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5e214f76481f1722"
+    },
+    {
+      "id": "signal-269ab7af9646cb8b92ee2656",
+      "rank": 7,
+      "title": "[AINews] Memory prices up 500% in 12 months",
+      "source": "Latent.Space",
+      "category": "Urgent",
+      "connectionNote": "Memory prices surge 500%",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-269ab7af9646cb8b"
+    },
+    {
+      "id": "signal-17f4a21169f334f5e952c81e",
+      "rank": 8,
+      "title": "[AINews] Stripe buys OpenRouter for $7B",
+      "source": "Latent.Space",
+      "category": "Urgent",
+      "connectionNote": "Stripe buys OpenRouter for $7B",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-17f4a21169f334f5"
+    },
+    {
+      "id": "signal-a76967d1b6c1d41d5240f4ed",
+      "rank": 9,
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "source": "Interconnects AI",
+      "category": "Thinking",
+      "connectionNote": "Chinese labs frontier progress",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a76967d1b6c1d41d"
+    },
+    {
+      "id": "signal-e49697dbda8d7a7558c4534e",
+      "rank": 10,
+      "title": "Kimi K3: The open-weights escalation",
+      "source": "Interconnects AI",
+      "category": "Thinking",
+      "connectionNote": "Kimi K3 open-weights escalation",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e49697dbda8d7a75"
+    },
+    {
+      "id": "signal-b31bb54eced6a0b8df28bcd8",
+      "rank": 11,
+      "title": "6 months to live for open models",
+      "source": "Interconnects AI",
+      "category": "Thinking",
+      "connectionNote": "The six-month viability window for open models tests Sean's vendor-independence principle (#29, #38, #85) and his reliance on open-weight LLMs, prompting a strategic reassessment.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b31bb54eced6a0b8"
+    },
+    {
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 12,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "MCP 路线图更新",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+    },
+    {
+      "id": "signal-79368283654df751f5bc4fa0",
+      "rank": 13,
+      "title": "The 2026-07-28 Specification",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "MCP 规范 2026-07-28 发布",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 14,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Beta SDKs for the new MCP spec are immediately relevant to Sean's implementation stack.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 15,
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "MCP's stateless core directly impacts the infrastructure Sean uses for his agents.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+    },
+    {
+      "id": "signal-affa2d7322157c1afa3a313a",
+      "rank": 16,
+      "title": "The 2026 MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "The MCP roadmap shows the trajectory of the protocol Sean's agents rely on.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
+    },
+    {
+      "id": "signal-eeb02f47fdebd16a6121cedc",
+      "rank": 17,
+      "title": "刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》",
       "source": "量子位",
       "category": "Urgent",
-      "connectionNote": "马来西亚AI采购活动",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cef7353cff08f6e5"
+      "connectionNote": "免费视频AI新选择",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-eeb02f47fdebd16a"
     },
     {
-      "id": "signal-d8cf389546f8f6413116d6b9",
-      "rank": 3,
-      "title": "派早报：阿里云视频生成模型 Wan3.0 上线，小米发布三款玄戒芯片等",
-      "source": "少数派",
+      "id": "signal-614c711d6b25205bbbb933ba",
+      "rank": 18,
+      "title": "DeepSeek 今年前七个月营收约 4.75 亿元",
+      "source": "OSCHINA 社区最新新闻",
       "category": "Urgent",
-      "connectionNote": "tech news roundup",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d8cf389546f8f641"
+      "connectionNote": "DeepSeek巨额融资估值飙升",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-614c711d6b25205b"
     },
     {
-      "id": "signal-03d3560cfd22d1b3bd269e7a",
-      "rank": 4,
-      "title": "派早报：九家车企召回近 430 万辆不易识别应急拉手汽车",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "tech and policy news",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-03d3560cfd22d1b3"
-    },
-    {
-      "id": "signal-158638e7976dd16326b46f54",
-      "rank": 5,
-      "title": "コーディングエージェントは自動的にスケールしない。チームも同様。",
-      "source": "finance.biggo.jp",
+      "id": "signal-1b0cbc51e8a14534960c8a25",
+      "rank": 19,
+      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Thinking",
-      "connectionNote": "This directly challenges Sean's implicit assumption that his current interactive prompting workflow will scale, by arguing that 90% of tokens will be asynchronous autonomous 'droid' activity within 12-24 months—exactly the agent agency shift he has been designing toward but has not fully operationalized.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-158638e7976dd163"
+      "connectionNote": "The decoupling of AI agent infrastructure mirrors Sean's existing skill/agent separation principles.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1b0cbc51e8a14534"
     },
     {
-      "id": "signal-5f01fa39eafdba719ffb314f",
-      "rank": 6,
-      "title": "中小企业中的人工智能代理——自主系统如何彻底改变业务流程",
-      "source": "it-daily.net",
+      "id": "signal-9e21f89e743470eb15d4fef8",
+      "rank": 20,
+      "title": "使用AI代理加速软件开发——TOPPAN在SDLC关键阶段的体验",
+      "source": "aws.amazon.com",
       "category": "Work",
-      "connectionNote": "This validates Sean's core belief that agents are not just chatbots but action systems that decompose tasks, use tools, and test intermediate results—a principle he has been designing Digital Me around since the early architecture notes.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5f01fa39eafdba71"
+      "connectionNote": "The AWS workshop shows practical AI agent integration in SDLC, directly relevant to Sean's current work on building Digital Me's architecture (#64, #82).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9e21f89e743470eb"
     },
     {
-      "id": "signal-6481d9d8bb528cfbf19c2458",
-      "rank": 7,
-      "title": "Block’s new Apache 2.0 agent workspace Berd works across models and harnesses, stores conversation history locally",
-      "source": "venturebeat.com",
-      "category": "Work",
-      "connectionNote": "Block's local-first, permissive-license agent workspace directly validates Sean's architecture principle of vendor independence and could serve as a concrete reference or integration target for his Digital Me system.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6481d9d8bb528cfb"
+      "id": "signal-b458841b853ab5a597b374e9",
+      "rank": 21,
+      "title": "CyberAgent定义AI时代新职业“AIX设计师” 2038年实现开发完全自动化",
+      "source": "kai-you.net",
+      "category": "Thinking",
+      "connectionNote": "CyberAgent's AIX Designer role is a concrete industry example of Sean's 'Directing, not Operating' growth direction, showing how companies are institutionalizing exactly the skills he wants to develop.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b458841b853ab5a5"
     },
     {
       "id": "signal-90d805d0d9cc1481d16f262d",
-      "rank": 8,
-      "title": "[개발자 패러다임 전환] 2026년, AI 코딩 에이전트가 바꾼 7가지 개발 실무] 목표를 명확히 설정하고, AI의 결과물을 비판적으로 검토하며, 최종 기술적 결정을 내리는 ‘오케스트레이터’ 역할을 수행",
+      "rank": 22,
+      "title": "[开发者范式转换] 2026年，AI编码代理改变的7种开发实践——明确设定目标、批判性审查AI成果、充当做出最终技术决策的“指挥者”角色",
       "source": "ainet.link",
       "category": "Thinking",
-      "connectionNote": "The Korean article's 'orchestrator' reframing is a direct, non-English confirmation of Sean's operator-vs-director growth direction and his articulated principle about outsourcing thinking but not understanding.",
+      "connectionNote": "The 'conductor' role for developers directly mirrors Sean's aspiration to act as director rather than operator, reinforcing his recent principles about intent before action and human judgment staying central.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-90d805d0d9cc1481"
     },
     {
-      "id": "signal-f551d66a4b0d58e54c458bca",
-      "rank": 9,
-      "title": "AMD希望将开发者生产力提高十倍",
-      "source": "it-daily.net",
+      "id": "signal-008690aa4f999fdc0ed58835",
+      "rank": 23,
+      "title": "Machineflow从LG电子和Bluepoint获得种子投资…加速内部创业分拆",
+      "source": "kmnanews.com",
       "category": "Work",
-      "connectionNote": "AMD's tenfold developer productivity claim through agent-based systems reinforces Sean's conviction that the competitive wedge is now organizational integration of agents rather than raw model access.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f551d66a4b0d58e5"
+      "connectionNote": "Multi-agent orchestration funding validates Sean's own system decomposition work.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-008690aa4f999fdc"
     },
     {
-      "id": "signal-78a235989db21fa757db3983",
-      "rank": 10,
-      "title": "AI-DLC：由AI驱动的开发生命周期 | IBM",
-      "source": "ibm.com",
-      "category": "Work",
-      "connectionNote": "This validates Sean's architectural leap that skills in a registry, not big models alone, create durable advantage, and the AI-DLC lifecycle framing deepens his Software 3.0 and skills-folder thinking.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-78a235989db21fa7"
+      "id": "signal-1234fb1f90be577fcfb5d091",
+      "rank": 24,
+      "title": "Claude Code取代GitHub Copilot：AI代理达到90%市场渗透率",
+      "source": "borncity.com",
+      "category": "World",
+      "connectionNote": "The displacement of GitHub Copilot by Claude Code validates Sean's bet on Claude Code and agentic workflows as central to his Digital Me architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1234fb1f90be577f"
+    },
+    {
+      "id": "signal-e5283e9d7a29d35190102ab6",
+      "rank": 25,
+      "title": "税务改革：2026年是IT适配的最后期限",
+      "source": "valor.globo.com",
+      "category": "Urgent",
+      "connectionNote": "Tax reform deadline drives IT upgrades",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e5283e9d7a29d351"
+    },
+    {
+      "id": "signal-e20de6012360e57932fb9060",
+      "rank": 26,
+      "title": "税务改革如何影响IT适配",
+      "source": "correiodopovo-al.com.br",
+      "category": "Urgent",
+      "connectionNote": "Tax reform impacts IT adaptation",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e20de6012360e579"
+    },
+    {
+      "id": "signal-401cf410b59ee5dbabae95e2",
+      "rank": 27,
+      "title": "税务改革改变软件要求并加速IT现代化",
+      "source": "sitepd.org.br",
+      "category": "Urgent",
+      "connectionNote": "Tax reform accelerates IT modernization",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-401cf410b59ee5db"
     }
   ]
 }
