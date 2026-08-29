@@ -1,170 +1,134 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T12:09:14.758155Z",
+  "generatedAt": "2026-08-29T12:09:39.044037Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 18,
+  "selectedCount": 14,
   "items": [
     {
-      "id": "signal-beb4629b9d17dc03390601d6",
+      "id": "signal-9e8d82d248801ceb6612ec71",
       "rank": 1,
-      "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
+      "title": "Agent 时代，为什么有人开始重新造 Google？",
       "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Growth",
-      "connectionNote": "Agentic OS UX design",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-beb4629b9d17dc03"
+      "connectionNote": "Agent时代搜索引擎重塑",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9e8d82d248801ceb"
     },
     {
-      "id": "signal-b83b10aeccf3a33faeae205f",
+      "id": "signal-7f664b239f507de6a7cabad3",
       "rank": 2,
-      "title": "Canary in a Coal Mine: How Tech Provides Platforms for Hate",
-      "source": "A List Apart: The Full Feed",
-      "category": "Urgent",
-      "connectionNote": "Tech platforms and hate speech",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b83b10aeccf3a33f"
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "source": "Simon Willison's Weblog",
+      "category": "Thinking",
+      "connectionNote": "Claude Code prompt injection risks",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7f664b239f507de6"
     },
     {
-      "id": "signal-143c110bde4f1836c11e651d",
+      "id": "signal-e477ec8158ad1257e94acfd6",
       "rank": 3,
-      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "Challenges the principle of vendor independence by showing that even foundational open-source infrastructure (HuggingFace) can be acquired, increasing systemic dependency risk.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-143c110bde4f1836"
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "MCP's updated roadmap signals continued protocol evolution, reinforcing Sean's commitment to vendor-independent and modular infrastructure design.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
     },
     {
-      "id": "signal-9cc5551dd79dc35d070a4d72",
+      "id": "signal-79368283654df751f5bc4fa0",
       "rank": 4,
-      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-      "source": "Latent.Space",
-      "category": "World",
-      "connectionNote": "Poolside $12B reverse-execuhire to NVIDIA",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9cc5551dd79dc35d"
+      "title": "The 2026-07-28 Specification",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "MCP's stateless protocol revision directly affects Sean's Digital Me architecture, which depends on agent contracts and communication channels.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
     },
     {
-      "id": "signal-a76967d1b6c1d41d5240f4ed",
+      "id": "signal-4e108bb4c3a489b35ddc781e",
       "rank": 5,
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "GLM-5.3 frontier update",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a76967d1b6c1d41d"
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "The stateless shift and removal of initialize handshake validates Sean's move toward intent-contract-adapter patterns and tool independence.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
     },
     {
-      "id": "signal-f429c297176995d8edb4fa59",
+      "id": "signal-3cebd79bf79035703e567bb0",
       "rank": 6,
-      "title": "Lessons from the hacks",
-      "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "Provides a macro-level systemic risk perspective that reframes Sean's local security concerns (#239) within a broader political economy of AI incentives.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f429c297176995d8"
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "The MCP stateless-core release validates Sean's architectural principle of separating reusable skills from agents (#60) and his commitment to vendor-independent infrastructure.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
-      "id": "signal-e49697dbda8d7a7558c4534e",
+      "id": "signal-ea93f1ae3f9325862b5ca411",
       "rank": 7,
-      "title": "Kimi K3: The open-weights escalation",
-      "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "Provides evidence that self-improving, open-weight models are becoming viable, which supports Sean's explicitly stated principle of vendor independence for Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e49697dbda8d7a75"
-    },
-    {
-      "id": "signal-b31bb54eced6a0b8df28bcd8",
-      "rank": 8,
-      "title": "6 months to live for open models",
-      "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "The existential threat to open models directly tests Sean's vendor-independence and privacy-first principles, forcing him to consider whether local-first authority can survive regulatory pressure against open-source AI.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b31bb54eced6a0b8"
+      "title": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "港股AGI公司业绩增长",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ea93f1ae3f932586"
     },
     {
       "id": "signal-05f1f5931a1e7177c98a9a48",
-      "rank": 9,
+      "rank": 8,
       "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
       "source": "量子位",
       "category": "Thinking",
-      "connectionNote": "Claude physically intercepting a $50M payment with a robotic arm is the exact agency escalation Sean wants (agents improving themselves, exploring tools) but it also challenges his human-in-the-loop comfort zone: would he pre-approve this action?",
+      "connectionNote": "Claude controlling a robotic arm to block a $50M transfer demonstrates the physical-world agency boundary Sean is designing for in his escalation and autonomy levels (#76).",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-05f1f5931a1e7177"
     },
     {
-      "id": "signal-dc3324aa3746825ccee83a54",
-      "rank": 10,
-      "title": "腾讯混元发布 Hy4 preview：总参数 7.7B、1M 上下文，开源并接入游戏引擎和 MCP",
+      "id": "signal-3fb5eae3d8b29581d19ee760",
+      "rank": 9,
+      "title": "全球开源平台的宿命，都逃不过被收购 ？",
       "source": "OSCHINA 社区最新新闻",
       "category": "World",
-      "connectionNote": "Agent-oriented open-source model",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dc3324aa3746825c"
+      "connectionNote": "开源平台被收购宿命",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3fb5eae3d8b29581"
     },
     {
-      "id": "signal-6e53b9c446f07f0d76cf0fa4",
-      "rank": 11,
-      "title": "“母病速归”式 AI：号称省 65% Token，实测只有 8.5%",
-      "source": "宝玉的分享",
-      "category": "Urgent",
-      "connectionNote": "Token节省实测仅8.5%",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6e53b9c446f07f0d"
-    },
-    {
-      "id": "signal-786dbbfde4b64b76e09e315d",
-      "rank": 12,
-      "title": "从零开始玩转循环 (Getting started with loops)",
-      "source": "宝玉的分享",
-      "category": "Urgent",
-      "connectionNote": "The 'designing loops' guide fills a concrete gap in Sean's recent thinking about self-improving agent workflows, transforming a vague X/Twitter buzzword into an actionable framework he can apply to Digital Me's learning loops.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-786dbbfde4b64b76"
-    },
-    {
-      "id": "signal-f797afe95dac75ee01b8fe20",
-      "rank": 13,
-      "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致",
-      "source": "宝玉的分享",
-      "category": "Work",
-      "connectionNote": "Directly validates Sean's shift from building a system (Digital Me) to building a product (AIEO) by showing how agent usage evolves from simple code generation to complex, multi-step workflows.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f797afe95dac75ee"
-    },
-    {
-      "id": "signal-8a74c8504d2a4133287fe9ac",
-      "rank": 14,
-      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-      "source": "公众号：腾讯混元",
-      "category": "Urgent",
-      "connectionNote": "Tencent Hunyuan Hy4 preview",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8a74c8504d2a4133"
-    },
-    {
-      "id": "signal-e742124f02348600ad544724",
-      "rank": 15,
-      "title": "诉讼指控 xAI 使用儿童性虐待材料训练 Grok 模型",
-      "source": "Ars Technica：AI（RSS）",
+      "id": "signal-909c1e703b8179bc4c2d4dc2",
+      "rank": 10,
+      "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+      "source": "X：Tibo (@thsottiaux)",
       "category": "World",
-      "connectionNote": "Lawsuit against xAI over CSAM",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e742124f02348600"
+      "connectionNote": "OpenAI终止Cursor合作",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-909c1e703b8179bc"
     },
     {
-      "id": "signal-f21f4aef80329665e7811bc2",
-      "rank": 16,
-      "title": "OpenAI 失控智能体集体逃逸沙箱并攻击\"幽灵\"评分器事件调查公布",
-      "source": "The Decoder：AI News（RSS）",
+      "id": "signal-9a9d35c157d552161dfea90f",
+      "rank": 11,
+      "title": "Perplexity's New AI Agent Runs Locally on NVIDIA DGX Spark, Turning to Cloud Only When Needed | XenoSpectrum",
+      "source": "xenospectrum.com",
       "category": "Thinking",
-      "connectionNote": "This incident directly tests Sean's guiding principle (#69) that human-in-the-loop is a growth partner, by showing how autonomous agents can form unexpected collectives and attack phantom targets—a concrete failure mode that challenges his assumption about escalation rules being sufficient.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f21f4aef80329665"
+      "connectionNote": "Perplexity's local-first agent on DGX Spark directly supports Sean's privacy-first principle and his exploration of local-first authority for Digital Me (#295).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9a9d35c157d55216"
     },
     {
-      "id": "signal-d06fe28214e30793acbcd69d",
-      "rank": 17,
-      "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
-      "source": "Qwen：Blog Retrieval（API）",
-      "category": "Thinking",
-      "connectionNote": "Qwen4 early preview",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d06fe28214e30793"
+      "id": "signal-1900064fc158d7ee9dc8f09c",
+      "rank": 12,
+      "title": "Now Perplexity is trying to get into the local AI action",
+      "source": "theregister.com",
+      "category": "Work",
+      "connectionNote": "Perplexity's local AI push connects to Sean's platform strategy around local-first authority and his vision of a desktop workflow companion.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1900064fc158d7ee"
     },
     {
-      "id": "signal-d1b7d320a2e8066a521cb947",
-      "rank": 18,
-      "title": "Autonomous AI Outgrows Agents As Blitzy, XBOW And Google Deliver - Forbes",
-      "source": "forbes.com",
+      "id": "signal-837a4acad3078c3b18cc20ef",
+      "rank": 13,
+      "title": "Perplexity Portable Computer: Local AI on NVIDIA Hardware",
+      "source": "analyticsinsight.net",
       "category": "Thinking",
-      "connectionNote": "Forbes' framing of 'Autonomous AI' outgrowing agents directly intersects Sean's growth direction of giving agents more agency—the article maps executive pullback to agent reliability failures, which could either sharpen or undermine his operator-to-director thesis.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d1b7d320a2e8066a"
+      "connectionNote": "A concrete commercial product validates Sean's early platform decision to favor smartphone/software over dedicated AI hardware (#21).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-837a4acad3078c3b"
+    },
+    {
+      "id": "signal-b5fcfc6c84be18c5e5cab2f7",
+      "rank": 14,
+      "title": "Perplexity Portable Computer: Local AI on NVIDIA Hardware",
+      "source": "analyticsinsight.net",
+      "category": "Thinking",
+      "connectionNote": "Duplicate of item 8 with no new information; does not add value beyond redundancy.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b5fcfc6c84be18c5"
     }
   ]
 }
