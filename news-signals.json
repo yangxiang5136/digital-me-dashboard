@@ -1,134 +1,134 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T12:09:39.044037Z",
+  "generatedAt": "2026-08-30T12:08:15.790013Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
   "selectedCount": 14,
   "items": [
     {
-      "id": "signal-9e8d82d248801ceb6612ec71",
+      "id": "signal-7b86ef249e8e60ad7af64611",
       "rank": 1,
-      "title": "Agent 时代，为什么有人开始重新造 Google？",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "title": "开放世界多智能体环境中的自主数学发现",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "category": "Growth",
-      "connectionNote": "Agent时代搜索引擎重塑",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9e8d82d248801ceb"
+      "connectionNote": "Autonomous mathematical discovery is a concrete test case for giving agents true research agency, which Sean has only sketched abstractly.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7b86ef249e8e60ad"
     },
     {
-      "id": "signal-7f664b239f507de6a7cabad3",
+      "id": "signal-a2f82312d60b80e135438a0c",
       "rank": 2,
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "title": "Introducing Hy4 Preview",
       "source": "Simon Willison's Weblog",
-      "category": "Thinking",
-      "connectionNote": "Claude Code prompt injection risks",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7f664b239f507de6"
+      "category": "Urgent",
+      "connectionNote": "New open-weight model from Tencent",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a2f82312d60b80e1"
     },
     {
-      "id": "signal-e477ec8158ad1257e94acfd6",
+      "id": "signal-b776394dc8b775f505908a91",
       "rank": 3,
-      "title": "The New MCP Roadmap",
-      "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "MCP's updated roadmap signals continued protocol evolution, reinforcing Sean's commitment to vendor-independent and modular infrastructure design.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+      "title": "Qwen3.8-Flash-Next",
+      "source": "Simon Willison's Weblog",
+      "category": "Urgent",
+      "connectionNote": "Qwen3.8-Flash-Next multimodal preview",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b776394dc8b775f5"
     },
     {
-      "id": "signal-79368283654df751f5bc4fa0",
+      "id": "signal-dc7b0be3eb292f4d63bc2f4b",
       "rank": 4,
-      "title": "The 2026-07-28 Specification",
-      "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "MCP's stateless protocol revision directly affects Sean's Digital Me architecture, which depends on agent contracts and communication channels.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "source": "Latent.Space",
+      "category": "World",
+      "connectionNote": "OpenAI AGI by 2026",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dc7b0be3eb292f4d"
     },
     {
-      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "id": "signal-143c110bde4f1836c11e651d",
       "rank": 5,
-      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
-      "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "The stateless shift and removal of initialize handshake validates Sean's move toward intent-contract-adapter patterns and tool independence.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "source": "Latent.Space",
+      "category": "Thinking",
+      "connectionNote": "This updates Sean's mental model of the AI ecosystem, as Nvidia's acquisition of HuggingFace signals consolidation that could affect his vendor-independence principle.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-143c110bde4f1836"
     },
     {
       "id": "signal-3cebd79bf79035703e567bb0",
       "rank": 6,
       "title": "The 2026-07-28 MCP Specification Release Candidate",
       "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "The MCP stateless-core release validates Sean's architectural principle of separating reusable skills from agents (#60) and his commitment to vendor-independent infrastructure.",
+      "category": "Thinking",
+      "connectionNote": "MCP's stateless HTTP core could eliminate the exact file-based bus complexity Sean has wired into Digital Me, questioning a core architecture decision.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
-      "id": "signal-ea93f1ae3f9325862b5ca411",
+      "id": "signal-111f0879edc263542643ae63",
       "rank": 7,
-      "title": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
-      "source": "量子位",
-      "category": "Urgent",
-      "connectionNote": "港股AGI公司业绩增长",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ea93f1ae3f932586"
-    },
-    {
-      "id": "signal-05f1f5931a1e7177c98a9a48",
-      "rank": 8,
-      "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
-      "source": "量子位",
+      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+      "source": "IT之家（RSS）",
       "category": "Thinking",
-      "connectionNote": "Claude controlling a robotic arm to block a $50M transfer demonstrates the physical-world agency boundary Sean is designing for in his escalation and autonomy levels (#76).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-05f1f5931a1e7177"
+      "connectionNote": "Open-weight models with strong agentic and security capabilities directly impact Sean's vendor-independence principle and architecture choices.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-111f0879edc26354"
     },
     {
-      "id": "signal-3fb5eae3d8b29581d19ee760",
-      "rank": 9,
-      "title": "全球开源平台的宿命，都逃不过被收购 ？",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "World",
-      "connectionNote": "开源平台被收购宿命",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3fb5eae3d8b29581"
+      "id": "signal-9c00ef8723acf861bfedd3a3",
+      "rank": 8,
+      "title": "Cursor回应OpenAI将封禁其模型访问",
+      "source": "X：Michael Truell (@mntruell)",
+      "category": "Urgent",
+      "connectionNote": "Cursor responds to OpenAI ban",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9c00ef8723acf861"
     },
     {
       "id": "signal-909c1e703b8179bc4c2d4dc2",
-      "rank": 10,
+      "rank": 9,
       "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
       "source": "X：Tibo (@thsottiaux)",
-      "category": "World",
-      "connectionNote": "OpenAI终止Cursor合作",
+      "category": "Urgent",
+      "connectionNote": "OpenAI-Cursor partnership ends",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-909c1e703b8179bc"
     },
     {
-      "id": "signal-9a9d35c157d552161dfea90f",
+      "id": "signal-6633cd19afce218145b3cf4d",
+      "rank": 10,
+      "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
+      "source": "Ars Technica：AI（RSS）",
+      "category": "Urgent",
+      "connectionNote": "Court blocks Anthropic ban",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6633cd19afce2181"
+    },
+    {
+      "id": "signal-69d34fa7ff8caa3c0d661388",
       "rank": 11,
-      "title": "Perplexity's New AI Agent Runs Locally on NVIDIA DGX Spark, Turning to Cloud Only When Needed | XenoSpectrum",
-      "source": "xenospectrum.com",
-      "category": "Thinking",
-      "connectionNote": "Perplexity's local-first agent on DGX Spark directly supports Sean's privacy-first principle and his exploration of local-first authority for Digital Me (#295).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9a9d35c157d55216"
-    },
-    {
-      "id": "signal-1900064fc158d7ee9dc8f09c",
-      "rank": 12,
-      "title": "Now Perplexity is trying to get into the local AI action",
-      "source": "theregister.com",
+      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+      "source": "X：智谱 Z.ai (@Zai_org)",
       "category": "Work",
-      "connectionNote": "Perplexity's local AI push connects to Sean's platform strategy around local-first authority and his vision of a desktop workflow companion.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1900064fc158d7ee"
+      "connectionNote": "GLM-5.3 open-weights release",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-69d34fa7ff8caa3c"
     },
     {
-      "id": "signal-837a4acad3078c3b18cc20ef",
+      "id": "signal-46526814f260188883b59c46",
+      "rank": 12,
+      "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "category": "Work",
+      "connectionNote": "This scientific-agent benchmark exposes whether Sean's multi-agent Digital Me could actually perform research, a gap in his current learning-heavy focus.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-46526814f2601888"
+    },
+    {
+      "id": "signal-f5ab31c5ccaf8a6f4bc3caa5",
       "rank": 13,
-      "title": "Perplexity Portable Computer: Local AI on NVIDIA Hardware",
-      "source": "analyticsinsight.net",
-      "category": "Thinking",
-      "connectionNote": "A concrete commercial product validates Sean's early platform decision to favor smartphone/software over dedicated AI hardware (#21).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-837a4acad3078c3b"
+      "title": "Snowflake World Tour 2026 – 首尔",
+      "source": "snowflake.com",
+      "category": "Urgent",
+      "connectionNote": "Snowflake World Tour 2026 Seoul",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f5ab31c5ccaf8a6f"
     },
     {
-      "id": "signal-b5fcfc6c84be18c5e5cab2f7",
+      "id": "signal-c196999ba6859403b928c6d2",
       "rank": 14,
-      "title": "Perplexity Portable Computer: Local AI on NVIDIA Hardware",
-      "source": "analyticsinsight.net",
-      "category": "Thinking",
-      "connectionNote": "Duplicate of item 8 with no new information; does not add value beyond redundancy.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b5fcfc6c84be18c5"
+      "title": "李海民被任命为第二届AI未来企划首席，河正宇任AI战略委副委员长",
+      "source": "dongascience.com",
+      "category": "Urgent",
+      "connectionNote": "AI leadership appointments",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c196999ba6859403"
     }
   ]
 }
