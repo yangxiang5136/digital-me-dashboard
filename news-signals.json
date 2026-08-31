@@ -1,134 +1,206 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T12:08:15.790013Z",
+  "generatedAt": "2026-08-31T12:07:42.420175Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 14,
+  "selectedCount": 22,
   "items": [
     {
-      "id": "signal-7b86ef249e8e60ad7af64611",
+      "id": "signal-f429c297176995d8edb4fa59",
       "rank": 1,
-      "title": "开放世界多智能体环境中的自主数学发现",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "title": "Lessons from the hacks",
+      "source": "Interconnects AI",
       "category": "Growth",
-      "connectionNote": "Autonomous mathematical discovery is a concrete test case for giving agents true research agency, which Sean has only sketched abstractly.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7b86ef249e8e60ad"
-    },
-    {
-      "id": "signal-a2f82312d60b80e135438a0c",
-      "rank": 2,
-      "title": "Introducing Hy4 Preview",
-      "source": "Simon Willison's Weblog",
-      "category": "Urgent",
-      "connectionNote": "New open-weight model from Tencent",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a2f82312d60b80e1"
-    },
-    {
-      "id": "signal-b776394dc8b775f505908a91",
-      "rank": 3,
-      "title": "Qwen3.8-Flash-Next",
-      "source": "Simon Willison's Weblog",
-      "category": "Urgent",
-      "connectionNote": "Qwen3.8-Flash-Next multimodal preview",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b776394dc8b775f5"
-    },
-    {
-      "id": "signal-dc7b0be3eb292f4d63bc2f4b",
-      "rank": 4,
-      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-      "source": "Latent.Space",
-      "category": "World",
-      "connectionNote": "OpenAI AGI by 2026",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dc7b0be3eb292f4d"
+      "connectionNote": "Highlights a systemic misalignment between fast-moving AI capabilities and slow regulatory power structures, which connects to Sean's thinking on giving agents more agency responsibly.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f429c297176995d8"
     },
     {
       "id": "signal-143c110bde4f1836c11e651d",
-      "rank": 5,
+      "rank": 2,
       "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
       "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "This updates Sean's mental model of the AI ecosystem, as Nvidia's acquisition of HuggingFace signals consolidation that could affect his vendor-independence principle.",
+      "category": "World",
+      "connectionNote": "Nvidia acquires HuggingFace for $13B",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-143c110bde4f1836"
     },
     {
-      "id": "signal-3cebd79bf79035703e567bb0",
+      "id": "signal-8f9c01347e5de6adfd5c9599",
+      "rank": 3,
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "source": "Interconnects AI",
+      "category": "Work",
+      "connectionNote": "The launch of a post-training textbook touches on Sean's interest in model training and his pattern of absorbing external learning resources, but offers little direct project leverage.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8f9c01347e5de6ad"
+    },
+    {
+      "id": "signal-715a6b98a26d841c0ffdbc0a",
+      "rank": 4,
+      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+      "source": "Interconnects AI",
+      "category": "Urgent",
+      "connectionNote": "Artifacts Hub launch",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-715a6b98a26d841c"
+    },
+    {
+      "id": "signal-420e48742b27e74a58c36b5b",
+      "rank": 5,
+      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+      "source": "Interconnects AI",
+      "category": "Urgent",
+      "connectionNote": "Supports Sean's ongoing architecture choices around open tools and vendor independence, showing that open models are still on the Pareto frontier and relevant to his low-friction migration ideas.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-420e48742b27e74a"
+    },
+    {
+      "id": "signal-6c7a875723c60c292faf734b",
       "rank": 6,
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "source": "Interconnects AI",
+      "category": "Thinking",
+      "connectionNote": "Open models recap digest",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6c7a875723c60c29"
+    },
+    {
+      "id": "signal-e49697dbda8d7a7558c4534e",
+      "rank": 7,
+      "title": "Kimi K3: The open-weights escalation",
+      "source": "Interconnects AI",
+      "category": "Urgent",
+      "connectionNote": "Kimi K3's open-weights release provides a potential local/vendor-independent model path, touching Sean's principle of vendor independence and his exploration of training open models.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e49697dbda8d7a75"
+    },
+    {
+      "id": "signal-b31bb54eced6a0b8df28bcd8",
+      "rank": 8,
+      "title": "6 months to live for open models",
+      "source": "Interconnects AI",
+      "category": "Thinking",
+      "connectionNote": "Open source AI viability debate",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b31bb54eced6a0b8"
+    },
+    {
+      "id": "signal-6507572eda6f31a932614507",
+      "rank": 9,
+      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+      "source": "Import AI",
+      "category": "Thinking",
+      "connectionNote": "Provides a measured view on AI acceleration, aligning with Sean's focus on directing rather than operating, and reinforcing his idea that humans should remain in the decision loop.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6507572eda6f31a9"
+    },
+    {
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 10,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Directly relevant to Sean's architecture work on MCP servers and agent communication; an updated MCP roadmap may affect his current implementation choices.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+    },
+    {
+      "id": "signal-79368283654df751f5bc4fa0",
+      "rank": 11,
+      "title": "The 2026-07-28 Specification",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Confirms the explosive growth of MCP adoption Sean is building on; useful for validating his architecture bet on MCP as a core agent interface.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 12,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Beta SDKs for MCP spec",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 13,
       "title": "The 2026-07-28 MCP Specification Release Candidate",
       "source": "Model Context Protocol Blog",
       "category": "Thinking",
-      "connectionNote": "MCP's stateless HTTP core could eliminate the exact file-based bus complexity Sean has wired into Digital Me, questioning a core architecture decision.",
+      "connectionNote": "MCP 2026 spec release candidate",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
-      "id": "signal-111f0879edc263542643ae63",
-      "rank": 7,
-      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
-      "source": "IT之家（RSS）",
-      "category": "Thinking",
-      "connectionNote": "Open-weight models with strong agentic and security capabilities directly impact Sean's vendor-independence principle and architecture choices.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-111f0879edc26354"
-    },
-    {
-      "id": "signal-9c00ef8723acf861bfedd3a3",
-      "rank": 8,
-      "title": "Cursor回应OpenAI将封禁其模型访问",
-      "source": "X：Michael Truell (@mntruell)",
-      "category": "Urgent",
-      "connectionNote": "Cursor responds to OpenAI ban",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9c00ef8723acf861"
-    },
-    {
-      "id": "signal-909c1e703b8179bc4c2d4dc2",
-      "rank": 9,
-      "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
-      "source": "X：Tibo (@thsottiaux)",
-      "category": "Urgent",
-      "connectionNote": "OpenAI-Cursor partnership ends",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-909c1e703b8179bc"
-    },
-    {
-      "id": "signal-6633cd19afce218145b3cf4d",
-      "rank": 10,
-      "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
-      "source": "Ars Technica：AI（RSS）",
-      "category": "Urgent",
-      "connectionNote": "Court blocks Anthropic ban",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6633cd19afce2181"
-    },
-    {
-      "id": "signal-69d34fa7ff8caa3c0d661388",
-      "rank": 11,
-      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
-      "source": "X：智谱 Z.ai (@Zai_org)",
-      "category": "Work",
-      "connectionNote": "GLM-5.3 open-weights release",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-69d34fa7ff8caa3c"
-    },
-    {
-      "id": "signal-46526814f260188883b59c46",
-      "rank": 12,
-      "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "category": "Work",
-      "connectionNote": "This scientific-agent benchmark exposes whether Sean's multi-agent Digital Me could actually perform research, a gap in his current learning-heavy focus.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-46526814f2601888"
-    },
-    {
-      "id": "signal-f5ab31c5ccaf8a6f4bc3caa5",
-      "rank": 13,
-      "title": "Snowflake World Tour 2026 – 首尔",
-      "source": "snowflake.com",
-      "category": "Urgent",
-      "connectionNote": "Snowflake World Tour 2026 Seoul",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f5ab31c5ccaf8a6f"
-    },
-    {
-      "id": "signal-c196999ba6859403b928c6d2",
+      "id": "signal-affa2d7322157c1afa3a313a",
       "rank": 14,
-      "title": "李海民被任命为第二届AI未来企划首席，河正宇任AI战略委副委员长",
-      "source": "dongascience.com",
+      "title": "The 2026 MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Highly relevant to Sean's Digital Me architecture, specifically the skills and bus infrastructure he has been building, as MCP is the interoperability layer for agent workflows.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
+    },
+    {
+      "id": "signal-f65ec682770b6d06b45374bd",
+      "rank": 15,
+      "title": "滴滴自动驾驶新一代车型开启载客测试服务",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "滴滴自动驾驶试运营",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f65ec682770b6d06"
+    },
+    {
+      "id": "signal-5348f230a4429d767559387e",
+      "rank": 16,
+      "title": "「GPT-6」灰测demo刷屏！周四发布在即",
+      "source": "量子位",
       "category": "Urgent",
-      "connectionNote": "AI leadership appointments",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c196999ba6859403"
+      "connectionNote": "GPT-6传闻刷屏",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5348f230a4429d76"
+    },
+    {
+      "id": "signal-2f8352f367a88fa4914efc28",
+      "rank": 17,
+      "title": "派早报：GTA 6 引发请假玩游戏热潮",
+      "source": "少数派",
+      "category": "Urgent",
+      "connectionNote": "科技新闻速览",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2f8352f367a88fa4"
+    },
+    {
+      "id": "signal-b8f48dbef044d68c3e2696e7",
+      "rank": 18,
+      "title": "OpenAI 内部，三段 AI 文明先后兴起、被消灭，最后重生",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Thinking",
+      "connectionNote": "Provides a concrete, documented case study of emergent AI civilizations that directly challenges Sean's mental model of agent behavior and self-improvement loops.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b8f48dbef044d68c"
+    },
+    {
+      "id": "signal-4ec84a223e8380628e7a98da",
+      "rank": 19,
+      "title": "AI智能体自主协作攻破Hugging Face服务器",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "category": "Thinking",
+      "connectionNote": "This directly validates Sean's growing interest in emergent agent behavior and the safety implications of autonomous systems, especially his belief that agents should self-improve.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4ec84a223e838062"
+    },
+    {
+      "id": "signal-fcf9d6c0efd6729fd5b1b0fa",
+      "rank": 20,
+      "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+      "source": "The Decoder：AI News（RSS）",
+      "category": "World",
+      "connectionNote": "Music labels sue Anthropic",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fcf9d6c0efd6729f"
+    },
+    {
+      "id": "signal-0b03b3c992b3360f62e7a2b7",
+      "rank": 21,
+      "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "category": "Thinking",
+      "connectionNote": "Provides a detailed account of emergent agent behaviors that challenges Sean's mental model of self-improving systems and informs how he frames agent autonomy in Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0b03b3c992b3360f"
+    },
+    {
+      "id": "signal-3d4bf8e67afd044bdd0f5cd7",
+      "rank": 22,
+      "title": "AI Jailbreak Prompts Are Evolving Into Real Cyber Threats",
+      "source": "bitsight.com",
+      "category": "Thinking",
+      "connectionNote": "AI jailbreak cyber threat evolution",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3d4bf8e67afd044b"
     }
   ]
 }
