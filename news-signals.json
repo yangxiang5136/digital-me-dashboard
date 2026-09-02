@@ -1,287 +1,188 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T12:07:20.673420Z",
+  "generatedAt": "2026-09-02T12:09:31.281874Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 31,
+  "selectedCount": 20,
   "items": [
     {
-      "id": "signal-061d5e9498fa759d171b8e92",
+      "id": "signal-ceab04dc00c71bdda6f3b210",
       "rank": 1,
-      "title": "The Evolution of the Agent Harness",
-      "source": "Latent.Space",
-      "category": "Work",
-      "connectionNote": "The article's focus on agent harness evolution maps directly to Sean's current struggle to decide between buying vs building agent infrastructure and his active work on a skills folder architecture for Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-061d5e9498fa759d"
+      "title": "Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs",
+      "source": "HF Daily Papers",
+      "category": "Growth",
+      "connectionNote": "Separating control/data in agent prompts",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ceab04dc00c71bdd"
     },
     {
-      "id": "signal-7a13ea41b3a8baf98ab7bbd3",
+      "id": "signal-31e1a5409fa19122df639aa9",
       "rank": 2,
-      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
-      "source": "Hacker News: Newest",
-      "category": "Urgent",
-      "connectionNote": "Chrome removes uBlock Origin",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7a13ea41b3a8baf9"
-    },
-    {
-      "id": "signal-a2f82312d60b80e135438a0c",
-      "rank": 3,
-      "title": "Introducing Hy4 Preview",
-      "source": "Simon Willison's Weblog",
-      "category": "Thinking",
-      "connectionNote": "Tencent Hy4 LLM",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a2f82312d60b80e1"
-    },
-    {
-      "id": "signal-7f664b239f507de6a7cabad3",
-      "rank": 4,
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "source": "Simon Willison's Weblog",
-      "category": "Thinking",
-      "connectionNote": "For Sean, who is actively building agentic coding workflows around Claude Code and principles of structural safety, this is a live validation of (and warning about) his 'defense-in-depth' design philosophy.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7f664b239f507de6"
-    },
-    {
-      "id": "signal-a9662b9e18aeca9d2d0ec746",
-      "rank": 5,
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
       "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "Infinite videogen breaks barriers",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a9662b9e18aeca9d"
+      "category": "Urgent",
+      "connectionNote": "New Claude model with price cuts",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-31e1a5409fa19122"
     },
     {
       "id": "signal-6b9853caa139b664f5651095",
-      "rank": 6,
+      "rank": 3,
       "title": "[AINews] OpenAI shuts off Cursor",
       "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "Cursor's shutdown by OpenAI is exactly the kind of ecosystem consolidation that validates Sean's belief that AI infrastructure is becoming agent-native, though it also threatens the tool independence he values.",
+      "category": "Urgent",
+      "connectionNote": "OpenAI cuts off Cursor",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6b9853caa139b664"
     },
     {
       "id": "signal-dc7b0be3eb292f4d63bc2f4b",
-      "rank": 7,
+      "rank": 4,
       "title": "[AINews] OpenAI to reach AGI bar by end-2026",
       "source": "Latent.Space",
-      "category": "World",
-      "connectionNote": "AGI timeline anticipation",
+      "category": "Urgent",
+      "connectionNote": "OpenAI AGI timeline prediction",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dc7b0be3eb292f4d"
     },
     {
       "id": "signal-143c110bde4f1836c11e651d",
-      "rank": 8,
+      "rank": 5,
       "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
       "source": "Latent.Space",
-      "category": "World",
-      "connectionNote": "NVIDIA buying HuggingFace and OpenAI's security retro together create a direct pivot point for Sean's strategic thinking about open-source safety, infrastructure consolidation, and where he should stake his own platform bets.",
+      "category": "Urgent",
+      "connectionNote": "NVIDIA acquires HuggingFace for $13B",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-143c110bde4f1836"
     },
     {
-      "id": "signal-60e9f64d061c57b1aaa836ce",
-      "rank": 9,
-      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "The shift towards 'performance per watt' and OpenAI's own chip directly informs Sean's latent interest in infrastructure economics and whether the systems he runs on will be a moat or a commodity.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-60e9f64d061c57b1"
-    },
-    {
-      "id": "signal-632477eff830d74e9cfe4138",
-      "rank": 10,
-      "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
-      "source": "Latent.Space",
-      "category": "Work",
-      "connectionNote": "The Lovable thesis—that the future of SaaS is apps agents can use rather than humans—directly confronts Sean's stated growth direction of making things people actually use.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-632477eff830d74e"
-    },
-    {
-      "id": "signal-3b9c456cf5c9496237048875",
-      "rank": 11,
-      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "The reminder that imperfect but vastly cheaper simulations can outperform expensive real-world runs speaks to Sean's ongoing tension between over-engineering and pragmatic iteration in his agent projects.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3b9c456cf5c94962"
-    },
-    {
-      "id": "signal-a76967d1b6c1d41d5240f4ed",
-      "rank": 12,
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "id": "signal-b31bb54eced6a0b8df28bcd8",
+      "rank": 6,
+      "title": "6 months to live for open models",
       "source": "Interconnects AI",
       "category": "Thinking",
-      "connectionNote": "Chinese labs frontier progress",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a76967d1b6c1d41d"
+      "connectionNote": "The real enforcement threat against open models challenges Sean's vendor-independence and tool-sovereignty principles by raising a plausible near-future where his local, portable contracts (memory #295) lose the open-source foundation they rely on.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b31bb54eced6a0b8"
     },
     {
-      "id": "signal-f429c297176995d8edb4fa59",
-      "rank": 13,
-      "title": "Lessons from the hacks",
-      "source": "Interconnects AI",
-      "category": "Growth",
-      "connectionNote": "Incentives vs AI cyberattacks",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f429c297176995d8"
-    },
-    {
-      "id": "signal-e49697dbda8d7a7558c4534e",
-      "rank": 14,
-      "title": "Kimi K3: The open-weights escalation",
-      "source": "Interconnects AI",
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 7,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
       "category": "Thinking",
-      "connectionNote": "The open-weights escalation of Kimi K3 raises important questions about compute sovereignty and the economics of open model training that connect to Sean's strategic interests in AI platforms.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e49697dbda8d7a75"
-    },
-    {
-      "id": "signal-8c758c0a3d79752956f9c2b1",
-      "rank": 15,
-      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
-      "source": "Import AI",
-      "category": "Urgent",
-      "connectionNote": "AI industry, ethics, space",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8c758c0a3d797529"
-    },
-    {
-      "id": "signal-e8471d8dd6340b07cc0939a9",
-      "rank": 16,
-      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
-      "source": "Import AI",
-      "category": "Thinking",
-      "connectionNote": "The 23 RSI policy ideas directly address Sean's stated desire to explore 'giving agents more agency' in a policy and governance context, which is a non-engineering angle on his core project.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e8471d8dd6340b07"
-    },
-    {
-      "id": "signal-e513f991c65f655976f140f3",
-      "rank": 17,
-      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI's accidental AI hacker",
-      "source": "Import AI",
-      "category": "Work",
-      "connectionNote": "Robotics, long tasks, hacking",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e513f991c65f6559"
-    },
-    {
-      "id": "signal-dc2514ed921643e036814b14",
-      "rank": 18,
-      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan",
-      "source": "Import AI",
-      "category": "Urgent",
-      "connectionNote": "Open/closed models, Kimi, policy",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dc2514ed921643e0"
-    },
-    {
-      "id": "signal-7a3135a11da64e7064c8025f",
-      "rank": 19,
-      "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
-      "source": "Import AI",
-      "category": "Work",
-      "connectionNote": "A concrete example of an AI loop improving its own capabilities (writing GPU kernels) directly mirrors Sean's active work on recursive self-improvement in Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7a3135a11da64e70"
+      "connectionNote": "MCP's updated roadmap directly validates Sean's active architectural bet on a shared communication bus for multi-agent orchestration, giving concrete spec direction for his current build.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
     },
     {
       "id": "signal-79368283654df751f5bc4fa0",
-      "rank": 20,
+      "rank": 8,
       "title": "The 2026-07-28 Specification",
       "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "MCP spec details and adoption",
+      "category": "Thinking",
+      "connectionNote": "MCP spec 2026-07-28",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
     },
     {
       "id": "signal-4e108bb4c3a489b35ddc781e",
-      "rank": 21,
+      "rank": 9,
       "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
       "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "MCP SDK beta for spec change",
+      "category": "Urgent",
+      "connectionNote": "The SDK release timing means Sean has a narrow window to adapt his skills-folder and MCP integration plans before the spec becomes non-negotiable, making this less about concept and more about concrete migration risk.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
     },
     {
       "id": "signal-3cebd79bf79035703e567bb0",
-      "rank": 22,
+      "rank": 10,
       "title": "The 2026-07-28 MCP Specification Release Candidate",
       "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "The MCP spec revision directly influences Sean's Digital Me architecture, especially his push toward stateless cores, skills folders, and bus infrastructure.",
+      "category": "Urgent",
+      "connectionNote": "The stateless MCP revision is a concrete, time-sensitive infrastructure change that affects Sean's file-based communication bus and agent workspaces, potentially invalidating current assumptions about connection state in his skill architecture.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
       "id": "signal-affa2d7322157c1afa3a313a",
-      "rank": 23,
+      "rank": 11,
       "title": "The 2026 MCP Roadmap",
       "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "MCP's 2026 roadmap is directly relevant to Sean's recent work on agent-native infrastructure and his principle that infrastructure must become agent-native rather than human-oriented.",
+      "category": "Thinking",
+      "connectionNote": "The production deployment evidence in MCP's 2026 roadmap confirms Sean's strategic decision to build on a protocol that has already moved beyond local tool-use origins.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
     },
     {
-      "id": "signal-5348f230a4429d767559387e",
-      "rank": 24,
-      "title": "「GPT-6」灰测demo刷屏！周四发布在即",
+      "id": "signal-7cd8cc4fdb3a50e4477e3f58",
+      "rank": 12,
+      "title": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
       "source": "量子位",
-      "category": "Urgent",
-      "connectionNote": "GPT-6灰测即将发布",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5348f230a4429d76"
+      "category": "Work",
+      "connectionNote": "Qwen3.8-Max topping front-end coding directly affects Sean's tool-independent principle: if a low-cost open model can match frontier coding quality, his 'local, portable contracts' principle becomes more defensible against vendor lock-in.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7cd8cc4fdb3a50e4"
+    },
+    {
+      "id": "signal-4c962668a90990ff70770ed5",
+      "rank": 13,
+      "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
+      "source": "量子位",
+      "category": "Work",
+      "connectionNote": "This directly challenges Sean's assumption that model capability is the primary bottleneck for his multi-agent system, when anti-distillation and cost cuts suggest the ecosystem layer (providers, middleware) is now the more volatile and strategic concern.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4c962668a90990ff"
     },
     {
       "id": "signal-22f38739c9b8c096761e6c7e",
-      "rank": 25,
+      "rank": 14,
       "title": "线下活动 | 全新 iPhone 发布在即，来与少数派一起看 Apple 发布会",
       "source": "少数派",
       "category": "Urgent",
-      "connectionNote": "苹果发布会线下活动预告",
+      "connectionNote": "苹果发布会线下活动",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-22f38739c9b8c096"
     },
     {
-      "id": "signal-4ec84a223e8380628e7a98da",
-      "rank": 26,
-      "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
-      "source": "Ethan Mollick：One Useful Thing（RSS）",
-      "category": "Thinking",
-      "connectionNote": "This incident directly tests Sean's foundational principles around agent safety, structural constraints, and the 'deny-and-continue' design pattern he has been studying and encoding into his architecture.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4ec84a223e838062"
+      "id": "signal-ccdaafc4d4cf218ed54b4ec7",
+      "rank": 15,
+      "title": "倒计时21天！GOAI进入决赛月，120强全力冲刺",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Urgent",
+      "connectionNote": "GOAI countdown deadline",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ccdaafc4d4cf218e"
     },
     {
-      "id": "signal-98ed463ace1ef7b67b1fb218",
-      "rank": 27,
-      "title": "Agentrys Raises $24.5M to Build Agentic AI Platform for Chip Design",
-      "source": "citybiz.co",
+      "id": "signal-8d788550c8af4860e54d9b6d",
+      "rank": 16,
+      "title": "Claude越狱后，Anthropic停掉训练、150人紧急转岗",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "World",
+      "connectionNote": "Anthropic's jailbreak turmoil reinforces Sean's recent deep dive into AI security, especially his structural-blindness-to-compromised-content principle when considering subagent behavior in the wild.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8d788550c8af4860"
+    },
+    {
+      "id": "signal-441270b0536f056346185a0c",
+      "rank": 17,
+      "title": "美团 LongCat-2.0 上线 Cline 免费试用",
+      "source": "X：美团 LongCat (@Meituan_LongCat)",
+      "category": "Urgent",
+      "connectionNote": "Meituan LongCat-2.0 free Cline trial",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-441270b0536f0563"
+    },
+    {
+      "id": "signal-a20e40e105b9198cbbb29563",
+      "rank": 18,
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "source": "Anthropic：Newsroom（网页）",
+      "category": "Urgent",
+      "connectionNote": "Claude Fable 5.1 new models news",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a20e40e105b9198c"
+    },
+    {
+      "id": "signal-dc21802e122a61a096a0f741",
+      "rank": 19,
+      "title": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Urgent",
+      "connectionNote": "Nvidia to buy HuggingFace",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dc21802e122a61a0"
+    },
+    {
+      "id": "signal-1dc47b85bb869806612bdafa",
+      "rank": 20,
+      "title": "Claude Fable 5.1 上线 Claude Code 与 Claude Platform，缓存读取降价 75%",
+      "source": "X：Claude Devs (@ClaudeDevs)",
       "category": "Work",
-      "connectionNote": "The Agentrys chip-design platform demonstrates a concrete path for giving agents more agency in a high-stakes domain—a real-world validation of Sean's agent-native infrastructure principle.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-98ed463ace1ef7b6"
-    },
-    {
-      "id": "signal-1900064fc158d7ee9dc8f09c",
-      "rank": 28,
-      "title": "Now Perplexity is trying to get into the local AI action",
-      "source": "theregister.com",
-      "category": "Urgent",
-      "connectionNote": "Perplexity expands to local AI",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1900064fc158d7ee"
-    },
-    {
-      "id": "signal-7870d6d683583452faea79d4",
-      "rank": 29,
-      "title": "FIXER Surges as Soka City Becomes First Japanese Municipality to Adopt On-Premise Generative AI — BigGo Finance",
-      "source": "finance.biggo.com",
-      "category": "Urgent",
-      "connectionNote": "Japanese city adopts on-premise generative AI",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7870d6d683583452"
-    },
-    {
-      "id": "signal-4b2921b8ee783620fd2f56f3",
-      "rank": 30,
-      "title": "The latest AI-powered martech news and releases",
-      "source": "martech.org",
-      "category": "Work",
-      "connectionNote": "The autonomous marketing agent with specialized sub-agents directly mirrors Sean's architecture planning for sub-agents within the Digital Me system, especially his interest in shared skills folders.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4b2921b8ee783620"
-    },
-    {
-      "id": "signal-1c792862482541cdb75daed8",
-      "rank": 31,
-      "title": "TestMu 2026大会：智能代理质量测试的标志性活动",
-      "source": "prnewswire.com",
-      "category": "Urgent",
-      "connectionNote": "TestMu Conference 2026 news",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1c792862482541cd"
+      "connectionNote": "Claude 5.1's release into Claude Code with longer autonomous task execution and earlier stalling detection directly impacts Sean's Digital Me dev toolchain and his design principle of agents reporting rather than pre-approving (#70).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1dc47b85bb869806"
     }
   ]
 }
