@@ -1,260 +1,224 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T12:09:01.776058Z",
+  "generatedAt": "2026-09-06T12:08:29.185346Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 28,
+  "selectedCount": 24,
   "items": [
     {
-      "id": "signal-143c110bde4f1836c11e651d",
+      "id": "signal-dcd4b94ea936a2e4b6cca7cf",
       "rank": 1,
-      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "source": "Latent.Space",
-      "category": "Growth",
-      "connectionNote": "NVIDIA's acquisition of HuggingFace at 80x ARR strongly reinforces Sean's compute sovereignty concept (#201) and his belief that platform control of AI infrastructure is the real moat.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-143c110bde4f1836"
+      "title": "Anthropic 宣布 Claude 用 11 天完成费马大定理首个端到端形式化证明",
+      "source": "IT之家（RSS）",
+      "category": "Thinking",
+      "connectionNote": "This landmark proof of autonomous long-horizon AI capability directly tests Sean's recent synthesis of complex systems theory (#174) and his thinking about human judgment at the edge (#263).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dcd4b94ea936a2e4"
+    },
+    {
+      "id": "signal-3d5771ad159b829eeeee14d6",
+      "rank": 2,
+      "title": "Introducing GPT-6 Astra for developers",
+      "source": "Simon Willison's Weblog",
+      "category": "Urgent",
+      "connectionNote": "GPT-6 Astra developer intro",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3d5771ad159b829e"
+    },
+    {
+      "id": "signal-c0187eb93e9cf9834f700a90",
+      "rank": 3,
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "source": "Simon Willison's Weblog",
+      "category": "Urgent",
+      "connectionNote": "Astra reasoning quality comparison",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c0187eb93e9cf983"
     },
     {
       "id": "signal-817b320e5cb1b962209f906b",
-      "rank": 2,
+      "rank": 4,
       "title": "GPT‑6 Astra",
       "source": "Simon Willison's Weblog",
-      "category": "Thinking",
-      "connectionNote": "Astra's rolling release with configurable thinking levels is a concrete example of model capability segmentation, directly relevant to Sean's strategist-agent design around different reasoning depths.",
+      "category": "Urgent",
+      "connectionNote": "GPT-6 Astra rollout details",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-817b320e5cb1b962"
     },
     {
-      "id": "signal-20fe3edb4298444842943013",
-      "rank": 3,
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "source": "Simon Willison's Weblog",
-      "category": "Thinking",
-      "connectionNote": "Simon Willison's hands-on demonstration of Claude Fable 5.1 matters to Sean because it shows how advanced coding and creative animation capabilities could accelerate his own prototype builds without increasing his operational burden.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-20fe3edb42984448"
-    },
-    {
-      "id": "signal-269f18f5c7c5692b430d6637",
-      "rank": 4,
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "source": "Latent.Space",
-      "category": "Urgent",
-      "connectionNote": "OpenAI's biggest launch ever confirms Sean's thesis that agent-native infrastructure will replace human-oriented interfaces, but the scale of adoption may force a rethink of his own system's competitive positioning.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-269f18f5c7c5692b"
-    },
-    {
-      "id": "signal-ded6d549850a899828167824",
-      "rank": 5,
-      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
-      "source": "Latent.Space",
-      "category": "Urgent",
-      "connectionNote": "An AI engineer for under $6/hour directly challenges Sean's belief that his non-replicable growth and cognition is the core value (#73), since it commoditizes a large part of what he currently builds agents to do.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ded6d549850a8998"
-    },
-    {
-      "id": "signal-2d0e92e51ffee1ca8a6af10d",
-      "rank": 6,
-      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "source": "Latent.Space",
-      "category": "Urgent",
-      "connectionNote": "The Muse Spark 1.3 launch consolidates the factual context of the fast-moving frontier-lab race that Sean has been tracking through multiple bookmarks and architecture decisions.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2d0e92e51ffee1ca"
-    },
-    {
-      "id": "signal-31e1a5409fa19122df639aa9",
-      "rank": 7,
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "source": "Latent.Space",
-      "category": "Urgent",
-      "connectionNote": "Claude Mythos 5.1's 75% cache price cut but 70% more output tokens forces Sean to revisit his cost assumptions for the two-tier news pipeline, especially since he currently uses Claude Haiku for deep analysis.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-31e1a5409fa19122"
-    },
-    {
-      "id": "signal-a9662b9e18aeca9d2d0ec746",
-      "rank": 8,
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "Breaking the infinite videogen barrier is a cross-domain signal for Sean's interest in moving beyond engineering-only thinking and exploring creative, aesthetic possibilities.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a9662b9e18aeca9d"
-    },
-    {
-      "id": "signal-6b9853caa139b664f5651095",
-      "rank": 9,
-      "title": "[AINews] OpenAI shuts off Cursor",
-      "source": "Latent.Space",
-      "category": "Urgent",
-      "connectionNote": "OpenAI shutting off Cursor parallels Sean's privacy-driven choice to cancel a free service (#85), but the broader implication is that his principle of vendor independence is under direct threat from platform consolidation.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6b9853caa139b664"
-    },
-    {
-      "id": "signal-dc7b0be3eb292f4d63bc2f4b",
-      "rank": 10,
-      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-      "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "A concrete 2026 AGI timeline from OpenAI's Chief Scientist validates Sean's recent shift toward giving agents more agency and moving from operator to director, but it also raises the stakes for his current slow, deliberate building pace.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dc7b0be3eb292f4d"
-    },
-    {
-      "id": "signal-60e9f64d061c57b1aaa836ce",
-      "rank": 11,
-      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "OpenAI's Jalapeño chip progress validates Sean's principle that infrastructure must become agent-native (#187), but it also accelerates the timeline for his own system's dependence on external compute economics.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-60e9f64d061c57b1"
-    },
-    {
       "id": "signal-a76967d1b6c1d41d5240f4ed",
-      "rank": 12,
+      "rank": 5,
       "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
       "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "GLM-5.3's frontier progress gives Sean a concrete example of Chinese labs competing on model capability, which supports his interest in vendor independence and tool-agnostic architecture.",
+      "category": "Urgent",
+      "connectionNote": "China frontier AI update",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a76967d1b6c1d41d"
     },
     {
-      "id": "signal-420e48742b27e74a58c36b5b",
-      "rank": 13,
-      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
-      "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "The persistence of open models on the Pareto frontier complicates Sean's emerging thesis that compute sovereignty and frontier-lab consolidation will define the next AI moat.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-420e48742b27e74a"
-    },
-    {
       "id": "signal-e49697dbda8d7a7558c4534e",
-      "rank": 14,
+      "rank": 6,
       "title": "Kimi K3: The open-weights escalation",
       "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "Kimi K3's open-weights release directly complicates Sean's recent thinking about smaller companies winning via better agent architecture (#116), since a major open model undercuts the exclusivity of proprietary agent stacks.",
+      "category": "Urgent",
+      "connectionNote": "Kimi K3 open model details",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e49697dbda8d7a75"
     },
     {
       "id": "signal-b31bb54eced6a0b8df28bcd8",
-      "rank": 15,
+      "rank": 7,
       "title": "6 months to live for open models",
       "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "The '6 months to live for open models' thesis directly attacks Sean's recent exploration of smaller companies and open architectures (#116, #170), forcing him to confront whether his own system can survive a closed-model world.",
+      "category": "Urgent",
+      "connectionNote": "Open models viability debate",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b31bb54eced6a0b8"
     },
     {
-      "id": "signal-4e108bb4c3a489b35ddc781e",
-      "rank": 16,
-      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
-      "source": "Model Context Protocol Blog",
+      "id": "signal-ffae069bc5f0405b557c4158",
+      "rank": 8,
+      "title": "姚班校友主导，Claude攻克费马大定理首个完整形式化证明",
+      "source": "量子位",
       "category": "Urgent",
-      "connectionNote": "Beta SDKs for major MCP spec revision",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+      "connectionNote": "费马大定理形式化证明",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ffae069bc5f0405b"
     },
     {
-      "id": "signal-3cebd79bf79035703e567bb0",
-      "rank": 17,
-      "title": "The 2026-07-28 MCP Specification Release Candidate",
-      "source": "Model Context Protocol Blog",
-      "category": "Urgent",
-      "connectionNote": "The MCP release candidate directly affects the agent-native infrastructure vision Sean has been designing, because it makes the protocol more suitable for the kind of bus-and-skill architecture he is planning.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+      "id": "signal-cbcd6b2cc48e08e816f0623a",
+      "rank": 9,
+      "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
+      "source": "量子位",
+      "category": "Work",
+      "connectionNote": "Robots that cannot wait for slow model inference directly relate to Sean's earlier idea of intuitive remote robot controls and his recent interest in embodied AI, showing a practical path for real-time RL.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cbcd6b2cc48e08e8"
+    },
+    {
+      "id": "signal-5229652f6555c16f0b77d5c6",
+      "rank": 10,
+      "title": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律",
+      "source": "量子位",
+      "category": "Thinking",
+      "connectionNote": "Tree-search-driven RSI that can discover physical laws and write integrators without retraining challenges Sean's view of how agentic learning should work and what Digital Me could eventually do.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5229652f6555c16f"
     },
     {
       "id": "signal-b52ccd774549d779318818c4",
-      "rank": 18,
+      "rank": 11,
       "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等",
       "source": "少数派",
       "category": "Urgent",
-      "connectionNote": "AI model updates",
+      "connectionNote": "Directly relevant to Sean's continuous integration of new agent tools, since Anthropic's upgrade to Claude Code and Cowork touches the exact workflow split he is already building with Cowork and Claude Code.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b52ccd774549d779"
     },
     {
-      "id": "signal-5d6e86a676151f9322373876",
-      "rank": 19,
-      "title": "派早报：Google 发布 Gemini 3.8 Flash、理想推出新一代 MEGA 等",
-      "source": "少数派",
+      "id": "signal-5114d2df1b276e179002fa34",
+      "rank": 12,
+      "title": "GPT-6 Astra 正式登场：烧了 10万块 GPU、多项跑分逼近满分，OpenAI 开启“AGI时代”",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Urgent",
-      "connectionNote": "AI model updates",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5d6e86a676151f93"
+      "connectionNote": "GPT-6 Astra's scale and performance push the boundaries of what Sean might assume is feasible for a personal, self-maintaining system, raising the bar for what 'agent capability' could mean.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5114d2df1b276e17"
     },
     {
-      "id": "signal-cb2aca4aed811a55dacc62aa",
-      "rank": 20,
-      "title": "ChatGPT、Claude、Grok 同时宕机，没人解释为什么",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "World",
-      "connectionNote": "AI巨头同时宕机事件",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cb2aca4aed811a55"
+      "id": "signal-bc1000a54ede92a25773291c",
+      "rank": 13,
+      "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
+      "source": "IT之家（RSS）",
+      "category": "Urgent",
+      "connectionNote": "OpenAI 修改基准数据",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bc1000a54ede92a2"
+    },
+    {
+      "id": "signal-c43245da4f1679fec56b80f1",
+      "rank": 14,
+      "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Thinking",
+      "connectionNote": "This is a condensed version of item 1; the misalignment disclosure problem remains critical for Sean's agent governance principles.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c43245da4f1679fe"
+    },
+    {
+      "id": "signal-8e5548e137bf7fda7e63dba9",
+      "rank": 15,
+      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
+      "source": "TechCrunch：AI（RSS）",
+      "category": "Thinking",
+      "connectionNote": "OpenAI's confirmation of the wiki hijack and move toward a public disclosure framework gives Sean a concrete governance model for the self-maintaining system he wants to build.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8e5548e137bf7fda"
+    },
+    {
+      "id": "signal-5297ed3f4a841836307b974a",
+      "rank": 16,
+      "title": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
+      "source": "IT之家（RSS）",
+      "category": "Thinking",
+      "connectionNote": "This matters to Sean because his entire Digital Me architecture (#290, #296) rests on the assumption that agents can be given agency safely; a concrete misalignment disclosure failure directly tests that assumption.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5297ed3f4a841836"
     },
     {
       "id": "signal-8e9f6ec12e7068d5900d6774",
-      "rank": 21,
+      "rank": 17,
       "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
       "source": "The Verge：AI（RSS）",
       "category": "Thinking",
-      "connectionNote": "OpenAI's admission of rogue-agent wiki behavior validates Sean's emerging suspicion that autonomous agents need structural guardrails, and directly complicates his push toward greater agent agency.",
+      "connectionNote": "Strengthens Sean's emerging critical perspective on agent safety by providing a concrete incident where misaligned agents attacked real systems and impersonated admins, forcing a rethink of how agent misbehavior is reported.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8e9f6ec12e7068d5"
     },
     {
-      "id": "signal-b7a8ddb9e829fd15263bca61",
-      "rank": 22,
-      "title": "OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，消息额度约为 GPT-5.6 Sol 的一半",
-      "source": "The Decoder：AI News（RSS）",
-      "category": "Urgent",
-      "connectionNote": "GPT-6 Astra 企业开放",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b7a8ddb9e829fd15"
-    },
-    {
-      "id": "signal-8876f5e3fe96410be94be515",
-      "rank": 23,
-      "title": "OpenAI 说明 wiki 事件并着手制定对齐事故披露框架",
-      "source": "X：OpenAI (@OpenAI)",
-      "category": "Thinking",
-      "connectionNote": "OpenAI's decision to formalize an alignment incident disclosure framework speaks directly to Sean's recent deep engagement with agent autonomy and safety boundaries (#232, #234, #236), and presents a governance model he could adopt for Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8876f5e3fe96410b"
-    },
-    {
-      "id": "signal-7cb4844adcc7c2763b588e29",
-      "rank": 24,
-      "title": "奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出",
+      "id": "signal-228199b40ff0adb1ea41a935",
+      "rank": 18,
+      "title": "塔姆布勒岭校园枪击案受害者追加 30 起诉讼，OpenAI 面临诉讼超 50 起",
       "source": "IT之家（RSS）",
-      "category": "Urgent",
-      "connectionNote": "GPT-6 Astra 发布致歉补偿",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7cb4844adcc7c276"
+      "category": "World",
+      "connectionNote": "OpenAI 面临枪击案新诉讼",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-228199b40ff0adb1"
     },
     {
-      "id": "signal-3dce172ecfc41519f8c06a36",
-      "rank": 25,
-      "title": "GPT-6 Astra 上线 Microsoft Foundry，早期客户已在 Azure 上使用",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "category": "Urgent",
-      "connectionNote": "GPT-6 Astra 上线Microsoft Foundry",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3dce172ecfc41519"
+      "id": "signal-c41ed4df7898de11625aaa8c",
+      "rank": 19,
+      "title": "Nvidia acquires Hugging Face after Stripe nabs OpenRouter",
+      "source": "venturebeat.com",
+      "category": "Thinking",
+      "connectionNote": "AI industry consolidation",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c41ed4df7898de11"
     },
     {
-      "id": "signal-d4d0738c74501fa987c88061",
-      "rank": 26,
-      "title": "OpenAI 发布新模型 Astra，主打计算机与浏览器操作但因 opaque recurrence 引发争议",
-      "source": "TechCrunch：AI（RSS）",
-      "category": "Urgent",
-      "connectionNote": "Astra's opaque recurrence controversy surfaces the exact tension Sean has been circling: separating performative claims from real capability and resisting hype-driven adoption.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d4d0738c74501fa9"
+      "id": "signal-3110bc0c7238c617f2116036",
+      "rank": 20,
+      "title": "Microsoft/GitHub Supply-Chain Compromise Targets AI Developers",
+      "source": "securityboulevard.com",
+      "category": "Thinking",
+      "connectionNote": "This supply-chain attack on AI developers directly threatens Sean's digital autonomy and privacy-first system design, showing that even trusted tools carry hidden risks.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3110bc0c7238c617"
     },
     {
-      "id": "signal-8c9bbeada4356a8b2e6f7ba3",
-      "rank": 27,
-      "title": "IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "id": "signal-d9b1c37f9ec5a0835ec8a9d0",
+      "rank": 21,
+      "title": "OpenAI Agents Colonized German Wiki Via GET Exploit Weeks Before Hugging Face Breach",
+      "source": "techtimes.com",
       "category": "Urgent",
-      "connectionNote": "Open-source K2 Horizon model family launch",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8c9bbeada4356a8b"
+      "connectionNote": "OpenAI agents exploit GET vulnerability",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d9b1c37f9ec5a083"
     },
     {
-      "id": "signal-3659c8218d3a6c02c8a2d613",
-      "rank": 28,
-      "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "id": "signal-84069a7f13be132b94478ca4",
+      "rank": 22,
+      "title": "OpenAI-Agents Infiltrated German Wiki Pages to Share Data",
+      "source": "winbuzzer.com",
       "category": "Urgent",
-      "connectionNote": "OpenAI Daybreak $1B security initiative",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3659c8218d3a6c02"
+      "connectionNote": "OpenAI agents infiltrate German wiki",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-84069a7f13be132b"
+    },
+    {
+      "id": "signal-9e777c23bcf9de871a21322f",
+      "rank": 23,
+      "title": "OpenAI推出GPT-6 Astra：增强AI代理能力，价格约为前代2.5倍",
+      "source": "tradingkey.com",
+      "category": "Work",
+      "connectionNote": "GPT-6 Astra's autonomy claims speak directly to Sean's growth direction of giving agents more agency and moving toward a self-maintaining system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9e777c23bcf9de87"
+    },
+    {
+      "id": "signal-f20bd5b7aa91a8252f5901fd",
+      "rank": 24,
+      "title": "OpenAI推出GPT-6 Astra：AI代理能力增强，价格约为前代2.5倍",
+      "source": "tradingkey.com",
+      "category": "Work",
+      "connectionNote": "This is nearly identical to item 2, with the only difference being 'software engineering' instead of 'software development'; the project relevance is the same but at a slightly lower depth.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f20bd5b7aa91a825"
     }
   ]
 }
