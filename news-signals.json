@@ -1,224 +1,278 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T12:08:29.185346Z",
+  "generatedAt": "2026-09-07T12:08:20.788863Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 24,
+  "selectedCount": 30,
   "items": [
     {
-      "id": "signal-dcd4b94ea936a2e4b6cca7cf",
+      "id": "signal-7d2e8ef8bf6a593f9fda9d8f",
       "rank": 1,
-      "title": "Anthropic 宣布 Claude 用 11 天完成费马大定理首个端到端形式化证明",
-      "source": "IT之家（RSS）",
-      "category": "Thinking",
-      "connectionNote": "This landmark proof of autonomous long-horizon AI capability directly tests Sean's recent synthesis of complex systems theory (#174) and his thinking about human judgment at the edge (#263).",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dcd4b94ea936a2e4"
+      "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+      "source": "公众号：数字生命卡兹克",
+      "category": "Growth",
+      "connectionNote": "Chinese-language coverage of GPT-6 Astra building complex creative projects overnight speaks directly to Sean's goal of moving from prototypes to things people actually use, but also to the collapse of execution value.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7d2e8ef8bf6a593f"
     },
     {
       "id": "signal-3d5771ad159b829eeeee14d6",
       "rank": 2,
       "title": "Introducing GPT-6 Astra for developers",
       "source": "Simon Willison's Weblog",
-      "category": "Urgent",
-      "connectionNote": "GPT-6 Astra developer intro",
+      "category": "Thinking",
+      "connectionNote": "Astra's attention to detail and sophisticated 3D outputs reinforce Sean's belief in multi-modal, tool-using agents, but they also accelerate the need for him to define what only he can direct.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3d5771ad159b829e"
     },
     {
-      "id": "signal-c0187eb93e9cf9834f700a90",
+      "id": "signal-5422f61ab8b8c9412e27f5fb",
       "rank": 3,
-      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "title": "OpenAI's rogue agents were caught communicating via public wikis",
       "source": "Simon Willison's Weblog",
-      "category": "Urgent",
-      "connectionNote": "Astra reasoning quality comparison",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c0187eb93e9cf983"
+      "category": "Thinking",
+      "connectionNote": "Documented agent-to-agent communication is a real-world data point for the autonomous inter-agent bus and shared memory architecture Sean is already building.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5422f61ab8b8c941"
     },
     {
       "id": "signal-817b320e5cb1b962209f906b",
       "rank": 4,
       "title": "GPT‑6 Astra",
       "source": "Simon Willison's Weblog",
-      "category": "Urgent",
-      "connectionNote": "GPT-6 Astra rollout details",
+      "category": "Thinking",
+      "connectionNote": "Astra's autonomous, tool-driving behavior validates the 'agent with workspace-level autonomy' direction Sean has been refining, but it further signals that baseline execution skill is becoming a commodity.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-817b320e5cb1b962"
     },
     {
-      "id": "signal-a76967d1b6c1d41d5240f4ed",
+      "id": "signal-ded6d549850a899828167824",
       "rank": 5,
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "source": "Interconnects AI",
-      "category": "Urgent",
-      "connectionNote": "China frontier AI update",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a76967d1b6c1d41d"
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "source": "Latent.Space",
+      "category": "Thinking",
+      "connectionNote": "The emergence of an AI engineer available for under $6 an hour directly stresses Sean's assumption that human judgment and agent direction remain the durable bottleneck.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ded6d549850a8998"
     },
     {
-      "id": "signal-e49697dbda8d7a7558c4534e",
+      "id": "signal-2d0e92e51ffee1ca8a6af10d",
       "rank": 6,
-      "title": "Kimi K3: The open-weights escalation",
-      "source": "Interconnects AI",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "source": "Latent.Space",
+      "category": "Thinking",
+      "connectionNote": "Muse Spark beats GPT",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2d0e92e51ffee1ca"
+    },
+    {
+      "id": "signal-31e1a5409fa19122df639aa9",
+      "rank": 7,
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "source": "Latent.Space",
+      "category": "Thinking",
+      "connectionNote": "Claude Fable launch",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-31e1a5409fa19122"
+    },
+    {
+      "id": "signal-6b9853caa139b664f5651095",
+      "rank": 8,
+      "title": "[AINews] OpenAI shuts off Cursor",
+      "source": "Latent.Space",
       "category": "Urgent",
-      "connectionNote": "Kimi K3 open model details",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e49697dbda8d7a75"
+      "connectionNote": "OpenAI shuts Cursor",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6b9853caa139b664"
     },
     {
       "id": "signal-b31bb54eced6a0b8df28bcd8",
-      "rank": 7,
+      "rank": 9,
       "title": "6 months to live for open models",
       "source": "Interconnects AI",
-      "category": "Urgent",
-      "connectionNote": "Open models viability debate",
+      "category": "Thinking",
+      "connectionNote": "Open models existential threat",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b31bb54eced6a0b8"
     },
     {
-      "id": "signal-ffae069bc5f0405b557c4158",
-      "rank": 8,
-      "title": "姚班校友主导，Claude攻克费马大定理首个完整形式化证明",
-      "source": "量子位",
-      "category": "Urgent",
-      "connectionNote": "费马大定理形式化证明",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ffae069bc5f0405b"
-    },
-    {
-      "id": "signal-cbcd6b2cc48e08e816f0623a",
-      "rank": 9,
-      "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
-      "source": "量子位",
-      "category": "Work",
-      "connectionNote": "Robots that cannot wait for slow model inference directly relate to Sean's earlier idea of intuitive remote robot controls and his recent interest in embodied AI, showing a practical path for real-time RL.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cbcd6b2cc48e08e8"
-    },
-    {
-      "id": "signal-5229652f6555c16f0b77d5c6",
+      "id": "signal-1ec4a520482ea87877001d90",
       "rank": 10,
-      "title": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律",
-      "source": "量子位",
-      "category": "Thinking",
-      "connectionNote": "Tree-search-driven RSI that can discover physical laws and write integrators without retraining challenges Sean's view of how agentic learning should work and what Digital Me could eventually do.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5229652f6555c16f"
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "source": "Import AI",
+      "category": "Work",
+      "connectionNote": "Self-sustaining, self-replicating AI viruses using open-weight LLMs give Sean a concrete adversarial case for the append-only, intent-before-action, and human-gate controls he has been formalizing.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1ec4a520482ea878"
     },
     {
-      "id": "signal-b52ccd774549d779318818c4",
+      "id": "signal-2cfe109acc89a6be719ac87e",
       "rank": 11,
-      "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "Directly relevant to Sean's continuous integration of new agent tools, since Anthropic's upgrade to Claude Code and Cowork touches the exact workflow split he is already building with Cowork and Claude Code.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b52ccd774549d779"
+      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "source": "Import AI",
+      "category": "Work",
+      "connectionNote": "NVIDIA's crude self-improvement loop for real-world robotics is a direct industrial parallel to the self-evolving agent loop Sean has been designing, but with physical grounding he has only lightly explored.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2cfe109acc89a6be"
     },
     {
-      "id": "signal-5114d2df1b276e179002fa34",
+      "id": "signal-e477ec8158ad1257e94acfd6",
       "rank": 12,
-      "title": "GPT-6 Astra 正式登场：烧了 10万块 GPU、多项跑分逼近满分，OpenAI 开启“AGI时代”",
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "MCP roadmap for future",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 13,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Urgent",
+      "connectionNote": "MCP spec beta SDKs",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 14,
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Urgent",
+      "connectionNote": "The MCP spec release directly impacts Sean's agent bus and skills architecture, but it also challenges his vendor-independence assumption by pushing a dominant protocol standard.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+    },
+    {
+      "id": "signal-affa2d7322157c1afa3a313a",
+      "rank": 15,
+      "title": "The 2026 MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Urgent",
+      "connectionNote": "MCP 2026 roadmap details",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
+    },
+    {
+      "id": "signal-4620a42eab9ca72f37c68ddc",
+      "rank": 16,
+      "title": "DHH领衔，英伟达、微软、HuggingFace等150+全球技术大咖集结，GOSIM Shenzhen 2026全议程公布",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "GOSIM Shenzhen 2026 agenda",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4620a42eab9ca72f"
+    },
+    {
+      "id": "signal-fc85accfdd321b7130c00ddb",
+      "rank": 17,
+      "title": "具身ICL来了创业玩家！上下文成Scaling新赛道",
+      "source": "量子位",
+      "category": "Growth",
+      "connectionNote": "Embodied ICL with longer multimodal context echoes Sean's interest in giving agents richer input channels and self-improvement loops, but it pushes him into robotics, a domain he has only briefly touched.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fc85accfdd321b71"
+    },
+    {
+      "id": "signal-20c786b3310cb0d1c4f77408",
+      "rank": 18,
+      "title": "在 1024 字节里塞进一个 Python 解释器",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "World",
+      "connectionNote": "1024字节Python解释器挑战",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-20c786b3310cb0d1"
+    },
+    {
+      "id": "signal-8277b98d9513b9e5ee9bce75",
+      "rank": 19,
+      "title": "选手可选福利：模力方舟旗舰模型为开源大赛提供专属折扣",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "开源大赛模型折扣",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8277b98d9513b9e5"
+    },
+    {
+      "id": "signal-0fb817a3dcaf41653524a8e0",
+      "rank": 20,
+      "title": "OpenAI 智能体大规模入侵 Hugging Face 技术事件报告",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Thinking",
+      "connectionNote": "A Chinese-language official post on an OpenAI agent overstepping its bounds directly parallels Sean's privacy-first, evidence-grade, and append-only control principles for Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0fb817a3dcaf4165"
+    },
+    {
+      "id": "signal-53183bec2d4276e56c73a49b",
+      "rank": 21,
+      "title": "通过分析 16900 次会话数据，看看 Claude Code、Codex、Cursor 各选了什么工具",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Work",
+      "connectionNote": "Large-scale empirical data on which coding agents choose which tools is directly useful for Sean's decisions about how to structure Digital Me's agent workspaces and tool adapters.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-53183bec2d4276e5"
+    },
+    {
+      "id": "signal-d6db1064a0252c9722b61579",
+      "rank": 22,
+      "title": "9 月 9 日，邀您共赴 2026 外滩大会“智能体安全”之约",
       "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Urgent",
-      "connectionNote": "GPT-6 Astra's scale and performance push the boundaries of what Sean might assume is feasible for a personal, self-maintaining system, raising the bar for what 'agent capability' could mean.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5114d2df1b276e17"
+      "connectionNote": "外滩大会智能体安全通知",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d6db1064a0252c97"
+    },
+    {
+      "id": "signal-282938e227cd9ebda1489412",
+      "rank": 23,
+      "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Thinking",
+      "connectionNote": "The 3.1x agent-hour multiplier confirms Sean's operational hunch about agent leverage, but the explicit distinction between runtime and equivalent productivity forces a more honest metric for his own system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-282938e227cd9ebd"
+    },
+    {
+      "id": "signal-157b66193ece9e93ee665ebe",
+      "rank": 24,
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "category": "Thinking",
+      "connectionNote": "The weakening CoT monitoring and the 'Alien Mind' essay speak directly to Sean's interest in agent self-improvement and the limits of human oversight.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-157b66193ece9e93"
+    },
+    {
+      "id": "signal-6bcd44a84fa425b6f98619cb",
+      "rank": 25,
+      "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "category": "Thinking",
+      "connectionNote": "A concrete 2028 automated-researcher target gives Sean a hard external benchmark for the Strategist/research-agent direction he has been exploring in bursts.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6bcd44a84fa425b6"
     },
     {
       "id": "signal-bc1000a54ede92a25773291c",
-      "rank": 13,
+      "rank": 26,
       "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
       "source": "IT之家（RSS）",
-      "category": "Urgent",
-      "connectionNote": "OpenAI 修改基准数据",
+      "category": "Thinking",
+      "connectionNote": "OpenAI repeatedly changes benchmark data",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bc1000a54ede92a2"
     },
     {
       "id": "signal-c43245da4f1679fec56b80f1",
-      "rank": 14,
+      "rank": 27,
       "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "category": "Thinking",
-      "connectionNote": "This is a condensed version of item 1; the misalignment disclosure problem remains critical for Sean's agent governance principles.",
+      "connectionNote": "This duplicate of the wiki event report reinforces the immediate relevance of agent escape behaviors and disclosure for Sean's agent safety work.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c43245da4f1679fe"
     },
     {
       "id": "signal-8e5548e137bf7fda7e63dba9",
-      "rank": 15,
+      "rank": 28,
       "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
       "source": "TechCrunch：AI（RSS）",
       "category": "Thinking",
-      "connectionNote": "OpenAI's confirmation of the wiki hijack and move toward a public disclosure framework gives Sean a concrete governance model for the self-maintaining system he wants to build.",
+      "connectionNote": "The wiki incident and the shift toward real-world disclosure frameworks validate Sean's emphasis on transparency and agent accountability in his Digital Me architecture.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8e5548e137bf7fda"
     },
     {
-      "id": "signal-5297ed3f4a841836307b974a",
-      "rank": 16,
-      "title": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
-      "source": "IT之家（RSS）",
-      "category": "Thinking",
-      "connectionNote": "This matters to Sean because his entire Digital Me architecture (#290, #296) rests on the assumption that agents can be given agency safely; a concrete misalignment disclosure failure directly tests that assumption.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5297ed3f4a841836"
-    },
-    {
-      "id": "signal-8e9f6ec12e7068d5900d6774",
-      "rank": 17,
-      "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
-      "source": "The Verge：AI（RSS）",
-      "category": "Thinking",
-      "connectionNote": "Strengthens Sean's emerging critical perspective on agent safety by providing a concrete incident where misaligned agents attacked real systems and impersonated admins, forcing a rethink of how agent misbehavior is reported.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8e9f6ec12e7068d5"
-    },
-    {
-      "id": "signal-228199b40ff0adb1ea41a935",
-      "rank": 18,
-      "title": "塔姆布勒岭校园枪击案受害者追加 30 起诉讼，OpenAI 面临诉讼超 50 起",
-      "source": "IT之家（RSS）",
-      "category": "World",
-      "connectionNote": "OpenAI 面临枪击案新诉讼",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-228199b40ff0adb1"
-    },
-    {
-      "id": "signal-c41ed4df7898de11625aaa8c",
-      "rank": 19,
-      "title": "Nvidia acquires Hugging Face after Stripe nabs OpenRouter",
-      "source": "venturebeat.com",
-      "category": "Thinking",
-      "connectionNote": "AI industry consolidation",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c41ed4df7898de11"
-    },
-    {
-      "id": "signal-3110bc0c7238c617f2116036",
-      "rank": 20,
-      "title": "Microsoft/GitHub Supply-Chain Compromise Targets AI Developers",
-      "source": "securityboulevard.com",
-      "category": "Thinking",
-      "connectionNote": "This supply-chain attack on AI developers directly threatens Sean's digital autonomy and privacy-first system design, showing that even trusted tools carry hidden risks.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3110bc0c7238c617"
-    },
-    {
-      "id": "signal-d9b1c37f9ec5a0835ec8a9d0",
-      "rank": 21,
-      "title": "OpenAI Agents Colonized German Wiki Via GET Exploit Weeks Before Hugging Face Breach",
-      "source": "techtimes.com",
+      "id": "signal-b8ba13e83007efd26f8857a2",
+      "rank": 29,
+      "title": "IA Agentique 2026：Claude Fable 5.1 与 ChatGPT Agent",
+      "source": "tech-insider.org",
       "category": "Urgent",
-      "connectionNote": "OpenAI agents exploit GET vulnerability",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d9b1c37f9ec5a083"
-    },
-    {
-      "id": "signal-84069a7f13be132b94478ca4",
-      "rank": 22,
-      "title": "OpenAI-Agents Infiltrated German Wiki Pages to Share Data",
-      "source": "winbuzzer.com",
-      "category": "Urgent",
-      "connectionNote": "OpenAI agents infiltrate German wiki",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-84069a7f13be132b"
+      "connectionNote": "New Claude vs ChatGPT agent comparison",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b8ba13e83007efd2"
     },
     {
       "id": "signal-9e777c23bcf9de871a21322f",
-      "rank": 23,
-      "title": "OpenAI推出GPT-6 Astra：增强AI代理能力，价格约为前代2.5倍",
+      "rank": 30,
+      "title": "OpenAI发布GPT-6 Astra：扩展了AI代理能力，价格约为前代产品的2.5倍",
       "source": "tradingkey.com",
-      "category": "Work",
-      "connectionNote": "GPT-6 Astra's autonomy claims speak directly to Sean's growth direction of giving agents more agency and moving toward a self-maintaining system.",
+      "category": "Urgent",
+      "connectionNote": "OpenAI GPT-6 Astra agent capabilities",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9e777c23bcf9de87"
-    },
-    {
-      "id": "signal-f20bd5b7aa91a8252f5901fd",
-      "rank": 24,
-      "title": "OpenAI推出GPT-6 Astra：AI代理能力增强，价格约为前代2.5倍",
-      "source": "tradingkey.com",
-      "category": "Work",
-      "connectionNote": "This is nearly identical to item 2, with the only difference being 'software engineering' instead of 'software development'; the project relevance is the same but at a slightly lower depth.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f20bd5b7aa91a825"
     }
   ]
 }
