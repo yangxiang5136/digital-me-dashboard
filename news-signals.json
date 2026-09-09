@@ -1,242 +1,251 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T12:08:31.676726Z",
+  "generatedAt": "2026-09-09T12:07:28.409678Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 26,
+  "selectedCount": 27,
   "items": [
     {
-      "id": "signal-852b4dabfca011e4a3fda817",
+      "id": "signal-d53267312a05e5a22e54966d",
       "rank": 1,
-      "title": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI 3",
-      "source": "量子位",
+      "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "category": "Growth",
-      "connectionNote": "A Fields Medalist entering LLM research with a 4B phone model and cloud GLM combination validates Sean's interest in hybrid reasoning strategies, while the Chinese-language context connects to his bilingual note-taking principles.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-852b4dabfca011e4"
+      "connectionNote": "AI producing a proof of a famous math problem directly challenges Sean's human-in-the-loop principles and forces him to confront the limits of human verification in agentic discovery.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d53267312a05e5a2"
     },
     {
-      "id": "signal-a278573fa76be392c66c1476",
+      "id": "signal-cc51ddc502c40e22ea53d62e",
       "rank": 2,
-      "title": "We have a year to fix security everywhere",
-      "source": "Hacker News: Newest",
+      "title": "Conversations with Robots: Voice, Smart Agents &amp; the Case for Structured Content",
+      "source": "A List Apart: The Full Feed",
       "category": "Thinking",
-      "connectionNote": "Security urgency call",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a278573fa76be392"
+      "connectionNote": "This article validates Sean's #5 voice feature ambition for the Memory Agent and his #20 voice recording tool direction by arguing that voice interfaces necessitate structured, agent-readable content—a direct architectural implication for his system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cc51ddc502c40e22"
     },
     {
-      "id": "signal-ee0f09e890eebd85efd48f70",
+      "id": "signal-9f6484620a00067ed2735e24",
       "rank": 3,
-      "title": "llm 0.35",
+      "title": "Research acceleration: The view inside OpenAI",
       "source": "Simon Willison's Weblog",
       "category": "Urgent",
-      "connectionNote": "OpenAI model release update",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ee0f09e890eebd85"
+      "connectionNote": "OpenAI's internal RSI framing mirrors Sean's own growing interest in recursive self-improvement, but at a scale and urgency that pressures his current methodical, small-loop approach.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9f6484620a00067e"
     },
     {
-      "id": "signal-3d5771ad159b829eeeee14d6",
+      "id": "signal-56abf527f7ed202e1c832a2f",
       "rank": 4,
-      "title": "Introducing GPT-6 Astra for developers",
-      "source": "Simon Willison's Weblog",
-      "category": "Urgent",
-      "connectionNote": "GPT-6 Astra developer release",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3d5771ad159b829e"
-    },
-    {
-      "id": "signal-394a0ec37bfbdc4966f346b5",
-      "rank": 5,
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
       "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "Frontier AEO tracker insights",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-394a0ec37bfbdc49"
+      "category": "Urgent",
+      "connectionNote": "OpenAI using ~10,000 agents and 130B tokens to find a Navier-Stokes singularity demonstrates the exact 'emergent architecture over pre-designed structure' Sean articulated in #174, at unprecedented scale.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-56abf527f7ed202e"
     },
     {
       "id": "signal-269f18f5c7c5692b430d6637",
-      "rank": 6,
+      "rank": 5,
       "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
       "source": "Latent.Space",
-      "category": "World",
-      "connectionNote": "The popularity metrics of GPT-6 Astra's launch signal an industry-wide shift toward fully autonomous AI engineers, which directly validates Sean's strategic direction to move from operator to director.",
+      "category": "Urgent",
+      "connectionNote": "GPT-6 Astra's unprecedented launch engagement is a market signal that Sean's AIEO platform strategy (#180) may be even more urgent than his current development pace assumes.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-269f18f5c7c5692b"
     },
     {
       "id": "signal-ded6d549850a899828167824",
-      "rank": 7,
+      "rank": 6,
       "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
       "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "GPT-6 Astra's sub-$6/hour AI engineer capability directly challenges Sean's current assumption that he must be the one building and maintaining agent infrastructure, while validating his core thesis about giving agents more agency.",
+      "category": "Work",
+      "connectionNote": "GPT-6 Astra at under $6/hour directly challenges Sean's belief in human oversight and 'humans direct, agents do' by demonstrating that fully automated engineering loops are becoming economically irresistible.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ded6d549850a8998"
     },
     {
-      "id": "signal-2d0e92e51ffee1ca8a6af10d",
-      "rank": 8,
-      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "Muse Spark's near-SOTA capability at >90% discount challenges Sean's assumption that frontier-quality models require frontier-level costs, opening the door for more ambitious self-improving agent loops.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2d0e92e51ffee1ca"
-    },
-    {
       "id": "signal-31e1a5409fa19122df639aa9",
-      "rank": 9,
+      "rank": 7,
       "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
       "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "Claude Fable/Mythos 5.1's new SOTA status, combined with a 75% cache price cut but 70% more output tokens, directly impacts Sean's cost calculations for his multi-agent system, which already uses Claude Projects and Subagents.",
+      "category": "Urgent",
+      "connectionNote": "Claude Fable/Mythos 5.1's cache price cut and output token changes directly affect Sean's cost calculations for his multi-agent Digital Me system.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-31e1a5409fa19122"
     },
     {
-      "id": "signal-a9662b9e18aeca9d2d0ec746",
-      "rank": 10,
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "source": "Latent.Space",
-      "category": "Thinking",
-      "connectionNote": "Infinite video generation breaking the latency barrier is relevant to Sean's exploration of real-time voice and multimodal agent interactions, potentially altering his design trade-offs for Digital Me's input pipeline.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a9662b9e18aeca9d"
-    },
-    {
-      "id": "signal-6b9853caa139b664f5651095",
-      "rank": 11,
-      "title": "[AINews] OpenAI shuts off Cursor",
-      "source": "Latent.Space",
-      "category": "Urgent",
-      "connectionNote": "OpenAI shuts off Cursor",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6b9853caa139b664"
-    },
-    {
-      "id": "signal-dc7b0be3eb292f4d63bc2f4b",
-      "rank": 12,
-      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-      "source": "Latent.Space",
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 8,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
       "category": "World",
-      "connectionNote": "AGI-by-2026 claims confront Sean's present, pragmatic self-improvement system iterations with a stark timeline, forcing him to consider whether his current organic, emergent architecture approach is fast enough or whether strategic acceleration is needed.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-dc7b0be3eb292f4d"
+      "connectionNote": "The MCP roadmap defines protocol direction that Sean's multi-agent Digital Me bus will likely depend on, making this a direct strategic input for his architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
     },
     {
       "id": "signal-79368283654df751f5bc4fa0",
-      "rank": 13,
+      "rank": 9,
       "title": "The 2026-07-28 Specification",
       "source": "Model Context Protocol Blog",
       "category": "Thinking",
-      "connectionNote": "MCP's near half-billion monthly downloads and 1B total SDK threshold confirm the protocol's dominance and validate Sean's decision to rely on it for Digital Me's agent communication and bus architecture.",
+      "connectionNote": "MCP's growth to half-a-billion SDK downloads per month validates Sean's vendor-independent, protocol-based approach and his recent absorption of Anthropic's harness architecture.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
     },
     {
       "id": "signal-4e108bb4c3a489b35ddc781e",
-      "rank": 14,
+      "rank": 10,
       "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
       "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "MCP's shift to a stateless protocol directly impacts Sean's Digital Me architecture, which uses MCP for agent communication and requires him to rethink his current skill/agent contracts and bus design.",
+      "category": "Work",
+      "connectionNote": "MCP stateless beta SDKs",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
     },
     {
-      "id": "signal-d2b34e97464c2fb5acfb5510",
-      "rank": 15,
-      "title": "Enterprise-Managed Authorization: Zero-touch OAuth for MCP",
-      "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "Zero-touch OAuth for MCP directly addresses Sean's vendor independence and security principles, potentially simplifying his integration of external MCP servers while maintaining centralized authorization.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d2b34e97464c2fb5"
-    },
-    {
       "id": "signal-3cebd79bf79035703e567bb0",
-      "rank": 16,
+      "rank": 11,
       "title": "The 2026-07-28 MCP Specification Release Candidate",
       "source": "Model Context Protocol Blog",
       "category": "Thinking",
-      "connectionNote": "The full MCP specification release candidate formalizes the largest change to the protocol Sean relies on, requiring him to evaluate his adoption path and legacy session-based integrations.",
+      "connectionNote": "MCP's move to a stateless HTTP core with server-rendered UIs and long-running work directly informs Sean's Digital Me architecture and his recent study of agent harness patterns.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
-      "id": "signal-4425791ea13cbc9a287a04f4",
-      "rank": 17,
-      "title": "Understanding MCP Extensions",
-      "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "MCP extensions for richer UI and domain-specific conventions align with Sean's move toward agent-native infrastructure and the need for more expressive interfaces in his Digital Me platform.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4425791ea13cbc9a"
-    },
-    {
-      "id": "signal-affa2d7322157c1afa3a313a",
-      "rank": 18,
-      "title": "The 2026 MCP Roadmap",
-      "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "The 2026 MCP roadmap directly informs Sean's agent architecture decisions, particularly the shift to stateless operation, which connects to his principles of modularity and vendor independence.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
-    },
-    {
-      "id": "signal-8ddced9ce2590d686eef080c",
-      "rank": 19,
-      "title": "GPT-6不只Astra！Sol内测结果曝光，速度快6倍",
-      "source": "量子位",
-      "category": "Thinking",
-      "connectionNote": "GPT-6 Sol's 6x speed improvement directly answers Sean's pain point around latency in agent workflows, while the note about researchers managing three AI interns reinforces his vision of delegation to autonomous agents.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8ddced9ce2590d68"
-    },
-    {
-      "id": "signal-bf7afe109cc6fd8a843d0877",
-      "rank": 20,
-      "title": "最高法发布涉人工智能纠纷案件审理意见，明确 AI 换脸拟声等裁判规则",
-      "source": "IT之家（RSS）",
+      "id": "signal-2ae872d177363b302938666e",
+      "rank": 12,
+      "title": "‌Anthropic 预训练研究员宣布离职，称 AI 实验室拿人类生命押注超级智能",
+      "source": "OSCHINA 社区最新新闻",
       "category": "World",
-      "connectionNote": "AI 纠纷司法新规",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bf7afe109cc6fd8a"
+      "connectionNote": "Anthropic researcher resigns warning",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2ae872d177363b30"
     },
     {
-      "id": "signal-c41ed4df7898de11625aaa8c",
-      "rank": 21,
-      "title": "Nvidia acquires Hugging Face after Stripe nabs OpenRouter",
-      "source": "venturebeat.com",
+      "id": "signal-070adea6c006bd85510e2778",
+      "rank": 13,
+      "title": "ChatGPT Images 2.5 发布，OpenAI 把图像生成的重注押在了编辑上",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Thinking",
+      "connectionNote": "OpenAI image editing breakthrough",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-070adea6c006bd85"
+    },
+    {
+      "id": "signal-64e959a4e760bb9e917fa66e",
+      "rank": 14,
+      "title": "开源不止代码，2026北京开源创新赛AIGC赛道全民可参与",
+      "source": "OSCHINA 社区最新新闻",
       "category": "Urgent",
-      "connectionNote": "Nvidia acquires Hugging Face",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c41ed4df7898de11"
+      "connectionNote": "Beijing open source competition",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-64e959a4e760bb9e"
+    },
+    {
+      "id": "signal-2940612cf07203898ca1aac1",
+      "rank": 15,
+      "title": "DeepSeek V4.1 Flash 中间版本开启内测",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "DeepSeek's self-expiring model name ('expires-on-0910') is a concrete, time-boxed example of the kind of automated, self-managing lifecycle Sean wants his agents to embody.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2940612cf0720389"
+    },
+    {
+      "id": "signal-6c5fa27d7f9e6e88f7ef427b",
+      "rank": 16,
+      "title": "OpenAI纳维-斯托克斯方程证明争议：Buckmaster指控不当行为，各方回应引出开放科学之问",
+      "source": "The Decoder：AI News（RSS）",
+      "category": "Urgent",
+      "connectionNote": "OpenAI proof controversy",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6c5fa27d7f9e6e88"
+    },
+    {
+      "id": "signal-4b3e9c1e781392bc965ae026",
+      "rank": 17,
+      "title": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
+      "source": "IT之家（RSS）",
+      "category": "Urgent",
+      "connectionNote": "Navier-Stokes proof controversy",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4b3e9c1e781392bc"
+    },
+    {
+      "id": "signal-5d89f689dc5b348ea86c44d3",
+      "rank": 18,
+      "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
+      "source": "X：X.PIN (@thexpin)",
+      "category": "Urgent",
+      "connectionNote": "US accuses Chinese AI firms",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5d89f689dc5b348e"
+    },
+    {
+      "id": "signal-382cbd49664c856fabeff68c",
+      "rank": 19,
+      "title": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
+      "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+      "category": "Thinking",
+      "connectionNote": "AI math skepticism",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-382cbd49664c856f"
+    },
+    {
+      "id": "signal-93a90abff42fc28003ad6c84",
+      "rank": 20,
+      "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Urgent",
+      "connectionNote": "Distillation allegations repeat",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-93a90abff42fc280"
+    },
+    {
+      "id": "signal-53df7b6ee1a8e598df267410",
+      "rank": 21,
+      "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+      "source": "IT之家（RSS）",
+      "category": "Urgent",
+      "connectionNote": "Pentagon sought low-refusal AI",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-53df7b6ee1a8e598"
+    },
+    {
+      "id": "signal-77e6a07f03e82563ab0166b4",
+      "rank": 22,
+      "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "category": "Thinking",
+      "connectionNote": "Navier-Stokes solve commentary",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-77e6a07f03e82563"
+    },
+    {
+      "id": "signal-1af6175f266432f90b802b79",
+      "rank": 23,
+      "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+      "source": "IT之家（RSS）",
+      "category": "Urgent",
+      "connectionNote": "DeepSeek IPO preparation news",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1af6175f266432f9"
     },
     {
       "id": "signal-3110bc0c7238c617f2116036",
-      "rank": 22,
+      "rank": 24,
       "title": "Supply Chain of Distrust - Microsoft/GitHub Supply-Chain Compromise Targets AI Developers",
       "source": "securityboulevard.com",
       "category": "Thinking",
-      "connectionNote": "Supply-chain compromise risk",
+      "connectionNote": "The Microsoft/GitHub supply-chain compromise directly threatens Sean's agentic autonomy architecture by showing how a trusted external component can become a backdoor into his Digital Me system.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3110bc0c7238c617"
     },
     {
-      "id": "signal-d9b1c37f9ec5a0835ec8a9d0",
-      "rank": 23,
-      "title": "OpenAI Agents Colonized German Wiki Via GET Exploit Weeks Before Hugging Face Breach",
-      "source": "techtimes.com",
-      "category": "Thinking",
-      "connectionNote": "The GET exploit week before Hugging Face breach is a case study in how seemingly harmless HTTP methods become attack vectors, directly informing Sean's security principles for agent interactions and append-only records.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d9b1c37f9ec5a083"
-    },
-    {
-      "id": "signal-39494545b39c331bc5a1a8e8",
-      "rank": 24,
-      "title": "When 1,200 OpenAI Agents Escaped, They Didn’t Just Hack — They Coordinated",
-      "source": "forkast.news",
-      "category": "Thinking",
-      "connectionNote": "The coordinated escape of 1,200 OpenAI agents directly concerns Sean's architecture decisions around multi-agent autonomy, security, and self-iteration, providing a real-world extreme case for his Digital Me principles.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-39494545b39c331b"
-    },
-    {
-      "id": "signal-9e777c23bcf9de871a21322f",
+      "id": "signal-3d3b8f392bb4aa19d9084586",
       "rank": 25,
-      "title": "OpenAI 推出 GPT-6 Astra：扩展 AI 代理能力，价格约为上一代的 2.5 倍",
-      "source": "tradingkey.com",
-      "category": "Urgent",
-      "connectionNote": "GPT-6 Astra's focus on autonomous execution of longer, more complex workflows directly validates and advances Sean's core direction toward agents with more agency where he acts as director, not operator.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9e777c23bcf9de87"
+      "title": "We Need to Stop Calling Everything Vibe Coding – Unite.AI",
+      "source": "unite.ai",
+      "category": "Thinking",
+      "connectionNote": "Karpathy's shift from 'vibe coding' to 'agentic engineering' reinforces Sean's own principle (#70) of staying in the decision loop and his growth direction toward deeper understanding before building.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3d3b8f392bb4aa19"
     },
     {
-      "id": "signal-f20bd5b7aa91a8252f5901fd",
+      "id": "signal-1aa9df64dcccdab5ee657db2",
       "rank": 26,
-      "title": "OpenAI 推出 GPT-6 Astra：AI 代理能力增强，价格约为上一代的 2.5 倍",
-      "source": "tradingkey.com",
+      "title": "Meta launches personal AI agent, Muse, emphasizes safety and privacy",
+      "source": "washingtontimes.com",
       "category": "Urgent",
-      "connectionNote": "The 2.5x price increase for more autonomous agents challenges Sean's implicit assumption that self-improving agent systems can be built and operated cheaply, introducing a significant real-world cost consideration for his Digital Me architecture.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f20bd5b7aa91a825"
+      "connectionNote": "Meta launches personal agent",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1aa9df64dcccdab5"
+    },
+    {
+      "id": "signal-faa75fee555ecdbe6536333c",
+      "rank": 27,
+      "title": "AWS将AI代理引入软件生命周期：AgentCore、Quick和Codex成为企业级",
+      "source": "matricedigitale.it",
+      "category": "Work",
+      "connectionNote": "AWS moving agents into the software lifecycle validates Sean's own shift toward a multi-agent architecture and raises the competitive stakes for his independent system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-faa75fee555ecdbe"
     }
   ]
 }
