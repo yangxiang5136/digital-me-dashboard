@@ -1,7 +1,233 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T12:09:54.554791Z",
+  "generatedAt": "2026-09-15T12:08:34.874317Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 0,
-  "items": []
+  "selectedCount": 25,
+  "items": [
+    {
+      "id": "signal-1ec4a520482ea87877001d90",
+      "rank": 1,
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "source": "Import AI",
+      "category": "Growth",
+      "connectionNote": "AI viruses and creativity confusion",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1ec4a520482ea878"
+    },
+    {
+      "id": "signal-56abf527f7ed202e1c832a2f",
+      "rank": 2,
+      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+      "source": "Latent.Space",
+      "category": "Growth",
+      "connectionNote": "AI solves math proof",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-56abf527f7ed202e"
+    },
+    {
+      "id": "signal-a291beee507e7b8b25abe009",
+      "rank": 3,
+      "title": "When will average people feel AI’s impact?",
+      "source": "Interconnects AI",
+      "category": "World",
+      "connectionNote": "When AI impact felt",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a291beee507e7b8b"
+    },
+    {
+      "id": "signal-44cf408e3c378c04407412fb",
+      "rank": 4,
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "source": "Interconnects AI",
+      "category": "Thinking",
+      "connectionNote": "The open model license evolution article connects to Sean's vendor-independence principle and his interest in practical AI infrastructure, but suggests license assumptions may be shifting in ways Sean hasn't reconciled.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-44cf408e3c378c04"
+    },
+    {
+      "id": "signal-a76967d1b6c1d41d5240f4ed",
+      "rank": 5,
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "source": "Interconnects AI",
+      "category": "Thinking",
+      "connectionNote": "The detail about Chinese labs' ability to keep pace with the frontier is directly relevant to Sean's bilingual context and his strategic consideration of which models and vendors to build upon, as seen in his recent vendor decisions.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a76967d1b6c1d41d"
+    },
+    {
+      "id": "signal-8f9c01347e5de6adfd5c9599",
+      "rank": 6,
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "source": "Interconnects AI",
+      "category": "Work",
+      "connectionNote": "Post-training textbook launch",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8f9c01347e5de6ad"
+    },
+    {
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 7,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "MCP's shift from local tool wiring to a production protocol validates Sean's vendor-independence principle and agent communication architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+    },
+    {
+      "id": "signal-affa2d7322157c1afa3a313a",
+      "rank": 8,
+      "title": "The 2026 MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "The 2026 roadmap offers concrete long-term direction for the shared memory bus and agent contracts Sean is actively designing.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
+    },
+    {
+      "id": "signal-9e3bb98c3ee3fe976e6a2934",
+      "rank": 9,
+      "title": "具透 | 精心优化， 体验感愉悦升华：iOS 27 中值得关注的新特性",
+      "source": "少数派",
+      "category": "World",
+      "connectionNote": "iOS 27 新特性盘点",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9e3bb98c3ee3fe97"
+    },
+    {
+      "id": "signal-fd8563f32a8219bb1921b22b",
+      "rank": 10,
+      "title": "派早报：中国联通宣布支持所有国行设备 eSIM 业务办理、Homebrew 7.0.0 发布等",
+      "source": "少数派",
+      "category": "Urgent",
+      "connectionNote": "联通eSIM与Homebrew 7",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fd8563f32a8219bb"
+    },
+    {
+      "id": "signal-c4d28c96ce81b0e060b00f1e",
+      "rank": 11,
+      "title": "派早报：美国 AI 高管呼吁放缓研发，特朗普反对",
+      "source": "少数派",
+      "category": "Urgent",
+      "connectionNote": "AI高管呼吁放缓研发",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c4d28c96ce81b0e0"
+    },
+    {
+      "id": "signal-e5b3361512b60e84d5fd0f36",
+      "rank": 12,
+      "title": "阶跃星辰发布 Step Audio 3 系列语音模型，多款上榜全球第一",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Thinking",
+      "connectionNote": "语音模型竞争新方向",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e5b3361512b60e84"
+    },
+    {
+      "id": "signal-9acd28520b7741126b9a9f2b",
+      "rank": 13,
+      "title": "飞书与豆包工作合体后首亮相：Agent 能进群，还能帮你写周报、做PPT",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Thinking",
+      "connectionNote": "The Feishu+Doubao integration article shows agents moving from personal systems into group office collaboration, directly touching Sean's ambition to make things people actually use.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9acd28520b774112"
+    },
+    {
+      "id": "signal-e4e67dbf603da6c54e3224b7",
+      "rank": 14,
+      "title": "OpenAI 发布适用于编程和计算机应用的 GPT-6 Astra",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Thinking",
+      "connectionNote": "GPT-6 Astra's release raises immediate pressure to rethink Digital Me's model choices and Sean's position on AI labor and hype.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e4e67dbf603da6c5"
+    },
+    {
+      "id": "signal-d64a0f7e4825ab207850c675",
+      "rank": 15,
+      "title": "月之暗面：网传创始人及员工信息系恶意造谣；OpenAI 放弃今年上市；iPhone Duo炒到9万，黄牛贷款欲囤货｜AI周报",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "World",
+      "connectionNote": "AI周报：月之暗面谣言等",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d64a0f7e4825ab20"
+    },
+    {
+      "id": "signal-4528e74484742a3e939fccb0",
+      "rank": 16,
+      "title": "Claude在英伟达内部被限用，黄仁勋告诉特朗普：我们不会让AI发展放缓发生",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "World",
+      "connectionNote": "Claude英伟达限用与AI政策",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4528e74484742a3e"
+    },
+    {
+      "id": "signal-6d1deecd14b1e123ea7183f8",
+      "rank": 17,
+      "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
+      "source": "The Verge：AI（RSS）",
+      "category": "World",
+      "connectionNote": "AI 放缓协议争议",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6d1deecd14b1e123"
+    },
+    {
+      "id": "signal-805ee1a40eca05b28601c0dc",
+      "rank": 18,
+      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "source": "Hacker News：AI 热帖",
+      "category": "World",
+      "connectionNote": "Houthis used Claude Code missiles",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-805ee1a40eca05b2"
+    },
+    {
+      "id": "signal-a63d5ba8c63ad191e72f6cec",
+      "rank": 19,
+      "title": "AI Agent Tools: Comparison of 15+ Platforms",
+      "source": "aimultiple.com",
+      "category": "Work",
+      "connectionNote": "This platform comparison directly feeds Sean's immediate goal of building production-grade agent tools instead of shallow prototypes.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a63d5ba8c63ad191"
+    },
+    {
+      "id": "signal-f253e4c2a5c639ac82113e81",
+      "rank": 20,
+      "title": "Databricks Launches Genie Code: Bringing Agentic Engineering to Data Work",
+      "source": "hpcwire.com",
+      "category": "Work",
+      "connectionNote": "Databricks Genie Code mirrors Sean's core premise that agentic engineering is replacing code assistance, but frames it as a data-team product maturity he may not be considering for Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f253e4c2a5c639ac"
+    },
+    {
+      "id": "signal-f3d3b16d12f4af237e692120",
+      "rank": 21,
+      "title": "Your agents lack context: Here's how to fix \"You're absolutely right!\" — Brandon Waselnuk, Unblocked｜AI Engineer",
+      "source": "finance.biggo.com",
+      "category": "Thinking",
+      "connectionNote": "The snippet directly addresses Sean's core system challenge: how to ensure his Digital Me agents have the right context to stop being a sycophantic 'You're absolutely right!' assistant.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f3d3b16d12f4af23"
+    },
+    {
+      "id": "signal-6683e9d4d2659f27ef0b6dbc",
+      "rank": 22,
+      "title": "How We Solved Agent Building — Andrew Qu, Vercel｜AI Engineer",
+      "source": "finance.biggo.com",
+      "category": "Work",
+      "connectionNote": "Andrew Qu's pragmatic 'ship personal projects that work' philosophy resonates with Sean's struggle to move beyond prototypes to real use.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6683e9d4d2659f27"
+    },
+    {
+      "id": "signal-671818f4f2bc41ba1bc76a8f",
+      "rank": 23,
+      "title": "OpenAI Agents API：面向云代理的 Codex 引擎",
+      "source": "01net.it",
+      "category": "Thinking",
+      "connectionNote": "OpenAI Agents API for cloud",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-671818f4f2bc41ba"
+    },
+    {
+      "id": "signal-b65ec14e3c4a571b57e7a531",
+      "rank": 24,
+      "title": "Visual Studio Code 现在能独立工作：可编程 AI 代理和语音模式",
+      "source": "ilsoftware.it",
+      "category": "Work",
+      "connectionNote": "VS Code autonomous agents",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b65ec14e3c4a571b"
+    },
+    {
+      "id": "signal-c6c19cee09f4568ce6d6b3a4",
+      "rank": 25,
+      "title": "When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis",
+      "source": "HF Daily Papers",
+      "category": "Work",
+      "connectionNote": "The paper's 'Elo-per-token' framework provides a structured way for Sean to evaluate and optimize the test-time strategies and resource allocation of the autonomous agents he is trying to build.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c6c19cee09f4568c"
+    }
+  ]
 }
