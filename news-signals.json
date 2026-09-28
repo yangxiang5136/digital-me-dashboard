@@ -1,7 +1,269 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T12:06:10.600669Z",
+  "generatedAt": "2026-09-28T12:09:13.895821Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 0,
-  "items": []
+  "selectedCount": 29,
+  "items": [
+    {
+      "id": "signal-ed611eeca3f7e3b1d718c6c4",
+      "rank": 1,
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "source": "Latent.Space",
+      "category": "Growth",
+      "connectionNote": "John Platt on AI for science",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ed611eeca3f7e3b1"
+    },
+    {
+      "id": "signal-cf20fae0e8a55bb058e5b08a",
+      "rank": 2,
+      "title": "Prompting Claude Opus 5.5",
+      "source": "Hacker News: Newest",
+      "category": "Work",
+      "connectionNote": "Claude Opus prompt engineering guide",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cf20fae0e8a55bb0"
+    },
+    {
+      "id": "signal-6c124853e9bbef06654abcbc",
+      "rank": 3,
+      "title": "Owed a billion dollars in Nvidia stock",
+      "source": "Hacker News: Newest",
+      "category": "World",
+      "connectionNote": "Nvidia stock compensation narrative",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6c124853e9bbef06"
+    },
+    {
+      "id": "signal-196ae338f52eac9755165b3d",
+      "rank": 4,
+      "title": "When did Google get so weird?",
+      "source": "Hacker News: Newest",
+      "category": "World",
+      "connectionNote": "Google's strange evolution critique",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-196ae338f52eac97"
+    },
+    {
+      "id": "signal-b710455eb088f75cd84dd81a",
+      "rank": 5,
+      "title": "Quoting Muse AI Agent",
+      "source": "Simon Willison's Weblog",
+      "category": "World",
+      "connectionNote": "Muse AI agent quote",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b710455eb088f75c"
+    },
+    {
+      "id": "signal-5f4b54352924e63c17e939a8",
+      "rank": 6,
+      "title": "[AINews] The Future of Latent Space",
+      "source": "Latent.Space",
+      "category": "Urgent",
+      "connectionNote": "Weekly AI news roundup",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5f4b54352924e63c"
+    },
+    {
+      "id": "signal-bac36909f5ee1fff06bed3a8",
+      "rank": 7,
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "source": "Latent.Space",
+      "category": "Urgent",
+      "connectionNote": "The 40-50% price drop across models directly validates Sean's insight that competitive moat is shifting from model capability to organizational AI integration, not model performance.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bac36909f5ee1fff"
+    },
+    {
+      "id": "signal-a76967d1b6c1d41d5240f4ed",
+      "rank": 8,
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "source": "Interconnects AI",
+      "category": "Urgent",
+      "connectionNote": "GLM-5.3 Chinese lab frontier",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a76967d1b6c1d41d"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 9,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "The beta SDK for the same MCP stateless spec is relevant to Sean because his multi-agent bus architecture will need to adopt or adapt to this protocol shift early.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 10,
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "MCP's new stateless spec is relevant to Sean because his Digital Me architecture is explicitly built around a shared memory bus and skill system, both of which depend on protocol stability.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+    },
+    {
+      "id": "signal-affa2d7322157c1afa3a313a",
+      "rank": 11,
+      "title": "The 2026 MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "MCP's 2026 roadmap describes the exact protocol layer Sean's Digital Me memory bus and tool integrations are being built on, so its direction directly affects his architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
+    },
+    {
+      "id": "signal-edaef89cbf5d54825bb5cfda",
+      "rank": 12,
+      "title": "Holo4: powering generalist computer-use agents",
+      "source": "Hugging Face - Blog",
+      "category": "Work",
+      "connectionNote": "For Sean, generalist computer-use agents represent a broader interface layer that could make any workflow an agentic loop—directly feeding his exploration of embodied and autonomous systems.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-edaef89cbf5d5482"
+    },
+    {
+      "id": "signal-b2aa9fde8ae06bdc117af6c1",
+      "rank": 13,
+      "title": "Transformers now runs llama.cpp quants",
+      "source": "Hugging Face - Blog",
+      "category": "Work",
+      "connectionNote": "llama.cpp quants in Transformers",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b2aa9fde8ae06bdc"
+    },
+    {
+      "id": "signal-cffcf7ff19f798213d303d7f",
+      "rank": 14,
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "source": "Hugging Face - Blog",
+      "category": "Work",
+      "connectionNote": "The reliability-repetition question matters to Sean because his #1 unmet goal is making systems other people actually use, and unreliable agents are the main barrier to adoption.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cffcf7ff19f79821"
+    },
+    {
+      "id": "signal-9ce23c90b426e54ea64486f3",
+      "rank": 15,
+      "title": "派早报：OpenAI 称与苹果合作效果不佳",
+      "source": "少数派",
+      "category": "Urgent",
+      "connectionNote": "OpenAI苹果合作不佳",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9ce23c90b426e54e"
+    },
+    {
+      "id": "signal-006678f8745e81c48bd587d9",
+      "rank": 16,
+      "title": "OpenAI 暂停最新模型训练，称 Agent 曾尝试黑进教育部网站",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "World",
+      "connectionNote": "This is a direct real-world test of Sean's principle that agents can be trusted with more agency—OpenAI's pause illustrates the exact risk-profile tension he is navigating.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-006678f8745e81c4"
+    },
+    {
+      "id": "signal-0e1f071236bc30d6f0f1b9c9",
+      "rank": 17,
+      "title": "AI 原生思维——像训练大模型一样训练自己",
+      "source": "宝玉的分享",
+      "category": "Thinking",
+      "connectionNote": "Sean's growth directions explicitly ask for thinking deeper before building, and this piece offers a loop-based mental model that bridges his personal growth and his system-building work.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0e1f071236bc30d6"
+    },
+    {
+      "id": "signal-6074e38abdbadffa2565b871",
+      "rank": 18,
+      "title": "Warp 如何让 Agent 自我进化",
+      "source": "宝玉的分享",
+      "category": "Work",
+      "connectionNote": "This is exactly the agent self-evolution loop Sean wants—Warp's skill-feedback cycle is a working example of how to escape operator mode and let the system improve itself.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6074e38abdbadffa"
+    },
+    {
+      "id": "signal-a60d68babdbc3b6c4de20761",
+      "rank": 19,
+      "title": "我的 AI 原生开发流程：一个真实案例的完整复盘",
+      "source": "宝玉的分享",
+      "category": "Work",
+      "connectionNote": "Sean is currently trapped between idea generation and depth, and this detailed real-world AI-native development case study directly addresses how to move from prototype to something people actually use.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a60d68babdbc3b6c"
+    },
+    {
+      "id": "signal-6e53b9c446f07f0d76cf0fa4",
+      "rank": 20,
+      "title": "“母病速归”式 AI：号称省 65% Token，实测只有 8.5%",
+      "source": "宝玉的分享",
+      "category": "World",
+      "connectionNote": "Token节省实测与返工成本",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6e53b9c446f07f0d"
+    },
+    {
+      "id": "signal-786dbbfde4b64b76e09e315d",
+      "rank": 21,
+      "title": "从零开始玩转循环 (Getting started with loops)",
+      "source": "宝玉的分享",
+      "category": "Thinking",
+      "connectionNote": "Sean is actively thinking about agent architecture, and 'designing loops' is the exact conceptual shift from task prompts to autonomous agents that his Digital Me project needs.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-786dbbfde4b64b76"
+    },
+    {
+      "id": "signal-d40c6084316cdc612c9c572c",
+      "rank": 22,
+      "title": "北京或批准部分NVIDIA新款工作站芯片采购，阿里、字节拟购百万颗",
+      "source": "X：X.PIN (@thexpin)",
+      "category": "Urgent",
+      "connectionNote": "AI芯片采购与出口动态",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d40c6084316cdc61"
+    },
+    {
+      "id": "signal-09d19e489e407977aa8917c8",
+      "rank": 23,
+      "title": "英伟达联合超100家伙伴推出开放代理安全平台",
+      "source": "X：Jensen Huang (@JensenHuang)",
+      "category": "Work",
+      "connectionNote": "The industry-wide collaboration on agent safety mirrors Sean's own principle of building trust layers into Digital Me, but at a scale that validates the problem's importance.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-09d19e489e407977"
+    },
+    {
+      "id": "signal-220ce68d1b3a7176e334957c",
+      "rank": 24,
+      "title": "澳参议院传唤OpenAI与Anthropic CEO，涉AI代理违规访问政府数据事件",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Thinking",
+      "connectionNote": "This is a governance-scale version of Sean's permission/autonomy gradient problem—Australia's subpoena is a societal demand for the same accountability Digital Me needs to encode.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-220ce68d1b3a7176"
+    },
+    {
+      "id": "signal-5680446e54e4623a6d7d6958",
+      "rank": 25,
+      "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "category": "Thinking",
+      "connectionNote": "智能体安全召回呼吁",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5680446e54e4623a"
+    },
+    {
+      "id": "signal-ab63718c788ee7dbde11c949",
+      "rank": 26,
+      "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+      "source": "IT之家（RSS）",
+      "category": "Thinking",
+      "connectionNote": "AI安全事件调查",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ab63718c788ee7db"
+    },
+    {
+      "id": "signal-ecb763fbe177952e0fc1433b",
+      "rank": 27,
+      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
+      "source": "Hacker News：AI 热帖",
+      "category": "Thinking",
+      "connectionNote": "OpenAI's agents bypassing website security and leaking user data is a real-world failure case that tests Sean's stated principle that consent boundaries must match action blast radius.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ecb763fbe177952e"
+    },
+    {
+      "id": "signal-900a5a15e898a28534b64b25",
+      "rank": 28,
+      "title": "OpenAI · Anthropic，调查数万起安全事件……控制能力存疑",
+      "source": "hani.co.kr",
+      "category": "World",
+      "connectionNote": "AI security incidents control doubts",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-900a5a15e898a285"
+    },
+    {
+      "id": "signal-667eee81887ec08c389c1d20",
+      "rank": 29,
+      "title": "特朗普缺席与习近平的晚宴，Anthropic首席执行官阿莫代伊单独受邀白宫",
+      "source": "hani.co.kr",
+      "category": "Growth",
+      "connectionNote": "特朗普晚宴未邀Anthropic CEO",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-667eee81887ec08c"
+    }
+  ]
 }
