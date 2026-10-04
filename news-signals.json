@@ -1,7 +1,296 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T12:05:40.862308Z",
+  "generatedAt": "2026-10-04T12:06:07.678164Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 0,
-  "items": []
+  "selectedCount": 32,
+  "items": [
+    {
+      "id": "signal-a11f903fb5f6ae9a90cb9a80",
+      "rank": 1,
+      "title": "Google Project Suncatcher 首颗原型卫星发射入轨",
+      "source": "X：Google AI (@GoogleAI)",
+      "category": "Growth",
+      "connectionNote": "Google's satellite TPU prototype mirrors Sean's growing openness to embodied and decentralized infrastructure ideas beyond purely personal software agents.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a11f903fb5f6ae9a"
+    },
+    {
+      "id": "signal-b953b69cedf6b91ddf085341",
+      "rank": 2,
+      "title": "Tell HN: Bob Cringely has died",
+      "source": "Hacker News: Newest",
+      "category": "World",
+      "connectionNote": "Bob Cringely obituary",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b953b69cedf6b91d"
+    },
+    {
+      "id": "signal-86d4953600752c4d5278fd35",
+      "rank": 3,
+      "title": "September sponsors-only newsletter",
+      "source": "Simon Willison's Weblog",
+      "category": "Thinking",
+      "connectionNote": "Sponsors newsletter: models, pricing",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-86d4953600752c4d"
+    },
+    {
+      "id": "signal-1c1e3393897d38f2fc79c38e",
+      "rank": 4,
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "source": "Simon Willison's Weblog",
+      "category": "Thinking",
+      "connectionNote": "GPT 6.1 Sol: cheap near-Astra",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1c1e3393897d38f2"
+    },
+    {
+      "id": "signal-c0ead67ccc70712c25dd8df6",
+      "rank": 5,
+      "title": "Claude Sonnet 5.5",
+      "source": "Simon Willison's Weblog",
+      "category": "Work",
+      "connectionNote": "Claude Sonnet 5.5: faster, cheaper",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c0ead67ccc70712c"
+    },
+    {
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 6,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "New MCP roadmap for agent protocols",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 7,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Beta SDKs for a stateless MCP make the architectural pattern immediately actionable for Sean's digital-self stack and skill registry work.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-ecea9214b256a6f2515e0947",
+      "rank": 8,
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "Musk's AI chip manufacturing bet",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ecea9214b256a6f2"
+    },
+    {
+      "id": "signal-6e0c97529ea5f073b6776d1a",
+      "rank": 9,
+      "title": "最火AI岗位FDE：月薪5万，都干这些…",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "AI岗位FDE观察",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6e0c97529ea5f073"
+    },
+    {
+      "id": "signal-219308040fd5cf53e05d7894",
+      "rank": 10,
+      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "DeepSeek弹性计算扩招",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-219308040fd5cf53"
+    },
+    {
+      "id": "signal-b1a4afb1184392a4097825be",
+      "rank": 11,
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "OpenAI安全团队动荡",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b1a4afb1184392a4"
+    },
+    {
+      "id": "signal-88f0ff4bfe3a2f71d203aa23",
+      "rank": 12,
+      "title": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "Jev估值10亿美元",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-88f0ff4bfe3a2f71"
+    },
+    {
+      "id": "signal-373ed8ccc351d77312fdefaa",
+      "rank": 13,
+      "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+      "source": "量子位",
+      "category": "Work",
+      "connectionNote": "arXiv提交限制新规",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-373ed8ccc351d773"
+    },
+    {
+      "id": "signal-967388f5a2a02d26005cbb72",
+      "rank": 14,
+      "title": "方方面面都熟悉，方方面面都更好：iPhone 18 Pro 体验",
+      "source": "少数派",
+      "category": "World",
+      "connectionNote": "iPhone 18 Pro体验",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-967388f5a2a02d26"
+    },
+    {
+      "id": "signal-1ed10d9c87babc932ddc838d",
+      "rank": 15,
+      "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等",
+      "source": "少数派",
+      "category": "Thinking",
+      "connectionNote": "OpenAI Dot agent news",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1ed10d9c87babc93"
+    },
+    {
+      "id": "signal-ec358569f6a294a385b469e5",
+      "rank": 16,
+      "title": "🔥 AI 员工支持知识库文档引用：开源 AI 无代码平台 NocoBase",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Work",
+      "connectionNote": "NocoBase's AI knowledge base with document citation directly addresses Sean's goal of building an interactive, structured personal memory archive.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ec358569f6a294a3"
+    },
+    {
+      "id": "signal-ff2bcd143cd620be3eaf4762",
+      "rank": 17,
+      "title": "OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "GPT-6.1 Sol 低价",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ff2bcd143cd620be"
+    },
+    {
+      "id": "signal-31a83c74091c59290fc3ffff",
+      "rank": 18,
+      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Urgent",
+      "connectionNote": "Gemini 4 Argon 发布",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-31a83c74091c5929"
+    },
+    {
+      "id": "signal-3378db074080bbcd338739c4",
+      "rank": 19,
+      "title": "OpenAI 每天投入超 50 万美元调查旗下智能体入侵 Medicare 与 Hugging Face 等事件",
+      "source": "IT之家（RSS）",
+      "category": "Thinking",
+      "connectionNote": "AI 智能体安全事件调查",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3378db074080bbcd"
+    },
+    {
+      "id": "signal-d9d4c6a16c59b6a59694e8d5",
+      "rank": 20,
+      "title": "GPT-6.1 Sol (Max) 进入 Agent Arena 第 5 名，以更低成本逼近前列模型",
+      "source": "X：Arena (@arena)",
+      "category": "World",
+      "connectionNote": "GPT-6.1 Sol 登榜",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d9d4c6a16c59b6a5"
+    },
+    {
+      "id": "signal-608d8369b1f87ea0ec5b8e09",
+      "rank": 21,
+      "title": "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
+      "source": "X：Arena (@arena)",
+      "category": "World",
+      "connectionNote": "Claude Sonnet 5.5 排名",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-608d8369b1f87ea0"
+    },
+    {
+      "id": "signal-9cb2691791e2639f5842ca03",
+      "rank": 22,
+      "title": "NVIDIA DGX Spark 推出 64GB 版本，10 月 23 日起以 $4,999 开售",
+      "source": "NVIDIA Blog（RSS）",
+      "category": "Urgent",
+      "connectionNote": "NVIDIA DGX Spark 64GB launch",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9cb2691791e2639f"
+    },
+    {
+      "id": "signal-6809e551c2d676717a8f0d68",
+      "rank": 23,
+      "title": "AI Agents Expose 13,000+ Developer Screenshots Across 900+ GitHub Repositories",
+      "source": "gbhackers.com",
+      "category": "World",
+      "connectionNote": "The screenshot leak shows a concrete failure mode in agent-driven UI workflows, which affects both the security and the product credibility of agentic coding tools Sean uses.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6809e551c2d67671"
+    },
+    {
+      "id": "signal-d0a519ecfdeb109196b07b2d",
+      "rank": 24,
+      "title": "AI Agents Leak 13,000 Internal Corporate Screenshots via Public GitHub Repositories | SOFX",
+      "source": "sofx.com",
+      "category": "World",
+      "connectionNote": "The defense-industry spillover strengthens Sean's existing concern that unsanctioned AI exposure is becoming a structural data-breach issue, not just a developer mistake.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d0a519ecfdeb1091"
+    },
+    {
+      "id": "signal-87a710cebcbd2b671cd01cae",
+      "rank": 25,
+      "title": "AI agents leak 13K screenshots from 343 tech firms | Cybernews",
+      "source": "cybernews.com",
+      "category": "World",
+      "connectionNote": "The manufacturing example makes the risk concrete for large organizations, reinforcing Sean's security principles around what agents may publish or create by default.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-87a710cebcbd2b67"
+    },
+    {
+      "id": "signal-d5968822fff3c97834ae92b0",
+      "rank": 26,
+      "title": "Why 99% Accurate Browser Agents Still Fail — Derek Meegan, Browserbase｜AI Engineer — BigGo Finance",
+      "source": "finance.biggo.com",
+      "category": "Thinking",
+      "connectionNote": "The browser agent failure analysis is highly relevant because it reframes reliability not as raw accuracy but as architecture, recovery, and domain-specific ground truth—exactly the kind of deeper problem understanding Sean wants before building.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d5968822fff3c978"
+    },
+    {
+      "id": "signal-34b2a864d0c4537c76e64d51",
+      "rank": 27,
+      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats | LavX News",
+      "source": "news.lavx.hu",
+      "category": "World",
+      "connectionNote": "This weekly security recap directly challenges Sean's assumption that giving agents more agency can grow safely without stronger security boundaries and incident-response thinking.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-34b2a864d0c4537c"
+    },
+    {
+      "id": "signal-1c6c682e79bf67d62cc98ecb",
+      "rank": 28,
+      "title": "AI 代理竞争转向编码与安全？谷歌公开前沿模型‘Gemini 4 Argon’",
+      "source": "kr.aving.net",
+      "category": "Urgent",
+      "connectionNote": "Google 发布 Gemini 4 Argon",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1c6c682e79bf67d6"
+    },
+    {
+      "id": "signal-a7a0122e8ae795ba14d116ab",
+      "rank": 29,
+      "title": "OpenAI DevDay 2026：新技术扩展AI、代理和软件开发的使用",
+      "source": "querobolsa.com.br",
+      "category": "World",
+      "connectionNote": "OpenAI DevDay 2026 AI agents",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a7a0122e8ae795ba"
+    },
+    {
+      "id": "signal-6453a1e5d75cab7e8ab82bf8",
+      "rank": 30,
+      "title": "Introducing AG-UI 1.0: a stable spec for connecting any agent to any application | Blog | CopilotKit",
+      "source": "copilotkit.ai",
+      "category": "Work",
+      "connectionNote": "AG-UI 1.0 is directly useful for Sean's news and interface plans because it offers a stable spec for connecting agents to applications, potentially guiding how Digital Me presents itself.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6453a1e5d75cab7e"
+    },
+    {
+      "id": "signal-5f2d3bd468e161c820e0f3c6",
+      "rank": 31,
+      "title": "NVIDIA Corporation - NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
+      "source": "investor.nvidia.com",
+      "category": "World",
+      "connectionNote": "NVIDIA open agent safety platform",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5f2d3bd468e161c8"
+    },
+    {
+      "id": "signal-a6d34a66592e5f59d34192cc",
+      "rank": 32,
+      "title": "Earendil releases Pi 1.0, an open-source AI agent framework,... · TLDRocket",
+      "source": "tldrocket.com",
+      "category": "Work",
+      "connectionNote": "Pi agent framework durable",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a6d34a66592e5f59"
+    }
+  ]
 }
