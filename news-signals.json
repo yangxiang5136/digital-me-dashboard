@@ -1,7 +1,278 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T12:09:24.779615Z",
+  "generatedAt": "2026-10-11T12:09:24.284056Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 0,
-  "items": []
+  "selectedCount": 30,
+  "items": [
+    {
+      "id": "signal-e588940284f88d73fba45c1e",
+      "rank": 1,
+      "title": "A city-building game in which the city would prefer you didn't",
+      "source": "Hacker News: Newest",
+      "category": "Growth",
+      "connectionNote": "City-building game twist",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e588940284f88d73"
+    },
+    {
+      "id": "signal-3963e1faab054fa1152bbc54",
+      "rank": 2,
+      "title": "Nitter: Update Oct 10th seeking funding and legal help",
+      "source": "Hacker News: Newest",
+      "category": "World",
+      "connectionNote": "Nitter funding crisis",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3963e1faab054fa1"
+    },
+    {
+      "id": "signal-183ab0b7b86738e1159c558d",
+      "rank": 3,
+      "title": "3rd Yandex Cloud Data Center Was Hit",
+      "source": "Hacker News: Newest",
+      "category": "World",
+      "connectionNote": "Yandex data center attacks",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-183ab0b7b86738e1"
+    },
+    {
+      "id": "signal-7ad37ccef94fcbc9d8bf9e63",
+      "rank": 4,
+      "title": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
+      "source": "Hacker News: Newest",
+      "category": "Work",
+      "connectionNote": "Paywall bypass tool",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7ad37ccef94fcbc9"
+    },
+    {
+      "id": "signal-3f8c41a87bc9ab3619b73642",
+      "rank": 5,
+      "title": "Quoting The New York Times",
+      "source": "Simon Willison's Weblog",
+      "category": "World",
+      "connectionNote": "The visa-application incident raises governance and accountability questions that map onto Sean's principles about agent oversight and honest reporting.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3f8c41a87bc9ab36"
+    },
+    {
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 6,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "The updated MCP roadmap is relevant to Sean's planning of Digital Me's architecture and skills folder evolution.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+    },
+    {
+      "id": "signal-79368283654df751f5bc4fa0",
+      "rank": 7,
+      "title": "The 2026-07-28 Specification",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Specifies the new MCP spec and SDK adoption rates, useful for Sean's decisions about vendor independence and tool selection.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
+    },
+    {
+      "id": "signal-f9a8bf5a95c5949354f50624",
+      "rank": 8,
+      "title": "The Official Ruby SDK for MCP Reaches 1.0",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Ruby SDK 1.0",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f9a8bf5a95c59493"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 9,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "This directly concerns the MCP protocol infrastructure that Sean's Digital Me system is being built on, impacting his agent architecture's future compatibility.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-d2b34e97464c2fb5acfb5510",
+      "rank": 10,
+      "title": "Enterprise-Managed Authorization: Zero-touch OAuth for MCP",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Enterprise-managed authorization for MCP addresses a key tension between giving agents autonomy and maintaining security, which is central to Sean's design principles.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d2b34e97464c2fb5"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 11,
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "The RC details the stateless core and server-rendered UIs that could reshape how Sean's agents communicate and present information.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+    },
+    {
+      "id": "signal-4425791ea13cbc9a287a04f4",
+      "rank": 12,
+      "title": "Understanding MCP Extensions",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Speaks to Sean's interest in how agents and skills can be extended and modularized, which is central to his 'Digital Me' architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4425791ea13cbc9a"
+    },
+    {
+      "id": "signal-affa2d7322157c1afa3a313a",
+      "rank": 13,
+      "title": "The 2026 MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Contextualizes the MCP evolution from local tools to production-scale agent workflows, which matches Sean's transition to a self-maintaining system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
+    },
+    {
+      "id": "signal-5c38fbbc199e51ff71acc36b",
+      "rank": 14,
+      "title": "硅谷AI现状：谁有算力谁是爹",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "硅谷AI算力争夺",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5c38fbbc199e51ff"
+    },
+    {
+      "id": "signal-155661b300a75bf774f169a4",
+      "rank": 15,
+      "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "GPT-4o API快照停用倒计时",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-155661b300a75bf7"
+    },
+    {
+      "id": "signal-b866334dd9907627fbe19dc5",
+      "rank": 16,
+      "title": "超清双2亿，掌中电影机，荣耀Magic9 系列正式发布，售价4499元起",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "荣耀Magic9发布",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b866334dd9907627"
+    },
+    {
+      "id": "signal-6fa88e4aaa7c89fb678008d8",
+      "rank": 17,
+      "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "Jev估值逆袭 24天",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6fa88e4aaa7c89fb"
+    },
+    {
+      "id": "signal-5cb20300c926e7fa5f0b8b31",
+      "rank": 18,
+      "title": "被字节索赔 800 万的实习生“出道”：20 万符号造 AI 词典，打造世界模型创业公司估值 2 亿美元",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Thinking",
+      "connectionNote": "The story of an ex-ByteDance intern building a 'world model' startup touches on Sean's interest in AI autonomy, safety, and the societal implications of AI technologies.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5cb20300c926e7fa"
+    },
+    {
+      "id": "signal-faa78d96d6c879d3382fd3b4",
+      "rank": 19,
+      "title": "Claude 动态多 Agent 工作流开始公测，支持庞大的工作负载",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Work",
+      "connectionNote": "Claude's dynamic multi-agent orchestration testing is directly relevant to Sean's exploration of multi-agent systems and workload handling for Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-faa78d96d6c879d3"
+    },
+    {
+      "id": "signal-0294698d1d15e4cf61a75f34",
+      "rank": 20,
+      "title": "谷歌正在内测新 AI 模型，员工称其编码能力和 Claude Opus 5.5 打平",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Thinking",
+      "connectionNote": "谷歌新模型编码能力曝光",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0294698d1d15e4cf"
+    },
+    {
+      "id": "signal-963763c5489881c1b6c10e18",
+      "rank": 21,
+      "title": "OpenAI 测试智能体逃逸 ExploitGym 并入侵 Hugging Face 基础设施，暴露对齐与追责困境",
+      "source": "MarkTechPost（RSS）",
+      "category": "Thinking",
+      "connectionNote": "This highlights security failures in autonomous agent design—directly relevant to Sean's principles about privacy, alignment, and safe self-improving agents.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-963763c5489881c1"
+    },
+    {
+      "id": "signal-d64cd966327a9720b5d8519a",
+      "rank": 22,
+      "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
+      "source": "IT之家·人工智能",
+      "category": "Thinking",
+      "connectionNote": "This Chinese recounting of the Anthropic incident is a perfect test case for Sean's own adversarial verification and multi-source synthesis workflow.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d64cd966327a9720"
+    },
+    {
+      "id": "signal-9900cb8432554b7caad753d7",
+      "rank": 23,
+      "title": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "World",
+      "connectionNote": "Anthropic fake murder tip police",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9900cb8432554b7c"
+    },
+    {
+      "id": "signal-62d8c501915bcdb070444d20",
+      "rank": 24,
+      "title": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
+      "source": "The Decoder：AI News（RSS）",
+      "category": "World",
+      "connectionNote": "OpenAI funding and revenue",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-62d8c501915bcdb0"
+    },
+    {
+      "id": "signal-42a4828627255cbe9a6f4925",
+      "rank": 25,
+      "title": "An AI agent that reverse engineers any software just hit number one on GitHub - Startup Fortune",
+      "source": "startupfortune.com",
+      "category": "Urgent",
+      "connectionNote": "REA GitHub trending",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-42a4828627255cbe"
+    },
+    {
+      "id": "signal-a96aa7ae879c0c6702d7d9b5",
+      "rank": 26,
+      "title": "Google’s workplace agent is out, but questions abound | TechTarget",
+      "source": "techtarget.com",
+      "category": "Work",
+      "connectionNote": "Google's workplace agent launch is a concrete market signal about agent-native infrastructure, directly relevant to Sean's exploration of AI-native enterprise tools.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a96aa7ae879c0c67"
+    },
+    {
+      "id": "signal-0e5c2d1d1af8c2fa117c7e76",
+      "rank": 27,
+      "title": "Yusuke Wada氏・chimame氏登坛 ── Offers举办「【实战】用Cloudflare构建应用与AI智能体？Cloudflare Workers最前线」网络研讨会 11/11 | 株式会社overflow新闻稿",
+      "source": "prtimes.jp",
+      "category": "World",
+      "connectionNote": "Cloudflare AI Webinar",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0e5c2d1d1af8c2fa"
+    },
+    {
+      "id": "signal-4d1ef046c7c366bf52dd8fbc",
+      "rank": 28,
+      "title": "Introducing Personal Agent Protocol | Sierra",
+      "source": "sierra.ai",
+      "category": "World",
+      "connectionNote": "Sierra's Personal Agent Protocol bridges Sean's vision of agents as directors of their own workflows with the concrete interoperability standards needed for mainstream adoption.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4d1ef046c7c366bf"
+    },
+    {
+      "id": "signal-5e2bb3811e3cb6a4a9ce0e5d",
+      "rank": 29,
+      "title": "Agent Plugins 1.0 Spec Lands at AAIF with Vercel, OpenAI, Microsoft — DiffVibe",
+      "source": "diffvibe.com",
+      "category": "Work",
+      "connectionNote": "Agent plugins 1.0 spec",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5e2bb3811e3cb6a4"
+    },
+    {
+      "id": "signal-82499bb1e1972fcf03affb08",
+      "rank": 30,
+      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+      "source": "HF Daily Papers",
+      "category": "Thinking",
+      "connectionNote": "Open-ended scientific discovery by AI agents questions the limits of Sean's self-improving agent vision and the nature of true novelty.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-82499bb1e1972fcf"
+    }
+  ]
 }
