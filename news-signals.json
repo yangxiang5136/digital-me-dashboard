@@ -1,7 +1,188 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T12:10:05.406617Z",
+  "generatedAt": "2026-10-17T12:08:38.546908Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 0,
-  "items": []
+  "selectedCount": 20,
+  "items": [
+    {
+      "id": "signal-db5196d6f103243a0a2b8206",
+      "rank": 1,
+      "title": "The model that didn't exist, so you made it yourself",
+      "source": "Hugging Face - Blog",
+      "category": "Growth",
+      "connectionNote": "This reinforces Sean's organic principle that agents should grow bottom-up from actual needs rather than being architected top-down.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-db5196d6f103243a"
+    },
+    {
+      "id": "signal-814471313fd4c87a3a6e4c99",
+      "rank": 2,
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "source": "Hacker News: Newest",
+      "category": "Work",
+      "connectionNote": "DeepSeek v4.1 Flash release",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-814471313fd4c87a"
+    },
+    {
+      "id": "signal-abefd3d0c35ba58cf410c256",
+      "rank": 3,
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "source": "Hacker News: Newest",
+      "category": "Work",
+      "connectionNote": "DeepSeek v4.1 HF model",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-abefd3d0c35ba58c"
+    },
+    {
+      "id": "signal-5cf24d9587c36576dd1ab3e8",
+      "rank": 4,
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "source": "Simon Willison's Weblog",
+      "category": "World",
+      "connectionNote": "Anthropic revenue surge pre-IPO",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5cf24d9587c36576"
+    },
+    {
+      "id": "signal-8f42dd4d6fc82dfe9bc660f2",
+      "rank": 5,
+      "title": "The current balance of power in open models",
+      "source": "Interconnects AI",
+      "category": "World",
+      "connectionNote": "open model power balance",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8f42dd4d6fc82dfe"
+    },
+    {
+      "id": "signal-298402ec79445abd37a19dc1",
+      "rank": 6,
+      "title": "One resignation turned the embers of AI fear into a wildfire",
+      "source": "Interconnects AI",
+      "category": "World",
+      "connectionNote": "resignation sparks AI fear",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-298402ec79445abd"
+    },
+    {
+      "id": "signal-44cf408e3c378c04407412fb",
+      "rank": 7,
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "source": "Interconnects AI",
+      "category": "Urgent",
+      "connectionNote": "new open models licenses",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-44cf408e3c378c04"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 8,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "The beta SDKs for the stateless MCP spec matter because Sean is actively integrating MCP servers and skills into Digital Me, and this change affects the portability and local authority he values.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 9,
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "The MCP spec going stateless directly affects Sean's Digital Me architecture decisions about vendor independence and local control of agent infrastructure.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+    },
+    {
+      "id": "signal-5d7832f56e13317467578ac3",
+      "rank": 10,
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "source": "Hugging Face - Blog",
+      "category": "Work",
+      "connectionNote": "On-device private agents with LFM2.5 directly address Sean's privacy principle of avoiding services that train on personal data, especially for voice and memory workflows.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5d7832f56e133174"
+    },
+    {
+      "id": "signal-bf075f904ea1a81d6e4c93f8",
+      "rank": 11,
+      "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本",
+      "source": "少数派",
+      "category": "Urgent",
+      "connectionNote": "Apple Intelligence China beta",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bf075f904ea1a81d"
+    },
+    {
+      "id": "signal-f0df8d5ad869dadfe9bd4294",
+      "rank": 12,
+      "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
+      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+      "category": "Urgent",
+      "connectionNote": "WorkBuddy免费接入DeepSeek新模型",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f0df8d5ad869dadf"
+    },
+    {
+      "id": "signal-9bff620b3a30f572cbc77a42",
+      "rank": 13,
+      "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+      "source": "DeepSeek：API 更新日志",
+      "category": "Urgent",
+      "connectionNote": "DeepSeek-V4.1 Flash升级不提价",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9bff620b3a30f572"
+    },
+    {
+      "id": "signal-abf6a47b35289851218f5bbf",
+      "rank": 14,
+      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+      "source": "NVIDIA：Newsroom（RSS）",
+      "category": "Work",
+      "connectionNote": "RTX Spark轻薄本开售128GB",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-abf6a47b35289851"
+    },
+    {
+      "id": "signal-1dfecaf258163b4138925247",
+      "rank": 15,
+      "title": "Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "category": "Thinking",
+      "connectionNote": "Kling 4.0视频模型升级",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1dfecaf258163b41"
+    },
+    {
+      "id": "signal-fc6a2af6bee7c02d945e82ff",
+      "rank": 16,
+      "title": "可灵 Kling 4.0 深夜上线，支持30秒一镜到底直出",
+      "source": "公众号：数字生命卡兹克",
+      "category": "Thinking",
+      "connectionNote": "可灵4.0一镜到底",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fc6a2af6bee7c02d"
+    },
+    {
+      "id": "signal-c8b8090b9c1532c808c00c70",
+      "rank": 17,
+      "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
+      "source": "X：ARC Prize (@arcprize)",
+      "category": "World",
+      "connectionNote": "Gemini 4 ARC-AGI breakthrough",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c8b8090b9c1532c8"
+    },
+    {
+      "id": "signal-b7703b6b42b20714bb8cf1c4",
+      "rank": 18,
+      "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "category": "Work",
+      "connectionNote": "Step 5 cheap long-horizon agents",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b7703b6b42b20714"
+    },
+    {
+      "id": "signal-d451d8d6cde2466e4c01e3fd",
+      "rank": 19,
+      "title": "阶跃星辰开放 Step 5 Preview 权重",
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "category": "Urgent",
+      "connectionNote": "Step 5 开放权重",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d451d8d6cde2466e"
+    },
+    {
+      "id": "signal-8ac9ac48ac45329d217d769d",
+      "rank": 20,
+      "title": "AI Engineer Full Course in 3 Hours [FREE]",
+      "source": "youtube.com",
+      "category": "Urgent",
+      "connectionNote": "3小时AI工程师课程",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8ac9ac48ac45329d"
+    }
+  ]
 }
