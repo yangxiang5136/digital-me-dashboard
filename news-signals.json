@@ -1,188 +1,170 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T12:08:38.546908Z",
+  "generatedAt": "2026-10-18T12:10:00.091165Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 20,
+  "selectedCount": 18,
   "items": [
     {
-      "id": "signal-db5196d6f103243a0a2b8206",
+      "id": "signal-accd1b6fd123366f265e83bc",
       "rank": 1,
-      "title": "The model that didn't exist, so you made it yourself",
-      "source": "Hugging Face - Blog",
+      "title": "The rise of agentic AI in drug discovery from static tools to autonomous virtual scientists | npj Drug Discovery",
+      "source": "nature.com",
       "category": "Growth",
-      "connectionNote": "This reinforces Sean's organic principle that agents should grow bottom-up from actual needs rather than being architected top-down.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-db5196d6f103243a"
+      "connectionNote": "Agentic AI in drug discovery",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-accd1b6fd123366f"
     },
     {
-      "id": "signal-814471313fd4c87a3a6e4c99",
+      "id": "signal-992d801041009b036a9f7415",
       "rank": 2,
-      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "title": "Zuckerberg's Meta Takes Down No Kings Instagram During Protest Day",
       "source": "Hacker News: Newest",
-      "category": "Work",
-      "connectionNote": "DeepSeek v4.1 Flash release",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-814471313fd4c87a"
-    },
-    {
-      "id": "signal-abefd3d0c35ba58cf410c256",
-      "rank": 3,
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "source": "Hacker News: Newest",
-      "category": "Work",
-      "connectionNote": "DeepSeek v4.1 HF model",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-abefd3d0c35ba58c"
-    },
-    {
-      "id": "signal-5cf24d9587c36576dd1ab3e8",
-      "rank": 4,
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "source": "Simon Willison's Weblog",
-      "category": "World",
-      "connectionNote": "Anthropic revenue surge pre-IPO",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5cf24d9587c36576"
-    },
-    {
-      "id": "signal-8f42dd4d6fc82dfe9bc660f2",
-      "rank": 5,
-      "title": "The current balance of power in open models",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "open model power balance",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8f42dd4d6fc82dfe"
-    },
-    {
-      "id": "signal-298402ec79445abd37a19dc1",
-      "rank": 6,
-      "title": "One resignation turned the embers of AI fear into a wildfire",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "resignation sparks AI fear",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-298402ec79445abd"
-    },
-    {
-      "id": "signal-44cf408e3c378c04407412fb",
-      "rank": 7,
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "source": "Interconnects AI",
       "category": "Urgent",
-      "connectionNote": "new open models licenses",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-44cf408e3c378c04"
+      "connectionNote": "Meta censorship during protests",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-992d801041009b03"
     },
     {
-      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "id": "signal-101078226ba851765d65a0f4",
+      "rank": 3,
+      "title": "OpenCode Hacked: User credentials leaked",
+      "source": "Hacker News: Newest",
+      "category": "Urgent",
+      "connectionNote": "OpenCode hack credential leak",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-101078226ba85176"
+    },
+    {
+      "id": "signal-ad17282cc3fa1288feaff6a5",
+      "rank": 4,
+      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "source": "Latent.Space",
+      "category": "Urgent",
+      "connectionNote": "AI Engineer NYC: Gemini 4 Argon, Vals benchmarks",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ad17282cc3fa1288"
+    },
+    {
+      "id": "signal-73790777822debee2418e710",
+      "rank": 5,
+      "title": "Meta shakes up the frontiers, open and closed",
+      "source": "Interconnects AI",
+      "category": "World",
+      "connectionNote": "Meta open models frontier shift",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-73790777822debee"
+    },
+    {
+      "id": "signal-979b4fc7d3421eb34539cb8f",
+      "rank": 6,
+      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "DeepSeek V4.1 directly matters because Sean already switched his translation API to DeepSick and has been actively balancing quality against cost, so a new high-value-for-price model could change his agent's tooling choices.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-979b4fc7d3421eb3"
+    },
+    {
+      "id": "signal-4b12bb242f328ccf96569ec6",
+      "rank": 7,
+      "title": "智谱新模型，懂法方面全球第一了",
+      "source": "量子位",
+      "category": "Thinking",
+      "connectionNote": "智谱法律AI全球第一",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4b12bb242f328ccf"
+    },
+    {
+      "id": "signal-e692802916d14931d235948d",
       "rank": 8,
-      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
-      "source": "Model Context Protocol Blog",
+      "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+      "source": "量子位",
       "category": "Thinking",
-      "connectionNote": "The beta SDKs for the stateless MCP spec matter because Sean is actively integrating MCP servers and skills into Digital Me, and this change affects the portability and local authority he values.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
-    },
-    {
-      "id": "signal-3cebd79bf79035703e567bb0",
-      "rank": 9,
-      "title": "The 2026-07-28 MCP Specification Release Candidate",
-      "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "The MCP spec going stateless directly affects Sean's Digital Me architecture decisions about vendor independence and local control of agent infrastructure.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
-    },
-    {
-      "id": "signal-5d7832f56e13317467578ac3",
-      "rank": 10,
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "source": "Hugging Face - Blog",
-      "category": "Work",
-      "connectionNote": "On-device private agents with LFM2.5 directly address Sean's privacy principle of avoiding services that train on personal data, especially for voice and memory workflows.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5d7832f56e133174"
+      "connectionNote": "清华's agent OS claims 83% task cost reduction, which directly challenges Sean's assumption that his self-built Digital Me architecture is more cost-efficient and flexible than off-the-shelf operating systems.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e692802916d14931"
     },
     {
       "id": "signal-bf075f904ea1a81d6e4c93f8",
-      "rank": 11,
+      "rank": 9,
       "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本",
       "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "Apple Intelligence China beta",
+      "category": "World",
+      "connectionNote": "Apple智能Beta上线",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bf075f904ea1a81d"
     },
     {
-      "id": "signal-f0df8d5ad869dadfe9bd4294",
+      "id": "signal-f93022ddadc3ce5cc5c44c95",
+      "rank": 10,
+      "title": "邀请函 | Agentic Infra 操作系统大会 &amp; openEuler Summit 2026",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "Agentic Infra OS conference invite",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f93022ddadc3ce5c"
+    },
+    {
+      "id": "signal-ef6f9496d78089fbd30e0c4d",
+      "rank": 11,
+      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Growth",
+      "connectionNote": "AI终端大模型落地",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ef6f9496d78089fb"
+    },
+    {
+      "id": "signal-d01d5464cdc7637530b0068c",
       "rank": 12,
-      "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
-      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-      "category": "Urgent",
-      "connectionNote": "WorkBuddy免费接入DeepSeek新模型",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f0df8d5ad869dadf"
+      "title": "The World Is Not a Dataset - Building AI Systems That Continuously Learn from Reality｜QCon上海",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Thinking",
+      "connectionNote": "The talk on continuously learning from reality rather than static datasets directly supports Sean's core belief that long-term value comes from integration and live interaction, not raw data snapshots.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d01d5464cdc76375"
     },
     {
-      "id": "signal-9bff620b3a30f572cbc77a42",
+      "id": "signal-76869751470b8ae43e43997f",
       "rank": 13,
-      "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
-      "source": "DeepSeek：API 更新日志",
-      "category": "Urgent",
-      "connectionNote": "DeepSeek-V4.1 Flash升级不提价",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9bff620b3a30f572"
+      "title": "AI Agents Are Killing the Git Client, Not Git: What Anthropic's Scion and Cursor's Origin Show",
+      "source": "hackernoon.com",
+      "category": "Thinking",
+      "connectionNote": "The claim that AI agents are killing the Git client, not Git itself, directly interrogates Sean's existing agent/git workflow and his plans for GitHub-based agent control.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-76869751470b8ae4"
     },
     {
-      "id": "signal-abf6a47b35289851218f5bbf",
+      "id": "signal-bb5f242d8fb67c409cdd1626",
       "rank": 14,
-      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
-      "source": "NVIDIA：Newsroom（RSS）",
-      "category": "Work",
-      "connectionNote": "RTX Spark轻薄本开售128GB",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-abf6a47b35289851"
+      "title": "IT系统弱点发现急剧增加 全球因AI普及达2.4倍",
+      "source": "yamagata-np.jp",
+      "category": "Thinking",
+      "connectionNote": "AI漏洞发现激增",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bb5f242d8fb67c40"
     },
     {
-      "id": "signal-1dfecaf258163b4138925247",
+      "id": "signal-53a81ae90c16dad28554d22d",
       "rank": 15,
-      "title": "Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "category": "Thinking",
-      "connectionNote": "Kling 4.0视频模型升级",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1dfecaf258163b41"
-    },
-    {
-      "id": "signal-fc6a2af6bee7c02d945e82ff",
-      "rank": 16,
-      "title": "可灵 Kling 4.0 深夜上线，支持30秒一镜到底直出",
-      "source": "公众号：数字生命卡兹克",
-      "category": "Thinking",
-      "connectionNote": "可灵4.0一镜到底",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-fc6a2af6bee7c02d"
-    },
-    {
-      "id": "signal-c8b8090b9c1532c808c00c70",
-      "rank": 17,
-      "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
-      "source": "X：ARC Prize (@arcprize)",
+      "title": "习近平强调AI基础设施当天…中国推进包括AI在内的40项技术出口管制",
+      "source": "hani.co.kr",
       "category": "World",
-      "connectionNote": "Gemini 4 ARC-AGI breakthrough",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c8b8090b9c1532c8"
+      "connectionNote": "中国AI技术出口管制",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-53a81ae90c16dad2"
     },
     {
-      "id": "signal-b7703b6b42b20714bb8cf1c4",
+      "id": "signal-e1708ffb9a57bcad41ad4882",
+      "rank": 16,
+      "title": "除非造成10亿美元损失或50人伤亡否则不管…Anthropic提出美国AI监管建议",
+      "source": "hani.co.kr",
+      "category": "World",
+      "connectionNote": "Anthropic提AI监管建议",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e1708ffb9a57bcad"
+    },
+    {
+      "id": "signal-bb6cc8a6cd92df3ca2474bb3",
+      "rank": 17,
+      "title": "AI泡沫论下国债价格上涨美元下跌…集中在美国的投资出现回收动向",
+      "source": "hani.co.kr",
+      "category": "Urgent",
+      "connectionNote": "AI泡沫论引发市场波动",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bb6cc8a6cd92df3c"
+    },
+    {
+      "id": "signal-2eb189ec27a2e74f8f5e2daa",
       "rank": 18,
-      "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
-      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-      "category": "Work",
-      "connectionNote": "Step 5 cheap long-horizon agents",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b7703b6b42b20714"
-    },
-    {
-      "id": "signal-d451d8d6cde2466e4c01e3fd",
-      "rank": 19,
-      "title": "阶跃星辰开放 Step 5 Preview 权重",
-      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "title": "韩国综合股价指数上周蒸发14%…本周依旧如履薄冰",
+      "source": "busan.com",
       "category": "Urgent",
-      "connectionNote": "Step 5 开放权重",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d451d8d6cde2466e"
-    },
-    {
-      "id": "signal-8ac9ac48ac45329d217d769d",
-      "rank": 20,
-      "title": "AI Engineer Full Course in 3 Hours [FREE]",
-      "source": "youtube.com",
-      "category": "Urgent",
-      "connectionNote": "3小时AI工程师课程",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8ac9ac48ac45329d"
+      "connectionNote": "韩国股市暴跌",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2eb189ec27a2e74f"
     }
   ]
 }
