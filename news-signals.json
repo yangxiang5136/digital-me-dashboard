@@ -1,170 +1,152 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T12:10:00.091165Z",
+  "generatedAt": "2026-10-19T12:06:31.983515Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 18,
+  "selectedCount": 16,
   "items": [
     {
-      "id": "signal-accd1b6fd123366f265e83bc",
+      "id": "signal-c8ac2571bc82c99624258fb6",
       "rank": 1,
-      "title": "The rise of agentic AI in drug discovery from static tools to autonomous virtual scientists | npj Drug Discovery",
-      "source": "nature.com",
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "source": "Import AI",
       "category": "Growth",
-      "connectionNote": "Agentic AI in drug discovery",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-accd1b6fd123366f"
-    },
-    {
-      "id": "signal-992d801041009b036a9f7415",
-      "rank": 2,
-      "title": "Zuckerberg's Meta Takes Down No Kings Instagram During Protest Day",
-      "source": "Hacker News: Newest",
-      "category": "Urgent",
-      "connectionNote": "Meta censorship during protests",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-992d801041009b03"
-    },
-    {
-      "id": "signal-101078226ba851765d65a0f4",
-      "rank": 3,
-      "title": "OpenCode Hacked: User credentials leaked",
-      "source": "Hacker News: Newest",
-      "category": "Urgent",
-      "connectionNote": "OpenCode hack credential leak",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-101078226ba85176"
+      "connectionNote": "Reports a new benchmark exposing AI models' lack of intuitive visual reasoning, which is relevant to Sean's growth direction of pushing beyond engineering-only thinking into design and aesthetics.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c8ac2571bc82c996"
     },
     {
       "id": "signal-ad17282cc3fa1288feaff6a5",
-      "rank": 4,
+      "rank": 2,
       "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
       "source": "Latent.Space",
-      "category": "Urgent",
-      "connectionNote": "AI Engineer NYC: Gemini 4 Argon, Vals benchmarks",
+      "category": "World",
+      "connectionNote": "Gemini 4 Argon, AIE NYC",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ad17282cc3fa1288"
     },
     {
+      "id": "signal-de8eab61e8d7de899d3d1d71",
+      "rank": 3,
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "source": "Latent.Space",
+      "category": "Urgent",
+      "connectionNote": "Meta Muse Wonder frontier model",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-de8eab61e8d7de89"
+    },
+    {
       "id": "signal-73790777822debee2418e710",
-      "rank": 5,
+      "rank": 4,
       "title": "Meta shakes up the frontiers, open and closed",
       "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "Meta open models frontier shift",
+      "category": "Thinking",
+      "connectionNote": "Meta open model frontier shift",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-73790777822debee"
     },
     {
-      "id": "signal-979b4fc7d3421eb34539cb8f",
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 5,
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "Directly affects Sean's multi-agent architecture and shared skills approach by changing the MCP core to a stateless, HTTP-scalable model.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+    },
+    {
+      "id": "signal-8aa69a9cb7e92c5f9c82f7e7",
       "rank": 6,
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "source": "Hugging Face - Blog",
+      "category": "World",
+      "connectionNote": "501B open model release",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8aa69a9cb7e92c5f"
+    },
+    {
+      "id": "signal-e73076303324f73f53e807dd",
+      "rank": 7,
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "source": "Hugging Face - Blog",
+      "category": "Thinking",
+      "connectionNote": "Meta's open-weight multimodal MoE model challenges Sean's implicit assumption about the dominance of closed frontier models, relevant to vendor independence and autonomous self-improvement.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e73076303324f73f"
+    },
+    {
+      "id": "signal-5d7832f56e13317467578ac3",
+      "rank": 8,
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "source": "Hugging Face - Blog",
+      "category": "Work",
+      "connectionNote": "This strongly reinforces Sean's privacy-first, local-first approach by highlighting a specific on-device model for private agents.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5d7832f56e133174"
+    },
+    {
+      "id": "signal-4e6cf6db79ba721d143b22f3",
+      "rank": 9,
+      "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "source": "量子位",
+      "category": "Growth",
+      "connectionNote": "Real-time world models on consumer GPUs advance the interactive, embodied AI direction Sean is beginning to explore in interface and robotics thinking.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e6cf6db79ba721d"
+    },
+    {
+      "id": "signal-979b4fc7d3421eb34539cb8f",
+      "rank": 10,
       "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
       "source": "量子位",
       "category": "World",
-      "connectionNote": "DeepSeek V4.1 directly matters because Sean already switched his translation API to DeepSick and has been actively balancing quality against cost, so a new high-value-for-price model could change his agent's tooling choices.",
+      "connectionNote": "DeepSeek新模型发布",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-979b4fc7d3421eb3"
     },
     {
-      "id": "signal-4b12bb242f328ccf96569ec6",
-      "rank": 7,
-      "title": "智谱新模型，懂法方面全球第一了",
-      "source": "量子位",
-      "category": "Thinking",
-      "connectionNote": "智谱法律AI全球第一",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4b12bb242f328ccf"
-    },
-    {
       "id": "signal-e692802916d14931d235948d",
-      "rank": 8,
+      "rank": 11,
       "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
       "source": "量子位",
-      "category": "Thinking",
-      "connectionNote": "清华's agent OS claims 83% task cost reduction, which directly challenges Sean's assumption that his self-built Digital Me architecture is more cost-efficient and flexible than off-the-shelf operating systems.",
+      "category": "Work",
+      "connectionNote": "Tsinghua's open-source agent OS with 83% lower task cost and editable AI memory aligns directly with Sean's memory bus, skills folder, and cost-efficient self-hosting priorities.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e692802916d14931"
     },
     {
-      "id": "signal-bf075f904ea1a81d6e4c93f8",
-      "rank": 9,
-      "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本",
-      "source": "少数派",
-      "category": "World",
-      "connectionNote": "Apple智能Beta上线",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bf075f904ea1a81d"
-    },
-    {
-      "id": "signal-f93022ddadc3ce5cc5c44c95",
-      "rank": 10,
-      "title": "邀请函 | Agentic Infra 操作系统大会 &amp; openEuler Summit 2026",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Urgent",
-      "connectionNote": "Agentic Infra OS conference invite",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f93022ddadc3ce5c"
-    },
-    {
-      "id": "signal-ef6f9496d78089fbd30e0c4d",
-      "rank": 11,
-      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Growth",
-      "connectionNote": "AI终端大模型落地",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ef6f9496d78089fb"
-    },
-    {
-      "id": "signal-d01d5464cdc7637530b0068c",
+      "id": "signal-6ba4a3fd196456d04660b58c",
       "rank": 12,
-      "title": "The World Is Not a Dataset - Building AI Systems That Continuously Learn from Reality｜QCon上海",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Thinking",
-      "connectionNote": "The talk on continuously learning from reality rather than static datasets directly supports Sean's core belief that long-term value comes from integration and live interaction, not raw data snapshots.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d01d5464cdc76375"
+      "title": "一文看懂ChatGPT、Codex、Work 的差别",
+      "source": "宝玉的分享",
+      "category": "World",
+      "connectionNote": "ChatGPT 产品线对比",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6ba4a3fd196456d0"
     },
     {
-      "id": "signal-76869751470b8ae43e43997f",
+      "id": "signal-20f32e15a46a71efe2ed293e",
       "rank": 13,
-      "title": "AI Agents Are Killing the Git Client, Not Git: What Anthropic's Scion and Cursor's Origin Show",
-      "source": "hackernoon.com",
-      "category": "Thinking",
-      "connectionNote": "The claim that AI agents are killing the Git client, not Git itself, directly interrogates Sean's existing agent/git workflow and his plans for GitHub-based agent control.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-76869751470b8ae4"
+      "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+      "source": "X：Arena (@arena)",
+      "category": "Urgent",
+      "connectionNote": "DeepSeek topping Code Arena at 10x lower cost validates Sean's pragmatic cost-driven choice to switch APIs and supports a continuing open-source-first model strategy.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-20f32e15a46a71ef"
     },
     {
-      "id": "signal-bb5f242d8fb67c409cdd1626",
+      "id": "signal-8323fc84ff24c9cd3aa1080d",
       "rank": 14,
-      "title": "IT系统弱点发现急剧增加 全球因AI普及达2.4倍",
-      "source": "yamagata-np.jp",
-      "category": "Thinking",
-      "connectionNote": "AI漏洞发现激增",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bb5f242d8fb67c40"
+      "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "category": "World",
+      "connectionNote": "local LLM hardware review",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8323fc84ff24c9cd"
     },
     {
-      "id": "signal-53a81ae90c16dad28554d22d",
+      "id": "signal-7c1882d70d4fd5513ce13bf6",
       "rank": 15,
-      "title": "习近平强调AI基础设施当天…中国推进包括AI在内的40项技术出口管制",
-      "source": "hani.co.kr",
-      "category": "World",
-      "connectionNote": "中国AI技术出口管制",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-53a81ae90c16dad2"
+      "title": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs | NVIDIA Newsroom",
+      "source": "nvidianews.nvidia.com",
+      "category": "Work",
+      "connectionNote": "Local personal AI agents on Windows PCs connect to Sean's privacy-first, vendor-independent principles for the Digital Me system.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7c1882d70d4fd551"
     },
     {
-      "id": "signal-e1708ffb9a57bcad41ad4882",
+      "id": "signal-e844a02c79ecb8b3b1ae2916",
       "rank": 16,
-      "title": "除非造成10亿美元损失或50人伤亡否则不管…Anthropic提出美国AI监管建议",
-      "source": "hani.co.kr",
-      "category": "World",
-      "connectionNote": "Anthropic提AI监管建议",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e1708ffb9a57bcad"
-    },
-    {
-      "id": "signal-bb6cc8a6cd92df3ca2474bb3",
-      "rank": 17,
-      "title": "AI泡沫论下国债价格上涨美元下跌…集中在美国的投资出现回收动向",
-      "source": "hani.co.kr",
-      "category": "Urgent",
-      "connectionNote": "AI泡沫论引发市场波动",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bb6cc8a6cd92df3c"
-    },
-    {
-      "id": "signal-2eb189ec27a2e74f8f5e2daa",
-      "rank": 18,
-      "title": "韩国综合股价指数上周蒸发14%…本周依旧如履薄冰",
-      "source": "busan.com",
-      "category": "Urgent",
-      "connectionNote": "韩国股市暴跌",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2eb189ec27a2e74f"
+      "title": "Building agents that transact with Anchor Browser and AgentCore payments | Artificial Intelligence",
+      "source": "aws.amazon.com",
+      "category": "Work",
+      "connectionNote": "Agent-native payments and browser automation solve a concrete operational barrier for Sean's aspiration to move agents from tools to autonomous actors.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e844a02c79ecb8b3"
     }
   ]
 }
