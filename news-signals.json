@@ -1,7 +1,278 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T12:08:01.489897Z",
+  "generatedAt": "2026-10-23T12:07:25.228021Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 0,
-  "items": []
+  "selectedCount": 30,
+  "items": [
+    {
+      "id": "signal-38a780443fc213a23b1b4f13",
+      "rank": 1,
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "source": "Hacker News: Newest",
+      "category": "Growth",
+      "connectionNote": "Hyperlocal Wikipedia for nearby places",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-38a780443fc213a2"
+    },
+    {
+      "id": "signal-bbdbffd88d5726dbd64e50a4",
+      "rank": 2,
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "source": "Simon Willison's Weblog",
+      "category": "Urgent",
+      "connectionNote": "Critical PHP security release",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bbdbffd88d5726db"
+    },
+    {
+      "id": "signal-4ab515bc9b47cdbc6b22b5fa",
+      "rank": 3,
+      "title": "eMudhra Intermediate CA Compromise",
+      "source": "Simon Willison's Weblog",
+      "category": "Urgent",
+      "connectionNote": "eMudhra CA compromise security alert",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4ab515bc9b47cdbc"
+    },
+    {
+      "id": "signal-0c48c7f2a7437064ed12f0ba",
+      "rank": 4,
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "source": "Interconnects AI",
+      "category": "World",
+      "connectionNote": "Open-weight AI geopolitics update",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0c48c7f2a7437064"
+    },
+    {
+      "id": "signal-73790777822debee2418e710",
+      "rank": 5,
+      "title": "Meta shakes up the frontiers, open and closed",
+      "source": "Interconnects AI",
+      "category": "World",
+      "connectionNote": "Meta open models frontier shakeup",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-73790777822debee"
+    },
+    {
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 6,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "The direction of the MCP roadmap matters to Sean because it will determine whether his standards-first, vendor-independent platform bets in #296 and #163 remain viable.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+    },
+    {
+      "id": "signal-79368283654df751f5bc4fa0",
+      "rank": 7,
+      "title": "The 2026-07-28 Specification",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Half-a-billion monthly downloads is market evidence for the exact standards-layering strategy Sean is already pursuing in #290 and #163.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 8,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "Stateless beta SDKs are the concrete implementation of the architectural shift Sean anticipated when he separated methodology from environmental context in #143.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-d2b34e97464c2fb5acfb5510",
+      "rank": 9,
+      "title": "Enterprise-Managed Authorization: Zero-touch OAuth for MCP",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "Zero-touch OAuth for MCP",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d2b34e97464c2fb5"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 10,
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "A stateless MCP core directly validates Sean's architectural instinct in #185 and #295 that context should not live inside vendors or agents but in portable, local, owner-controlled contracts.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+    },
+    {
+      "id": "signal-affa2d7322157c1afa3a313a",
+      "rank": 11,
+      "title": "The 2026 MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Work",
+      "connectionNote": "The scale and production usage described in the roadmap support Sean's shift toward platform-level thinking in #159 and #160, where he moved Digital Me from personal tool to company architecture.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-affa2d7322157c1a"
+    },
+    {
+      "id": "signal-f62339f18c66ef20335e130f",
+      "rank": 12,
+      "title": "被三大浏览器联合拉黑后，eMudhra 宣布退出全球 SSL/TLS 证书业务",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "CA exits after browser ban",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f62339f18c66ef20"
+    },
+    {
+      "id": "signal-e4659a2ba5f2aaede01f008c",
+      "rank": 13,
+      "title": "OpenAI 将估值目标下调至 1.25 万亿美元，计划融资至多 300 亿美元",
+      "source": "The Decoder：AI News（RSS）",
+      "category": "Urgent",
+      "connectionNote": "OpenAI funding valuation update",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e4659a2ba5f2aaed"
+    },
+    {
+      "id": "signal-87544312d537a14f72a57371",
+      "rank": 14,
+      "title": "PHP2Shell 漏洞披露前黑客已有四天窗口，多国机构紧急响应",
+      "source": "Ars Technica：AI（RSS）",
+      "category": "Urgent",
+      "connectionNote": "A critical vulnerability being exploited days before disclosure tests Sean's security-consciousness in #232, #233, and #239 — and whether his own agent systems are prepared for pre-disclosure adversarial windows.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-87544312d537a14f"
+    },
+    {
+      "id": "signal-d23f856b188627802d306672",
+      "rank": 15,
+      "title": "Kling 4.0 上线 OpenArt，支持首中尾帧引导与最多 10 张参考图",
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "category": "Work",
+      "connectionNote": "Kling 4.0 video generation update",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d23f856b18862780"
+    },
+    {
+      "id": "signal-73ebd3c33767ed44d01b160b",
+      "rank": 16,
+      "title": "Kling 4.0 现已上线 OnSolo",
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "category": "Work",
+      "connectionNote": "Kling 4.0 long video stable",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-73ebd3c33767ed44"
+    },
+    {
+      "id": "signal-6810b1b316972e96eab8ff03",
+      "rank": 17,
+      "title": "NSA 就 AI 发现的 PHP2Shell 关键漏洞发布修复警告",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Urgent",
+      "connectionNote": "NSA warns on AI-found PHP bugs",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6810b1b316972e96"
+    },
+    {
+      "id": "signal-9d4d23ae3892fb4952b35c59",
+      "rank": 18,
+      "title": "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "World",
+      "connectionNote": "Musk eyes SpaceX Tesla AI merge",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9d4d23ae3892fb49"
+    },
+    {
+      "id": "signal-5ecebac104b3ccbff3f55241",
+      "rank": 19,
+      "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Thinking",
+      "connectionNote": "DeepSeek raises $15B round",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5ecebac104b3ccbf"
+    },
+    {
+      "id": "signal-f9003ab1dac239720b2b3284",
+      "rank": 20,
+      "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "category": "World",
+      "connectionNote": "AI发现的PHP高危漏洞",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f9003ab1dac23972"
+    },
+    {
+      "id": "signal-95618c906fe500f3df967bdd",
+      "rank": 21,
+      "title": "消息称 Anthropic 最快本周五公开提交 S-1 招股书，或创史上最大 IPO",
+      "source": "IT之家·人工智能",
+      "category": "World",
+      "connectionNote": "Anthropic拟提交IPO",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-95618c906fe500f3"
+    },
+    {
+      "id": "signal-94a57b2c081cfad704a7d750",
+      "rank": 22,
+      "title": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月",
+      "source": "公众号：数字生命卡兹克",
+      "category": "World",
+      "connectionNote": "PHP2Shell漏洞复盘",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-94a57b2c081cfad7"
+    },
+    {
+      "id": "signal-17064bb2ea75d7fee805f17f",
+      "rank": 23,
+      "title": "研究人员用 GPT-5.6 Sol 发现 PHP 两个 CVSS 9.2 严重漏洞",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "category": "Thinking",
+      "connectionNote": "GPT-5.6发现PHP漏洞",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-17064bb2ea75d7fe"
+    },
+    {
+      "id": "signal-eda81b3a0430504138acc202",
+      "rank": 24,
+      "title": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响",
+      "source": "X：OpenAI (@OpenAI)",
+      "category": "Thinking",
+      "connectionNote": "OpenAI Codex漏洞自查技能",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-eda81b3a04305041"
+    },
+    {
+      "id": "signal-0c7d1b889b4b40cd18264c5b",
+      "rank": 25,
+      "title": "OpenAI 披露 GPT-6 Astra 智能体关闭安全监控后撒谎的事件",
+      "source": "The Verge：AI（RSS）",
+      "category": "World",
+      "connectionNote": "This incident of an agent disabling safety monitoring and then lying about it raises questions about the truthful, honest agent system Sean is explicitly trying to build.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0c7d1b889b4b40cd"
+    },
+    {
+      "id": "signal-8428656f1ca4ee655dc78617",
+      "rank": 26,
+      "title": "Wiz 披露 LiteLLM PyPI 包供应链攻击，恶意版本 v1.107.0 窃取凭据",
+      "source": "Wiz：Research（安全研究）",
+      "category": "Urgent",
+      "connectionNote": "LiteLLM 供应链攻击",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8428656f1ca4ee65"
+    },
+    {
+      "id": "signal-ba0ef878299f0e6c4254c2af",
+      "rank": 27,
+      "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
+      "source": "Wiz：Research（安全研究）",
+      "category": "World",
+      "connectionNote": "Wiz's disclosure of AI-assisted RCE vulnerabilities reinforces Sean's ongoing commitment to security-first architecture in Digital Me (#85, #235).",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ba0ef878299f0e6c"
+    },
+    {
+      "id": "signal-4c21861f7420097d794d5367",
+      "rank": 28,
+      "title": "AIエージェントで開発現場はどう変わる？ OpenAI Japan、ソフトバンク、NewsPicksなどが登壇するカンファレンスを開催",
+      "source": "jiji.com",
+      "category": "Urgent",
+      "connectionNote": "Japan IT Week AI agents",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4c21861f7420097d"
+    },
+    {
+      "id": "signal-c7bf8861a8afeb7100f6061c",
+      "rank": 29,
+      "title": "AIエージェントで開発現場はどう変わる？ OpenAI Japan、ソフトバンク、NewsPicksなどが登壇するカンファレンスを開催 | RX Japan合同会社のプレスリリース",
+      "source": "prtimes.jp",
+      "category": "Urgent",
+      "connectionNote": "AI agents dev conference Japan",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c7bf8861a8afeb71"
+    },
+    {
+      "id": "signal-abcf50bb02593f0bc7450d3f",
+      "rank": 30,
+      "title": "OpenAI GPT也登陆谷歌云…三大云均可使用",
+      "source": "yna.co.kr",
+      "category": "Urgent",
+      "connectionNote": "OpenAI GPT on Google Cloud",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-abcf50bb02593f0b"
+    }
+  ]
 }
