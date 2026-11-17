@@ -1,188 +1,134 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T12:10:12.404207Z",
+  "generatedAt": "2026-11-17T12:07:58.776629Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 20,
+  "selectedCount": 14,
   "items": [
     {
-      "id": "signal-2e68a82af2d1f5295785d8d8",
+      "id": "signal-17356ec058233512fe1e3657",
       "rank": 1,
-      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
-      "source": "cs.AI updates on arXiv.org",
+      "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+      "source": "Import AI",
       "category": "Growth",
-      "connectionNote": "Astrocyte biocomputing insights",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2e68a82af2d1f529"
-    },
-    {
-      "id": "signal-3c47f416e4269a658ee06226",
-      "rank": 2,
-      "title": "Universal XSS in uBlock Origin from website-driven element picker",
-      "source": "Hacker News: Newest",
-      "category": "Thinking",
-      "connectionNote": "uBlock Origin XSS vulnerability",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3c47f416e4269a65"
-    },
-    {
-      "id": "signal-1dab2ff7f169e5cf98605e67",
-      "rank": 3,
-      "title": "Jensen Huang might return to Nvidia as CEO",
-      "source": "Hacker News: Newest",
-      "category": "Urgent",
-      "connectionNote": "Nvidia CEO return rumor",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1dab2ff7f169e5cf"
-    },
-    {
-      "id": "signal-d1aa55ce42d45ebbee50681c",
-      "rank": 4,
-      "title": "What a Memory Preview Cannot Tell You: Ambiguity in AI Memory Permissions",
-      "source": "cs.HC updates on arXiv.org",
-      "category": "Thinking",
-      "connectionNote": "This paper probes exactly the ambiguity Sean's memory system creates: when dozens of memories share categories or keywords, can Sean or his agents infer the true rule behind why a specific memory gets resurfaced?",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d1aa55ce42d45ebb"
-    },
-    {
-      "id": "signal-5283bc4263c948d1905dfc54",
-      "rank": 5,
-      "title": "AI-Voyager: A Public-Interest System for Human-AI Civic Reasoning to Contest and Shape the Rules That Govern AI",
-      "source": "cs.HC updates on arXiv.org",
-      "category": "World",
-      "connectionNote": "AI-Voyager treats users as civic participants who can contest AI rules, mirroring Sean's own principle that humans should stay meaningfully in the loop at the level of direction and oversight.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5283bc4263c948d1"
-    },
-    {
-      "id": "signal-867788429f3be326ad4b54b7",
-      "rank": 6,
-      "title": "DesignSpecs: A DESIGN.md Dataset of Visual Design Specifications for AI Agents",
-      "source": "cs.HC updates on arXiv.org",
-      "category": "Work",
-      "connectionNote": "Sean wants to explore design and aesthetics beyond engineering thinking, and a visual design specification format for agents is a concrete bridge between his agent projects and that underexplored growth direction.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-867788429f3be326"
+      "connectionNote": "The industrialization of mathematics and Mirendil's RSI demonstration speak to the hidden cognitive and economic ceilings you are currently probing.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-17356ec058233512"
     },
     {
       "id": "signal-00d418bc4cb5be6179959cf1",
-      "rank": 7,
+      "rank": 2,
       "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
       "source": "Latent Space",
       "category": "World",
-      "connectionNote": "Jensen Huang resigns NVIDIA",
+      "connectionNote": "Jensen Huang's resignation reshapes the AI competitive landscape that Sean is positioning his company architecture within.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-00d418bc4cb5be61"
     },
     {
-      "id": "signal-5b1250980d61075e7264913c",
+      "id": "signal-e477ec8158ad1257e94acfd6",
+      "rank": 3,
+      "title": "The New MCP Roadmap",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "The roadmap validates your decision to decouple your method contract from any specific protocol implementation, reinforcing the bus-first design philosophy.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
+    },
+    {
+      "id": "signal-4e108bb4c3a489b35ddc781e",
+      "rank": 4,
+      "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "Beta SDKs for the stateless spec let you test the future transport layer now, before committing your skills/ folder architecture to a legacy implementation.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 5,
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "A stateless core aligns with your principle of vendor independence and simplifies the shared memory bus's transport layer.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
+    },
+    {
+      "id": "signal-b9f3145c98eeecda431cfae3",
+      "rank": 6,
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "source": "Hugging Face - Blog",
+      "category": "Work",
+      "connectionNote": "HF OpenRouter open-weight collaboration",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b9f3145c98eeecda"
+    },
+    {
+      "id": "signal-a5a138c359f27eb816622601",
+      "rank": 7,
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "source": "Hugging Face - Blog",
+      "category": "Work",
+      "connectionNote": "Fully local inference directly supports your tool independence and privacy-first stance, reducing dependency on vendor APIs.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a5a138c359f27eb8"
+    },
+    {
+      "id": "signal-1f99b61c3bcba016eb03d324",
       "rank": 8,
-      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
-      "source": "Latent Space",
-      "category": "World",
-      "connectionNote": "Mercor funding",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5b1250980d61075e"
+      "title": "今天截止！2026年度AI表彰，错过再等一年！",
+      "source": "量子位",
+      "category": "Urgent",
+      "connectionNote": "AI表彰今日截止",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1f99b61c3bcba016"
     },
     {
-      "id": "signal-f4d494547aaa6b09654a3e08",
+      "id": "signal-308a6de9bd0575026ccf95a7",
       "rank": 9,
-      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
-      "source": "Latent Space",
-      "category": "World",
-      "connectionNote": "Fable 5.2 #1",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f4d494547aaa6b09"
-    },
-    {
-      "id": "signal-27ad038aabed55a319872455",
-      "rank": 10,
-      "title": "突发！DeepSeek开放全家桶API",
-      "source": "量子位",
-      "category": "Work",
-      "connectionNote": "DeepSeek开放全家桶API",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-27ad038aabed55a3"
-    },
-    {
-      "id": "signal-ddd576de4cf597496312134c",
-      "rank": 11,
-      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
-      "source": "量子位",
-      "category": "World",
-      "connectionNote": "黄仁勋辞职英伟达换帅",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ddd576de4cf59749"
-    },
-    {
-      "id": "signal-f38f064b915acb1dde7f02d1",
-      "rank": 12,
-      "title": "派早报：逾十万人次联署要求黄仁勋复职",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "daily tech news roundup",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f38f064b915acb1d"
-    },
-    {
-      "id": "signal-68734461d0a4a41cb6162981",
-      "rank": 13,
-      "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "Nvidia CEO resignation fake news",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-68734461d0a4a41c"
-    },
-    {
-      "id": "signal-d37451713a7e131b792cc293",
-      "rank": 14,
-      "title": "一个 100% 用 AI 写代码的工程师，开始担心它把代码库写“脆弱”了",
+      "title": "DeepSeek 悄悄收紧免费额度，或因算力资源紧张所致",
       "source": "OSCHINA 社区最新新闻",
-      "category": "Thinking",
-      "connectionNote": "Sean has been investing heavily in an AI-native workflow where agents handle low-level implementation, and this article is a direct warning that fully AI-written code can produce fragile systems unless a different review discipline is applied.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d37451713a7e131b"
-    },
-    {
-      "id": "signal-6b9e6d3003c477f482b111a1",
-      "rank": 15,
-      "title": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "Work",
-      "connectionNote": "Sean is actively building a skills/ folder architecture and evaluating how agents consume capabilities, and packaging permissions as OCI images is a concrete, portable alternative to his current registry approach.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6b9e6d3003c477f4"
-    },
-    {
-      "id": "signal-ef850f09aab560599ff95d88",
-      "rank": 16,
-      "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "World",
-      "connectionNote": "DeepSeek's aggressive API pricing directly affects Sean's cost calculations for the news briefing pipeline and makes cheap bulk scoring even more viable.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ef850f09aab56059"
-    },
-    {
-      "id": "signal-3075af876c8bb806259b5b92",
-      "rank": 17,
-      "title": "addyosmani/agent-skills Adds 788 GitHub Stars in 24 Hours as AI Coding Agents Get Senior-Engineer Guardrails — BigGo Finance",
-      "source": "finance.biggo.com",
       "category": "Urgent",
-      "connectionNote": "Composable agent skills trending",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3075af876c8bb806"
+      "connectionNote": "DeepSeek 收紧免费额度",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-308a6de9bd057502"
     },
     {
-      "id": "signal-097d95ec6d615c45cf85bfbf",
-      "rank": 18,
-      "title": "Anthropic首席执行官在上市前几天表示：“我们对AI代理非常偏执” - Infobae",
-      "source": "infobae.com",
+      "id": "signal-afbdc69c8ffef43eed8ae061",
+      "rank": 10,
+      "title": "Ex-OpenAI and Anduril engineers build AI agents",
+      "source": "americanbazaaronline.com",
+      "category": "Growth",
+      "connectionNote": "Shows a real-world team compounding agentic workflows into a concrete product, which tests Sean's recent lean toward architecture-first thinking.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-afbdc69c8ffef43e"
+    },
+    {
+      "id": "signal-22e23d9bb0773cba55bcb60d",
+      "rank": 11,
+      "title": "Adobe will let you hand off your files to third-party AI agents. But should you? - Fast Company",
+      "source": "fastcompany.com",
+      "category": "Urgent",
+      "connectionNote": "Adobe hands off to third-party agents",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-22e23d9bb0773cba"
+    },
+    {
+      "id": "signal-1a0217be393c2ff60de3f704",
+      "rank": 12,
+      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks | TechCrunch",
+      "source": "techcrunch.com",
+      "category": "Urgent",
+      "connectionNote": "Apple Mac security for AI agents",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1a0217be393c2ff6"
+    },
+    {
+      "id": "signal-59e9f06a2824b1721feadf74",
+      "rank": 13,
+      "title": "AWS Launches Bedrock AgentCore V2 & Search API — CASRAI",
+      "source": "casrai.org",
+      "category": "Urgent",
+      "connectionNote": "AWS Bedrock AgentCore V2 provides a production-grade runtime that may supersede some of the custom infrastructure Sean is planning for Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-59e9f06a2824b172"
+    },
+    {
+      "id": "signal-d95ce332618f9cc50e611a59",
+      "rank": 14,
+      "title": "How 4 AI Agents Burned $47,000 in 11 Days: The Distributed Consensus Failure Nobody Talks About",
+      "source": "dev.to",
       "category": "Thinking",
-      "connectionNote": "Anthropic's CEO explicitly frames agent access to sensitive enterprise information as a trust and regulatory problem, which aligns with Sean's privacy-first principle but raises the stakes for his public showcase ambitions.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-097d95ec6d615c45"
-    },
-    {
-      "id": "signal-97694c98a892c3d0cf77d352",
-      "rank": 19,
-      "title": "Google向所有人开放Gemini 4 Carbon，并推出协同工作的代理“蜂群”",
-      "source": "wwwhatsnew.com",
-      "category": "Work",
-      "connectionNote": "Sean is actively designing multi-agent architectures for Digital Me, and Google's 'agent swarms' with parallel collaboration directly challenges his current single-orchestrator mental model.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-97694c98a892c3d0"
-    },
-    {
-      "id": "signal-7e5cf5f226358d9ca63a116f",
-      "rank": 20,
-      "title": "iX工作坊：开发多代理系统并集成到自己的软件中 | heise online",
-      "source": "heise.de",
-      "category": "Work",
-      "connectionNote": "Workshop on developing multi-agent systems",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7e5cf5f226358d9c"
+      "connectionNote": "This is a concrete production failure of the exact multi-agent orchestration patterns you are designing for Digital Me.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d95ce332618f9cc5"
     }
   ]
 }
