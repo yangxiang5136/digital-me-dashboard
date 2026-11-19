@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T12:10:20.291461Z",
+  "generatedAt": "2026-11-19T12:07:55.612378Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 18,
+  "selectedCount": 16,
   "items": [
     {
-      "id": "signal-f7aacf44de85daf4490fa801",
+      "id": "signal-c8ac2571bc82c99624258fb6",
       "rank": 1,
-      "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
       "source": "Import AI",
       "category": "Growth",
-      "connectionNote": "The outer RSI loop concept, where a system recursively improves its own improvement process, is precisely the self-maintaining system direction Sean wants to move toward.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f7aacf44de85daf4"
+      "connectionNote": "The creativity benchmark directly challenges Sean's assumption that AI systems are primarily constrained by technical capability, suggesting instead that intuitive visual reasoning—a more human, design-adjacent faculty—is the next frontier, which aligns with his growth direction toward design and aesthetics.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c8ac2571bc82c996"
     },
     {
       "id": "signal-a4dba8975d5dfea3a58e6c77",
@@ -19,152 +19,134 @@
       "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
       "source": "Simon Willison's Weblog",
       "category": "Urgent",
-      "connectionNote": "new frontier model launches",
+      "connectionNote": "GPT-6.2 models",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a4dba8975d5dfea3"
     },
     {
-      "id": "signal-6fcdfe56101000f0f868dcc7",
-      "rank": 3,
-      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
-      "source": "Latent Space",
-      "category": "World",
-      "connectionNote": "GPT-6.2 model economics shift",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6fcdfe56101000f0"
-    },
-    {
       "id": "signal-00d418bc4cb5be6179959cf1",
-      "rank": 4,
+      "rank": 3,
       "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
       "source": "Latent Space",
       "category": "World",
-      "connectionNote": "Jensen Huang resigns NVIDIA",
+      "connectionNote": "Jensen Huang resigns from NVIDIA",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-00d418bc4cb5be61"
     },
     {
-      "id": "signal-749dcadd3968870013214360",
-      "rank": 5,
-      "title": "A More Predictable Release Cycle for MCP",
-      "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "A predictable MCP release cadence supports Sean's vendor-independence and skills-folder architecture by making the protocol less volatile.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-749dcadd39688700"
+      "id": "signal-0c48c7f2a7437064ed12f0ba",
+      "rank": 4,
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "source": "Interconnects AI",
+      "category": "World",
+      "connectionNote": "open artifacts regulation geopolitics update",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0c48c7f2a7437064"
     },
     {
       "id": "signal-e477ec8158ad1257e94acfd6",
-      "rank": 6,
+      "rank": 5,
       "title": "The New MCP Roadmap",
       "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "Provides the directional context Sean needs as he is actively adopting MCP-based patterns for his skills folder and agent contracts.",
+      "category": "Work",
+      "connectionNote": "The updated MCP roadmap gives Sean a concrete external trajectory to compare his own Digital Me roadmap against, helping him decide whether to align his memory bus and skills architecture with an evolving community standard.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
     },
     {
-      "id": "signal-79368283654df751f5bc4fa0",
-      "rank": 7,
-      "title": "The 2026-07-28 Specification",
-      "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "The massive adoption metrics for MCP give Sean concrete validation that his strategic bet on open protocols over custom, locked-in architectures is correct.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
-    },
-    {
       "id": "signal-4e108bb4c3a489b35ddc781e",
-      "rank": 8,
+      "rank": 6,
       "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
       "source": "Model Context Protocol Blog",
-      "category": "Urgent",
-      "connectionNote": "Directly informs the practical migration concern Sean has as he adopts new SDK patterns for his agents and bus architecture.",
+      "category": "Thinking",
+      "connectionNote": "The stateless MCP beta SDKs are a concrete implementation of the persistent protocol work Sean has been tracking, addressing the handoff- and session-state problems he has flagged in multi-agent harness designs.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
     },
     {
       "id": "signal-3cebd79bf79035703e567bb0",
-      "rank": 9,
+      "rank": 7,
       "title": "The 2026-07-28 MCP Specification Release Candidate",
       "source": "Model Context Protocol Blog",
       "category": "Thinking",
-      "connectionNote": "This validates Sean's architectural instinct that a protocol's core should become a simpler, scalable layer, which directly impacts his agent bus design choices.",
+      "connectionNote": "The MCP spec shift to a stateless core directly validates Sean's architectural instinct for a shared memory bus with discrete contracts, but its scale-up via ordinary HTTP infrastructure challenges his emphasis on local-first authority.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
-      "id": "signal-75ca4de749df213f2ec9c3fd",
+      "id": "signal-00be5c4280fd2146e93a38af",
+      "rank": 8,
+      "title": "wlnmp 一键安装包更新 261119（修复NGINX2Root漏洞）",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "wlnmp nginx security patch",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-00be5c4280fd2146"
+    },
+    {
+      "id": "signal-0be4f5eda44cb48c4f51abe2",
+      "rank": 9,
+      "title": "NGINX 被曝两个高危 RCE，其中一个在代码里藏了十年",
+      "source": "OSCHINA 社区最新新闻",
+      "category": "Urgent",
+      "connectionNote": "critical NGINX RCE vulnerabilities",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0be4f5eda44cb48c"
+    },
+    {
+      "id": "signal-0ebd9dbefab26ce3df57a7f3",
       "rank": 10,
-      "title": "派早报：国区 App Store 将 AIGC 合规设为上架必填、OpenAI 发布 GPT-6.2 Astra 等",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "Tech policy updates",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-75ca4de749df213f"
-    },
-    {
-      "id": "signal-c2c2caf120ce81605aa5d02a",
-      "rank": 11,
-      "title": "纳德拉回应微软首次给工程师发“离场费”：Claude Code 让微软措手不及，二十年 IDE 优势半年动摇",
+      "title": "价值为先，金融智能体应用实践 | TF技术前线188期报名",
       "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "World",
-      "connectionNote": "The Microsoft/Claude Code disruption story shows how fast a tool advantage can collapse, reinforcing Sean's vendor-independence principle and using AI to reshape tooling.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c2c2caf120ce8160"
+      "category": "Urgent",
+      "connectionNote": "金融智能体应用实践报名",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0ebd9dbefab26ce3"
     },
     {
-      "id": "signal-bd22f11173fd392d0f829983",
+      "id": "signal-0dc59827e6ff5049fca928b5",
+      "rank": 11,
+      "title": "腾讯混元 Hy4 flash 上线首日登顶 OpenRouter，2 毛钱就能跑完一个任务！",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
+      "category": "Urgent",
+      "connectionNote": "腾讯混元Hy4 flash登顶",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0dc59827e6ff5049"
+    },
+    {
+      "id": "signal-1b4a6ec44ea6bf05a32630df",
       "rank": 12,
-      "title": "Instagram",
-      "source": "instagram.com",
-      "category": "Urgent",
-      "connectionNote": "AI agent practical workshop",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bd22f11173fd392d"
+      "title": "NAVER 招聘",
+      "source": "recruit.navercorp.com",
+      "category": "Work",
+      "connectionNote": "NAVER's job posting for a system that auto-evaluates agent skill selection is nearly identical to Sean's own vision for a self-improving skills folder, validating his architectural direction while showing it exists as real industry work.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1b4a6ec44ea6bf05"
     },
     {
-      "id": "signal-973e2719204aa6b31ddb9999",
+      "id": "signal-0460bcc941d256abc61b7535",
       "rank": 13,
-      "title": "🚨 就是今天！🤖 你准备好将AI代理带入...",
-      "source": "instagram.com",
+      "title": "Gen Agentic AI Architect @ Montreal, Canada _ Hybrid，BURGEON IT SERVICES — Montreal, Quebec, Canada | LinkedIn Jobs",
+      "source": "ca.linkedin.com",
       "category": "Urgent",
-      "connectionNote": "AI agents in SDLC today",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-973e2719204aa6b3"
-    },
-    {
-      "id": "signal-6a278cad21ade3710e054720",
-      "rank": 14,
-      "title": "Desenvolvimento de software em 2027: 6 mudanças que os programadores precisam acompanhar",
-      "source": "querobolsa.com.br",
-      "category": "Thinking",
-      "connectionNote": "Software development 2027 changes programmers",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6a278cad21ade371"
+      "connectionNote": "Gen agentic AI architect job role",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0460bcc941d256ab"
     },
     {
       "id": "signal-ad2e8f572e3402d3fde92750",
-      "rank": 15,
+      "rank": 14,
       "title": "Releasing Personal Agent Protocol 1.0 | Sierra",
       "source": "sierra.ai",
       "category": "Work",
-      "connectionNote": "A new standard for personal agent interoperability is directly relevant to Sean's explicit goal of moving from a system he maintains to a standard he contributes to.",
+      "connectionNote": "Poppy's adoption by Meta, Genesys, and industry partners gives Sean an external reference point for the personal-agent standards question that underpins his Digital Me architecture and his desire for other people to actually use his systems.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ad2e8f572e3402d3"
     },
     {
-      "id": "signal-f544fb8d7f32899b2fe02048",
+      "id": "signal-e6ccb661eaa265237d860b38",
+      "rank": 15,
+      "title": "Introducing eve 1.0",
+      "source": "vercel.com",
+      "category": "Work",
+      "connectionNote": "Vercel's eve 1.0 offers another open-source framework candidate for building production-ready agents, adding to the gstack/AutoGen/harness options Sean has already evaluated for the Digital Me rewrite.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e6ccb661eaa26523"
+    },
+    {
+      "id": "signal-87bab565c2902633966f85f5",
       "rank": 16,
-      "title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
-      "source": "HF Daily Papers",
-      "category": "Thinking",
-      "connectionNote": "This directly maps to Sean's architecture question about recursive self-improvement environments, showing a concrete training-environment loop pattern he could adapt for Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f544fb8d7f32899b"
-    },
-    {
-      "id": "signal-e87965f9661839d87abd67d8",
-      "rank": 17,
-      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-      "source": "HF Daily Papers",
-      "category": "Thinking",
-      "connectionNote": "This item questions the very foundation of Sean's goal to give agents more agency, asking if the instructions for self-improvement themselves are becoming obsolete.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e87965f9661839d8"
-    },
-    {
-      "id": "signal-21a021f50a4191ab4c29a74b",
-      "rank": 18,
-      "title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
-      "source": "HF Daily Papers",
-      "category": "Growth",
-      "connectionNote": "robot manipulation via RGB",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-21a021f50a4191ab"
+      "title": "Building the Agent Host Protocol for sessions that continue across devices - The GitHub Blog",
+      "source": "github.blog",
+      "category": "Work",
+      "connectionNote": "GitHub's Agent Host Protocol addresses the exact session-continuity problem Sean has been wrestling with as he migrates Digital Me into a multi-device company architecture, offering a concrete open path beyond the local memory bus.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-87bab565c2902633"
     }
   ]
 }
