@@ -1,106 +1,106 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T12:06:15.430110Z",
+  "generatedAt": "2026-11-21T12:09:04.824595Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 28,
+  "selectedCount": 22,
   "items": [
     {
-      "id": "signal-606cda3839efe7d8127c23fb",
+      "id": "signal-a7474941af00fe28b592a743",
       "rank": 1,
-      "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing | Artificial Intelligence",
-      "source": "aws.amazon.com",
+      "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+      "source": "HF Daily Papers",
       "category": "Growth",
-      "connectionNote": "This taxonomy from AWS provides a structured framework that maps directly to Sean's plans for a skills folder and agent contracts, offering concrete patterns and anti-patterns from manufacturing.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-606cda3839efe7d8"
+      "connectionNote": "Coding agents train optical networks",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a7474941af00fe28"
     },
     {
-      "id": "signal-10678b2da9be452720e28f85",
+      "id": "signal-1a1833a2a30aa186a247f50e",
       "rank": 2,
-      "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+      "title": "Nasdaq erases all 2026 gains",
       "source": "Hacker News: Newest",
       "category": "Urgent",
-      "connectionNote": "Google vs GrapheneOS bootloader",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-10678b2da9be4527"
+      "connectionNote": "nasdaq erases 2026 gains",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1a1833a2a30aa186"
     },
     {
-      "id": "signal-14fc633a1fb343f203741b9b",
+      "id": "signal-70c6fbf33a731ef611b35de4",
       "rank": 3,
-      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
       "source": "Hacker News: Newest",
-      "category": "Urgent",
-      "connectionNote": "OpenSSL critical buffer overflow",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-14fc633a1fb343f2"
+      "category": "Thinking",
+      "connectionNote": "sec nvidia accounting probe",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-70c6fbf33a731ef6"
     },
     {
-      "id": "signal-41ed94e5e47fa9fe7e37638b",
+      "id": "signal-af6771fdba8c99dac4901b55",
       "rank": 4,
-      "title": "The PSF end-of-year fundraiser",
-      "source": "Simon Willison's Weblog",
-      "category": "Urgent",
-      "connectionNote": "PSF fundraiser announcement",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-41ed94e5e47fa9fe"
+      "title": "Show HN: OpenComputer – an open source alternative to Devin",
+      "source": "Hacker News: Newest",
+      "category": "Work",
+      "connectionNote": "An open-source alternative to Devin with a durable VM architecture directly aligns with Sean's exploration of safe sandboxing and building practical coding agents, potentially offering a blueprint for his own harness design.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-af6771fdba8c99da"
     },
     {
-      "id": "signal-ff1444ae888acf21e95c6377",
+      "id": "signal-50fa3c2893c611920f91ff14",
       "rank": 5,
-      "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
-      "source": "Latent Space",
+      "title": "Inkling 2 Mini",
+      "source": "Hacker News: Newest",
+      "category": "Work",
+      "connectionNote": "The release of a compact, highly capable model like Inkling 2 Mini is directly relevant to Sean's practical decisions about cost, latency, and local-first inference for the Memory Agent.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-50fa3c2893c61192"
+    },
+    {
+      "id": "signal-261aeacd06bad6eab697bbce",
+      "rank": 6,
+      "title": "Quoting Levent Alpöge",
+      "source": "Simon Willison's Weblog",
+      "category": "Thinking",
+      "connectionNote": "AI claims Riemann Hypothesis proof",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-261aeacd06bad6ea"
+    },
+    {
+      "id": "signal-a4dba8975d5dfea3a58e6c77",
+      "rank": 7,
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "source": "Simon Willison's Weblog",
       "category": "World",
-      "connectionNote": "Anthropic IPO $1.5T valuation",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ff1444ae888acf21"
+      "connectionNote": "GPT-6.2 Astra and Sol released",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a4dba8975d5dfea3"
     },
     {
       "id": "signal-354e9d056fbca9dc45cba245",
-      "rank": 6,
+      "rank": 8,
       "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
       "source": "Latent Space",
-      "category": "Thinking",
-      "connectionNote": "Gemini 4 Neon model release",
+      "category": "Urgent",
+      "connectionNote": "Gemini 4 Neon release",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-354e9d056fbca9dc"
     },
     {
       "id": "signal-6fcdfe56101000f0f868dcc7",
-      "rank": 7,
+      "rank": 9,
       "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
       "source": "Latent Space",
-      "category": "Work",
-      "connectionNote": "GPT-6.2 Astra cheaper frontier model",
+      "category": "Urgent",
+      "connectionNote": "GPT-6.2 Astra/Sol release",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6fcdfe56101000f0"
     },
     {
-      "id": "signal-00d418bc4cb5be6179959cf1",
-      "rank": 8,
-      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
-      "source": "Latent Space",
-      "category": "World",
-      "connectionNote": "Jensen Huang resigns from NVIDIA",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-00d418bc4cb5be61"
-    },
-    {
-      "id": "signal-a4d0a4cc018584e6a1640159",
-      "rank": 9,
-      "title": "Open-source AI without Jensen",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "The article's focus on macro chip supply dynamics is tangential to Sean's specific work on agent architecture and personal memory systems.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a4d0a4cc018584e6"
-    },
-    {
-      "id": "signal-6ed57b89baa612962b9f98b5",
+      "id": "signal-749dcadd3968870013214360",
       "rank": 10,
-      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "Kimi K3.1 Pro cyber",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6ed57b89baa61296"
+      "title": "A More Predictable Release Cycle for MCP",
+      "source": "Model Context Protocol Blog",
+      "category": "Urgent",
+      "connectionNote": "MCP predictable release cycle",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-749dcadd39688700"
     },
     {
       "id": "signal-e477ec8158ad1257e94acfd6",
       "rank": 11,
       "title": "The New MCP Roadmap",
       "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "The updated MCP roadmap is directly relevant to Sean's thinking on platform architecture, particularly his vendor-independence principle and his exploration of agent harnesses.",
+      "category": "Thinking",
+      "connectionNote": "The evolution of MCP is directly relevant to Sean's architectural bets on vendor independence and his move to separate skills from agents, as MCP solidifies a standard way for agents to interact with tools.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
     },
     {
@@ -109,7 +109,7 @@
       "title": "The 2026-07-28 Specification",
       "source": "Model Context Protocol Blog",
       "category": "Work",
-      "connectionNote": "Deep detail on the 2026-07-28 MCP spec is directly relevant to Sean's shared memory-bus architecture and his plan to migrate Digital Me to standard protocols.",
+      "connectionNote": "The rapid growth and spec evolution of MCP directly validates Sean's architectural decision to build around a shared memory bus and skills contracts.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
     },
     {
@@ -117,144 +117,90 @@
       "rank": 13,
       "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
       "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "The beta SDKs for the new stateless MCP revision give Sean a concrete path to test the protocol before committing Digital Me's memory-bus and skill contracts to it.",
+      "category": "Urgent",
+      "connectionNote": "The move to a stateless MCP is a paradigm shift in agent infrastructure that could simplify Sean's system architecture, but it challenges his current stateful memory bus and file-based design assumptions.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
     },
     {
-      "id": "signal-3cebd79bf79035703e567bb0",
+      "id": "signal-d2b34e97464c2fb5acfb5510",
       "rank": 14,
+      "title": "Enterprise-Managed Authorization: Zero-touch OAuth for MCP",
+      "source": "Model Context Protocol Blog",
+      "category": "Thinking",
+      "connectionNote": "The zero-touch OAuth extension for MCP directly addresses the human-in-the-loop and privacy principles Sean has formalized by providing an enterprise-grade method to manage agent authorization without exposing credentials.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d2b34e97464c2fb5"
+    },
+    {
+      "id": "signal-3cebd79bf79035703e567bb0",
+      "rank": 15,
       "title": "The 2026-07-28 MCP Specification Release Candidate",
       "source": "Model Context Protocol Blog",
       "category": "Thinking",
-      "connectionNote": "Sean is architecting a multi-agent Digital Me system, and this major MCP revision directly shapes the protocol layer his agents will use for interop and scaling.",
+      "connectionNote": "The shift to a stateless MCP core with server-rendered UIs directly impacts the architecture of the memory bus and skills framework Sean is designing for Digital Me.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
+      "id": "signal-b9f3145c98eeecda431cfae3",
+      "rank": 16,
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "source": "Hugging Face - Blog",
+      "category": "Work",
+      "connectionNote": "HF and OpenRouter partnership",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b9f3145c98eeecda"
+    },
+    {
+      "id": "signal-3ca04468632cbb2c38eacb49",
+      "rank": 17,
+      "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+      "source": "量子位",
+      "category": "Thinking",
+      "connectionNote": "GPT-6.2具身模型突破",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3ca04468632cbb2c"
+    },
+    {
+      "id": "signal-3fa1ae21a58224b14bc9e937",
+      "rank": 18,
+      "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+      "source": "量子位",
+      "category": "World",
+      "connectionNote": "黎曼猜想Claude证明",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3fa1ae21a58224b1"
+    },
+    {
       "id": "signal-d71d26caea83e2373267de54",
-      "rank": 15,
+      "rank": 19,
       "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
       "source": "少数派",
       "category": "Urgent",
-      "connectionNote": "科技早报",
+      "connectionNote": "Gemini4Neon",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-d71d26caea83e237"
     },
     {
       "id": "signal-f9505697a2babf23fe72248c",
-      "rank": 16,
+      "rank": 20,
       "title": "派早报：Apple 年度应用、TGA 2026 分别公布入围名单等",
       "source": "少数派",
       "category": "Urgent",
-      "connectionNote": "科技早报",
+      "connectionNote": "派早报",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f9505697a2babf23"
     },
     {
-      "id": "signal-2bd53ab2021ae48612376ae3",
-      "rank": 17,
-      "title": "Ruby 公开披露多个会触发远程代码执行的漏洞",
-      "source": "OSCHINA 社区最新新闻",
-      "category": "Urgent",
-      "connectionNote": "Ruby RCE vulnerabilities",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2bd53ab2021ae486"
-    },
-    {
-      "id": "signal-ad2e8f572e3402d3fde92750",
-      "rank": 18,
-      "title": "Releasing Personal Agent Protocol 1.0 | Sierra",
-      "source": "sierra.ai",
-      "category": "Work",
-      "connectionNote": "The emerging Personal Agent Protocol competes with MCP for the exact agent-interop layer Sean is currently building, so tracking it is strategically necessary for his choices.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ad2e8f572e3402d3"
-    },
-    {
-      "id": "signal-e6ccb661eaa265237d860b38",
-      "rank": 19,
-      "title": "Introducing eve 1.0",
-      "source": "vercel.com",
-      "category": "Work",
-      "connectionNote": "Vercel's production-ready open-source agent framework provides a direct reference point for Sean's aspiring skills folder and agent contracts in Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e6ccb661eaa26523"
-    },
-    {
-      "id": "signal-24c3db859b4baaaaa7c914d4",
-      "rank": 20,
-      "title": "日经平均期货在大阪交易所反转下跌，以5万7650日元低开，跌2090日元",
-      "source": "nikkei.com",
-      "category": "Urgent",
-      "connectionNote": "Nikkei futures fall",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-24c3db859b4baaaa"
-    },
-    {
-      "id": "signal-a46d6b3f2e7d2c209e9fb21e",
+      "id": "signal-1c06b7df23f0ce643b610fa1",
       "rank": 21,
-      "title": "11月24日至27日的新设基金 - 日本经济新闻",
-      "source": "nikkei.com",
+      "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
+      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
       "category": "Urgent",
-      "connectionNote": "New fund setups list",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a46d6b3f2e7d2c20"
+      "connectionNote": "Neon Antigravity coding boost",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1c06b7df23f0ce64"
     },
     {
-      "id": "signal-11fce0b3c0051bbfa1fedcb3",
+      "id": "signal-363a31a857a6d25df4f213c3",
       "rank": 22,
-      "title": "期待美中贸易改善，特朗普与习近平就台湾问题互相牵制，首脑会谈：中日新闻Web",
-      "source": "chunichi.co.jp",
-      "category": "World",
-      "connectionNote": "US-China summit trade Taiwan",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-11fce0b3c0051bbf"
-    },
-    {
-      "id": "signal-594db8aa1c816cf71039bfc4",
-      "rank": 23,
-      "title": "东京股市午盘收于56775日元，AI材料出尽引发抛售",
-      "source": "chunichi.co.jp",
+      "title": "第二课 - 用AI快速创建Web应用10倍 - 报名开放",
+      "source": "youtube.com",
       "category": "Urgent",
-      "connectionNote": "Tokyo market AI selloff",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-594db8aa1c816cf7"
-    },
-    {
-      "id": "signal-a188cc9d7cfeb52b0f4a3b00",
-      "rank": 24,
-      "title": "政府加速AIDC许可审批，非首都圈50MW以下免电力评估",
-      "source": "hani.co.kr",
-      "category": "Urgent",
-      "connectionNote": "AIDC power permit easing",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a188cc9d7cfeb52b"
-    },
-    {
-      "id": "signal-650f3b2912bb9486075990fb",
-      "rank": 25,
-      "title": "堵住纽扣孔……AI改变高考考场",
-      "source": "h21.hani.co.kr",
-      "category": "Urgent",
-      "connectionNote": "AI changes CSAT exam",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-650f3b2912bb9486"
-    },
-    {
-      "id": "signal-117ae2ccf633b1a28b1f98db",
-      "rank": 26,
-      "title": "李：AI作弊是重大犯罪……国家考试需从头到尾彻底改革",
-      "source": "edaily.co.kr",
-      "category": "Urgent",
-      "connectionNote": "AI cheating national exams",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-117ae2ccf633b1a2"
-    },
-    {
-      "id": "signal-348895814150c238e98318fb",
-      "rank": 27,
-      "title": "李总统：国家考试制度需从A到Z迅速改革",
-      "source": "ohmynews.com",
-      "category": "Urgent",
-      "connectionNote": "President orders exam overhaul",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-348895814150c238"
-    },
-    {
-      "id": "signal-faa7d3fa388676dd81ea287c",
-      "rank": 28,
-      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-      "source": "HF Daily Papers",
-      "category": "Thinking",
-      "connectionNote": "The step-by-step video diffusion transformer grounding technique is mostly a technical curiosity, but it touches Sean's interests in multimodal fusion and agent learning.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-faa7d3fa388676dd"
+      "connectionNote": "AI web dev course",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-363a31a857a6d25d"
     }
   ]
 }
