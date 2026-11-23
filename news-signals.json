@@ -1,98 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T12:09:04.158412Z",
+  "generatedAt": "2026-11-23T12:08:26.401252Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
   "selectedCount": 19,
   "items": [
     {
-      "id": "signal-c8ac2571bc82c99624258fb6",
+      "id": "signal-f4bfce96f9191c7f0af8686d",
       "rank": 1,
-      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-      "source": "Import AI",
+      "title": "Select Styling Specimens",
+      "source": "Simon Willison's Weblog",
       "category": "Growth",
-      "connectionNote": "The discussion of creativity benchmarks and open weight models touches Sean's active exploration of AI-native workflows and agent capabilities, with potential implications for evaluating and selecting models for Digital Me.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c8ac2571bc82c996"
+      "connectionNote": "This is a concrete example of using an AI coding agent for a small design-oriented tool, which touches Sean's growth direction of exploring design, aesthetics, and non-pure-engineering thinking.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f4bfce96f9191c7f"
+    },
+    {
+      "id": "signal-8b0f4896cdaeb7776749522e",
+      "rank": 2,
+      "title": "llm-gemini 0.38.1",
+      "source": "Simon Willison's Weblog",
+      "category": "Work",
+      "connectionNote": "llm-gemini reasoning level fix",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-8b0f4896cdaeb777"
+    },
+    {
+      "id": "signal-87216c4a7b994d4ad7e7bcfe",
+      "rank": 3,
+      "title": "PostgreSQL 19 Released",
+      "source": "Simon Willison's Weblog",
+      "category": "World",
+      "connectionNote": "PostgreSQL 19 release",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-87216c4a7b994d4a"
+    },
+    {
+      "id": "signal-2e77a9a2737c95ce451ad6a6",
+      "rank": 4,
+      "title": "llm-gemini 0.38",
+      "source": "Simon Willison's Weblog",
+      "category": "Work",
+      "connectionNote": "Gemini's pricing confusion is a case study in the exact vendor-opacity problem Sean's principles demand Digital Me must avoid through modularity and clear abstraction.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2e77a9a2737c95ce"
+    },
+    {
+      "id": "signal-ce7b74078dde850650e7c6d8",
+      "rank": 5,
+      "title": "datasette-arrows 0.1a0",
+      "source": "Simon Willison's Weblog",
+      "category": "Work",
+      "connectionNote": "Datasette streaming export plugin",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ce7b74078dde8506"
     },
     {
       "id": "signal-b0224c4abd188dc5f38b4101",
-      "rank": 2,
+      "rank": 6,
       "title": "[AINews] Riemann Hypothesis proved...twice independently",
       "source": "Latent Space",
-      "category": "World",
-      "connectionNote": "Riemann proof claims",
+      "category": "Urgent",
+      "connectionNote": "Riemann Hypothesis double proof",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b0224c4abd188dc5"
     },
     {
       "id": "signal-ff1444ae888acf21e95c6377",
-      "rank": 3,
+      "rank": 7,
       "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
       "source": "Latent Space",
       "category": "World",
-      "connectionNote": "Anthropic largest IPO $1.5T",
+      "connectionNote": "Anthropic record IPO $1.5T",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ff1444ae888acf21"
     },
     {
       "id": "signal-354e9d056fbca9dc45cba245",
-      "rank": 4,
+      "rank": 8,
       "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
       "source": "Latent Space",
-      "category": "Work",
-      "connectionNote": "Gemini 4 Neon's release and model naming confusion touches Sean's active model evaluation work (comparing GROQ/OpenAI APIs for voiceover) and his broader model-selection decisions for Digital Me.",
+      "category": "Urgent",
+      "connectionNote": "Gemini 4 Neon released",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-354e9d056fbca9dc"
     },
     {
       "id": "signal-6fcdfe56101000f0f868dcc7",
-      "rank": 5,
+      "rank": 9,
       "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
       "source": "Latent Space",
-      "category": "Work",
-      "connectionNote": "GPT-6.2 Astra being 'better and 20%-600% cheaper' but with mixed reviews connects to Sean's principle of vendor independence and his need to choose frontier models that balance capability with cost for Digital Me's agents.",
+      "category": "Urgent",
+      "connectionNote": "GPT-6.2 Astra cheaper mixed reviews",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6fcdfe56101000f0"
     },
     {
-      "id": "signal-a4d0a4cc018584e6a1640159",
-      "rank": 6,
-      "title": "Open-source AI without Jensen",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "Open AI Without Jensen",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a4d0a4cc018584e6"
-    },
-    {
-      "id": "signal-f72f109db016ce547f5a086d",
-      "rank": 7,
-      "title": "Was I wrong about open models & cyber risks?",
-      "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "Open Models Cyber Risks",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f72f109db016ce54"
-    },
-    {
-      "id": "signal-6ed57b89baa612962b9f98b5",
-      "rank": 8,
-      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "Kimi K3.1 Pro Podcast",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6ed57b89baa61296"
-    },
-    {
-      "id": "signal-0c48c7f2a7437064ed12f0ba",
-      "rank": 9,
-      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
-      "source": "Interconnects AI",
-      "category": "Urgent",
-      "connectionNote": "Open Artifacts Weekly",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0c48c7f2a7437064"
-    },
-    {
-      "id": "signal-73790777822debee2418e710",
+      "id": "signal-21b33df733b91f1034c47536",
       "rank": 10,
-      "title": "Meta shakes up the frontiers, open and closed",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "Meta Frontier Shakeup",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-73790777822debee"
+      "title": "[AINews] The No AI Slop Manifesto",
+      "source": "Latent Space",
+      "category": "Work",
+      "connectionNote": "The No AI Slop Manifesto directly challenges Sean to consider whether his current output and design philosophy would meet a high bar for non-slop, creator-respecting AI work.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-21b33df733b91f10"
     },
     {
       "id": "signal-749dcadd3968870013214360",
@@ -100,7 +100,7 @@
       "title": "A More Predictable Release Cycle for MCP",
       "source": "Model Context Protocol Blog",
       "category": "Work",
-      "connectionNote": "A stable, predictable MCP release cycle directly reduces the integration and maintenance burden of Sean's vendor-neutral, modular architecture by giving his agents a dependable base protocol to build skills on.",
+      "connectionNote": "MCP's move toward a predictable release cadence is relevant to Sean's architecture decision to separate skills from agents and may influence how stable he can expect the tools he builds on to be.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-749dcadd39688700"
     },
     {
@@ -109,7 +109,7 @@
       "title": "The New MCP Roadmap",
       "source": "Model Context Protocol Blog",
       "category": "Thinking",
-      "connectionNote": "Clarifies MCP's future trajectory, which is essential for Sean's current architectural decisions about whether to build on or around MCP for his agent tooling.",
+      "connectionNote": "The updated MCP roadmap gives Sean a clear, external timeline against which to plan Digital Me's own protocol adoption and avoid building against a moving target.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e477ec8158ad1257"
     },
     {
@@ -118,7 +118,7 @@
       "title": "The 2026-07-28 Specification",
       "source": "Model Context Protocol Blog",
       "category": "Work",
-      "connectionNote": "Provides concrete adoption data and momentum signals for MCP, helping Sean assess whether the protocol is now unavoidable infrastructure or still optional.",
+      "connectionNote": "The sheer adoption numbers for MCP validate Sean's commitment to protocol-level standardization for agent interoperability.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-79368283654df751"
     },
     {
@@ -126,8 +126,8 @@
       "rank": 14,
       "title": "Beta SDKs for the 2026-07-28 MCP Spec Release Candidate Are Here",
       "source": "Model Context Protocol Blog",
-      "category": "Work",
-      "connectionNote": "The MCP spec's move to a stateless protocol removing the initialize handshake is directly relevant to Sean's agent architecture planning and his interest in modular, interoperable agent systems.",
+      "category": "Thinking",
+      "connectionNote": "The removal of the initialize handshake speaks directly to Sean's need for modular, portable agent skills that don't require fragile long-running sessions.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e108bb4c3a489b3"
     },
     {
@@ -136,26 +136,26 @@
       "title": "The 2026-07-28 MCP Specification Release Candidate",
       "source": "Model Context Protocol Blog",
       "category": "Thinking",
-      "connectionNote": "The MCP stateless-core shift threatens Sean's vendor-independence principle by potentially standardizing a protocol his architecture may need to adopt or explicitly reject.",
+      "connectionNote": "The stateless core of the MCP revision directly addresses Sean's recurring concern about maintaining and scaling infrastructure without becoming its operator.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
-      "id": "signal-bdea9de6fbfd4cd10f20f929",
+      "id": "signal-4bdb0f6d09d47dd0327b03be",
       "rank": 16,
-      "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
-      "source": "量子位",
-      "category": "Work",
-      "connectionNote": "Challenges Sean's assumption that agent self-improvement is primarily about internal architecture by demonstrating how high-volume external contributions (3000 PRs) can be a self-evolution strategy.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-bdea9de6fbfd4cd1"
+      "title": "智谱发布GLM-5.4：首个Loop Transformer架构旗舰模型开启泛Coding",
+      "source": "公众号：智谱（GLM）",
+      "category": "Thinking",
+      "connectionNote": "This shows a concrete architecture innovation that lets a smaller model simulate deeper reasoning, which is relevant to Sean's interest in local, efficient models and giving agents self-improvement capacity.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4bdb0f6d09d47dd0"
     },
     {
-      "id": "signal-465c0ac07d4d28b09625be5a",
+      "id": "signal-87bab565c2902633966f85f5",
       "rank": 17,
-      "title": "STAMINA 在 Instagram：“如果你是一名AI工程师，并且已经领导过整个系统的重建，这个职位可能适合你…”",
-      "source": "instagram.com",
-      "category": "Urgent",
-      "connectionNote": "AI工程师职位：重建系统",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-465c0ac07d4d28b0"
+      "title": "Building the Agent Host Protocol for sessions that continue across devices - The GitHub Blog",
+      "source": "github.blog",
+      "category": "Work",
+      "connectionNote": "The Agent Host Protocol for cross-device session continuity is directly relevant to Sean's cloud voice functionality work and his goal of making Digital Me accessible across devices and contexts.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-87bab565c2902633"
     },
     {
       "id": "signal-e6ccb661eaa265237d860b38",
@@ -163,17 +163,17 @@
       "title": "Introducing eve 1.0",
       "source": "vercel.com",
       "category": "Work",
-      "connectionNote": "Vercel eve 1.0 release",
+      "connectionNote": "Vercel's open-source production framework suggests that the infrastructure layer Sean is building piecemeal may already have a mature, adoptable alternative.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e6ccb661eaa26523"
     },
     {
-      "id": "signal-e54913728ad03fa2fd278dbb",
+      "id": "signal-9804f08d93973888bf059209",
       "rank": 19,
-      "title": "AI热潮疲态尽显，Anthropic上市后仍遭抛售",
-      "source": "jiji.com",
-      "category": "Urgent",
-      "connectionNote": "AI boom fatigue Anthro IPO",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-e54913728ad03fa2"
+      "title": "AI rivals team up on open agentic protocols to prevent online commerce chaos",
+      "source": "coindesk.com",
+      "category": "World",
+      "connectionNote": "Open agentic commerce protocols show the broader ecosystem converging on interoperability, which matters for Sean's belief that Digital Me should remain vendor-independent and modular rather than locked to one provider.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9804f08d93973888"
     }
   ]
 }
