@@ -1,138 +1,84 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T12:11:22.386724Z",
+  "generatedAt": "2026-11-28T12:05:54.966165Z",
   "sourcePage": "https://digital-me-dashboard.vercel.app/news.html",
-  "selectedCount": 29,
+  "selectedCount": 11,
   "items": [
     {
-      "id": "signal-b09d1727f1a7d78e01c48a72",
+      "id": "signal-f7aacf44de85daf4490fa801",
       "rank": 1,
-      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-      "source": "Hacker News: Newest",
+      "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
+      "source": "Import AI",
       "category": "Growth",
-      "connectionNote": "Pakistani architect overlooked",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b09d1727f1a7d78e"
+      "connectionNote": "Zhipu's outer RSI loop directly parallels Sean's own harness-level RSI plan (#314) and his interest in overnight self-improving systems, offering a concrete external reference point.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f7aacf44de85daf4"
     },
     {
-      "id": "signal-26ace0870dac4213eb93832a",
+      "id": "signal-6bf8784c1373574b35210ba9",
       "rank": 2,
-      "title": "Buy Nothing Day – Friday November 27th 2026",
-      "source": "Hacker News: Newest",
-      "category": "World",
-      "connectionNote": "Buy Nothing Day 2026",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-26ace0870dac4213"
-    },
-    {
-      "id": "signal-4e77d6a91b1acc5b6c8be25e",
-      "rank": 3,
-      "title": "Hard Drive pricing has gotten bad",
-      "source": "Hacker News: Newest",
-      "category": "World",
-      "connectionNote": "Hard drive pricing surge",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-4e77d6a91b1acc5b"
-    },
-    {
-      "id": "signal-b83b10aeccf3a33faeae205f",
-      "rank": 4,
-      "title": "Canary in a Coal Mine: How Tech Provides Platforms for Hate",
-      "source": "A List Apart: The Full Feed",
-      "category": "World",
-      "connectionNote": "Tech platforms enable hate",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b83b10aeccf3a33f"
+      "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+      "source": "Latent Space",
+      "category": "Thinking",
+      "connectionNote": "math proofs outpacing review",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6bf8784c1373574b"
     },
     {
       "id": "signal-41bca8c8322223d1bbc6b16e",
-      "rank": 5,
+      "rank": 3,
       "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
       "source": "Latent Space",
       "category": "World",
-      "connectionNote": "Gemini 4 DeepMind frontier return",
+      "connectionNote": "Gemini 4 DeepMind comeback",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-41bca8c8322223d1"
     },
     {
       "id": "signal-9e2fc5deb45aa86332874c24",
-      "rank": 6,
+      "rank": 4,
       "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
       "source": "Latent Space",
-      "category": "Urgent",
-      "connectionNote": "Jensen OpenAI pretraining curve news",
+      "category": "Thinking",
+      "connectionNote": "Jensen OpenAI pretraining curve",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9e2fc5deb45aa863"
     },
     {
       "id": "signal-b0224c4abd188dc5f38b4101",
-      "rank": 7,
+      "rank": 5,
       "title": "[AINews] Riemann Hypothesis proved...twice independently",
       "source": "Latent Space",
       "category": "World",
-      "connectionNote": "Two independent proofs of the Riemann Hypothesis, one Claude-driven with Lean code, is a major signal that AI-assisted formal verification may reshape even pure mathematics—relevant to Sean's growing interest in thinking deeply before building rather than shipping shallow prototypes.",
+      "connectionNote": "Riemann hypothesis twin proofs",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-b0224c4abd188dc5"
     },
     {
       "id": "signal-ff1444ae888acf21e95c6377",
-      "rank": 8,
+      "rank": 6,
       "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
       "source": "Latent Space",
       "category": "World",
-      "connectionNote": "Anthropic largest IPO $1.5T",
+      "connectionNote": "Anthropic record IPO",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-ff1444ae888acf21"
     },
     {
-      "id": "signal-a4d0a4cc018584e6a1640159",
-      "rank": 9,
-      "title": "Open-source AI without Jensen",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "Nvidia open model ecosystem impact",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-a4d0a4cc018584e6"
-    },
-    {
-      "id": "signal-f72f109db016ce547f5a086d",
-      "rank": 10,
-      "title": "Was I wrong about open models & cyber risks?",
-      "source": "Interconnects AI",
-      "category": "Thinking",
-      "connectionNote": "Open model cyber risk reassessment",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-f72f109db016ce54"
-    },
-    {
-      "id": "signal-6ed57b89baa612962b9f98b5",
-      "rank": 11,
-      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "Kimi K3.1 and cyber reality podcast",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-6ed57b89baa61296"
-    },
-    {
       "id": "signal-0c48c7f2a7437064ed12f0ba",
-      "rank": 12,
+      "rank": 7,
       "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
       "source": "Interconnects AI",
       "category": "World",
-      "connectionNote": "Open artifacts and geopolitical shifts",
+      "connectionNote": "Geopolitics of open-weight AI fall",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0c48c7f2a7437064"
     },
     {
-      "id": "signal-73790777822debee2418e710",
-      "rank": 13,
-      "title": "Meta shakes up the frontiers, open and closed",
-      "source": "Interconnects AI",
-      "category": "World",
-      "connectionNote": "Meta pushes open model frontier",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-73790777822debee"
-    },
-    {
       "id": "signal-3cebd79bf79035703e567bb0",
-      "rank": 14,
+      "rank": 8,
       "title": "The 2026-07-28 MCP Specification Release Candidate",
       "source": "Model Context Protocol Blog",
-      "category": "Thinking",
-      "connectionNote": "The stateless-core MCP spec is a direct threat to—and potential upgrade path for—Sean's custom message-bus architecture, so this matters both as an alignment check and as a new interoperability standard his Digital Me agents may need to adopt.",
+      "category": "Work",
+      "connectionNote": "MCP's stateless core and server-rendered UIs directly touch Sean's vendor-independence principle and his interest in agent dashboards as interfaces.",
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-3cebd79bf7903570"
     },
     {
       "id": "signal-95bb18d0519a077728b2c7f0",
-      "rank": 15,
+      "rank": 9,
       "title": "DeepSeek APP突然更新账单，网友：要收费了？",
       "source": "量子位",
       "category": "World",
@@ -140,130 +86,22 @@
       "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-95bb18d0519a0777"
     },
     {
-      "id": "signal-159f7f4ed11b0437ffac94ad",
-      "rank": 16,
-      "title": "第三批嘉宾来袭！速戳报名MEET2027，驭见AI新共识！",
-      "source": "量子位",
-      "category": "World",
-      "connectionNote": "MEET2027报名",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-159f7f4ed11b0437"
-    },
-    {
-      "id": "signal-0405c668c2c116aa4de00286",
-      "rank": 17,
-      "title": "「黑五」值得买：不容错过的 App 和服务优惠",
-      "source": "少数派",
-      "category": "Urgent",
-      "connectionNote": "Black Friday deals",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0405c668c2c116aa"
-    },
-    {
-      "id": "signal-2fc006bc5435996f16ac0e37",
-      "rank": 18,
-      "title": "派早报：1Password 确认内部系统遭入侵等",
-      "source": "少数派",
-      "category": "World",
-      "connectionNote": "Tech news roundup",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2fc006bc5435996f"
-    },
-    {
-      "id": "signal-2cde73b2bc69c339826c7f2c",
-      "rank": 19,
-      "title": "派早报：蔚来举办 2026 创新科技日、Tidal 将拒绝 AI 音乐等",
-      "source": "少数派",
-      "category": "World",
-      "connectionNote": "Daily tech news",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-2cde73b2bc69c339"
-    },
-    {
-      "id": "signal-cce6ad907548e8da5658f5c5",
-      "rank": 20,
-      "title": "股价破发、用户抱怨、创始人套现，Anthropic CEO 深夜回应：我从没想过让 AI 统治人类",
-      "source": "InfoQ - 促进软件开发领域知识与创新的传播",
-      "category": "World",
-      "connectionNote": "Anthropic CEO 回应争议",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-cce6ad907548e8da"
-    },
-    {
-      "id": "signal-7ee42c850c0943d8c5e44547",
-      "rank": 21,
-      "title": "FT 报道 Nvidia 暂停向东南亚四国发运服务器",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "category": "World",
-      "connectionNote": "Nvidia export halt to SEA",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7ee42c850c0943d8"
-    },
-    {
-      "id": "signal-145109c41e57ee5a2b71ed06",
-      "rank": 22,
-      "title": "OpenClaw 2026.11.10 发布，新增 Deep Research、Knowledge 记忆系统与 Browser handoff",
-      "source": "X：OpenClaw (@openclaw)",
-      "category": "Work",
-      "connectionNote": "OpenClaw's new Deep Research and Knowledge memory system directly parallels Sean's planned News Agent expansion and memory architecture, offering a concrete implementation reference for his project.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-145109c41e57ee5a"
-    },
-    {
-      "id": "signal-376ccec588081c2b5dfc4544",
-      "rank": 23,
-      "title": "自由职业任务和AI代理工作 | Free-Work",
-      "source": "free-work.com",
-      "category": "Urgent",
-      "connectionNote": "AI agent freelance jobs",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-376ccec588081c2b"
-    },
-    {
-      "id": "signal-c7ebaf08b566728940a210be",
-      "rank": 24,
-      "title": "AI架构师（Microsoft AI或AWS/Claude）— 蒙特利尔，魁北克，加拿大 | LinkedIn职位",
-      "source": "ca.linkedin.com",
-      "category": "Urgent",
-      "connectionNote": "AI architect job posting",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-c7ebaf08b5667289"
-    },
-    {
-      "id": "signal-0fa3d55b6afc61e2e112df23",
-      "rank": 25,
-      "title": "资深Python开发 – AI代理、自动化和软件架构",
-      "source": "upwork.com",
-      "category": "Urgent",
-      "connectionNote": "Python developer job AI agents",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-0fa3d55b6afc61e2"
-    },
-    {
-      "id": "signal-9bcd450d43aafb3af177cfc8",
-      "rank": 26,
-      "title": "ChatGPT对话记录成为证据，毒品走私案男子被判监禁8年",
-      "source": "news.livedoor.com",
-      "category": "World",
-      "connectionNote": "ChatGPT对话成为刑事证据",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9bcd450d43aafb3a"
-    },
-    {
-      "id": "signal-5e96970820d708415fbda8f2",
-      "rank": 27,
-      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-      "source": "HF Daily Papers",
+      "id": "signal-474dabc4c82e8d0ceebc7630",
+      "rank": 10,
+      "title": "[访谈] AI编码也能生存的开发者……AWS传达的生存战略是 - ZDNet korea",
+      "source": "zdnet.co.kr",
       "category": "Thinking",
-      "connectionNote": "Multi-agent video story-state coordination",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-5e96970820d70841"
+      "connectionNote": "The AWS autonomy-permission tension is the exact problem Sean is trying to solve with his human-in-the-loop vs. debug-loop distinction and calibrated agent autonomy.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-474dabc4c82e8d0c"
     },
     {
-      "id": "signal-1b0898fe77231ec2876e56ee",
-      "rank": 28,
-      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
-      "source": "HF Daily Papers",
-      "category": "Thinking",
-      "connectionNote": "This directly challenges Sean's implicit separation of 'visual reasoning' from 'code' in agent design—if code-native reasoning beats video-native reasoning, the Strategist's multimodal input routing should lean harder on code-adjacent, symbol-grounded channels rather than expensive video frontends.",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-1b0898fe77231ec2"
-    },
-    {
-      "id": "signal-7d115e381901856902ae1e0b",
-      "rank": 29,
-      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
-      "source": "HF Daily Papers",
-      "category": "Thinking",
-      "connectionNote": "Speculative streaming for world models",
-      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-7d115e3819018569"
+      "id": "signal-9804f08d93973888bf059209",
+      "rank": 11,
+      "title": "AI rivals team up on open agentic protocols to prevent online commerce chaos",
+      "source": "coindesk.com",
+      "category": "World",
+      "connectionNote": "Open agentic protocols directly serve Sean's architectural interest in agent-to-agent communication and reduce vendor lock-in, aligning with his multi-agent and vendor-independence goals.",
+      "pageUrl": "https://digital-me-dashboard.vercel.app/news.html#news-9804f08d93973888"
     }
   ]
 }
